@@ -11,7 +11,7 @@ pushing out changes and getting things merged faster.
 We agree on the following set of rules for Pull Requests:
 
 * Pull Requests have to have a proper description for what changes are included
-  in it and how those can be tested. If a Pull Request relates to or closes and
+  in it and how those can be tested. If a Pull Request relates to or closes an
   issue, add `Closes #<issue>` or `Relates to #<issue>` to the description.
   _Clients might have additional requirements for Pull Request descriptions and
   commit message formats._ 
