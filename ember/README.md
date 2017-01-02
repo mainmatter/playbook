@@ -40,6 +40,7 @@ A major selling point of Ember.js is that Ember.js applications are all structur
 | Use the framework's utilities when possible | Sometimes the functions provided by Ember.js are more readable in English, such as `isEmpty(value)` vs. `value == null`. |
 | Use computed property macros when possible | It saves repetitive code from being written. |
 | Use specific modules | Don't just `import Ember from 'ember'`, import named modules instead, which should allow for smaller builds. See [RFC #176](https://github.com/emberjs/rfcs/pull/176). |
+| Avoid explicitly casting to Ember objects | It's generally not needed to explicitly use `Ember.Object` or `Ember.A`, since the framework handles casting internally. |
 | **Never** use observers | Observers are *hard to reason about*. Prefer alternatives such as computed properties. |
 
 
