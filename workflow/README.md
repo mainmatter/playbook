@@ -8,8 +8,9 @@ respective repository is) directly. Pull Requests are only merged once quality
 has been assured by tests and reviews - we generally value quality higher than
 pushing out changes and getting things merged faster.
 
-We agree on the following set of rules for Pull Requests:
+We agree on the following set of rules for Pull Requests (in no particular order):
 
+* Write good commit messages.
 * Pull Requests have to have a proper description for what changes are included
   in it and how those can be tested. If a Pull Request relates to or closes an
   issue, add `Closes #<issue>` or `Relates to #<issue>` to the description.
@@ -18,13 +19,12 @@ We agree on the following set of rules for Pull Requests:
 * All changes require a decent test coverage (unless changes are purely visual,
   e.g. CSS only and there is no visual regression testing environment set up
   for the project).
-* Pull Requests with conflicts or failing tests or without any reviews will not
-  be merged.
-* Pull Requests marked as `[WIP]` will not get reviewed unless the PR author
-  explicitly asks for review.
-* Pull Requests need to be up to date with the target branch before merging.
 * Pull Requests will not be reviewed if there are conflicts or failing tests
   (unless the PR author explicitly asks for review).
+* Pull Requests marked as `[WIP]` will not get reviewed unless the PR author
+  explicitly asks for review.
+* Pull Requests without any reviews will not be merged.
+* Pull Requests need to be up to date with the target branch before merging.
 * Pull Requests will not be merged when there are unresolved discussions on
   specific changes. If things cannot be resolved among 2 people we should
   generally aim for a team decision on the topic.
@@ -32,6 +32,8 @@ We agree on the following set of rules for Pull Requests:
   page for that Pull Request. If something was discussed on Slack or elsewhere,
   post a summary on the Pull Request page.
 * There **can** be multiple Pull Request for the same issue.
-* Everybody who is asked to review a Pull Request **must** leave a reaction.
+* Everybody who is asked to review a Pull Request **must** leave a reaction (make sure you
+  actually see your github/gitlab notificatons in a timely manner).
 * Pull Requests should only contain related changes. Unrelated changes should
   be extracted into a separate Pull Request.
+* The commit history of PRs should be clean and not contain WIP commits before merging or ideally even before asking for review.
