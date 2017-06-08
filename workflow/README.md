@@ -24,7 +24,8 @@ We agree on the following set of rules for Pull Requests (in no particular order
 * Pull Requests marked as `[WIP]` will not get reviewed unless the PR author
   explicitly asks for review.
 * Pull Requests without any reviews will not be merged.
-* Pull Requests need to be up to date with the target branch before merging.
+* Pull Requests need to be up to date with the target branch before merging (or
+  use something like homu.io).
 * Pull Requests will not be merged when there are unresolved discussions on
   specific changes. If things cannot be resolved among 2 people we should
   generally aim for a team decision on the topic.
