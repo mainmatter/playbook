@@ -36,4 +36,5 @@ We agree on the following set of rules for Pull Requests (in no particular order
   actually see your github/gitlab notificatons in a timely manner).
 * Pull Requests should only contain related changes. Unrelated changes should
   be extracted into a separate Pull Request.
+* Commits should only change one _"thing"_ in the code.
 * The commit history of PRs should be clean and not contain WIP commits before merging or ideally even before asking for review.
