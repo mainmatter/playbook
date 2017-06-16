@@ -7,3 +7,4 @@
   specify a sha or branch name so the dependency version is clearly stated
   (while that might not be as important for e.g. bundler, there's no such thing
   as a `Gemfile.lock` in npm).
+* Use package managers that support lock files (e.g. don't use npm <= 4).
