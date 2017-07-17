@@ -63,4 +63,5 @@ A major selling point of Ember.js is that Ember.js applications are all structur
 | Prefer using the references API to avoid (un-intentional) lazy loading requests. | This is preferred over `get` on the relationship, since the former may resolve asynchronously. |
 | Avoid mocking records in tests | Ember Data records have complex behavior which may not easily be mocked. |
 | Avoid explicit inverses | Ember Data automatically finds inverse relationships. |
+| Always use `attr` with a type | Ensures that the right data transform is used. |
 | Resolve important data only in the `model()` hook | Think about which data should be resolved in the model hook and which can be resolved later. |
