@@ -77,6 +77,17 @@ If any of the issues are found not to be ready to be worked on (e.g. because
 dependencies of the issue not being ready), the issue is moved to a later
 sprint as well.
 
+**The sprint, once planned, is not a binding agreement for either side.** It is
+still possible for the product owner to react to changes to features or
+priorities and the engineering team cannot guarantee all planned issues to be
+completed by sprint end as new challenges might only be uncovered once work on
+an issue starts. The sprint plan is merely a snapshot of feature requests and
+priorities at the time it is made as well as a best-effort estimate by the
+engineering team of which issues it thinks it can complete within the sprint.
+Ideally though, a sprint remains unchanged once it has been planned to enable
+smooth execution which also leads to increasingly predictable estimates as a
+project progresses.
+
 ### Sprint Execution
 
 After the sprint has been planned, execution starts and the planned issues are
