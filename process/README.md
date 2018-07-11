@@ -46,11 +46,15 @@ owner to:
 * make sure all of the preconditions are met in order to be able to work on
   something, e.g. any necessary assets have been delivered, translations are
   ready or legal implications have been checked
-* prioritize the issues so it is clear which ones need to be worked on first
 * identify potential solutions, implications and uncertainties for each issue;
   if an issue has too many of the latter, we will plan a spike instead of the
   issue to gather more information on the issue first and once we have that,
   plan the issue again for a later sprint
+* ensure issues include all necessary background information to understand the
+  context and motivation for it; this might include recapitulations of
+  discussions that lead to the decision to implement an issue in a particular
+  way etc.
+* prioritize the issues so it is clear which ones need to be worked on first
 
 The result of the sprint preparation phase is a prioritized list of issues with
 well-formulated descriptions, detailed requirements and expected results as
