@@ -99,3 +99,11 @@ determine validity and priority of the incoming request. If an issue is
 considered necessary to be added to the sprint after the planning meeting, it
 will be added but another issue might have to be removed from the sprint for
 it.
+
+If an issue is blocked and cannot progress, the sprint lead is responsible to
+try and solve the impediment, potentially synchronizing with the product owner
+or other people that can help resolve the situation. Likewise, if all issues in
+a sprint are completed early and there is no more work left to do, the sprint
+lead will synchronize with the product owner and the sprint lead of the
+following sprint to discuss which issues should be added. Often that will mean
+moving issues from the following sprint into the current one.
