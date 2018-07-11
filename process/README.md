@@ -83,9 +83,13 @@ After the sprint has been planned, execution starts and the planned issues are
 being worked on based on descending priorities. For non-trivial issues, the
 first step is often to plan the implementation and necessary code changes by
 breaking the issue down into small steps. This can be done by two engineers in
-a pairing session. As an issue is being started, it is assigned to the
-respective engineer(s) (not all issue trackers allow assigning issues to more
-than one person at once). Issues are closed via [pull requests](../workflow/).
+a pairing session. As an issue is started to be worked on, the respective
+engineer(s) will self-assign it (not all issue trackers allow assigning issues
+to more than one person at once so if multiple engineers collaborate on an
+issue, they might have to choose one to assign it to). Issues are only assigned
+once work on it is actually started. Once an issue is closed via a
+[pull requests](../workflow/) or if it is blocked and cannot progress, the
+engineer(s) will self-assign another issue from the sprint backlog.
 
 If there are any changes requested to the sprint after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
