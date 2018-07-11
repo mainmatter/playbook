@@ -54,8 +54,8 @@ owner to:
 
 The result of the sprint preparation phase is a prioritized list of issues with
 well-formulated descriptions, detailed requirements and expected results as
-well as potentially linked assets and/or mockups. This list of issues will then
-be presented to the team in the planning meeting.
+well as required assets and/or mockups. This list of issues will then be
+presented to the team in the planning meeting.
 
 ### Sprint Planning
 
