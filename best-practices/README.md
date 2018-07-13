@@ -49,3 +49,21 @@ But can get stale quickly and invisibly (wikis)
 Self-documenting code
 
 Tests as documentation
+
+## Communication
+
+Frequent and asynchronous
+
+Calls and screenshares when it makes sense
+
+Interruptions are really disruptive, be careful with them
+
+Meetings only as last resort, and only with minimum set of people
+
+Slack 
+- favor public over private
+- don't expect immediate answers
+- @here only in an emergency
+
+Should we discuss issue trackers here?
+
