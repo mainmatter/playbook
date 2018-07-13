@@ -30,6 +30,12 @@ Dealing with external dependencies
 
 Spreads knowledge, opens up human silos, speeds problem-solving and onboarding
 
+Examples:
+
+- when tackling a new issue
+
+- when you're stuck always (good to look at the problem with a second pair of eyes, often you discover what the problem is while you explain it to someone else)
+
 Not everybody likes it, or has tried it, so... (strategies to implement it)
 
 Don't overdo it
