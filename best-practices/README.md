@@ -39,3 +39,13 @@ Examples:
 Not everybody likes it, or has tried it, so... (strategies to implement it)
 
 Don't overdo it
+
+## Documentation
+
+Great for reference and sharing knowledge
+
+But can get stale quickly and invisibly (wikis)
+
+Self-documenting code
+
+Tests as documentation
