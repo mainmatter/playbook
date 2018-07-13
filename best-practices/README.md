@@ -1,0 +1,35 @@
+# Best Practices
+
+## Refactoring
+
+Refactoring speeds development overall, facilitates change
+
+Improves modularity, legibility, testing, code robustness
+
+Prefer continuous refactoring over big bang refactors
+
+Include small refactors in feature and bug PRs
+
+Separate bigger refactors in their own PRs
+
+Aim for code that self-documents the business domain
+
+## Testing
+
+Outside-in (acceptance -> integration -> unit tests) as much as possible
+
+Of course, that's hard to accomplish, so...
+- some happy paths in acceptance/integration
+- balance of integration and unit tests
+
+Behavior-driven, tests first (though not necessarily always)
+
+Dealing with external dependencies
+
+## Pairing
+
+Spreads knowledge, opens up human silos, speeds problem-solving and onboarding
+
+Not everybody likes it, or has tried it, so... (strategies to implement it)
+
+Don't overdo it
