@@ -22,7 +22,7 @@ Of course, that's hard to accomplish, so...
 - some happy paths in acceptance/integration
 - balance of integration and unit tests
 
-Behavior-driven, tests first (though not necessarily always)
+Behavior-driven
 
 Dealing with external dependencies
 
