@@ -35,9 +35,9 @@ order to prepare these issues, the sprint lead synchronizes with the product
 owner to:
 
 * identify the most relevant issues both from a product perspective and from an
-  engineering perspective; the goal here is to find a good trade-off between
+  engineering perspective; the goal here is to find a good balance between
   work on features and other things that are not directly related to features
-  like refactoring, dependency updates etc.
+  like bugs, refactoring, dependency updates, tech debt in general
 * help the product owner translate feature requests into actionable issues;
   this includes explaining different options for implementing a feature and
   their potential implications, breaking big changes down into smaller,
