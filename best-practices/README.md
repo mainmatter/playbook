@@ -58,12 +58,27 @@ Calls and screenshares when it makes sense
 
 Interruptions are really disruptive, be careful with them
 
-Meetings only as last resort, and only with minimum set of people
+Face-to-faces aren't recorded anywhere, take-aways need to be captured somewhere
 
-Slack 
+### Meetings
+- only as last resort
+- with clear objectives
+- timeboxed
+- minimum set of people
+- don't wait for people who are late
+- attend those you've confirmed to be going
+- use `Maybe` or simply rejetct meetings you might not attend
+
+### Slack
 - favor public over private
 - don't expect immediate answers
 - @here only in an emergency
+- **ephemeral content** only
 
-Should we discuss issue trackers here?
+Anything relevant to issues or documentation should be persisted in their respective issue/doc
+
+### Issue trackers
+- be clear
+- issues as tokens for conversation
+- make use of rich media (screenshots or screen recordings)
 
