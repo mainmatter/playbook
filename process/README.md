@@ -40,11 +40,11 @@ be presented to the team in the planning meeting that kicks the iteration off.
 In order to prepare these issues, the iteration lead synchronizes with the
 product experts and other project stakeholders to:
 
-* identify the most relevant issues from each project stakeholders's
-  perspective; the goal here is to find a good balance between work on features
-  and other aspects like bugfixes, refactoring, dependency updates, addressing
-  tech debt in general but also addressing other requirements coming in for
-  example from the marketing department or other stakeholders
+* identify the most relevant issues from each project stakeholder's
+  perspectives; the goal here is to find a good balance between work on
+  features and other aspects like bugfixes, refactoring, dependency updates,
+  addressing tech debt in general but also addressing other requirements coming
+  in for example from the marketing department or other stakeholders
 * help the respective stakeholders translate feature or other change requests
   into actionable issues; this includes explaining different options for
   implementing a change and their potential implications, breaking big changes
