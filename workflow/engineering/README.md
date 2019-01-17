@@ -81,7 +81,7 @@ It is perfectly fine to create pull requests early on while implementation is
 still ongoing and they are not yet ready to be reviewed or merged. Doing so is
 a good way to get early feedback and share the status of something with the
 rest of the team. Such pull requests should be marked as _"Work in progress"_
-though, usually be prefixing their title with `[WIP]`. Some tools will even
+though, usually be prefixing their title with `WIP:`. Some tools will even
 block _"Work in progress"_ pull requests to be merged.
 
 ### Reviews
