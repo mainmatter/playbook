@@ -108,7 +108,9 @@ in a pairing session. As an issue is started to be worked on, the respective
 team member(s) will self-assign it. Issues are only assigned once work on them
 is actually started. Once an issue is closed via a
 [pull requests](../workflow/) or if it is blocked and cannot progress, the team
-member(s) will self-assign another issue from the iteration backlog.
+member(s) will self-assign another issue from the iteration backlog. We
+recommend [releasing changes](../workflow/) to production (or at least a
+staging) system as they are completed.
 
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
