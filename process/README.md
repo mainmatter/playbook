@@ -1,10 +1,15 @@
 # Process
 
 We maintain a lean process that supports the team rather than stand in its way.
-It ensures the right things are being worked on at the right time and provides
-a reasonable level of short term predictability. At the same time it remains
+It ensures the right tasks are being worked on at the right time and provides a
+reasonable level of short term predictability. At the same time it remains
 flexible enough to adapt to unexpected events. Our process does not depend on
 specific tools and works for projects and teams in all environments.
+
+The main goal of our process is to make sure all project stakeholders get heard
+and no single party dictates what will be worked on when. Only when all
+involved parties work together in a collaborative fashion, can a project be
+successful.
 
 ## Iterations
 
@@ -15,35 +20,36 @@ Iterations are a team effort and we plan and execute them collaboratively.
 
 ### Roles
 
-Our engineering teams are generally flat teams without hierarchies. For any
-given iteration, one of the engineers will take on the role of _"Iteration
-Lead"_ who is responsible for planning the iteration and ensuring smooth
-execution. This is a rotating role so that every engineer in the team will
-assume it every once in a while (unless they opt out).
+Our project teams are generally flat teams without hierarchies. For any given
+iteration, one of the team members will take on the role of _"Iteration Lead"_
+who is responsible for planning the iteration and ensuring smooth execution.
+This is a rotating role so that every member of the team will assume it every
+once in a while (unless they opt out).
 
-The main responsibility of the Iteration Lead is to consult with the product
-experts (and all other relevant project stakeholders) and prepare the
-iteration. Once the iteration started, any changes to it that are requested
-go through the Iteration Lead for assessment (who might consult with other
-project stakeholders for priorization).
+The main responsibility of the iteration lead is to consult with the product
+experts (and all other relevant project stakeholders like marketing etc.) and
+prepare the iteration. Once the iteration started, any changes to it that are
+requested go through the iteration lead for assessment (who might consult with
+other project stakeholders for priorization).
 
 ### Iteration Preparation
 
-The goal of the iteration preparation phase is to define the issues that are
+The goal of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. These issues will then
 be presented to the team in the planning meeting that kicks the iteration off.
-In order to prepare these issues, the Iteration Lead synchronizes with the
+In order to prepare these issues, the iteration lead synchronizes with the
 product experts and other project stakeholders to:
 
-* identify the most relevant issues both from a product perspective and from an
-  engineering perspective; the goal here is to find a good balance between work
-  on features and other things that are not directly related to features like
-  bugs, refactoring, dependency updates, tech debt in general
-* help the product experts translate feature requests into actionable issues;
-  this includes explaining different options for implementing a feature and
-  their potential implications, breaking big changes down into smaller,
-  iterative ones and define concrete requirements and expected results for each
-  issue
+* identify the most relevant issues from each project stakeholders's
+  perspective; the goal here is to find a good balance between work on features
+  and other aspects like bugfixes, refactoring, dependency updates, addressing
+  tech debt in general but also addressing other requirements coming in for
+  example from the marketing department or other stakeholders
+* help the respective stakeholders translate feature or other change requests
+  into actionable issues; this includes explaining different options for
+  implementing a change and their potential implications, breaking big changes
+  down into smaller, iterative steps and define concrete requirements and
+  expected results for each issue
 * make sure all of the preconditions are met in order to be able to work on
   something, e.g. any necessary assets have been delivered, translations are
   ready or legal implications have been checked
@@ -64,13 +70,12 @@ presented to the team in the planning meeting.
 
 ### Iteration Planning
 
-The iteration planning meeting is a joint meeting with all of the engineering
-team, the product experts and other project stakeholders that can provide
-information or answer questions on individual issues. During the meeting, the
-iteration lead presents each issue to the engineering team so that everyone has
-a good understanding of what each issue is about and gets a chance to ask
-questions and/or raise any points that might have been overlooked in the
-iteration preparation phase.
+The iteration planning meeting is a joint meeting with all of the project
+team, the product experts and other stakeholders that are involved in the
+project. During the meeting, the iteration lead presents each issue to the
+project team so that everyone has a good understanding of what each issue is
+about and gets a chance to ask questions and/or raise any points that might
+have been overlooked in the iteration preparation phase.
 
 In the end of the planning meeting, the team collaboratively decides whether it
 thinks it can reasonably work on and complete all of the issues that have been
@@ -82,39 +87,39 @@ point. If any of the issues are found not to be ready to be worked on (e.g.
 because dependencies of the issue not being ready), the issue is moved to a
 later iteration as well.
 
-**The iteration, once planned, is not a binding agreement for either side.** It
-is still possible for all project stakeholders to react to changes to features
-or priorities and the engineering team cannot guarantee all planned issues to
-be completed by iteration end as new challenges might only be uncovered once
-work on an issue starts. The iteration plan is merely a snapshot of feature
-requests and priorities at the time it is made as well as a best-effort
-estimate by the engineering team of which issues it thinks it can complete
-within the iteration. Ideally though, a iteration remains unchanged once it has
-been planned to enable smooth execution which also leads to increasingly
-predictable estimates as a project progresses.
+**The iteration, once planned, is not a binding agreement.** It is still
+possible for all project stakeholders to react to changes to features or
+priorities and the project team cannot guarantee all planned issues to be
+completed by iteration end as new challenges might only be uncovered once work
+on an issue starts. The iteration plan is merely a snapshot of feature requests
+and priorities at the time it is made as well as a best-effort estimate by the
+project team of which issues it thinks it can complete within the iteration.
+Ideally though, an iteration remains unchanged once it has been planned to
+enable smooth execution which also leads to increasingly predictable estimates
+as a project progresses.
 
 ### Iteration Execution
 
 After the iteration has been planned, execution starts and the planned issues
 are being worked on based on descending priorities. For non-trivial issues, the
 first step is often to plan the implementation and necessary code changes by
-breaking the issue down into small steps. This can be done by two engineers in
-a pairing session. As an issue is started to be worked on, the respective
-engineer(s) will self-assign it (not all issue trackers allow assigning issues
-to more than one person at once so if multiple engineers collaborate on an
-issue, they might have to choose one to assign it to). Issues are only assigned
-once work on it is actually started. Once an issue is closed via a
-[pull requests](../workflow/) or if it is blocked and cannot progress, the
-engineer(s) will self-assign another issue from the iteration backlog.
+breaking the issue down into small steps. This can be done by two team members
+in a pairing session. As an issue is started to be worked on, the respective
+team member(s) will self-assign it. Issues are only assigned once work on them
+is actually started. Once an issue is closed via a
+[pull requests](../workflow/) or if it is blocked and cannot progress, the team
+member(s) will self-assign another issue from the iteration backlog. We
+recommend [releasing changes](../workflow/) to production (or at least a
+staging) system as they are completed.
 
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
 production), all of these potential changes go through to iteration lead for
-that iteration for assessment. The iteration lead might consult with the
-product experts or other project stakeholders to determine validity and
-priority of the incoming request. If an issue is considered necessary to be
-added to the iteration after the planning meeting, it will be added but another
-issue might have to be removed from the iteration for it.
+assessment. The iteration lead might consult with the product experts or other
+project stakeholders to determine validity and priority of the incoming
+request. If an issue is considered necessary to be added to the iteration after
+the planning meeting, it will be added but another issue might have to be
+removed from the iteration for it.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 to try and solve the impediment, potentially synchronizing with the product
