@@ -18,7 +18,7 @@ is actually starts - we do no pre-assign issues. For non-trivial issues, the
 first step is often to try and break down the issues into smaller steps (which
 is often a great thing to do in a [pairing session](#pairing)).
 
-Once an issue is closed via a [pull requests](#feature-branches) or if it is
+Once an issue is closed via a [pull request](#feature-branches) or if it is
 blocked, the engineer(s) will self-assign another issue from the iteration
 backlog. If an issue is blocked and cannot progress, the engineers working on
 it contact the [iteration lead](../../process) who - in collaboration with
