@@ -14,9 +14,16 @@ As an issue is started to be worked on, the respective engineer(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
 person at once so if multiple engineers collaborate on an issue, they might
 have to choose one to assign it to). Issues are only assigned once work on them
-is actually starts - we do no pre-assign issues. For non-trivial issues, the
-first step is often to try and break down the issues into smaller steps (which
-is often a great thing to do in a [pairing session](#pairing)).
+is actually starts - we do no pre-assign issues during planning or after that
+to avoid situations where already assigned but not yet started issues are
+blocked for everyone else to work on.
+
+Although issues should be well-understood and well-prepared before they are
+even planned for a particular [iteration](../../process), for more complex
+issues it is often beneficial to prepare them further before starting
+implementation. For these kinds of issues, the first step is to break them down
+into smaller, concrete steps (which is often a great thing to do in a
+[pairing session](#pairing)).
 
 Once an issue is closed via a [pull request](#feature-branches) or if it is
 blocked, the engineer(s) will self-assign another issue from the iteration
