@@ -25,20 +25,20 @@ implementation. For these kinds of issues, the first step is to break them down
 into smaller, concrete steps (which is often a great thing to do in a
 [pairing session](#pairing)).
 
-Once an issue is closed via a [pull request](#feature-branches) or if it is
+Once an issue is resolved via a [pull request](#feature-branches) or if it is
 blocked, the engineer(s) will self-assign another issue from the iteration
 backlog. If an issue is blocked and cannot progress, the engineers working on
 it contact the [iteration lead](../../process) who - in collaboration with
 whomever necessary - tries to resolve the impediment. 
 
 All discussions around an issue should happen on the particular issue's page.
-Of course at times it is convenient to have discussions in person or on Slack
-but even in those cases, a brief summary of the discussed points and the outcome
-should be posted on the issue. This is a necessity for distributed teams and
-allows everyone access to all of the context of a particular issue at any time.
-Even teams that are not distributed benefit from this practice as all
-information that is relevant to a particular issue is and remains available for
-everyone interested.
+Of course at times it is convenient to have discussions in person or over
+online chat but even in those cases, a brief summary of the discussed points
+and the outcome should be posted on the issue. This is a necessity for
+distributed teams and allows everyone access to all of the context of a
+particular issue at any time. Even teams that are not distributed benefit from
+this practice as all information that is relevant to a particular issue is and
+remains available for everyone interested.
 
 ## Feature Branches/Pull Requests
 
@@ -53,35 +53,34 @@ branch should not address more than one issue or change entirely unrelated
 aspects of the application.
 
 If the testing setup, hosting environment and potentially other requirements
-that there are for the delivered product allow it, we recommend setting up
-continuous deployment so that changes get deployed to production as the
-respective pull request gets merged. If that is not possible, we recommend
-setting up continuous deployment for a staging system at least so that all
-project stakeholders can follow the project's progress.
+present for the delivered product allow it, we recommend setting up continuous
+deployment so changes get deployed to production as the respective pull request
+gets merged. If that is not possible, we recommend setting up continuous
+deployment for a staging system at least so all project stakeholders can follow
+the project's progress.
 
 ### Commits
 
-Like all changes in a branch should be related to the same _"topic"_, all
+Just as all changes in a branch should be related to the same _"topic"_, all
 changes within a single commit should be related to the same step in
-implementing that topic. Each commit should only do one _"thing"_ that is
-ideally not touching on too many different parts of the code base. All commits
-should also have good
-[commit messages](https://git-scm.com/docs/git-commit#_discussion) that make
-clear what the particular commit does.
+implementing that topic. Each commit should only do one _"thing"_, ideally not
+touching on too many different parts of the code base. All commits should also
+have good [commit messages](https://git-scm.com/docs/git-commit#_discussion)
+that make clear what the particular commit does.
 
 ### Pull Requests
 
 Branches are not merged back to the `master` branch directly but via pull
 requests (or whatever mechanism the tool used in the particular project
-provides). The pull request should have a meaningful description that gives a
-rough overview of the changes included in it and the issue it refers to. If the
-pull request closes an issue, the pull request's description should contain a
-comment like _"closes #<issue>"_ - most tools will automatically closes the
-referenced issue once the pull request is merged then.
+provides). The pull request should have a meaningful description with a rough
+overview of the changes included in it and the issue it refers to. If the pull
+request closes an issue, the pull request's description should contain a
+comment like _"closes #<issue>"_ - most tools will then automatically close the
+referenced issue once the pull request is merged.
 
-As for issues, all discussions around a particular pull request should happen
-on the pull request's page. If discussions happen in person or on Slack, a
-summary should be posted to the pull request so that all information and
+As with issues, all discussions around a particular pull request should happen
+on the pull request's page. If discussions happen in person or over online
+chat, a summary should be posted to the pull request so all information and
 context is accessible to everyone interested at any time.
 
 It is perfectly fine to create pull requests early on while implementation is
@@ -95,8 +94,8 @@ block _"Work in progress"_ pull requests from being merged.
 
 Pull requests are reviewed before they get merged back into the project's main
 branch; pull requests that have not been reviewed should usually not get
-merged. In order for a pull request to be ready for review, it has to meet some
-pre-requisites though:
+merged. In order for a pull request to be ready for review, though, it has to
+meet some pre-requisites:
 
 * the branch has no conflicts with the project's main branch
 * the changes in the branch are covered by proper tests and CI is passing
@@ -106,9 +105,9 @@ pre-requisites though:
 
 When a pull request is ready for review, its author should actively ask for
 another team member to review - ideally via the tools used in the particular
-project if those support it or via Slack etc. if not. Everyone asked for review
-should reply in a timely manner - even if it's to ask for someone else to be
-chosen if they do not have the time to do a proper review.
+project if those support it or over online chat etc. if not. Everyone asked for
+review should reply in a timely manner - even if it's to ask for someone else
+to be chosen if they do not have the time to do a proper review.
 
 Once the reviewer approved the changes and CI passes, the pull request can be
 merged by any team member including the pull request's author. If the original
@@ -159,7 +158,9 @@ main branch.
 Refactoring is an essential part of any software project. As requirements
 change and frameworks and languages progress, code written in the past will
 eventually not be ideal anymore in the present and future. Constant refactoring
-ensures the code base does not become stale and improves productivity overall.
+ensures the code base does not become stale and improves productivity overall
+by keeping technical debt at a minimum and avoiding big, painful and risky
+rewrites that otherwise often become necessary down the line.
 
 When working on the code base, we will keep an eye open for parts that need to
 be refactored and either do so immediately in case of simple changes, or bring
