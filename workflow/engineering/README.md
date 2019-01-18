@@ -166,6 +166,34 @@ When working on the code base, we will keep an eye open for parts that need to
 be refactored and either do so immediately in case of simple changes, or bring
 them up as individual issues for one of the next [iterations](../../process).
 
+## Communication
+
+Communication is key for a successful project team - be it distributed or not.
+In order for communication to be beneficial for both the team culture as well
+as productivity, rather than a liability or cause of constant stress, all team
+members needs to keep some basic rules in mind:
+
+* be responsive: don't leave anyone hanging with unanswered questions or
+  requests. It goes a long way in keeping working relations positive, and
+  communication effective. Respond to online chat messages within reasonable
+  time, ensure you have notifications set up properly so you see when somebody
+  comments on a pull request you submitted etc.
+* take your focus time: while some people can respond to any notification that
+  reaches them immediately and still stay focussed on the task they're working
+  on, this is not everyone's most effective way of working. Feel free to take
+  your focus time and switch off or ignore all notifications in order to focus
+  on a particular task. Just make sure to check whether anything urgent came up
+  a few times a day. On the flip side, when reaching out to a team member, be
+  asynchronous as much as possible. Give people time to finish what they're
+  focused on, and to respond properly. Very rarely is anything so urgent to
+  warrant full interruption.
+* take advantage of rich media: screenshots, screen recordings, screenshares
+  or even hand-drawn sketches can contribute to better understanding of what
+  you're trying to show or describe. A screen recording of a delivered feature
+  is always a hit. During calls, switch on your camera so people can see you -
+  talking face to face rather than with audio only makes a big difference in
+  communication style.
+
 ## Pairing
 
 Pairing is a great way of spreading knowledge throughout the team, on-boarding
