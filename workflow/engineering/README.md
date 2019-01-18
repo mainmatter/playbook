@@ -162,7 +162,7 @@ eventually not be ideal anymore in the present and future. Constant refactoring
 ensures the code base does not become stale and improves productivity overall.
 
 When working on the code base, we will keep an eye open for parts that need to
-be refactored and either do so immediately in case of simple changes or bring
+be refactored and either do so immediately in case of simple changes, or bring
 them up as individual issues for one of the next [iterations](../../process).
 
 ## Pairing
