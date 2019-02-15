@@ -59,7 +59,7 @@ product experts and other project stakeholders to:
 
 Well-prepared issues are a key element of an effective process. They provide
 guidance for the project team's work, allow external parties not involved
-with the project directly to get an understanding of what is happening and can
+with the project directly to get an understanding of what is happening, and can
 serve as a reference to understand what was done in a project for which reasons
 at a later point in the future.
 
