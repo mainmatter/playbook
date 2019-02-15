@@ -40,32 +40,65 @@ be presented to the team in the planning meeting that kicks the iteration off.
 In order to prepare these issues, the iteration lead synchronizes with the
 product experts and other project stakeholders to:
 
-* identify the most relevant issues from each project stakeholder's
+* identify the most relevant tasks from each project stakeholder's
   perspectives; the goal here is to find a good balance between work on
   features and other aspects like bugfixes, refactoring, dependency updates,
   addressing tech debt in general but also addressing other requirements coming
   in for example from the marketing department or other stakeholders
 * help the respective stakeholders translate feature or other change requests
-  into actionable issues; this includes explaining different options for
-  implementing a change and their potential implications, breaking big changes
-  down into smaller, iterative steps and define concrete requirements and
-  expected results for each issue
+  into actionable tasks; this includes explaining different options for
+  implementing a change and their potential implications and related effort
+* prepare well-written issues for each of the identified tasks or spikes for
+  tasks that require more research in order to be ready to be adressed
 * make sure all of the preconditions are met in order to be able to work on
-  something, e.g. any necessary assets have been delivered, translations are
+  each task, e.g. any necessary assets have been delivered, translations are
   ready or legal implications have been checked
-* identify potential solutions, implications and uncertainties for each issue;
-  if an issue has too many of the latter, we will plan a spike instead of the
-  issue to gather more information on the issue first and once we have that,
-  plan the issue again for a later iteration
-* ensure issues include all necessary background information to understand the
-  context and motivation for it; this might include recapitulations of
-  discussions that lead to the decision to implement an issue in a particular
-  way etc.
 * prioritize the issues so it is clear which ones need to be worked on first
 
-The result of the iteration preparation phase is a prioritized list of issues
-with well-formulated descriptions, detailed requirements and expected results
-as well as required assets and/or mockups. This list of issues will then be
+#### Issues
+
+Well-prepared issues are a key element of an effective process. The provide
+guidance for the project team's work, also allow external parties not involved
+with the project directly to get an understanding of what is happening and can
+serve as a reference to understand what was done in a project for which reasons
+at a later point in the future.
+
+Good issues should contain:
+
+* a description of what is to be done and why, potentially
+  accompanied by screenshots, mockups/sketches or other visuals that help
+  understand the desired outcome; it might also be beneficial to add a summary
+  of the issue's history, introduce previous related changes or alternative
+  changes that have been ruled out and why 
+* reproduction steps if the issues describes a bug; ideally those are
+  visualized with a screen recording or other media
+* a list of concrete requirements that must be met in order to complete the
+  issue; in order to prepare this list, the iteration lead might need to
+  synchronize with a team member more familiar with a particular part of the
+  code base or feature
+* all necessary materials that are needed for the issue; this could be visual
+  assets, links to online documentation for third party libraries or APIs or
+  contact details for external parties involved in an issue etc.
+* a list of open questions that need to be answered or risks that have been
+  identified and might prevent this issue from being completed
+
+#### Spikes
+
+If a particular task is associated with too many open questions or
+uncertainties to be converted into a well-prepared issue, it is better to plan
+a spike first in order to resolve these open questions. Spikes should have:
+
+* a description of the original requirement that will eventually be addressed
+  in an issue, potentially accompanied by screenshots, mockups/sketches or
+  other visuals that help understand the desired outcome;
+* a clear description of what the open questions are and how they are blocking
+  an issues from being created or adding too much risk
+* if there is any, guidance on potential solutions that should be evaluated or
+  references to promising approaches
+* a well-defined timebox, e.g. _"max 2 days"_
+
+The result of the iteration preparation phase is a prioritized list of
+well-prepared issues and spikes. This list of issues will then be
 presented to the team in the planning meeting.
 
 ### Iteration Planning
