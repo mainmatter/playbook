@@ -58,17 +58,18 @@ product experts and other project stakeholders to:
 #### Issues
 
 Well-prepared issues are a key element of an effective process. They provide
-guidance for the project team's work, allow external parties not involved
-with the project directly to get an understanding of what is happening, and can
-serve as future reference to understand what was done in a project, and for which reasons.
+guidance for the project team's work, allow external parties not involved with
+the project directly to get an understanding of what is happening, and can
+serve as future reference to understand what was done in a project, and for
+which reasons.
 
 Good issues should contain:
 
-* a description of what is to be done and why, potentially
-  accompanied by screenshots, mockups/sketches or other visuals that help
-  understand the desired outcome; it might also be beneficial to add a summary
-  of the issue's history, introduce previous related changes or alternative
-  changes that have been ruled out and why 
+* a description of what is to be done and why, potentially accompanied by
+  screenshots, mockups/sketches or other visuals that help understand the
+  desired outcome; it might also be beneficial to add a summary of the issue's
+  history, introduce previous related changes or alternative changes that have
+  been ruled out and why 
 * reproduction steps if the issues describes a bug; ideally those are
   visualized with a screen recording or other media
 * a list of concrete requirements that must be met in order to complete the
@@ -97,8 +98,8 @@ a spike first in order to resolve these open questions. Spikes should have:
 * a well-defined timebox, e.g. _"max 2 days"_
 
 The result of the iteration preparation phase is a prioritized list of
-well-prepared issues and spikes. This list of issues will then be
-presented to the team in the planning meeting.
+well-prepared issues and spikes. This list of issues will then be presented to
+the team in the planning meeting.
 
 ### Iteration Planning
 
