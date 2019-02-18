@@ -72,7 +72,7 @@ Good issues aim to:
   been ruled out and why 
 * include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-* a list of concrete requirements that must be met in order to complete the
+* detail concrete requirements that must be met in order to complete the
   issue; in order to prepare this list, the iteration lead might need to
   synchronize with a team member more familiar with a particular part of the
   code base or feature
