@@ -65,20 +65,20 @@ which reasons.
 
 Good issues aim to:
 
-* describe what is to be done and why, potentially accompanied by
-  screenshots, mockups/sketches or other visuals that help understand the
-  desired outcome; it might also be beneficial to add a summary of the issue's
-  history, introduce previous related changes or alternative changes that have
-  been ruled out and why 
+* describe what is to be done and why, potentially accompanied by screenshots,
+  mockups/sketches or other visuals that help understand the desired outcome;
+  it might also be beneficial to add a summary of the issue's history,
+  introduce previous related changes or alternative changes that have been
+  ruled out and why 
 * include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-* detail concrete requirements that must be met in order to complete the
-  issue; in order to prepare this list, the iteration lead might need to
-  synchronize with a team member more familiar with a particular part of the
-  code base or feature
-* include all necessary materials that are needed for the issue; this could be visual
-  assets, links to online documentation for third party libraries or APIs or
-  contact details for external parties involved in an issue etc.
+* detail concrete requirements that must be met in order to complete the issue;
+  in order to prepare this list, the iteration lead might need to synchronize
+  with a team member more familiar with a particular part of the code base or
+  feature
+* include all necessary materials that are needed for the issue; this could be
+  visual assets, links to online documentation for third party libraries or
+  APIs or contact details for external parties involved in an issue etc.
 * bring up any open questions that need to be answered, or risks that have been
   identified and might prevent this issue from being completed
 
