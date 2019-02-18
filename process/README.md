@@ -63,7 +63,7 @@ the project directly to get an understanding of what is happening, and can
 serve as future reference to understand what was done in a project, and for
 which reasons.
 
-Good issues should contain:
+Good issues aim to:
 
 * a description of what is to be done and why, potentially accompanied by
   screenshots, mockups/sketches or other visuals that help understand the
