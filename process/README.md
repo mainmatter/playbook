@@ -65,7 +65,7 @@ which reasons.
 
 Good issues aim to:
 
-* a description of what is to be done and why, potentially accompanied by
+* describe what is to be done and why, potentially accompanied by
   screenshots, mockups/sketches or other visuals that help understand the
   desired outcome; it might also be beneficial to add a summary of the issue's
   history, introduce previous related changes or alternative changes that have
