@@ -70,7 +70,7 @@ Good issues aim to:
   desired outcome; it might also be beneficial to add a summary of the issue's
   history, introduce previous related changes or alternative changes that have
   been ruled out and why 
-* reproduction steps if the issues describes a bug; ideally those are
+* include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
 * a list of concrete requirements that must be met in order to complete the
   issue; in order to prepare this list, the iteration lead might need to
