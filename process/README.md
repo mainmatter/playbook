@@ -81,6 +81,10 @@ Good issues aim to:
   APIs or contact details for external parties involved in an issue etc.
 * bring up any open questions that need to be answered, or risks that have been
   identified and might prevent this issue from being completed
+* be a discrete unit of work; issues should only contain related requirements
+  and ideally not represent more than a few days of work - larger issues can
+  often be broken down into multiple smaller ones, possibly even allowing work
+  occuring in parallel 
 
 #### Spikes
 
