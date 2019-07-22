@@ -46,7 +46,7 @@ This workshop helps to understand how users are accessing the products and servi
 This workshop helps to set the right priorities and features for a product. Design sprints can help to either new or existing products. It can serve to improve the products they offer and to develop whole new value propositions. 
 
 #### Outcome
-The outcome of the Discover stage of the design process is a project brief for a design project and signifies the possible start of the design process.
+Pending
 
 
 ### Align - # Design and Development
