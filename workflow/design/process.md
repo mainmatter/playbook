@@ -1,0 +1,63 @@
+## Combining technical expertise with user experience
+
+As technology experts, we know that the success of a project lies not only in having a good process but also in giving proper attention when considering the technical aspects of the solution, we do so by putting the user front and center.
+Technological choices should be determined by the user needs and expectations while still supporting the business goals of our clients.
+
+Example:
+A native app might be great for a user need that requires complex interface interactions (e.g., photo and video editors, games). However, a web app would better serve an e-commerce experience, mobile wallet apps, or location-based apps (link to breethe). 
+
+## Our Design Process
+
+At simplabs, we aim to deliver innovative design solutions for our clients. We do this by listening to what our clients want and helping them reframe their problems into actions. By involving them in the design early and throughout the process. By thinking through the factors that produce an optimal user experience.
+
+All of this is possible, thanks to our design process. At the core of this process is the user, and all steps are based on a collaborative and iterative approach, from requirements gathering and persona research to behaviors and scenarios and interactions.
+
+Our process is ideal for complex projects because it breaks problems into manageable parts from the start.
+
+Our iterative focus prevents the common project pitfalls, such as running out of budget, time, or even failing to solve the problem altogether.
+
+Prioritizing ideas together and validating, Iteratively scaffolding to a solution, working in close collaboration with our clients.
+
+### First contact with the client - Setting a solid foundation
+
+When a client approaches us with an initial requirement, we reach out to them to find out more about their problem. Understanding our client's business and openly discussing our design process is fundamental for establishing a good relationship from the get-go.
+
+For that reason, we have made our design playbook available here: [link]. Our playbook provides an overview of the methods we use to gather and interpret requirements to design solutions that transform our client's ideas into successful digital products.
+
+## How we apply the Design Process
+Our process is a series of steps we go through, to deliver optimal design solutions consistently. The process also supports the alignment with our clients across the entire project.
+
+### Understand - Discovery and Definition
+(brand, users, goals)
+
+Our design process begins with a phase of research and information gathering, aimed at providing us with insights into all aspects of the design problem. This helps us define the scope and requirements of the project.
+In cases where the design problem is not apparent, we can improve our clients to develop their problem statement.
+
+By employing the best of our research and strategy skills (design thinking, design sprints), we involve our clients early in the process through thoughtfully planned workshops; the outcome is a reframed problem statement. 
+
+Learn more about our discovery workshops (here).
+
+#### Personas Workshop
+We want real people to use our solutions; for that reason, we never make personas up - they are always based on research. We analyze their behavior, gather evidence, and find common patterns that guide the design process.
+This workshop helps to uncover opportunities for new products or features that will better address user needs, make the product more useful, usable, desirable for users.
+
+#### User Journey Mapping Workshop
+This workshop helps to understand how users are accessing the products and services over time and across different touchpoints and provide insight into areas for improvement. It is a practical way to improve existing products and innovate new ones.
+
+#### Design Sprints
+This workshop helps to set the right priorities and features for a product. Design sprints can help to either new or existing products. It can serve to improve the products they offer and to develop whole new value propositions. 
+
+#### Outcome
+The outcome of the Discover stage of the design process is a project brief for a design project and signifies the possible start of the design process.
+
+
+### Align - # Design and Development
+
+The definition phase is where we analyze the findings and the initial development of project ideas and components needed to solve the problem at hand. This is where findings from the Discovery phase are analyzed, defined, and refined as problems, and ideas for solutions are pitched and prototyped.
+
+At the core of this phase is the collaboration between the design team and the project stakeholders. What matters most at this point is to try a large number of ideas or directions – whether it is by wireframing, prototyping, or even plain text.
+This experimentation often results in new insights and conceptual breakthroughs that can be implemented into the final solution.
+
+#### Setting up the stage for collaboration.
+
+One of the benefits of bringing together people is the potential of many more ideas generated. This is a valuable way to make the process accessible to our clients and to help them understand how we approach their user's needs.
