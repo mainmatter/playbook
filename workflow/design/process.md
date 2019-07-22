@@ -8,7 +8,7 @@ A native app might be great for a user need that requires complex interface inte
 
 ## Our Design Process
 
-At simplabs, we aim to deliver innovative design solutions for our clients. We do this by listening to what our clients want and helping them reframe their problems into actions. By involving them in the design early and throughout the process. By thinking through the factors that produce an optimal user experience.
+At simplabs, we aim to deliver innovative design solutions for our clients. We do this by listening to what our clients want and help them reframe their problems into actions. By involving them in the design early and throughout the process. By thinking through the factors that produce an optimal user experience.
 
 All of this is possible, thanks to our design process. At the core of this process is the user, and all steps are based on a collaborative and iterative approach, from requirements gathering and persona research to behaviors and scenarios and interactions.
 
@@ -46,9 +46,9 @@ This workshop helps to understand how users are accessing the products and servi
 This workshop helps to set the right priorities and features for a product. Design sprints can help to either new or existing products. It can serve to improve the products they offer and to develop whole new value propositions. 
 
 #### Outcome
-Pending
+At the end of this stage, we have an updated brief, that contains the problem statement, a prioritized list of user needs and goals, the personas that we are designing for and the user flows.
 
-
+---------------------------
 ### Align - # Design and Development
 
 The definition phase is where we analyze the findings and the initial development of project ideas and components needed to solve the problem at hand. This is where findings from the Discovery phase are analyzed, defined, and refined as problems, and ideas for solutions are pitched and prototyped.
@@ -65,5 +65,8 @@ Explain how we capture design iterations and feedback and how this speeds up the
 
 #### Reviews
 Explain what we expect from a client review, in terms of scope and type of input.
+
+#### Outcome
+
 
 ### Execute - Implement
