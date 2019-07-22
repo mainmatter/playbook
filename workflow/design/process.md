@@ -14,9 +14,7 @@ All of this is possible, thanks to our design process. At the core of this proce
 
 Our process is ideal for complex projects because it breaks problems into manageable parts from the start.
 
-Our iterative focus prevents the common project pitfalls, such as running out of budget, time, or even failing to solve the problem altogether.
-
-Prioritizing ideas together and validating, Iteratively scaffolding to a solution, working in close collaboration with our clients.
+Because we apply an iterative approach, we can prevent most common project pitfalls, such as running out of budget, time, or even failing to solve the problem altogether.
 
 ### First contact with the client - Setting a solid foundation
 
@@ -61,3 +59,11 @@ This experimentation often results in new insights and conceptual breakthroughs 
 #### Setting up the stage for collaboration.
 
 One of the benefits of bringing together people is the potential of many more ideas generated. This is a valuable way to make the process accessible to our clients and to help them understand how we approach their user's needs.
+
+#### Workflow management / Design Iterations and Feedback
+Explain how we capture design iterations and feedback and how this speeds up the process.
+
+#### Reviews
+Explain what we expect from a client review, in terms of scope and type of input.
+
+### Execute - Implement
