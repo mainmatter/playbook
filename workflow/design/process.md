@@ -136,6 +136,9 @@ Next we go to the planning phase; for the feature (set) defined and validated in
 
 The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course they can change any time but it's what we start with. <We could give this a name, e.g. the "bundle" or whatever>.
 
+We rely on [Atomic Design][http://atomicdesign.bradfrost.com] by Brad Frost as
+a base methodology to describe indiviual aspects of a design.
+
 ### Implementation
 
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's already described in a lot of detail in our playbook. In the first pass of the project this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes so the engineers are not blocked.
@@ -145,17 +148,18 @@ During implementation, we keep a staging system updated so all stakeholders can 
 
 #### Design implementation workflow
 
-We rely on [Atomic Design][atomic] by Brad Frost as a base methodology to describe indiviual aspects of a design. Our own [naming system][naming] supports this process in a meaningful way.
+We create visual mockups of the currently regarded aspect of the project.
+For the project itself this means creating a visual design guide that executes
+the foundation of the design work layout out in the concept phase, defining
+colors, typographic rules and basic layout. For indivdual features we only
+create mockups for the aspects of a feature that deviate from the general guide
+or need more detailed definition, such as individual UI states.
 
-We use [Sketch][sketch] to create visual mockups of the currently regarded aspect of the project. For the project itself this means creating a visual design guide that executes the foundation of the design work layout out in the concept phase, defining colors, typographic rules and basic layout. For indivdual features we only create mockups for the aspects of a feature that deviate from the general guide or need more detailed definition, such as individual UI states.
-
-We use [Abstract][abstract] to organize the design files and gather immediate feedback, both from our development team and stakeholders on the client’s side. Feedback will be gathered and considered for the next iteration.
+We use organize the design files in meaningful way as well as by versioning and
+request immediate feedback, both from our development team and stakeholders on
+the client’s side. Incoming feedback will be gathered and considered for the
+next iteration.
 
 ### Post-launch
 
 Post-launch we can operate the system for the client and potentially also validate what we built actually works for users. Ideally we'd be able to do this after every pass of the full-service phase.
-
-[abstract]: https://www.abstract.com
-[atomic]: http://atomicdesign.bradfrost.com
-[naming]: #blogpost
-[sketch]: https://www.sketch.com
