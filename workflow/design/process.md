@@ -4,31 +4,31 @@
 
 This is relevant for full-service projects as well as for our consulting offerings.
 
-* everyone involved in the project from both sides meets so
-* everyone knows who everyone else is, what everyone's goals etc. are
-* someone from the client's team gives us a high level intro to * their business so we know what context we operate in
+-   everyone involved in the project from both sides meets so
+-   everyone knows who everyone else is, what everyone's goals etc. are
+-   someone from the client's team gives us a high level intro to \* their business so we know what context we operate in
 
 ## Consulting
 
 All of our consulting engagements have similar requirements in terms of the process that we need to follow
 
-* after the project kick-off we need a deeper technical kick-off * where the client's tech team introduces us to their code base, explains pain points etc.
-* once that is done, we review their app within 2-3 days or so - they don't need to be involved the whole time but need to be available to answer questions; we will discuss the findings document with them in the end
+-   after the project kick-off we need a deeper technical kick-off \* where the client's tech team introduces us to their code base, explains pain points etc.
+-   once that is done, we review their app within 2-3 days or so - they don't need to be involved the whole time but need to be available to answer questions; we will discuss the findings document with them in the end
 
 ### Team Augmentation
 
 We can, after having done the review and thus having a good understanding of the client's situation, work with their team for the long term, sharing our know-how as we do so by e.g.
 
- * pair programming
- * reviewing pull requests and giving detailed feedback
- * performing workshops and demos
- * identifying and removing impediments
- * identifying and fixing quality issues
- * prototyping new things/spearheading research projects and spikes
+-   pair programming
+-   reviewing pull requests and giving detailed feedback
+-   performing workshops and demos
+-   identifying and removing impediments
+-   identifying and fixing quality issues
+-   prototyping new things/spearheading research projects and spikes
 
 ### Tutoring
 
-We can also tutor teams which is similar to Team augmentation but we won't actually work with the team all the time but *only* focus on techniques to help them and maybe do regular interviews with them to get a better idea for their current situation and things they are struggling with etc.
+We can also tutor teams which is similar to Team augmentation but we won't actually work with the team all the time but _only_ focus on techniques to help them and maybe do regular interviews with them to get a better idea for their current situation and things they are struggling with etc.
 
 ### Full Project Delivery
 
@@ -49,16 +49,18 @@ The conceptual design phase of the second pass of the project must overlap with 
 ### Discovery Workshop
 
 In the Discovery Workshop we try to understand the business problem that's being solved; some key questions could be:
-* what does the client want to achieve?
-* formulate the goal in 1-2 sentences maybe?
-* have things been tried before and worked/did not work? if any, why did those things work/not work?
-* <I'm actually not sure about this>
-* <I think this only needs to happen once per project, not per milestone?>
-* <is this where Ghislaine's data/analysis-based approach fits in?>
-In this phase, we define the feature set (or actually, this is the set of problems and solutions) we want to focus on in this iteration of the conceptual design phase - this is either the feature set for the MVP or one for a subsequential extension package to the MVP. <We could even say we aim to find a feature set that we could complete in a fixed timeframe, e.g. 6 weeks>
-This meeting should be joined by **all** stakeholders of the project which is likely everyone who was in the initial kick-off meeting.
+
+-   what does the client want to achieve?
+-   formulate the goal in 1-2 sentences maybe?
+-   have things been tried before and worked/did not work? if any, why did those things work/not work?
+-   <I'm actually not sure about this>
+-   <I think this only needs to happen once per project, not per milestone?>
+-   <is this where Ghislaine's data/analysis-based approach fits in?>
+    In this phase, we define the feature set (or actually, this is the set of problems and solutions) we want to focus on in this iteration of the conceptual design phase - this is either the feature set for the MVP or one for a subsequential extension package to the MVP. <We could even say we aim to find a feature set that we could complete in a fixed timeframe, e.g. 6 weeks>
+    This meeting should be joined by **all** stakeholders of the project which is likely everyone who was in the initial kick-off meeting.
 
 ### Personas Workshop
+
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
 
 #### Who should attend this workshop?
@@ -72,22 +74,26 @@ They are the ones that need to agree on the design direction of the project. Thi
 They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
 
 #### What is needed for this workshop
+
 Previous user research, data sources like event logs, metrics and analytics, user feedback is required in order to validate the personas.
 
 #### What will happen during the workshop
-- Revealing the Users: Facilitated Discussion
-Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
-- Verification: Evidence-based personas
-At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
-- Finding patterns: Affinity Mapping
-An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
-- Constructing and sharing the personas:
-(Turn clusters into personas) Description of the categories identified in the previous step.
+
+-   Revealing the Users: Facilitated Discussion
+    Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
+-   Verification: Evidence-based personas
+    At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
+-   Finding patterns: Affinity Mapping
+    An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
+-   Constructing and sharing the personas:
+    (Turn clusters into personas) Description of the categories identified in the previous step.
 
 ### User Journey Workshop
+
 During this workshop, the user's tasks and steps are analyzed in order to understand how they achieve their goals, why they might fail to achieve them and what opportunities exist to improve this process.
 
 #### What is needed for this workshop
+
 An overview of the existing screens or functionality should be provided for this workshop. These can be presented in as roadmaps, wireframes, flowcharts, funnels, or any other artifact that explicitly depicts the existing or potential user journeys.
 
 #### Who should attend this workshop
@@ -102,21 +108,20 @@ They are the ones closer to the users and can provide information or data regard
 
 #### What will happen during the workshop
 
-- Deconstructing the user journey: Task Analysis
-Task analysis is a way of examining the user journey steps and break them down into sets of small tasks that users go through to complete goals. Once this step is down, we can categorize the tasks by the type of effort required by the user, whether it is decision-making, wayfinding, error or problem solving, etc.
+-   Deconstructing the user journey: Task Analysis
+    Task analysis is a way of examining the user journey steps and break them down into sets of small tasks that users go through to complete goals. Once this step is down, we can categorize the tasks by the type of effort required by the user, whether it is decision-making, wayfinding, error or problem solving, etc.
 
-- Optimize the journey: Finding ways to remove or automate steps
-Prepare what needs to be done in the form of functionality requirements, content strategy, or changes to the existing site or app structure.
+-   Optimize the journey: Finding ways to remove or automate steps
+    Prepare what needs to be done in the form of functionality requirements, content strategy, or changes to the existing site or app structure.
 
-- Create prototypes to present the improved user journey.
+-   Create prototypes to present the improved user journey.
 
 ### Design Workshop
 
-* Do we need a dedicated phase/workshop for finding a design language that works for the client?
-	* ask clients to share designs they like
-	* maybe create pinterest board with designs we think would make sense
-	* we need to find a visual style in this phase, not a full fledged, complete, client-accepted design for all of the UI of the app
-I think we need this workshop in the first iteration of the conceptual design phase. I think a good approach would be to build wireframes/mockups for 1 or 2 key features as example and do iterations with the client until they are happy with the approach and we can use that to develop a "design language". Actually turning this design language into a design system and wireframes that the engineering team can use should be part of the implementation phase. I'd envision a setup where the client collaborates with us on making flow sketches for the user journeys, then does a few iterations with the design team until a design language has been found and the next time they see anything beyond that is a few weeks later when we present them with the first deployment on the staging system after the first 1 or 2 iterations in the implementation phase.
+-   Do we need a dedicated phase/workshop for finding a design language that works for the client?
+    _ ask clients to share designs they like
+    _ maybe create pinterest board with designs we think would make sense \* we need to find a visual style in this phase, not a full fledged, complete, client-accepted design for all of the UI of the app
+    I think we need this workshop in the first iteration of the conceptual design phase. I think a good approach would be to build wireframes/mockups for 1 or 2 key features as example and do iterations with the client until they are happy with the approach and we can use that to develop a "design language". Actually turning this design language into a design system and wireframes that the engineering team can use should be part of the implementation phase. I'd envision a setup where the client collaborates with us on making flow sketches for the user journeys, then does a few iterations with the design team until a design language has been found and the next time they see anything beyond that is a few weeks later when we present them with the first deployment on the staging system after the first 1 or 2 iterations in the implementation phase.
 
 ### Planning
 
@@ -139,11 +144,11 @@ We use [Sketch][sketch] to create visual mockups of the currently regarded aspec
 
 We use [Abstract][abstract] to organize the design files and gather immediate feedback.
 
-[sketch]: https://www.sketch.com
-[abstract]: https://www.abstract.com
-[atomic]: http://atomicdesign.bradfrost.com
-[naming]: #blogpost
-
 ### Post-launch
 
 Post-launch we can operate the system for the client and potentially also validate what we built actually works for users. Ideally we'd be able to do this after every pass of the full-service phase.
+
+[abstract]: https://www.abstract.com
+[atomic]: http://atomicdesign.bradfrost.com
+[naming]: #blogpost
+[sketch]: https://www.sketch.com
