@@ -79,14 +79,21 @@ Previous user research, data sources like event logs, metrics and analytics, use
 
 #### What will happen during the workshop
 
--   Revealing the Users: Facilitated Discussion
-    Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
--   Verification: Evidence-based personas
-    At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
--   Finding patterns: Affinity Mapping
-    An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
--   Constructing and sharing the personas:
-    (Turn clusters into personas) Description of the categories identified in the previous step.
+- Revealing the users through facilitated discussion
+
+Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
+
+- Affinity Mapping to identify clusters
+
+An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
+
+- Validating the clusters
+
+Personas are representations of the users, so the more detailed the level of data used to shape them, the better. Post-validate the accuracy of the clusters identified in the previous step against facts, analytics data, comments, etc. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry, etc.
+
+- Constructing and sharing the personas
+
+Identify each cluster with a representative name, and add any missing details to complete the persona, along with their goals, behaviors, and motivations.
 
 ### User Journey Workshop
 
