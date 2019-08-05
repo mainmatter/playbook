@@ -107,18 +107,9 @@ We do our normal iterations-based process and planning, creating concrete issues
 
 During implementation, we keep a staging system updated so all stakeholders can follow along process. We ask our clients to join the iteration meetings (<or we could have dedicated meetings for them where we present them what we did and ask for feedback>). We will build slices of the system at once, that is the design, backend and frontend code of something so we can release these 3 things together, can be sure they work together and move on to the next slice (see https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place for a good explanation).
 
-#### Design implementation workflow
-
-We create visual mockups of the currently regarded aspect of the project.
-For the project itself this means creating a visual design guide that executes
-the foundation of the design work layout out in the concept phase, defining
-colors, typographic rules and basic layout. For indivdual features we only
-create mockups for the aspects of a feature that deviate from the general guide
-or need more detailed definition, such as individual UI states.
-
-We use organize the design files in meaningful way as well as by versioning and
-request immediate feedback, both from our development team and stakeholders on
-the client’s side. Incoming feedback will be gathered and considered for the
+Final artwork will be created in parallel to the development process of the
+engineering team and will be shared and evaluated. Immediate feedback on the
+visual design from the stakeholders will be gathered and considered for the
 next iteration.
 
 ### Post-launch
