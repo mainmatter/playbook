@@ -100,29 +100,6 @@ Next we go to the planning phase; for the feature (set) defined and validated in
 
 The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course they can change any time but it's what we start with. <We could give this a name, e.g. the "bundle" or whatever>.
 
-We rely on [Atomic Design][atomic] by Brad Frost as
-a base methodology to describe indiviual aspects of a design.
-
-> Atomic design is a methodology composed of five distinct stages working
-> together to create interface design systems in a more deliberate and
-> hierarchical manner. The five stages of atomic design are:
-> Atoms → Molecules → Organisms → Templates → Pages
-
-Going from simple to complex, atoms describe single elements such as buttons,
-molecules such as a search field composed of an input and a button,
-organisms compose these to UI components such as headers and templates use
-the organisms to define archetypes of structure. Pages represent actualized
-templates containing actual content and additions unique to them.
-
-In extension to the orignal methodology, we also use the the term
-[“design tokens”][tokens] to describe critical base variables such as brand
-colors and sizes, as well as [“ions”][ions] to talk about defined variations
-of the five stages.
-
-[atomic]: http://atomicdesign.bradfrost.com
-[tokens]: http://bradfrost.com/blog/post/extending-atomic-design/
-[ions]: https://www.cjcid.com/articles/ions-introduction/
-
 ### Implementation
 
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's already described in a lot of detail in our playbook. In the first pass of the project this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes so the engineers are not blocked.
