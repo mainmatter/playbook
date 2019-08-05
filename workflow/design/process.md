@@ -136,13 +136,13 @@ We do our normal iterations-based process and planning, creating concrete issues
 
 During implementation, we keep a staging system updated so all stakeholders can follow along process. We ask our clients to join the iteration meetings (<or we could have dedicated meetings for them where we present them what we did and ask for feedback>). We will build slices of the system at once, that is the design, backend and frontend code of something so we can release these 3 things together, can be sure they work together and move on to the next slice (see https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place for a good explanation).
 
-#### Design implementation
+#### Design implementation workflow
 
 We rely on [Atomic Design][atomic] by Brad Frost as a base methodology to describe indiviual aspects of a design. Our own [naming system][naming] supports this process in a meaningful way.
 
 We use [Sketch][sketch] to create visual mockups of the currently regarded aspect of the project. For the project itself this means creating a visual design guide that executes the foundation of the design work layout out in the concept phase, defining colors, typographic rules and basic layout. For indivdual features we only create mockups for the aspects of a feature that deviate from the general guide or need more detailed definition, such as individual UI states.
 
-We use [Abstract][abstract] to organize the design files and gather immediate feedback.
+We use [Abstract][abstract] to organize the design files and gather immediate feedback, both from our development team and stakeholders on the client’s side. Feedback will be gathered and considered for the next iteration.
 
 ### Post-launch
 
