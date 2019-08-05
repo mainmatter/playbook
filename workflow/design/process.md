@@ -63,8 +63,11 @@ The purpose of this workshop is to establish consensus around the 'who' and the 
 Who should attend this workshop?
 
 **Project stakeholders**
+
 They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+
 **The user experts**
+
 They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
 
 #### What is needed for this workshop
@@ -83,14 +86,17 @@ An affinity map is a method used to organize large amounts of data into groups
 ### User Journey Workshop
 During this workshop, the user's tasks and steps are analyzed in order to understand how they achieve their goals, why they might fail to achieve them and what opportunities exist to improve this process.
 
-#### What is needed for this workshop**
+#### What is needed for this workshop
 An overview of the existing screens or functionality should be provided for this workshop. These can be presented in as roadmaps, wireframes, flowcharts, funnels, or any other artifact that explicitly depicts the existing or potential user journeys.
 
 #### Who should attend this workshop
 
 **Project stakeholders**
+
 They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+
 **The user experts**
+
 They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
 
 #### What will happen during the workshop
