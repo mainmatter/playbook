@@ -10,13 +10,16 @@ We work in 1 or 2 week long [iterations](../../process) and break all change
 requests down into issues. A list of well-prepared and well-understood issues
 constitutes each iteration.
 
-As an issue is started to be worked on, the respective engineer(s) will
+As an issue is started to be worked on, the respective team member(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
 person at once so if multiple engineers collaborate on an issue, they might
 have to choose one to assign it to). Issues are only assigned once work on them
-is actually starts - we do no pre-assign issues during planning or after that
+is actually started - we do no pre-assign issues during planning or after that
 to avoid situations where already assigned but not yet started issues are
-blocked for everyone else to work on.
+blocked for everyone else to work on. If an issues is being worked on by
+multiple team members sequentially (e.g. first the designer for preparing the
+wireframes, then the engineer for implementing those), the latter team member
+will self-assign the issue once the former are done with their work.
 
 Although issues should be well-understood and well-prepared before they are
 even planned for a particular [iteration](../../process), for more complex
@@ -42,7 +45,7 @@ remains available for everyone interested.
 
 ## Feature Branches/Pull Requests
 
-All changes to a project are done in branches. Nothing should generally be
+All changes to a project are done in branches. No changes should ever be
 committed to the `master` branch (or whatever the project's main branch is)
 directly. There should generally be at least one branch per issue - for larger
 issues it often makes sense to split separate steps into separate branches and
@@ -87,7 +90,7 @@ It is perfectly fine to create pull requests early on while implementation is
 still ongoing and they are not yet ready to be reviewed or merged. Doing so is
 a good way to get early feedback and share the status of something with the
 rest of the team. Such pull requests should be marked as _"Work in progress"_
-though, usually be prefixing their title with `WIP:`. Some tools will even
+though, usually by prefixing their title with `WIP:`. Some tools will even
 block _"Work in progress"_ pull requests from being merged.
 
 ### Reviews
@@ -177,7 +180,7 @@ members needs to keep some basic rules in mind:
   requests. It goes a long way in keeping working relations positive, and
   communication effective. Respond to online chat messages within reasonable
   time, ensure you have notifications set up properly so you see when somebody
-  comments on a pull request you submitted etc.
+  mentions you in a discussion or asks for your feedback
 * take your focus time: while some people can respond to any notification that
   reaches them immediately and still stay focussed on the task they're working
   on, this is not everyone's most effective way of working. Feel free to take
