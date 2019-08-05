@@ -1,51 +1,68 @@
-# Design Process
+# The simplabs process
 
-## Combining technical expertise with user experience
+## Kick-Off Phase
 
-As technology experts, we know that the success of a project lies not only in having a good process but also in giving proper attention when considering the technical aspects of the solution, we do so by putting the user front and center.
+This is relevant for full-service projects as well as for our consulting offerings.
 
-Technological choices should be determined by the user needs and expectations while still supporting the business goals of our clients.
+* everyone involved in the project from both sides meets so
+* everyone knows who everyone else is, what everyone's goals etc. are
+* someone from the client's team gives us a high level intro to * their business so we know what context we operate in
 
-Example:
-A native app might be great for a user need that requires complex interface interactions (e.g., photo and video editors, games). However, a web app would better serve an e-commerce experience, mobile wallet apps, or location-based apps (link to breethe). 
+## Consulting
 
-## Our Design Process
+All of our consulting engagements have similar requirements in terms of the process that we need to follow
 
-At simplabs, we aim to deliver innovative design solutions for our clients. We do this by listening to what our clients want and help them reframe their problems into actions. By involving them in the design early and throughout the process. By thinking through the factors that produce an optimal user experience.
+* after the project kick-off we need a deeper technical kick-off * where the client's tech team introduces us to their code base, explains pain points etc.
+* once that is done, we review their app within 2-3 days or so - they don't need to be involved the whole time but need to be available to answer questions; we will discuss the findings document with them in the end
 
-All of this is possible, thanks to our design process. At the core of this process is the user, and all steps are based on a collaborative and iterative approach, from requirements gathering and persona research to behaviors and scenarios and interactions.
+### Team Augmentation
 
-Our process is ideal for complex projects because it breaks problems into manageable parts from the start.
+We can, after having done the review and thus having a good understanding of the client's situation, work with their team for the long term, sharing our know-how as we do so by e.g.
 
-Because we apply an iterative approach, we can prevent most common project pitfalls, such as running out of budget, time, or even failing to solve the problem altogether.
+ * pair programming
+ * reviewing pull requests and giving detailed feedback
+ * performing workshops and demos
+ * identifying and removing impediments
+ * identifying and fixing quality issues
+ * prototyping new things/spearheading research projects and spikes
 
-### First contact with the client - Setting a solid foundation
+### Tutoring
 
-When a client approaches us with an initial requirement, we reach out to them to find out more about their problem. Understanding our client's business and openly discussing our design process is fundamental for establishing a good relationship from the get-go.
+We can also tutor teams which is similar to Team augmentation but we won't actually work with the team all the time but *only* focus on techniques to help them and maybe do regular interviews with them to get a better idea for their current situation and things they are struggling with etc.
 
-For that reason, we have made our design playbook available here: [link]. Our playbook provides an overview of the methods we use to gather and interpret requirements to design solutions that transform our client's ideas into successful digital products.
+### Full Project Delivery
 
-## How we apply the Design Process
+If we do full project delivery in a consulting arrangement that usually means the client has an internal product and design team. While this situation will be relatively similar to our full service offering, we won't be driving the conceptual design phase in these cases most likely. I'm not sure we even want to mention this in our playbook in detail but we should be aware that this exists as well.
 
-**Understand, Align, Execute & Iterate**
+## Full Service
 
-Our process is a series of steps we go through, to deliver optimal design solutions consistently. The process also supports the alignment with our clients across the entire project.
+In Full-Service projects we guide the client through the entire project, transforming their business problems/needs into software that solves these problems. One of the main goals here is to strike the balance between the fact that we cannot commit to a deadline for a big project, the client needing to get something that actually solves their problem, the client having no idea about software and the client not actually knowing what they need.
 
-Each step is applied to the project as a whole and for each individual feature.
+We can split this into 4 phases - Conceptual Design, Plan, Implementation, post-launch. We will go through the individual phases a few times per project - the first time, we build the MVP version of the project which has the smallest possible feature set while still delivering value. Each subsequent time we go through these phases we try and identify a set of features that are coherent and make a substantial improvement to the previous version of the project. These incremental releases until we reach the final product map to high-level milestones and help breaking down the project into smaller chunks where each one provides value. Ideally each of these steps results in something that is releasable to production so it could even be tested with real users but that's not a necessity for the process.
 
-## Understand - Discovery and Definition
-(brand, users, goals)
+### Conceptual Design
 
-Our design process begins with a phase of information gathering and research, aimed at providing us with insights into all aspects of the design problem. This helps us define the scope and requirements of the project.
-In cases where the design problem is not apparent, we can improve our clients to develop their problem statement.
+The goal of the conceptual design phase is to understand what the problem is, what a proper solution is and just how much we need to do to add value.
 
-By employing the best of our research and strategy skills (design thinking, design sprints), we involve our clients early in the process through thoughtfully planned workshops; the outcome is a reframed problem statement. 
+The conceptual design phase of the second pass of the project must overlap with the implementation phase of the previous pass so we don't end up in a situation where implementation of phase x is completed but the conceptual design phase of pass x+1 is not far enough for implementation for that pass to begin already and a few team members end up being blocked.
 
-Learn more about our discovery workshops (here).
+### Discovery Workshop
+
+In the Discovery Workshop we try to understand the business problem that's being solved; some key questions could be:
+* what does the client want to achieve?
+* formulate the goal in 1-2 sentences maybe?
+* have things been tried before and worked/did not work? if any, why did those things work/not work?
+* <I'm actually not sure about this>
+* <I think this only needs to happen once per project, not per milestone?>
+* <is this where Ghislaine's data/analysis-based approach fits in?>
+In this phase, we define the feature set (or actually, this is the set of problems and solutions) we want to focus on in this iteration of the conceptual design phase - this is either the feature set for the MVP or one for a subsequential extension package to the MVP. <We could even say we aim to find a feature set that we could complete in a fixed timeframe, e.g. 6 weeks>
+This meeting should be joined by **all** stakeholders of the project which is likely everyone who was in the initial kick-off meeting.
 
 ### Personas Workshop
 
-The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will provide a valuable tool for design collaboration and prioritization of features.
+* In the Personas Workshop we identify typical future users of the system we're building to understand who we're building this for, what their wishes, requirements etc. are.
+
+The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
 
 #### Who should attend this workshop
 
@@ -65,53 +82,41 @@ For areas where no data or evidence exists, we can consider doing additional use
 #### Finding patterns: Affinity Mapping
 An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
 
-#### Constructing Personas:
+#### Constructing Personas: 
 (Turn clusters into personas)
 Description of the categories identified in the previous step.
 
-### User Journey Mapping Workshop
+### User Journeys Workshop
 
-This workshop helps to understand how users are accessing the products and services over time and across different touch points and provides insight into areas for improvement. It is a practical way to improve existing products and innovate new ones. 
+For the feature (set) we aim to build next, we do a user journeys mapping workshop to understand how these features would work in detail. The outocme of this should be relatively rough UI sketches (could be handdrawn) Part of this workshop should be validating these flows, thinking about:
+	* rabbit holes: are there hidden implications/complexities that we haven't thought about yet?
+	* technical feasibility: can we do that? do we need larger refactorings first? can we host/operate this?
+This is similar to what we're aiming to do in the iteration preparation but more high level of course and no matter how we do this, more things will come up when looking at smaller and more concrete issues in the iteration preparation.
+For each feature or set of features that form a coherent flow, we write a document including:
+* a description of the feature and flow, combined with fat marker sketches (see https://dribbble.com/shots/6882954-Fat-Marker); these sketches should be detailed enough for everyone to understand what's happening and cover details while not implying any design details
+* a list of identified rabbit holes and the result of discussing them
+* a list of things that are **not** included
 
-### Design Sprints Workshop
+### Design Workshop
 
-This workshop helps to set the right priorities and features for a product. Design sprints can help to either new or existing products. It can serve to improve the products they offer and to develop whole new value propositions. 
+* Do we need a dedicated phase/workshop for finding a design language that works for the client?
+	* ask clients to share designs they like
+	* maybe create pinterest board with designs we think would make sense
+	* we need to find a visual style in this phase, not a full fledged, complete, client-accepted design for all of the UI of the app
+I think we need this workshop in the first iteration of the conceptual design phase. I think a good approach would be to build wireframes/mockups for 1 or 2 key features as example and do iterations with the client until they are happy with the approach and we can use that to develop a "design language". Actually turning this design language into a design system and wireframes that the engineering team can use should be part of the implementation phase. I'd envision a setup where the client collaborates with us on making flow sketches for the user journeys, then does a few iterations with the design team until a design language has been found and the next time they see anything beyond that is a few weeks later when we present them with the first deployment on the staging system after the first 1 or 2 iterations in the implementation phase.
 
-### Results of these workshops
+### Planning
 
-At the end of this stage, we have an updated brief, that contains the problem statement, a prioritized list of user needs and goals, the personas that we are designing for and the user flows.
+Next we go to the planning phase; for the feature (set) defined and validated in the user journeys step, we think about whether time or scope is fixed for building this feature set (only one can be fixed); if time is fixed, we try and identify aspects of the feature that could be scoped down if we have to later. We then try and give the customer an outlook for steps and an overall duration (this is an estimate, not a deadline).
 
-## Align - Design and Development
+The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course they can change any time but it's what we start with. <We could give this a name, e.g. the "bundle" or whatever>.
 
-The definition phase is where we analyze the findings and the initial development of project ideas and components needed to solve the problem at hand. This is where findings from the Discovery phase are analyzed, defined, and refined as problems, and ideas for solutions are pitched and prototyped.
+### Implementation
 
-At the core of this phase is the collaboration between the design team and the project stakeholders. What matters most at this point is to try a large number of ideas or directions – whether it is by wireframing, prototyping, or even plain text.
+The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's already described in a lot of detail in our playbook. In the first pass of the project this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes so the engineers are not blocked.
+We do our normal iterations-based process and planning, creating concrete issues based on the <bundle> that we bundled in the planning step.
+During implementation, we keep a staging system updated so all stakeholders can follow along process. We ask our clients to join the iteration meetings (<or we could have dedicated meetings for them where we present them what we did and ask for feedback>). We will build slices of the system at once, that is the design, backend and frontend code of something so we can release these 3 things together, can be sure they work together and move on to the next slice (see https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place for a good explanation).
 
-This experimentation often results in new insights and conceptual breakthroughs that can be implemented into the final solution.
+### Post-launch
 
-#### Setting up the stage for collaboration.
-
-One of the benefits of bringing together people is the potential of many more ideas generated. This is a valuable way to make the process accessible to our clients and to help them understand how we approach their user's needs.
-
-#### Workflow management / Design Iterations and Feedback
-
-Explain how we capture design iterations and feedback and how this speeds up the process.
-
-#### Reviews
-
-Explain what we expect from a client review, in terms of scope and type of input.
-
-#### Results
-
-Leaving this phase we should have a set of documents blessed by the client which describe the project in all its details. This will include personas, user journeys, requirements documents and wireframes. 
-
-While the next step happens, the development team can already begin implementation.
-
-
-### Execute & Iterate
-
-After we have collected all details, the design creation process can begin. We select parts from the outside in, starting with basic building blocks and ending with the smallest details. Every part will be drawn in design tools for reference and are meant to be reviewed by the team and stakeholders on the client's side. After each review and as necessary, the final artworks will be iterated on until they meet all requirements and expectations. 
-
-#### Results
-
-Result of the execution and continuous delivery to the development team are assets and final artworks for individual parts that can be applied to the project. 
+Post-launch we can operate the system for the client and potentially also validate what we built actually works for users. Ideally we'd be able to do this after every pass of the full-service phase.
