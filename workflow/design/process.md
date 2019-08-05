@@ -75,7 +75,7 @@ Previous user research, data sources like event logs, metrics and analytics, use
 Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
 - Verification: Evidence-based personas
 At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
-Finding patterns: Affinity Mapping
+- Finding patterns: Affinity Mapping
 An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
 - Constructing and sharing the personas:
 (Turn clusters into personas) Description of the categories identified in the previous step.
@@ -97,8 +97,10 @@ They are the ones closer to the users and can provide information or data regard
 
 - Deconstructing the user journey: Task Analysis
 Task analysis is a way of examining the user journey steps and break them down into sets of small tasks that users go through to complete goals. Once this step is down, we can categorize the tasks by the type of effort required by the user, whether it is decision-making, wayfinding, error or problem solving, etc.
+
 - Optimize the journey: Finding ways to remove or automate steps
 Prepare what needs to be done in the form of functionality requirements, content strategy, or changes to the existing site or app structure.
+
 - Create prototypes to present the improved user journey.
 
 ### Design Workshop
