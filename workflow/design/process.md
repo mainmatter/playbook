@@ -60,7 +60,8 @@ This meeting should be joined by **all** stakeholders of the project which is li
 
 ### Personas Workshop
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
-Who should attend this workshop?
+
+#### Who should attend this workshop?
 
 **Project stakeholders**
 
