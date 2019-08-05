@@ -128,7 +128,21 @@ The design and the list of documents that came out of the user journeys step are
 
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's already described in a lot of detail in our playbook. In the first pass of the project this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes so the engineers are not blocked.
 We do our normal iterations-based process and planning, creating concrete issues based on the <bundle> that we bundled in the planning step.
+
 During implementation, we keep a staging system updated so all stakeholders can follow along process. We ask our clients to join the iteration meetings (<or we could have dedicated meetings for them where we present them what we did and ask for feedback>). We will build slices of the system at once, that is the design, backend and frontend code of something so we can release these 3 things together, can be sure they work together and move on to the next slice (see https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place for a good explanation).
+
+#### Design implementation
+
+We rely on [Atomic Design][atomic] by Brad Frost as a base methodology to describe indiviual aspects of a design. Our own [naming system][naming] supports this process in a meaningful way.
+
+We use [Sketch][sketch] to create visual mockups of the currently regarded aspect of the project. For the project itself this means creating a visual design guide that executes the foundation of the design work layout out in the concept phase, defining colors, typographic rules and basic layout. For indivdual features we only create mockups for the aspects of a feature that deviate from the general guide or need more detailed definition, such as individual UI states.
+
+We use [Abstract][abstract] to organize the design files and gather immediate feedback.
+
+[sketch]: https://www.sketch.com
+[abstract]: https://www.abstract.com
+[atomic]: http://atomicdesign.bradfrost.com
+[naming]: #blogpost
 
 ### Post-launch
 
