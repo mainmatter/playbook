@@ -59,43 +59,47 @@ In this phase, we define the feature set (or actually, this is the set of proble
 This meeting should be joined by **all** stakeholders of the project which is likely everyone who was in the initial kick-off meeting.
 
 ### Personas Workshop
-
-* In the Personas Workshop we identify typical future users of the system we're building to understand who we're building this for, what their wishes, requirements etc. are.
-
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
+Who should attend this workshop?
+
+**Project stakeholders**
+They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+**The user experts**
+They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
+
+#### What is needed for this workshop
+Previous user research, data sources like event logs, metrics and analytics, user feedback is required in order to validate the personas.
+
+#### What will happen during the workshop
+- Revealing the Users: Facilitated Discussion
+Discussion and debate are critical activities in this process, and all opinions must be represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are, and recall their experiences with them.
+- Verification: Evidence-based personas
+At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion. For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
+Finding patterns: Affinity Mapping
+An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations, or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
+- Constructing and sharing the personas:
+(Turn clusters into personas) Description of the categories identified in the previous step.
+
+### User Journey Workshop
+During this workshop, the user's tasks and steps are analyzed in order to understand how they achieve their goals, why they might fail to achieve them and what opportunities exist to improve this process.
+
+#### What is needed for this workshop**
+An overview of the existing screens or functionality should be provided for this workshop. These can be presented in as roadmaps, wireframes, flowcharts, funnels, or any other artifact that explicitly depicts the existing or potential user journeys.
 
 #### Who should attend this workshop
 
-#### The user experts
-A user expert will be whoever is closer to the customers and can provide information and data regarding their goals, pain points, and behavior patterns.
-It is desirable to analyze different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert. This confluence of ideas will allow data from many sources to shape more robust personas.
+**Project stakeholders**
+They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+**The user experts**
+They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
 
 #### What will happen during the workshop
 
-#### Finding the Users: Facilitated Discussion
-Discussion and debate are critical activities in this process and it's essential that all opinions are represented. The goal of this session is to collect everyone's assumptions and thoughts regarding the users, who they are and recall their experiences with them.
-
-#### Verification: Evidence-based personas
-At this point, we want to connect the assumptions to actual evidence, research data, or documents that reinforce the assumptions listed during the discussion.
-For areas where no data or evidence exists, we can consider doing additional user research if necessary, employing methods such as surveys, focus groups, contextual inquiry.
-
-#### Finding patterns: Affinity Mapping
-An affinity map is a method used to organize large amounts of data into groups or themes based on identified connections and patterns. For this, we write down all findings, observations or ideas on sticky notes and look for concepts that are related until clear groups emerge. These clusters are then named and ranked by importance to decide which ones should be prioritized according to business goals.
-
-#### Constructing Personas: 
-(Turn clusters into personas)
-Description of the categories identified in the previous step.
-
-### User Journeys Workshop
-
-For the feature (set) we aim to build next, we do a user journeys mapping workshop to understand how these features would work in detail. The outocme of this should be relatively rough UI sketches (could be handdrawn) Part of this workshop should be validating these flows, thinking about:
-	* rabbit holes: are there hidden implications/complexities that we haven't thought about yet?
-	* technical feasibility: can we do that? do we need larger refactorings first? can we host/operate this?
-This is similar to what we're aiming to do in the iteration preparation but more high level of course and no matter how we do this, more things will come up when looking at smaller and more concrete issues in the iteration preparation.
-For each feature or set of features that form a coherent flow, we write a document including:
-* a description of the feature and flow, combined with fat marker sketches (see https://dribbble.com/shots/6882954-Fat-Marker); these sketches should be detailed enough for everyone to understand what's happening and cover details while not implying any design details
-* a list of identified rabbit holes and the result of discussing them
-* a list of things that are **not** included
+- Deconstructing the user journey: Task Analysis
+Task analysis is a way of examining the user journey steps and break them down into sets of small tasks that users go through to complete goals. Once this step is down, we can categorize the tasks by the type of effort required by the user, whether it is decision-making, wayfinding, error or problem solving, etc.
+- Optimize the journey: Finding ways to remove or automate steps
+Prepare what needs to be done in the form of functionality requirements, content strategy, or changes to the existing site or app structure.
+- Create prototypes to present the improved user journey.
 
 ### Design Workshop
 
