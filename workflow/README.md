@@ -16,7 +16,7 @@ person at once so if multiple engineers collaborate on an issue, they might
 have to choose one to assign it to). Issues are only assigned once work on them
 is actually started - we do no pre-assign issues during planning or after that
 to avoid situations where already assigned but not yet started issues are
-blocked for everyone else to work on. If an issues is being worked on by
+blocked for everyone else to work on. If an issue is being worked on by
 multiple team members sequentially (e.g. first the designer for preparing the
 wireframes, then the engineer for implementing those), the latter team member
 will self-assign the issue once the former are done with their work.
