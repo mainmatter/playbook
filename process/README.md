@@ -53,7 +53,7 @@ stakeholders to:
   into actionable tasks; this includes explaining different options for
   implementing a change and their potential implications and related effort
 * uncover implications and hidden complexities in any of the tasks; while it is
-  not possible to think every taks through completely from start to end and
+  not possible to think every task through completely from start to end and
   eliminate all inherent risk, we try to uncover as much of it as possible in
   the preparation phase to reduce the likelihood for the team to run into
   unforeseen problems later on, potentially leading to delays and deadlocks
