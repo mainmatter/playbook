@@ -8,10 +8,10 @@ output.
 ## [Process](./process)
 
 The [Process document](./process) describes how we prepare and run iterations
-(often referred to as _"sprints"_ but we think that's a horrible term). We make
-sure all project stakeholders get heard and contribute to an iteration and
-every task is well understood, clearly scoped and assessed for hidden risk
-before it gets planned.
+(referred to as _"sprints"_ elsewhere but we think that term implies practices
+we want to avoid and therefore don't use it). We make sure all project
+stakeholders get heard and contribute to an iteration and every task is well
+understood, clearly scoped and assessed for hidden risk before it gets planned.
 
 ## [Workflow](./workflow)
 
