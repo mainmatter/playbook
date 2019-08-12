@@ -55,30 +55,39 @@ The conceptual design phase of the second pass of the project must overlap with 
 Discovery Workshop
 ------------------
 
-The purpose of the discovery workshop is to gain an understanding of the business problem or challenge. This not only helps to narrow the scope of the project, but it also links diverse points of view, business insights, and varying contexts into meaningful and actionable goals.
+The purpose of the discovery workshop is to gain an understanding of the business problem or challenge. This not only helps to narrow the scope of the project, but it also links diverse points of view, business needs, and varying contexts into meaningful and actionable goals.
 
 **What is needed for this workshop?**
 
+-   Clients Questionnaires
+
+To make the discovery session more efficient, we will provide handouts and questionnaires for the client. These questionnaires should be filled out and sent before the workshop so that the team can review and plan questioning paths with ***more*** refined and precise questions.
+
 **Who should attend the workshop?**
+
+-   Project Team
+-   Client
 
 **What happens during the workshop?**
 
 -   **Define the problem statement**
 
-The problem statement will be defined through a series of questions and facilitated discussion. A good problem statement will be focused on the desired outcome of the project and avoid hinting at the solution, i.e. we won't be figuring how to build a website, but instead how to find and engage a specific audience through online presence.
+The problem statement will be defined through a series of questions and facilitated discussion. The problem statement should focus on the outcome instead of hinting at the solution, (i.e., we won't be creating a website, but instead how to cater to the needs of a specific audience through online presence).
 
 -   **Observe**
 
-Once the problem has been identified, we need to gather more information to help us understand the larger context in which the challenge exists. Both quantitative or qualitative methods can be applied to this purpose.
+Once the problem has been identified, we need to gather more information to help us understand the broader context in which the challenge exists. Both quantitative or qualitative methods can be applied to this purpose.
 
 -   **Point of View**
+
+WRITE [This is the summary of the findings and who they are related to, and why they matter]
 
 Personas Workshop
 -----------------
 
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
 
-#### Who should attend this workshop?
+**Who should attend the workshop?**
 
 -   **Project stakeholders**
 
@@ -100,7 +109,7 @@ Previous user research, data sources like event logs, metrics and analytics, use
 -   Website analytics
 -   Search Queries
 
-#### What will happen during the workshop
+**What happens during the workshop?**
 
 -   **Revealing the users through facilitated discussion**
 
@@ -164,9 +173,9 @@ KPIs Workshop
 
 **Defining metrics of success**
 
-What measurement metrics will be used to evaluate the performance of the solution?
+Establishing outcome metrics should be done before the project starts. If metrics aren't set early in the process, we end up looking for data that fits the result in a later stage, when modifications are no longer possible or expensive. Instead, we could have used them during the project to generate optimal results and adjust accordingly.
 
-At some point before building, we must define with the client what the metrics for success are. This step could be its own workshop as we'd need them to describe what their success factors are so that the solution will be aligned with them. By doing this, it will be easier to prioritize work on future iterations based on metric performance.
+This step could be its own workshop as we'd need them to describe what their success factors are so that the solution will be aligned with them. By doing this, it will be easier to prioritize work on future iterations based on metric performance.
 
 (This also helps simplabs to better communicate the impact of our work for future case studies)
 
@@ -177,16 +186,29 @@ At some point before building, we must define with the client what the metrics f
 -   User error rate
 -   System usability scale
 -   Customer Satisfaction scale
+-   Churn Rate
 
 **What will happen during this workshop?**
 
--   Goals and objectives are defined
--   Critical success factors are identified
--   KPIs
--   How will measures be collected
--   Figure out what needs to be done to implement this
+-   **Goals and objectives are defined**
 
-### Design Workshop (Stylescape?)
+What do we aim to change? E.g., turn existing users into customers.
+
+-   **Critical success factors are identified**
+
+What are the expected effects of that change? How much should they change so that we observe an effect?
+
+E.g., turn existing users into customers.
+
+-   **Rationale, historical data, analytics**
+
+Why do we think those changes will happen? What evidence do we have for that?
+
+-   **How will the measures be collected**
+
+How can we measure the effect? What are the leading indicators that we need to track?
+
+### Design Workshop
 
 -   Do we need a dedicated phase/workshop for finding a design language that works for the client?
 
@@ -194,25 +216,23 @@ At some point before building, we must define with the client what the metrics f
 -   maybe create a Pinterest board with designs we think would make sense
 -   We need to find a visual style in this phase, not a full-fledged, complete, client-accepted design for all of the UI of the app I think we need this workshop in the first iteration of the conceptual design phase. I think a right approach would be to build wireframes/mock-ups for 1 or 2 critical features as for an example and do iterations with the client until they are happy with the approach and we can use that to develop a "design language." Turning this design language into a design system and wireframes that the engineering team can use should be part of the implementation phase. I'd envision a setup where the client collaborates with us on making flow sketches for the user journeys, then do a few iterations with the design team until a design language has been found, and the next time they see anything beyond that is a few weeks later when we present them with the first deployment on the staging system after the first 1 or 2 iterations in the implementation phase.
 
-Planning
-========
+### Planning
 
 Next we go to the planning phase; for the feature (set) defined and validated in the user journeys step, we think about whether time or scope is fixed for building this feature set (the only one can be fixed); if time is fixed, we try and identify aspects of the feature that could be scoped down if we have to later. We then try and give the customer an outlook for steps and overall duration (this is an estimate, not a deadline).
 
 The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course, they can change any time, but it's what we start with. <We could give this a name, e.g., the "bundle" or whatever>.
 
-Implementation
-===============
+### Implementation
 
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's previously described in our playbook. In the first pass of the project, this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes, so the engineers are not blocked. We do our normal iterations-based process and planning, creating specific issues based on them that we bundled in the planning step. During implementation, we keep a staging system updated so all stakeholders can follow along the process. We ask our clients to join the iteration meetings (). We will build slices of the system at once, that is the design, backend, and frontend code of something so we can release these three things together. This way, we can be sure they work together and move on to the next slice (see <https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place> for a good explanation).
 
 Post-launch
-===========
+===================
 
 Post-launch we can operate the system for the client and potentially also validate what we built works for users. Ideally, we'd be able to do this after every pass of the full-service phase.
 
 Test and Validation
--------------------
+===================
 
 Let's include something about user interview or similar mechanisms **after release** - a validation step in which we ensure that what we built is actually what users want.
 
