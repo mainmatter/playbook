@@ -87,7 +87,7 @@ Personas Workshop
 
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
 
-**Who should attend the workshop?**
+#### Who should attend this workshop?
 
 -   **Project stakeholders**
 
@@ -109,7 +109,7 @@ Previous user research, data sources like event logs, metrics and analytics, use
 -   Website analytics
 -   Search Queries
 
-**What happens during the workshop?**
+#### What will happen during the workshop
 
 -   **Revealing the users through facilitated discussion**
 
@@ -208,13 +208,24 @@ Why do we think those changes will happen? What evidence do we have for that?
 
 How can we measure the effect? What are the leading indicators that we need to track?
 
-### Design Workshop
+### Brand and Visual Language Session
 
--   Do we need a dedicated phase/workshop for finding a design language that works for the client?
+The client gives us an introduction to their brand, existing brand material, and visual guidelines. Based on this, we might or might not need to develop a new visual language, but instead find opportunities to improve the existing one.
 
--   ask clients to share designs they like
--   maybe create a Pinterest board with designs we think would make sense
--   We need to find a visual style in this phase, not a full-fledged, complete, client-accepted design for all of the UI of the app I think we need this workshop in the first iteration of the conceptual design phase. I think a right approach would be to build wireframes/mock-ups for 1 or 2 critical features as for an example and do iterations with the client until they are happy with the approach and we can use that to develop a "design language." Turning this design language into a design system and wireframes that the engineering team can use should be part of the implementation phase. I'd envision a setup where the client collaborates with us on making flow sketches for the user journeys, then do a few iterations with the design team until a design language has been found, and the next time they see anything beyond that is a few weeks later when we present them with the first deployment on the staging system after the first 1 or 2 iterations in the implementation phase.
+We need to understand where the existing visual language exists and the risks and costs associated with changes.
+
+**Assessing the effectiveness of the visual language**
+------------------------------------------------------
+
+If required, we can arrange activities to gain more insights into the visual language.
+
+-   **Brand Perception Surveys**
+
+We can uncover conflicts that exist between brand perception and identified the user or business needs. If for example, we have revealed that a lack of trust is blocking users from signing up, we might consider the brand elements effect on the user experience.
+
+-   **Visual Design Evaluation (usability, accessibility)**
+
+We can detect inconsistencies, problems with the fonts they are using (e.g., won't support some characters, hard to read), contrast is insufficient.
 
 ### Planning
 
@@ -227,7 +238,7 @@ The design and the list of documents that came out of the user journeys step are
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's previously described in our playbook. In the first pass of the project, this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes, so the engineers are not blocked. We do our normal iterations-based process and planning, creating specific issues based on them that we bundled in the planning step. During implementation, we keep a staging system updated so all stakeholders can follow along the process. We ask our clients to join the iteration meetings (). We will build slices of the system at once, that is the design, backend, and frontend code of something so we can release these three things together. This way, we can be sure they work together and move on to the next slice (see <https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place> for a good explanation).
 
 Post-launch
-===================
+-----------
 
 Post-launch we can operate the system for the client and potentially also validate what we built works for users. Ideally, we'd be able to do this after every pass of the full-service phase.
 
