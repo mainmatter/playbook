@@ -16,7 +16,3 @@ individual UI states.
 
 We use name design files in meaningful way and rely on some form of
 versioning and a branching model to organize and structure our work.
-
-### Collaborating
-
-(Review process, co-authoring, etc) TBD
