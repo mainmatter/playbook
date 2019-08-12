@@ -20,7 +20,7 @@ templates containing actual content and additions unique to them.
 
 In extension to the orignal methodology, we also use the the term
 [“design tokens”][tokens] to describe critical base variables such as brand
-colors and sizes, as well as [“ions”][ions] to talk about defined variations
+colors and sizes, and [“ions”][ions] to talk about defined variations
 of the five stages.
 
 [atomic]: http://atomicdesign.bradfrost.com
