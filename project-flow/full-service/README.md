@@ -87,7 +87,7 @@ Personas Workshop
 
 The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
 
-#### Who should attend this workshop?
+#### **Who should attend this workshop?**
 
 -   **Project stakeholders**
 
@@ -198,7 +198,7 @@ What do we aim to change? E.g., turn existing users into customers.
 
 What are the expected effects of that change? How much should they change so that we observe an effect?
 
-E.g., turn existing users into customers.
+E.g., 15% more users subscribe to a premium plan during their first 3 months
 
 -   **Rationale, historical data, analytics**
 
@@ -227,18 +227,30 @@ We can uncover conflicts that exist between brand perception and identified the 
 
 We can detect inconsistencies, problems with the fonts they are using (e.g., won't support some characters, hard to read), contrast is insufficient.
 
-### Planning
+Based on the result of the evaluation the following are possible:
+
+-   **The client doesn't need a complete visual redesign, but instead, we need to adapt the design system components to fit his visual language.**
+-   **The client needs a redesign that will solve the problems identified during the evaluation.**
+
+Design of Visual Language
+------------------------------------------------------
+
+Describe the actual process here.
+
+Planning
+========
 
 Next we go to the planning phase; for the feature (set) defined and validated in the user journeys step, we think about whether time or scope is fixed for building this feature set (the only one can be fixed); if time is fixed, we try and identify aspects of the feature that could be scoped down if we have to later. We then try and give the customer an outlook for steps and overall duration (this is an estimate, not a deadline).
 
 The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course, they can change any time, but it's what we start with. <We could give this a name, e.g., the "bundle" or whatever>.
 
-### Implementation
+Implementation
+==============
 
 The implementation phase combines both implementing the design and writing the code. All of the work should be tracked on the same board, following our iteration approach we're already using and that's previously described in our playbook. In the first pass of the project, this could mean that engineering can only start with a slight delay as the designers need to prepare enough wireframes, so the engineers are not blocked. We do our normal iterations-based process and planning, creating specific issues based on them that we bundled in the planning step. During implementation, we keep a staging system updated so all stakeholders can follow along the process. We ask our clients to join the iteration meetings (). We will build slices of the system at once, that is the design, backend, and frontend code of something so we can release these three things together. This way, we can be sure they work together and move on to the next slice (see <https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place> for a good explanation).
 
 Post-launch
------------
+===========
 
 Post-launch we can operate the system for the client and potentially also validate what we built works for users. Ideally, we'd be able to do this after every pass of the full-service phase.
 
