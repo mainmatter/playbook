@@ -1,12 +1,10 @@
 # Full Service Project Flow
 
 ## Kick-Off Phase
+The main goal of the kick-off phase is to set the stage and create momentum for the project. This step is relevant for full-service projects as well as for our consulting offerings.
 
-This step is relevant for full-service projects as well as for our consulting offerings.
-
-- Everyone involved in the project from both sides meets so
-- Everyone knows who everyone else is, what everyone's goals etc. are
-- Someone from the client's team gives us a high-level intro to their business, so we know what context we operate in.
+- Everyone involved in the project from both sides meets, so everyone knows who everyone else is, what everyone's goals are.
+- Someone from the client's team gives us a high-level intro to their business, so we become familiarized with the context we operate in.
 
 ## Consulting
 
@@ -37,25 +35,37 @@ If we do full project delivery in a consulting arrangement that usually means th
 
 ## Full Service
 
-In Full-Service projects, we guide the client through the entire project, transforming their business problems/needs into software that solves these problems. One of the main goals here is to strike a balance between the fact that we cannot commit to a deadline for a big project, the client needing to get something that solves their problem, the client having no idea about software and the client not knowing what they need.
+In Full-Service projects, we guide the client through the entire project, transforming their business problems through all-encompassing software solutions.
+
+One of the main goals here is to strike a balance between the fact that we cannot commit to a deadline for a big project, the client needing to get something that solves their problem, the client having no idea about software and the client not knowing what they need.
 
 We can split this into 4 phases - Conceptual Design, Plan, Implementation, post-launch. We will go through the individual stages a few times per project - the first time, we build the MVP version of the project, which has the smallest possible feature set while still delivering value. Each subsequent time we go through these phases, we try and identify a set of features that are coherent and make a substantial improvement to the previous version of the project. These incremental releases until we reach the final product map to high-level milestones and help to break down the project into smaller chunks where each one provides value. Ideally, each of these steps results in something releasable to production so it could even be tested with real users, but that's not a necessity for the process.
 
 ### Conceptual Design
 
-The goal of the conceptual design phase is to understand what the problem is, what a fitting solution is, and how much we need to do to add value.
+The goal of the conceptual design phase is to understand what the problem is, what a fitting solution is, and how much we need to do to deliver value. The conceptual design phase comprises both definition and ideation activities. It might be the case that after implementation, only the ideation phase is needed. It is possible to only have an ideation loop to generate new ideas and skip definition.
 
 The conceptual design phase of the second pass of the project must overlap with the implementation phase of the previous pass, so we don't end up in a situation where implementation of phase x is completed but the conceptual design phase of pass x+1 is not far enough for implementation for that pass to begin already, and a few team members end up being blocked.
 
+### Definition Activities
+
 ### Discovery Workshop
 
-The purpose of the discovery workshop is to gain an understanding of the business problem or challenge. This not only helps to narrow the scope of the project, but it also links diverse points of view, business needs, and varying contexts into meaningful and actionable goals.
+The purpose of the discovery workshop is to gain an understanding of the client's business and develop a strategic point of view of the problems facing it.
+As a result of this workshop, we should agree on the following:
+- What the problem is
+- Who is affected by the problem (e.g., end-users, support team, sales)
+- How is the problem manifesting in the business (e.g., user feedback, low engagement, churn)
+- What will the situation look like if the problem is solved or the solution is effective
+
+This not only helps to narrow the scope of the project, but it also links diverse points of view, business needs, and varying contexts into meaningful and actionable goals.
 
 #### What is needed for this workshop?
 
-- Clients Questionnaires
+- Pre-Workshop Client Questionnaire
 
-To make the discovery session more efficient, we will provide handouts and questionnaires for the client. These questionnaires should be filled out and sent before the workshop so that the team can review and plan questioning paths with **_more_** refined and precise questions.
+Understanding what the client wants to achieve is essential for determining the Discovery workshop activities. For that reason, we request that they fill out a questionnaire before we begin to structure the workshop.
+Once we get the answers, we analyze them and extract the crucial points and ideas and use them to define an efficient workshop agenda.
 
 #### Who should attend the workshop?
 
@@ -201,7 +211,18 @@ Why do we think those changes will happen? What evidence do we have for that?
 
 How can we measure the effect? What are the leading indicators that we need to track?
 
-#### Brand and Visual Language Session
+
+### Ideation Activities
+
+### Define scope or starting point
+Based on the previous activities, we decide on a starting point and scope for the ideation. It might be useful to check for existing solutions or similar problems.
+Not everything needs to be solved at once, so we'll probably want to split the ideation into multiple manageable parts.
+
+### Prototyping
+We create prototypes to represent each use case or sometimes several use cases to form a representation of the complete solution.
+This is where all is combined into a prototype of the solution. This will become the basis for planning and implementation. While not all the prototypes will be implemented, they will serve as a collection of all the learning and insights acquired during the conceptual design phase.
+
+### Brand and Visual Language Session
 
 The client gives us an introduction to their brand, existing brand material, and visual guidelines. Based on this, we might or might not need to develop a new visual language, but instead find opportunities to improve the existing one.
 
