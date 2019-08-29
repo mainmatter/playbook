@@ -7,16 +7,15 @@ flexible enough to adapt to unexpected events. Our process does not depend on
 specific tools and works for projects and teams in all environments.
 
 The main goal of our process is to make sure all project stakeholders get heard
-and no single party dictates what will be worked on when. Only when all
-involved parties work together in a collaborative fashion, can a project be
-successful.
+and no single party dictates what will be worked on when. Only when all involved
+parties work together in a collaborative fashion, can a project be successful.
 
 ## Iterations
 
-We work in iterations that are either 1 or 2 weeks long (depending on the
-client and project at hand, either iteration length might be more suited; we
-choose one when beginning a project and will adapt later on if necessary).
-Iterations are a team effort and we plan and execute them collaboratively.
+We work in iterations that are either 1 or 2 weeks long (depending on the client
+and project at hand, either iteration length might be more suited; we choose one
+when beginning a project and will adapt later on if necessary). Iterations are a
+team effort and we plan and execute them collaboratively.
 
 ### Roles
 
@@ -35,81 +34,80 @@ other project stakeholders for priorization).
 
 ### Iteration Preparation
 
-The goal of the iteration preparation phase is to define the tasks that are
-most relevant to be worked on during the next iteration. The issues assigned to
-an iteration should reflect **all** of the work that is going to happen, not
-only the engineering work. In particular they should reflect design and UX work
-as well. The prepared issues will then be presented to the team in the planning
+The goal of the iteration preparation phase is to define the tasks that are most
+relevant to be worked on during the next iteration. The issues assigned to an
+iteration should reflect **all** of the work that is going to happen, not only
+the engineering work. In particular they should reflect design and UX work as
+well. The prepared issues will then be presented to the team in the planning
 meeting that kicks the iteration off. In order to prepare these issues, the
 iteration lead synchronizes with the product experts and other project
 stakeholders to:
 
-* identify the most relevant tasks from each project stakeholder's
-  perspectives; the goal here is to find a good balance between work on
-  features and other aspects like bugfixes, refactoring, dependency updates,
-  addressing tech debt in general but also addressing other requirements coming
-  in for example from the marketing department or other stakeholders
-* help the respective stakeholders translate feature or other change requests
+- identify the most relevant tasks from each project stakeholder's perspectives;
+  the goal here is to find a good balance between work on features and other
+  aspects like bugfixes, refactoring, dependency updates, addressing tech debt
+  in general but also addressing other requirements coming in for example from
+  the marketing department or other stakeholders
+- help the respective stakeholders translate feature or other change requests
   into actionable tasks; this includes explaining different options for
   implementing a change and their potential implications and related effort
-* uncover implications and hidden complexities in any of the tasks; while it is
+- uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to end and
   eliminate all inherent risk, we try to uncover as much of it as possible in
   the preparation phase to reduce the likelihood for the team to run into
-  unforeseen problems later on, potentially leading to delays and deadlocks
-  then
-* prepare well-written issues for each of the identified tasks or spikes for
+  unforeseen problems later on, potentially leading to delays and deadlocks then
+- prepare well-written issues for each of the identified tasks or spikes for
   tasks that require more research in order to be ready to be adressed
-* make sure all of the preconditions are met in order to be able to work on
-  each task, e.g. any necessary assets have been delivered, translations are
-  ready or legal implications have been checked
-* prioritize the issues so it is clear which ones need to be worked on first
+- make sure all of the preconditions are met in order to be able to work on each
+  task, e.g. any necessary assets have been delivered, translations are ready or
+  legal implications have been checked
+- prioritize the issues so it is clear which ones need to be worked on first
 
 #### Issues
 
 Well-prepared issues are a key element of an effective process. They provide
 guidance for the project team's work, allow external parties not involved with
-the project directly to get an understanding of what is happening, and can
-serve as future reference to understand what was done in a project, and for
-which reasons.
+the project directly to get an understanding of what is happening, and can serve
+as future reference to understand what was done in a project, and for which
+reasons.
 
 Good issues aim to:
 
-* describe what is to be done and why, potentially accompanied by screenshots,
-  mockups/sketches or other visuals that help understand the desired outcome;
-  it might also be beneficial to add a summary of the issue's history,
-  covering previous related changes or alternative changes that have been ruled
-  out and why 
-* include reproduction steps if the issue describes a bug; ideally those are
+- describe what is to be done and why, potentially accompanied by screenshots,
+  mockups/sketches or other visuals that help understand the desired outcome; it
+  might also be beneficial to add a summary of the issue's history, covering
+  previous related changes or alternative changes that have been ruled out and
+  why
+- include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-* detail concrete requirements that must be met in order to complete the issue;
+- detail concrete requirements that must be met in order to complete the issue;
   in order to prepare this list, the iteration lead might need to synchronize
   with a team member more familiar with a particular part of the code base or
   feature
-* include all necessary materials that are needed for the issue; this could be
-  visual assets, links to online documentation for third party libraries or
-  APIs or contact details for external parties involved in an issue etc.
-* bring up any open questions that need to be answered, or risks that have been
+- include all necessary materials that are needed for the issue; this could be
+  visual assets, links to online documentation for third party libraries or APIs
+  or contact details for external parties involved in an issue etc.
+- bring up any open questions that need to be answered, or risks that have been
   identified and might prevent this issue from being completed
-* be a discrete unit of work; issues should only contain related requirements
+- be a discrete unit of work; issues should only contain related requirements
   and ideally not represent more than a few days of work - larger issues can
   often be broken down into multiple smaller ones, possibly even allowing work
-  occurring in parallel 
+  occurring in parallel
 
 #### Spikes
 
-If a particular task is associated with too many open questions or
-uncertainties to be converted into a well-prepared issue, it is better to plan
-a spike first in order to resolve these open questions. Spikes should have:
+If a particular task is associated with too many open questions or uncertainties
+to be converted into a well-prepared issue, it is better to plan a spike first
+in order to resolve these open questions. Spikes should have:
 
-* a description of the original requirement that will eventually be addressed
-  in an issue, potentially accompanied by screenshots, mockups/sketches or
-  other visuals that help understand the desired outcome;
-* a clear description of what the open questions are and how they are blocking
+- a description of the original requirement that will eventually be addressed in
+  an issue, potentially accompanied by screenshots, mockups/sketches or other
+  visuals that help understand the desired outcome;
+- a clear description of what the open questions are and how they are blocking
   an issues from being created or adding too much risk
-* if there is any, guidance on potential solutions that should be evaluated or
+- if there is any, guidance on potential solutions that should be evaluated or
   references to promising approaches
-* a well-defined time-box, e.g. _"max 2 days"_
+- a well-defined time-box, e.g. _"max 2 days"_
 
 The result of the iteration preparation phase is a prioritized list of
 well-prepared issues and spikes. This list of issues will then be presented to
@@ -120,19 +118,19 @@ the team in the planning meeting.
 The iteration planning meeting is a joint meeting with the entire project team,
 the product experts and other stakeholders that are involved in the project.
 During the meeting, the iteration lead presents each issue to the project team
-so that everyone has a good understanding of what each issue is about and gets
-a chance to ask questions and/or raise any points that might have been
-overlooked in the iteration preparation phase.
+so that everyone has a good understanding of what each issue is about and gets a
+chance to ask questions and/or raise any points that might have been overlooked
+in the iteration preparation phase.
 
 In the end of the planning meeting, the team collaboratively decides whether it
 thinks it can reasonably work on and complete all of the issues that have been
-presented to them in the planning meeting (plus past issues that are
-potentially moved over from the previous iteration). If the team considers the
-presented issues to be too much for the iteration, they collaboratively decide
-which ones are moved to a later iteration to be considered again at a later
-point. If any of the issues are found not to be ready to be worked on (e.g.
-because dependencies of the issue not being ready), the issue is moved to a
-later iteration as well.
+presented to them in the planning meeting (plus past issues that are potentially
+moved over from the previous iteration). If the team considers the presented
+issues to be too much for the iteration, they collaboratively decide which ones
+are moved to a later iteration to be considered again at a later point. If any
+of the issues are found not to be ready to be worked on (e.g. because
+dependencies of the issue not being ready), the issue is moved to a later
+iteration as well.
 
 **The iteration, once planned, is not a binding agreement.** It is still
 possible for all project stakeholders to react to changes to features or
@@ -148,33 +146,32 @@ as a project progresses.
 ### Iteration Execution
 
 After the iteration has been planned, execution starts and the planned issues
-are being worked on based on their priorities. For non-trivial issues, the
-first step is often to plan the implementation and necessary code changes by
-breaking the issue down into small steps. This can be done by two team members
-in a pairing session. As an issue is started to be worked on, the respective
-team member(s) will self-assign it. Issues are only assigned once work on them
-is actually started. Once an issue is closed via a
-[pull requests](../workflow/) (or without one in case of pure design issues) or
-if it is blocked and cannot progress, the team member(s) will self-assign
-another issue from the iteration backlog. We recommend
-[releasing changes](../workflow/) to production (or at least a staging system)
-as they are completed.
+are being worked on based on their priorities. For non-trivial issues, the first
+step is often to plan the implementation and necessary code changes by breaking
+the issue down into small steps. This can be done by two team members in a
+pairing session. As an issue is started to be worked on, the respective team
+member(s) will self-assign it. Issues are only assigned once work on them is
+actually started. Once an issue is closed via a [pull requests](../workflow/)
+(or without one in case of pure design issues) or if it is blocked and cannot
+progress, the team member(s) will self-assign another issue from the iteration
+backlog. We recommend [releasing changes](../workflow/) to production (or at
+least a staging system) as they are completed.
 
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
 production), all of these potential changes are triaged by the iteration lead.
 They might consult with the product experts or other project stakeholders to
 determine validity and priority of the incoming requests. If an issue is
-considered necessary to be added to the iteration after the planning meeting,
-it will be added but another issue might have to be removed from the iteration
-for it.
+considered necessary to be added to the iteration after the planning meeting, it
+will be added but another issue might have to be removed from the iteration for
+it.
 
-If an issue is blocked and cannot progress, the iteration lead is responsible
-to try and solve the impediment, potentially synchronizing with the product
-experts or other project stakeholders that can help resolve the situation.
+If an issue is blocked and cannot progress, the iteration lead is responsible to
+try and solve the impediment, potentially synchronizing with the product experts
+or other project stakeholders that can help resolve the situation.
 
-Likewise, if all issues in an iteration are completed early and there is no
-more work left to do, the iteration lead will synchronize with the project
+Likewise, if all issues in an iteration are completed early and there is no more
+work left to do, the iteration lead will synchronize with the project
 stakeholders and the iteration lead of the following iteration to discuss which
 issues should be added. Often that will mean moving issues from the following
 iteration into the current one.
