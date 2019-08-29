@@ -1,5 +1,9 @@
 # Project Flow
 
+We work on projects in a systematic manner with the goal to minimize overhead
+and to be productive as soon as possible while making sure all stakeholders are
+involved and all relevant information and context is shared among all of them.
+
 ## Kick-Off Meeting
 
 Every project we do starts with a kick-off meeting that brings all of the
