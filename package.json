@@ -5,5 +5,8 @@
   "repository": "git@github.com:simplabs/playbook.git",
   "author": "Marco Otte-Witte <marco.otte-witte@simplabs.com>",
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }
