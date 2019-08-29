@@ -44,26 +44,26 @@ meeting that kicks the iteration off. In order to prepare these issues, the
 iteration lead synchronizes with the product experts and other project
 stakeholders to:
 
-* identify the most relevant tasks from each project stakeholder's
+- identify the most relevant tasks from each project stakeholder's
   perspectives; the goal here is to find a good balance between work on
   features and other aspects like bugfixes, refactoring, dependency updates,
   addressing tech debt in general but also addressing other requirements coming
   in for example from the marketing department or other stakeholders
-* help the respective stakeholders translate feature or other change requests
+- help the respective stakeholders translate feature or other change requests
   into actionable tasks; this includes explaining different options for
   implementing a change and their potential implications and related effort
-* uncover implications and hidden complexities in any of the tasks; while it is
+- uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to end and
   eliminate all inherent risk, we try to uncover as much of it as possible in
   the preparation phase to reduce the likelihood for the team to run into
   unforeseen problems later on, potentially leading to delays and deadlocks
   then
-* prepare well-written issues for each of the identified tasks or spikes for
+- prepare well-written issues for each of the identified tasks or spikes for
   tasks that require more research in order to be ready to be adressed
-* make sure all of the preconditions are met in order to be able to work on
+- make sure all of the preconditions are met in order to be able to work on
   each task, e.g. any necessary assets have been delivered, translations are
   ready or legal implications have been checked
-* prioritize the issues so it is clear which ones need to be worked on first
+- prioritize the issues so it is clear which ones need to be worked on first
 
 #### Issues
 
@@ -75,26 +75,26 @@ which reasons.
 
 Good issues aim to:
 
-* describe what is to be done and why, potentially accompanied by screenshots,
+- describe what is to be done and why, potentially accompanied by screenshots,
   mockups/sketches or other visuals that help understand the desired outcome;
   it might also be beneficial to add a summary of the issue's history,
   covering previous related changes or alternative changes that have been ruled
-  out and why 
-* include reproduction steps if the issue describes a bug; ideally those are
+  out and why
+- include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-* detail concrete requirements that must be met in order to complete the issue;
+- detail concrete requirements that must be met in order to complete the issue;
   in order to prepare this list, the iteration lead might need to synchronize
   with a team member more familiar with a particular part of the code base or
   feature
-* include all necessary materials that are needed for the issue; this could be
+- include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or
   APIs or contact details for external parties involved in an issue etc.
-* bring up any open questions that need to be answered, or risks that have been
+- bring up any open questions that need to be answered, or risks that have been
   identified and might prevent this issue from being completed
-* be a discrete unit of work; issues should only contain related requirements
+- be a discrete unit of work; issues should only contain related requirements
   and ideally not represent more than a few days of work - larger issues can
   often be broken down into multiple smaller ones, possibly even allowing work
-  occurring in parallel 
+  occurring in parallel
 
 #### Spikes
 
@@ -102,14 +102,14 @@ If a particular task is associated with too many open questions or
 uncertainties to be converted into a well-prepared issue, it is better to plan
 a spike first in order to resolve these open questions. Spikes should have:
 
-* a description of the original requirement that will eventually be addressed
+- a description of the original requirement that will eventually be addressed
   in an issue, potentially accompanied by screenshots, mockups/sketches or
   other visuals that help understand the desired outcome;
-* a clear description of what the open questions are and how they are blocking
+- a clear description of what the open questions are and how they are blocking
   an issues from being created or adding too much risk
-* if there is any, guidance on potential solutions that should be evaluated or
+- if there is any, guidance on potential solutions that should be evaluated or
   references to promising approaches
-* a well-defined time-box, e.g. _"max 2 days"_
+- a well-defined time-box, e.g. _"max 2 days"_
 
 The result of the iteration preparation phase is a prioritized list of
 well-prepared issues and spikes. This list of issues will then be presented to

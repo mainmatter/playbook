@@ -61,10 +61,10 @@ branch; pull requests that have not been reviewed should usually not get
 merged. In order for a pull request to be ready for review, though, it has to
 meet some pre-requisites:
 
-* the branch has no conflicts with the project's main branch
-* the changes in the branch are covered by proper tests and CI is passing
-* the branch is not marked as _"work in progress"_
-* the commit history of the pull request has been cleaned up, e.g. WIP commits
+- the branch has no conflicts with the project's main branch
+- the changes in the branch are covered by proper tests and CI is passing
+- the branch is not marked as _"work in progress"_
+- the commit history of the pull request has been cleaned up, e.g. WIP commits
   have been squashed, debug commits have been removed etc.
 
 When a pull request is ready for review, its author should actively ask for
@@ -86,14 +86,14 @@ request, a third person should be brought in to resolve the deadlock.
 Reviewing and potentially criticizing other people's work is a sensitive issue
 which is why we follow a set of rules when doing so:
 
-* be polite: you are reviewing another person's work that they put time and
+- be polite: you are reviewing another person's work that they put time and
   energy in - don't be dismissive and keep a friendly tone
-* be clear: don't be ambiguous but clearly address issues or aspects that are
+- be clear: don't be ambiguous but clearly address issues or aspects that are
   good about a particular change
-* be positive: while the review's main purpose is to identify mistakes or bad
+- be positive: while the review's main purpose is to identify mistakes or bad
   patterns that are not caught by CI, reviews are also a good opportunity to
   give feedback on changes that are particularly good
-* be helpful: if a pull request contains a particular change you don't think
+- be helpful: if a pull request contains a particular change you don't think
   should be merged, give the author some guidance by introducing an alternative
   to the change that does not come with the same drawbacks
 
@@ -107,9 +107,9 @@ whether the code under review actually works for all relevant scenarios.
 While different languages and frameworks provide different testing mechanisms,
 a good approach generally is
 
-* leveraging small and isolated test cases (e.g. unit tests) for the majority
+- leveraging small and isolated test cases (e.g. unit tests) for the majority
   of the test cases including edge cases
-* leveraging higher level test cases (e.g. integration or acceptance tests) for
+- leveraging higher level test cases (e.g. integration or acceptance tests) for
   ensuring the main features and flows of an application work as expected
 
 We require continuous integration to be set up in all projects we work on.

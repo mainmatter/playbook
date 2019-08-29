@@ -8,5 +8,9 @@
   "private": true,
   "devDependencies": {
     "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.md'",
+    "lint": "prettier --check '**/*.md'"
   }
 }

@@ -32,7 +32,7 @@ Once an issue is resolved via a [pull request](./engineering/#feature-branches) 
 blocked, the engineer(s) will self-assign another issue from the iteration
 backlog. If an issue is blocked and cannot progress, the engineers working on
 it contact the [iteration lead](../../process) who - in collaboration with
-whomever necessary - tries to resolve the impediment. 
+whomever necessary - tries to resolve the impediment.
 
 All discussions around an issue should happen on the particular issue's page.
 Of course at times it is convenient to have discussions in person or over
@@ -50,12 +50,12 @@ In order for communication to be beneficial for both the team culture as well
 as productivity, rather than a liability or cause of constant stress, all team
 members needs to keep some basic rules in mind:
 
-* be responsive: don't leave anyone hanging with unanswered questions or
+- be responsive: don't leave anyone hanging with unanswered questions or
   requests. It goes a long way in keeping working relations positive, and
   communication effective. Respond to online chat messages within reasonable
   time, ensure you have notifications set up properly so you see when somebody
   mentions you in a discussion or asks for your feedback
-* take your focus time: while some people can respond to any notification that
+- take your focus time: while some people can respond to any notification that
   reaches them immediately and still stay focussed on the task they're working
   on, this is not everyone's most effective way of working. Feel free to take
   your focus time and switch off or ignore all notifications in order to focus
@@ -64,7 +64,7 @@ members needs to keep some basic rules in mind:
   asynchronous as much as possible. Give people time to finish what they're
   focused on, and to respond properly. Very rarely is anything so urgent to
   warrant full interruption.
-* take advantage of rich media: screenshots, screen recordings, screenshares
+- take advantage of rich media: screenshots, screen recordings, screenshares
   or even hand-drawn sketches can contribute to better understanding of what
   you're trying to show or describe. A screen recording of a delivered feature
   is always a hit. During calls, switch on your camera so people can see you -
