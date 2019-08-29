@@ -1,6 +1,6 @@
-# The simplabs project flow
+# Project Flow
 
-## Kick-Off Phase
+## Kick-Off Meeting
 
 Every project we do starts with a kick-off meeting that brings all of the
 project stakeholders together - ideally in one room or if that is not possible,
@@ -10,6 +10,8 @@ goals. The group of project stakeholders should be kept as wide and open as
 possible and also include people that won't necessarily be involved in the
 project on a daily basis but still have relevant perspectives that our team and
 everyone else should be aware of.
+
+## Introduction
 
 Following the kick-off meeting will all stakeholders, we also ask our clients to
 give us an introduction to their business, explaining the problems they are
