@@ -12,5 +12,8 @@
   "scripts": {
     "format": "prettier --write '**/*.md'",
     "lint": "prettier --check '**/*.md'"
+  },
+  "prettier": {
+    "proseWrap": "always"
   }
 }
