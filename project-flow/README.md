@@ -17,7 +17,7 @@ everyone else should be aware of.
 
 ## Introduction
 
-Following the kick-off meeting will all stakeholders, we also ask our clients to
+Following the kick-off meeting with all stakeholders, we also ask our clients to
 give us an introduction to their business, explaining the problems they are
 solving and why that is valuable for their customers, what differentiates them
 from their competition etc. That will typically be done by one of the client's
