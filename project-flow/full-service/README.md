@@ -1,57 +1,5 @@
 # Full Service Project Flow
 
-## Kick-Off Phase
-
-The main goal of the kick-off phase is to set the stage and create momentum for
-the project. This step is relevant for full-service projects as well as for our
-consulting offerings.
-
-- Everyone involved in the project from both sides meets, so everyone knows who
-  everyone else is, what everyone's goals are.
-- Someone from the client's team gives us a high-level intro to their business,
-  so we become familiarized with the context we operate in.
-
-## Consulting
-
-All of our consulting engagements have similar requirements in terms of the
-process that we need to follow
-
-- After the project kick-off, we need a deeper technical kick-off where the
-  client's tech team introduces us to their codebase, explains pain points, etc.
-- After the technical introduction, we review their app within 2-3 days or so -
-  they don't need to be involved the whole time but need to be available to
-  answer questions.
-- We will discuss the findings document with them in the end.
-
-### Team Augmentation
-
-We can, after having done the review and thus having a good understanding of the
-client's situation, work with their team for the long term, sharing our know-how
-as we do so by e.g.
-
-- Pair programming
-- Reviewing pull requests and giving detailed feedback
-- Performing workshops and demos
-- Identifying and removing impediments
-- Identifying and fixing quality issues
-- Prototyping new things/spearheading research projects and spikes
-
-### Tutoring
-
-We can also tutor teams which is similar to Team augmentation, but we won't
-actually work with the team all the time but *only* focus on techniques to help
-them and maybe do regular interviews with them to get a better idea for their
-current situation and things they are struggling with, etc.
-
-## Full Project Delivery
-
-If we do full project delivery in a consulting arrangement that usually means
-the client has an internal product and design team. While this situation will be
-relatively similar to our full-service offering, we won't be driving the
-conceptual design phase in these cases most likely. I'm not sure we even want to
-mention this in our playbook in detail, but we should be aware that this exists
-as well.
-
 ## Full Service
 
 In Full-Service projects, we guide the client through the entire project,
