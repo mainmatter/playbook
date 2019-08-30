@@ -20,9 +20,8 @@ our consultants to:
 - a high-level overview of the overall system architecture, covering everything
   from the database to message bus systems, external APIs, the main backend
   system(s), frontend application(s) etc. - like the introduction to the
-  fundamentals of the client's business, this information might not all
-  necessarily be directly relevant to our consultants on a daily basis but is
-  valuable context information
+  fundamentals of the client's business, this information may not be directly
+  linked to our consultants daily work, but is valuable as context
 - a more detailed explanation of the architecture and design of the
   application(s) our consultants will directly be working with; if there are any
   known issues or impediments with the application, we ask our clients to
