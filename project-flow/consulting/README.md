@@ -2,8 +2,7 @@
 
 In consulting projects, we work within our clients' organizational structures,
 supporting or leading product initiatives and making the client's in-house teams
-more efficient. Our consultants become part of these structures for four days a
-week (as we reserve one day per week for open source contributions).
+more efficient.
 
 ## Product Team Introduction
 
