@@ -32,7 +32,7 @@ and tools our clients use.
 
 ### Application Review
 
-In most consulting projects, our consultants will directly work on one or more
+In most consulting projects, our consultants will work on one or more
 pre-existing applications. This requires good familiarity with the codebase of
 these applications to be most effective. We usually recommend our consultants
 take a little extra time at the beginning of a project familiarizing themselves
@@ -68,7 +68,7 @@ output.
 
 Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
-the client's team, which is made more efficient by a good personal relation
+the client's team, which is made more efficient by a good personal relationship
 between all team members, we recommend for our consultants to spend some time
 on-site with the client's team on a regular basis (a good interval being a few
 days every 6 weeks). We also recommend our consultants spending the first week
