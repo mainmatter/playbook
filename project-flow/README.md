@@ -22,11 +22,10 @@ give us an introduction to their business, explaining the problems they are
 solving and why that is valuable for their customers, what differentiates them
 from their competition etc. That will typically be done by one of the client's
 business experts sitting together with our team and walking them through the key
-aspects of the business. While this knowledge may not be directly
-relevant to the work we're doing, it's essential for us to understand the
-environment our clients are operating in as that helps us make better decisions
-and put appropriate weight on individual aspects during the
-project.
+aspects of the business. While this knowledge may not be directly relevant to
+the work we're doing, it's essential for us to understand the environment our
+clients are operating in as that helps us make better decisions and put
+appropriate weight on individual aspects during the project.
 
 ## [Consulting Project flow](./consulting)
 
