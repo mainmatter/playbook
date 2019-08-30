@@ -70,11 +70,11 @@ output.
 
 Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
-the client's team, which is made more efficient by a good personal
-relation between all team members, we recommend for our consultants to spend
-some time on-site with the client's team on a regular basis (a good interval
-being a few days every 6 weeks). We also recommend our consultants spending the
-first week of the project on-site with the client's team for a smoother start.
+the client's team, which is made more efficient by a good personal relation
+between all team members, we recommend for our consultants to spend some time
+on-site with the client's team on a regular basis (a good interval being a few
+days every 6 weeks). We also recommend our consultants spending the first week
+of the project on-site with the client's team for a smoother start.
 
 ### Leveling up
 
