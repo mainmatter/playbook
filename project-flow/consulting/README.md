@@ -16,7 +16,7 @@ our consultants to:
 - their in-house team structure and engineering process (for clients lacking an
   effective process, we can introduce our own [process](./../../process))
 - their engineering infrastructure, covering tools like version control systems,
-  issue trackers, Continuos Integration and Continuous Deployment setups, VPNs
+  issue trackers, Continuous Integration and Continuous Deployment setups, VPNs
   etc.
 - a high-level overview of the overall system architecture, covering everything
   from the database to message bus systems, external APIs, the main backend
@@ -70,7 +70,7 @@ output.
 
 Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
-the client's team, which is greatly made more efficient by a good personal
+the client's team, which is made more efficient by a good personal
 relation between all team members, we recommend for our consultants to spend
 some time on-site with the client's team on a regular basis (a good interval
 being a few days every 6 weeks). We also recommend our consultants spending the
