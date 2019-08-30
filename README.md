@@ -5,6 +5,12 @@ that we discovered and defined over years of working with clients on all kinds
 of projects and that we have found to result in smooth execution and great
 output.
 
+## [Project Flow](./project-flow)
+
+The [Project Flow document](./project-flow) describes how we approach new
+projects and work with clients. We target a smooth start with minimal overhead
+and encourage our clients to take on an active role.
+
 ## [Process](./process)
 
 The [Process document](./process) describes how we prepare and run iterations
