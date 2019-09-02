@@ -40,6 +40,27 @@ and a few team members end up being blocked.
 
 ### Definition Activities
 
+Before we can begin to create a solution for a client, we need to first thoroughly analyze the situation to determine the best course of action.
+
+The **Discovery Workshop** describes the activities that help to answer the questions: What is the problem? What type of solution is needed? How should the solution help to solve the problem?
+
+The **Personas Workshop** introduces the principles, processes, and practices of User-Centered Design. Through the development of personas, the client and team get to know and understand the people whose needs and goals the solution should satisfy.
+
+The **User Journey Workshop** introduces tasks analysis, which is a way of understanding the content and tasks that will form the basis for the solution being developed.
+
+The **KPI's Workshop** defines success metrics for the solution, which helps both the client and the team to align on goals and objectives and make better decisions.
+
+#### Who needs to participate on the workshops?
+
+- **Project stakeholders**
+
+They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+
+- **The user experts**
+
+They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
+If the project's target audience is inside the client's company, we advise to bring in people from the corresponding department.
+
 ### Discovery Workshop
 
 The purpose of the discovery workshop is to gain an understanding of the
@@ -66,11 +87,6 @@ Discovery workshop activities. For that reason, we request that they fill out a
 questionnaire before we begin to structure the workshop. Once we get the
 answers, we analyze them and extract the crucial points and ideas and use them
 to define an efficient workshop agenda.
-
-#### Who should attend the workshop?
-
-- Project Team
-- Client
 
 #### What happens during the workshop?
 
@@ -99,24 +115,7 @@ The purpose of this workshop is to establish consensus around the 'who' and the
 'why' for a design project. The personas built on this step will serve as a
 valuable tool for design collaboration and prioritization of features.
 
-#### Who should attend this workshop?
-
-- **Project stakeholders**
-
-They are the ones that need to agree on the design direction of the project.
-This can include both business and engineering people.
-
-- **The user experts**
-
-They are the ones closer to the users and can provide information or data
-regarding their goals, pain points, and behavior patterns. It is desirable to
-integrate all different points of view at this stage, whether it is from a sales
-representative, customer support specialist, or a domain expert.
-
-If the project's target audience is inside the client's company, we advise to
-bring in people from the corresponding department.
-
-**What is needed for this workshop**
+#### What is needed for this workshop
 
 Previous user research, data sources like event logs, metrics and analytics,
 user feedback are required to validate the personas.
@@ -171,28 +170,14 @@ During this workshop, the user's tasks and steps are analyzed to understand how
 they achieve their goals. In the case that goals aren't met, what opportunities
 exist to improve this process.
 
-**What is needed for this workshop**
+#### What is needed for this workshop
 
 An overview of the existing screens or functionality should be provided for this
 workshop. These can be presented in as roadmaps, wireframes, flowcharts,
 funnels, or any other artifact that explicitly depicts the existing or potential
 user journeys.
 
-**Who should attend this workshop**
-
-- **Project stakeholders**
-
-They are the ones that need to agree on the design direction of the project.
-This can include both business and engineering people.
-
-- **The user experts**
-
-They are the ones closer to the users and can provide information or data
-regarding their goals, pain points, and behavior patterns. It is desirable to
-integrate all different points of view at this stage, whether it is from a sales
-representative, customer support specialist, or a domain expert.
-
-**What will happen during the workshop**
+#### What will happen during the workshop
 
 - **Deconstructing the user journey: Task Analysis**
 
