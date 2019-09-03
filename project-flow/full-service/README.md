@@ -198,9 +198,11 @@ scenarios, to illustrate how they are used.
 
 ### User Journey Workshop
 
-For an effective solution to be developed, we need to be able to determine the content and the tasks that will make it up.
-The result of the User Journey Workshop is a scope and sequence of the content and tasks that will make up the solution. Typically, this will take the form of an outline or a visual representation, such as a flowchart.
-
+For an effective solution to be developed, we need to be able to determine the
+content and the tasks that will make it up. The result of the User Journey
+Workshop is a scope and sequence of the content and tasks that will make up the
+solution. Typically, this will take the form of an outline or a visual
+representation, such as a flowchart.
 
 #### What is needed for this workshop
 
@@ -213,15 +215,19 @@ user journeys.
 
 - **Task Inventory**
 
-Identify the tasks relevant to the problem and describe them in detail. 
+Identify the tasks relevant to the problem and describe them in detail.
 
 - **Sequencing Tasks and Task Components**
 
-Determine the order, content and sub-tasks that must occur in order to succesfully complete a goal. Start with the major goals and work the way down to sub-tasks that are associated with it. This can be done by sketching on a whiteboard or by placing sticky notes to form a diagram.
+Determine the order, content and sub-tasks that must occur in order to
+succesfully complete a goal. Start with the major goals and work the way down to
+sub-tasks that are associated with it. This can be done by sketching on a
+whiteboard or by placing sticky notes to form a diagram.
 
-- **Map all the tasks into a journey** 
+- **Map all the tasks into a journey**
 
-Compile all the goals, tasks and steps into a single map. If more than one persona exists, then create a journey map for each.
+Compile all the goals, tasks and steps into a single map. If more than one
+persona exists, then create a journey map for each.
 
 ### KPIs Workshop
 
