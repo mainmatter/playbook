@@ -46,7 +46,7 @@ look at the codebase, we recommend they review the application's code for
 noticeable or problematic patterns at the same time. Doing that, they will often
 be able to identify the causes of existing issues and impediments as well as
 uncover new and previously unknown problems. For each of the review findings, we
-will give an explanation, recommended way of addressing the cause as well as an
+will give an explanation going into detail on the findings' negative effects, recommend a way of addressing the issue as well as provide an
 assessment for the severity along with a recommended priority for addressing the
 respective finding. To conclude the review, we will schedule a meeting with the
 client's in-house team to explain and discuss the outcome of the review.
