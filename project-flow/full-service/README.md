@@ -58,7 +58,7 @@ They are the ones that need to agree on the design direction of the project. Thi
 
 - **The user experts**
 
-They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a domain expert.
+They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a subjet matter expert.
 If the project's target audience is inside the client's company, we advise to bring in people from the corresponding department.
 
 ### Discovery Workshop
@@ -89,7 +89,15 @@ Discovery workshop activities. For that reason, we might request that they fill 
 
 - **Facilitated discussion**
 
-Discuss each of the client's goals and the information gathered previous to the meeting. Present all patterns and insights uncovered during research to help determine what stands between “what is” and “what should be" and prioritize those findings until the problem scope is narrow enough to be established.
+Discuss the information gathered previous to the meeting. Present all patterns and insights uncovered during research to create a common understanding of the problem context.
+
+- **Goals Analysis**
+
+Discuss the client's goals to determine how they are doing and how they should be doing. If a gap exists, then we should determine the causes.
+
+- **Set criteria for selecting a solution**
+
+Not all gaps can be fixed at the same time, and some require solutions that are out of our scope. Determine, based on the information available, what is most likely to move the needle if solved.
 
 - **Define the problem statement**
 
