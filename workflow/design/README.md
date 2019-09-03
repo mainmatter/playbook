@@ -1,47 +1,92 @@
-# Design workflow
+# Design Workflow
 
-## Implementing visual design
+Our design workflow orients itself on established practices from software
+engineering. It supports distributed project teams and asynchronous
+communication and does not rely on any particular tools.
 
-We create visual mockups of the currently regarded aspect of the project.
+## Design Sources
 
-For the project itself this means creating a design system that becomes the
-foundation of the design work layout out in the concept phase, defining colors,
-typographic rules and basic layout in the process.
+We manage design source files like code, maintaining an authoritative main line
+and making changes in change sets that are only applied back to the mainline
+once complete. Design sources can be maintained using a version control system
+just like for the project's code or in a separate system, depending on the
+environment of a project.
 
-For indivdual features we only create mockups for the aspects of a feature that
-deviate from the general guide or need more detailed definition, such as
-individual UI states.
+### Change Sets/Branches
 
-We use versioning tools to organize design files. This allows us to track
-changes to the files in a more structured way and ensures nothing gets lost.
+No changes to design sources are ever applied directly to the mainline. Only
+after a set of changes has been reviewed and deemed good for application is it
+applied back as one discrete change. All individual changes that are applied
+back together should be related to the same UI element(s). Once changes have
+been applied back to the mainline, that fact should be noted in the issue
+describing the work that was done in the change. The change should also be
+referenced in the issue if the tools allow that or if that is not the case, a
+static image of the change should be attached to the issue.
 
-We organize individual features of the design and their phases in branches to
-make reviewing easy. Branches will get merged into the master once the feature
-is approved. This action should be noted inside our ticketing system to keep
-other members working on the feature informed and collect everything in one
-place. The result shall either be uploaded as a static image to the issue as
-well or if the versioning system supports it, a link should be added.
+#### Reviews
 
-### Working with an issue tracker for design tasks
+When a design change is ready for review, its author should actively ask for
+another team member to review - ideally via the tools used in the particular
+project if those support it or over online chat etc. if not. Everyone asked for
+review should reply in a timely manner - even if it's to ask for someone else to
+be chosen if they do not have the time to do a proper review.
 
-Each design task necessary for a feature of the project should be documented in
-a separate issue. Issues that describe features in both design and code need to
-be split up and referenced accordingly.
+Once the reviewer approved the changes, the change can be applied by any team
+member including the change's author. If the original reviewer would like a
+second review by another team member, potentially one more familiar with the
+aspects of the design that are changed, they will ask for it. In case anything
+comes up in the review that cannot be resolved between the reviewer and the
+author of the pull request, a third person should be brought in to resolve the
+deadlock.
 
-If a feature requires the design system to be extended, a separate issue will be
-created to track work on that. If possible, the design system should live in its
-own repository, being consumed by the actual project.
+Changes to design sources need to be reviewed for:
 
-### Deliverables - Results of a design task
+- completeness: does the change contain all of the necessary elements and
+  states?
+- consistency: does the change fit in with and leverage the project's design
+  system and overall visual direction?
+- applicability: is the change possible to implement with the technology of
+  choice with reasonable effort?
 
-Mockups are created as a representation for a detailed and finely crafted
-snapshot of how a UI should look like.
+When reviewing design changes the same rules apply as when
+[reviewing code changes](../engineering/#review-guidelines).
 
-To demonstrate complex behavior or animation, a narrow prototype made in HTML
-and CSS or even an animation should be favored over text descriptions when
-possible to eliminate ambiguities.
+## Design Systems
 
-Used-as-is assets ("binary") for things like icons, optimized logos and other
-decorational artwork used in the project should be delivered in the formats best
-suited for their intended use and should be optimized for file size using
-lossless compression.
+All design work should result in a design system for the respective project,
+independently of its nature or scope. The design system is a structured,
+multi-level framework where each layer builds on the elements defined in the
+previous one, going from simple to complex, e.g.:
+
+- atomic elements like buttons, labels and inputs serve as the foundation of the
+  design and are the building blocks for all higher levels
+- components are built on top of atomic elements and/or other components and
+  resemble groups of lower level elements that function as a unit like search
+  forms, headers etc.
+- components are arranged in particular ways to compose actual pages or screens
+  for an application
+
+A design system will ensure consistency across all of the UI of an application
+as well as minimize the work necessary for extending the UI over time as new
+elements will build on top of existing ones.
+
+With every change that is applied, the design system is incrementally built up
+and extended over time. New UI elements that were not previously covered will
+reuse lower-level elements where applicable and only introduce new concepts and
+patterns where no such reusable element is available. In cases where existing UI
+elements turn out to not be suited for previously uncovered cases, these
+elements might need to be changed, potentially making changes in other,
+higher-level elements necessary as well.
+
+## Deliverables
+
+Designers and Engineers should generally both work with the design source files
+directly so that the necessity for producing any special deliverables beyond
+those is minimized. If any particular deliverables are required that the
+engineers can not extract from the design source files directly, those
+deliverables should be attached to the respective issue in the format best
+suited for the particular use case.
+
+In order to demonstrate complex behavior or animation, narrow prototypes or
+videos should be favored over text descriptions when possible to eliminate
+ambiguities and mis-understandings.
