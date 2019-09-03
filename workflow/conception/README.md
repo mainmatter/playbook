@@ -252,8 +252,8 @@ the user experience.
 
 #### Visual Design Evaluation (usability, accessibility)
 
-We can detect inconsistencies, problems with the fonts they are using (e.g.,
-won't support some characters, hard to read), contrast is insufficient.
+In the case where the solution is an improvement to an existing app or website, we must ensure that the current visual design complies with our functional requirements and design specifications.
+A detailed evaluation of the existing visual style will be conducted to identify possible issues that might impact the quality of the solution. A quality solution should consist of a visual style that is intuitive, easy to understand by anyone, and consistent throughout the entire design.
 
 Based on the result of the evaluation the following are possible:
 
