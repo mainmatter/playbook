@@ -6,7 +6,7 @@ more efficient.
 
 ## Product Team Introduction
 
-Our consultants will usually become part of a pre-existing team, working within
+Our consultants will become part of a pre-existing team, working within
 the client's engineering infrastructure and often touch on existing applications
 and systems. In order to be most effective in that new environment, they must
 know and understand its constituent parts. Therefore we ask clients to introduce
