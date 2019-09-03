@@ -1,10 +1,7 @@
 # Full Service Project Flow
 
-## Full Service
-
-In Full-Service projects, we guide the client through the entire project,
-transforming their business problems through all-encompassing software
-solutions.
+In Full Service projects, we guide clients through an entire project,
+addressing their business problems with bespoke digital products.
 
 One of the main goals here is to strike a balance between the fact that we
 cannot commit to a deadline for a big project, the client needing to get
@@ -23,7 +20,7 @@ provides value. Ideally, each of these steps results in something releasable to
 production so it could even be tested with real users, but that's not a
 necessity for the process.
 
-### Conceptual Design
+## Conception
 
 The goal of the conceptual design phase is to understand what the problem is,
 what a fitting solution is, and how much we need to do to deliver value. The
@@ -94,7 +91,7 @@ the foundation for the implementation phase. Of course, they can change any
 time, but it's what we start with. <We could give this a name, e.g., the
 "bundle" or whatever>.
 
-## Implementation
+## Execution
 
 The implementation phase combines both executing the design and developing the
 features in code. All of the work should be tracked on the same board, following
@@ -117,13 +114,13 @@ way, we can be sure they work together and move on to the next slice (see 
 [integrating]:
   https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place
 
-## Post-launch
+## Launch
 
 Post-launch we can operate the system for the client and potentially also
 validate what we built works for users. Ideally, we'd be able to do this after
 every pass of the full-service phase.
 
-## Test and Validation
+## Iteration
 
 Let's include something about user interview or similar mechanisms  **after
 release** - a validation step in which we ensure that what we built is actually
