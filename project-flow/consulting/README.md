@@ -6,11 +6,11 @@ more efficient.
 
 ## Product Team Introduction
 
-Our consultants will become part of a pre-existing team, working within
-the client's engineering infrastructure and often touch on existing applications
-and systems. In order to be most effective in that new environment, they must
-know and understand its constituent parts. Therefore we ask clients to introduce
-our consultants to:
+Our consultants will become part of a pre-existing team, working within the
+client's engineering infrastructure and often touch on existing applications and
+systems. In order to be most effective in that new environment, they must know
+and understand its constituent parts. Therefore we ask clients to introduce our
+consultants to:
 
 - their in-house team structure and engineering process (for clients lacking an
   effective process, we can introduce [ours](./../../process))
@@ -46,10 +46,11 @@ look at the codebase, we recommend they review the application's code for
 noticeable or problematic patterns at the same time. Doing that, they will often
 be able to identify the causes of existing issues and impediments as well as
 uncover new and previously unknown problems. For each of the review findings, we
-will give an explanation going into detail on the findings' negative effects, recommend a way of addressing the issue as well as provide an
-assessment for the severity along with a recommended priority for addressing the
-respective finding. To conclude the review, we will schedule a meeting with the
-client's in-house team to explain and discuss the outcome of the review.
+will give an explanation going into detail on the findings' negative effects,
+recommend a way of addressing the issue as well as provide an assessment for the
+severity along with a recommended priority for addressing the respective
+finding. To conclude the review, we will schedule a meeting with the client's
+in-house team to explain and discuss the outcome of the review.
 
 After the introductory phase has been completed with the review, we continue to
 the project's main phase, which is either Team Augmentation or delivering a
