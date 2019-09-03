@@ -1,79 +1,41 @@
 # Full Service Project Flow
 
-In Full Service projects, we guide clients through an entire project, addressing
-their business problems with bespoke digital products.
+In Full Service projects, we guide clients through an entire project, solving
+their business problems with bespoke digital products. This encompasses several
+stages:
 
-One of the main goals here is to strike a balance between the fact that we
-cannot commit to a deadline for a big project, the client needing to get
-something that solves their problem, the client having no idea about software
-and the client not knowing what they need.
+- identifying and understanding the nature of the problem as well as its
+  implications
+- conceptualising a software system that solves the previously identified
+  problem(s)
+- implementing that system and launching it
+- validating that the product indeed solves the problems as expected
 
-We can split this into 4 phases - Conceptual Design, Plan, Implementation,
-post-launch. We will go through the individual stages a few times per project -
-the first time, we build the MVP version of the project, which has the smallest
-possible feature set while still delivering value. Each subsequent time we go
-through these phases, we try and identify a set of features that are coherent
-and make a substantial improvement to the previous version of the project. These
-incremental releases until we reach the final product map to high-level
-milestones and help to break down the project into smaller chunks where each one
-provides value. Ideally, each of these steps results in something releasable to
-production so it could even be tested with real users, but that's not a
-necessity for the process.
+These stages will usually be passed through several times. In the first pass, we
+try and build the minimal version of the system that solves the most pressing
+problem(s). Subsequent passes each extend the system incrementally, potentially
+addressing new learning gathered during the validation phase of the previous
+pass.
+
+## Definition
+
+In the definition stage of a project, we work closely with the client in order
+to understand the business problem and the implications it has. The nature of
+the problem that needs to be addressed is often not obvious and we apply
 
 ## Conception
 
-The goal of the conceptual design phase is to understand what the problem is,
-what a fitting solution is, and how much we need to do to deliver value. The
-conceptual design phase comprises both definition and ideation activities. It
-might be the case that after implementation, only the ideation phase is needed.
-It is possible to only have an ideation loop to generate new ideas and skip
-definition.
+Once the problem has been identified and is well understood by all project
+stakeholders we will look at defining a suitable solution that solves the
+problem in the most effective and efficient way. That includes identifying the
+target audience, their goals and motivations as well as the main features and
+flows of the system to be built.
 
-The conceptual design phase of the second pass of the project must overlap with
-the implementation phase of the previous pass, so we don't end up in a situation
-where implementation of phase x is completed but the conceptual design phase of
-pass x+1 is not far enough for implementation for that pass to begin already,
-and a few team members end up being blocked.
+We will define each feature
 
-### Definition Activities
+### Scoping
 
-Before we can begin to create a solution for a client, we need to first
-thoroughly analyze the situation to determine the best course of action.
-
-The **Discovery Workshop** describes the activities that help to answer the
-questions: What is the problem? What type of solution is needed? How should the
-solution help to solve the problem?
-
-The **Personas Workshop** introduces the principles, processes, and practices of
-User-Centered Design. Through the development of personas, the client and team
-get to know and understand the people whose needs and goals the solution should
-satisfy.
-
-The **User Journey Workshop** introduces tasks analysis, which is a way of
-understanding the content and tasks that will form the basis for the solution
-being developed.
-
-The **KPI's Workshop** defines success metrics for the solution, which helps
-both the client and the team to align on goals and objectives and make better
-decisions.
-
-#### Who needs to participate on the workshops?
-
-- **Project stakeholders**
-
-They are the ones that need to agree on the design direction of the project.
-This can include both business and engineering people.
-
-- **The user experts**
-
-They are the ones closer to the users and can provide information or data
-regarding their goals, pain points, and behavior patterns. It is desirable to
-integrate all different points of view at this stage, whether it is from a sales
-representative, customer support specialist, or a subjet matter expert. If the
-project's target audience is inside the client's company, we advise to bring in
-people from the corresponding department.
-
-## Planning
+For each pass, we will define a scope, explicitly defining the features and flows that will be included in the respective pass, as well as the ones that will not be included. Software projects are highly dynamic in nature and the reality is that only one of scope or time and budget can be fixed. By limiting the scope per iteration we minimize that dynamic and the associated risk.
 
 Having agreed on an ideal solution, it is time to decide how to organize the set
 of features that make it up. The main goal of planning is to understand what it
@@ -114,13 +76,13 @@ way, we can be sure they work together and move on to the next slice (see 
 [integrating]:
   https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place
 
-## Launch
+### Launch
 
 Post-launch we can operate the system for the client and potentially also
 validate what we built works for users. Ideally, we'd be able to do this after
 every pass of the full-service phase.
 
-## Iteration
+## Validation
 
 Let's include something about user interview or similar mechanisms  **after
 release** - a validation step in which we ensure that what we built is actually
@@ -134,3 +96,5 @@ more valuable insights and feedback.
 
 We would outline the right survey method to recruit potential test users,
 qualify them, and design the experiments.
+
+## Iteration
