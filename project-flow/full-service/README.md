@@ -40,73 +40,112 @@ and a few team members end up being blocked.
 
 ### Definition Activities
 
-Before we can begin to create a solution for a client, we need to first thoroughly analyze the situation to determine the best course of action.
+Before we can begin to create a solution for a client, we need to first
+thoroughly analyze the situation to determine the best course of action.
 
-The **Discovery Workshop** describes the activities that help to answer the questions: What is the problem? What type of solution is needed? How should the solution help to solve the problem?
+The **Discovery Workshop** describes the activities that help to answer the
+questions: What is the problem? What type of solution is needed? How should the
+solution help to solve the problem?
 
-The **Personas Workshop** introduces the principles, processes, and practices of User-Centered Design. Through the development of personas, the client and team get to know and understand the people whose needs and goals the solution should satisfy.
+The **Personas Workshop** introduces the principles, processes, and practices of
+User-Centered Design. Through the development of personas, the client and team
+get to know and understand the people whose needs and goals the solution should
+satisfy.
 
-The **User Journey Workshop** introduces tasks analysis, which is a way of understanding the content and tasks that will form the basis for the solution being developed.
+The **User Journey Workshop** introduces tasks analysis, which is a way of
+understanding the content and tasks that will form the basis for the solution
+being developed.
 
-The **KPI's Workshop** defines success metrics for the solution, which helps both the client and the team to align on goals and objectives and make better decisions.
+The **KPI's Workshop** defines success metrics for the solution, which helps
+both the client and the team to align on goals and objectives and make better
+decisions.
 
 #### Who needs to participate on the workshops?
 
 - **Project stakeholders**
 
-They are the ones that need to agree on the design direction of the project. This can include both business and engineering people.
+They are the ones that need to agree on the design direction of the project.
+This can include both business and engineering people.
 
 - **The user experts**
 
-They are the ones closer to the users and can provide information or data regarding their goals, pain points, and behavior patterns. It is desirable to integrate all different points of view at this stage, whether it is from a sales representative, customer support specialist, or a subjet matter expert.
-If the project's target audience is inside the client's company, we advise to bring in people from the corresponding department.
+They are the ones closer to the users and can provide information or data
+regarding their goals, pain points, and behavior patterns. It is desirable to
+integrate all different points of view at this stage, whether it is from a sales
+representative, customer support specialist, or a subjet matter expert. If the
+project's target audience is inside the client's company, we advise to bring in
+people from the corresponding department.
 
 ### Discovery Workshop
 
-The purpose of the design process is to produce a desired change. The change could be many things, such as an improvement of user's attitudes towards a new product or service, or an increase in visitor's engagement for a website. Whatever prevents this change, and falls within our solution capabilities (solved by software solutions), is going to be framed as the problem.
+The purpose of the design process is to produce a desired change. The change
+could be many things, such as an improvement of user's attitudes towards a new
+product or service, or an increase in visitor's engagement for a website.
+Whatever prevents this change, and falls within our solution capabilities
+(solved by software solutions), is going to be framed as the problem.
 
-Therefore, an early step of our process is to identify the problem that needs to be solved and the different variables surrounding this problem. The information gathered during this workshop will help the team to be clear about what solution needs to be developed.
+Therefore, an early step of our process is to identify the problem that needs to
+be solved and the different variables surrounding this problem. The information
+gathered during this workshop will help the team to be clear about what solution
+needs to be developed.
 
 As a result of this workshop, we should agree on the following:
 
 - What the problem is
 - Who is affected by the problem (e.g., end-users, support team, sales)
-- How is the problem manifesting in the business (e.g., user feedback, low engagement, churn)
-- What will the situation look like if the problem is solved or the solution is effective
+- How is the problem manifesting in the business (e.g., user feedback, low
+  engagement, churn)
+- What will the situation look like if the problem is solved or the solution is
+  effective
 
 #### What is needed for this workshop?
 
 - Problem-specific information
 
-Knowledge of the client's business and its context is needed to get at the source of the problem. If specific information is required, the client needs to provide it before the workshop. The designers will also gather information through various means, such as interviews, observations, and reviews of existing solutions. 
+Knowledge of the client's business and its context is needed to get at the
+source of the problem. If specific information is required, the client needs to
+provide it before the workshop. The designers will also gather information
+through various means, such as interviews, observations, and reviews of existing
+solutions.
 
 - Pre-Workshop Client Goals Questionnaire
 
-Understanding what change the client wants to achieve is essential for determining the
-Discovery workshop activities. For that reason, we might request that they fill out a questionnaire before we begin to structure the workshop. Once we get the answers, we analyze them and use them to define an efficient workshop agenda.
+Understanding what change the client wants to achieve is essential for
+determining the Discovery workshop activities. For that reason, we might request
+that they fill out a questionnaire before we begin to structure the workshop.
+Once we get the answers, we analyze them and use them to define an efficient
+workshop agenda.
 
 #### What happens during the workshop?
 
 - **Facilitated discussion**
 
-Discuss the information gathered previous to the meeting. Present all patterns and insights uncovered during research to create a common understanding of the problem context.
+Discuss the information gathered previous to the meeting. Present all patterns
+and insights uncovered during research to create a common understanding of the
+problem context.
 
 - **Goals Analysis**
 
-Discuss the client's goals to determine how they are doing and how they should be doing. If a gap exists, then we should determine the causes.
+Discuss the client's goals to determine how they are doing and how they should
+be doing. If a gap exists, then we should determine the causes.
 
 - **Set criteria for selecting a solution**
 
-Not all gaps can be fixed at the same time, and some require solutions that are out of our scope. Determine, based on the information available, what is most likely to move the needle if solved.
+Not all gaps can be fixed at the same time, and some require solutions that are
+out of our scope. Determine, based on the information available, what is most
+likely to move the needle if solved.
 
 - **Define the problem statement**
 
-The problem statement should focus on the outcome instead of hinting at the solution, (i.e., we won't be creating a website, but
-instead how to cater to the needs of a specific audience through online presence).
+The problem statement should focus on the outcome instead of hinting at the
+solution, (i.e., we won't be creating a website, but instead how to cater to the
+needs of a specific audience through online presence).
 
 ### Personas Workshop
 
-The purpose of this workshop is to establish consensus around the 'who' and the 'why' for a design project. The personas built on this step will serve as a valuable tool for design collaboration and prioritization of features.
+The purpose of this workshop is to establish consensus around the 'who' and the
+'why' for a design project. The personas built on this step will serve as a
+valuable tool for design collaboration and prioritization of features.
 
 #### What is needed for this workshop
 
