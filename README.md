@@ -22,9 +22,8 @@ understood, clearly scoped and assessed for hidden risk before it gets planned.
 ## [Workflow](./workflow)
 
 The [Workflow document](./workflow) describes what the day-to-day work of our
-[designers](./workflow/design) and [engineers](./workflow/engineering) looks
-like. We value communication, collaboration and shared ownership of code and
-design deliverables.
+team looks like. We value communication, collaboration and shared ownership of
+code and design deliverables.
 
 Copyright © 2015-2019 simplabs GmbH (http://simplabs.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.
