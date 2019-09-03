@@ -38,7 +38,7 @@ these applications to be most effective. We usually recommend our consultants
 take a little extra time at the beginning of a project familiarizing themselves
 with the applications and the codebases, setting up their local development
 environment as well as potentially required accounts and data. Having this as a
-dedicated step instead of part of the consultants' first contributions to the
+dedicated step, instead of part of the consultants' first contributions to the
 codebase, allows for a smoother start afterwards.
 
 Also, as our consultants are getting themselves set up and have a more in depth
