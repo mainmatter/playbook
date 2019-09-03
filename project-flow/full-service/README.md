@@ -1,7 +1,7 @@
 # Full Service Project Flow
 
-In Full Service projects, we guide clients through an entire project,
-addressing their business problems with bespoke digital products.
+In Full Service projects, we guide clients through an entire project, addressing
+their business problems with bespoke digital products.
 
 One of the main goals here is to strike a balance between the fact that we
 cannot commit to a deadline for a big project, the client needing to get
