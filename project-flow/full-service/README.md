@@ -198,9 +198,9 @@ scenarios, to illustrate how they are used.
 
 ### User Journey Workshop
 
-During this workshop, the user's tasks and steps are analyzed to understand how
-they achieve their goals. In the case that goals aren't met, what opportunities
-exist to improve this process.
+For an effective solution to be developed, we need to be able to determine the content and the tasks that will make it up.
+The result of the User Journey Workshop is a scope and sequence of the content and tasks that will make up the solution. Typically, this will take the form of an outline or a visual representation, such as a flowchart.
+
 
 #### What is needed for this workshop
 
@@ -211,30 +211,17 @@ user journeys.
 
 #### What will happen during the workshop
 
-- **Deconstructing the user journey: Task Analysis**
+- **Task Inventory**
 
-Task analysis is a way of examining the user journey steps and break them down
-into sets of small tasks that users go through to complete goals. Once this step
-is down, we can categorize the tasks by the type of effort required by the user,
-whether it is decision-making, wayfinding, error or problem solving, etc.
+Identify the tasks relevant to the problem and describe them in detail. 
 
-- **Optimize the journey: Finding ways to remove or automate steps**
+- **Sequencing Tasks and Task Components**
 
-For each step, find out ways to eliminate unnecessary work for the user, _i.e.,_
-re-entering data, looping through multiple screens that could be simplified into
-one.
+Determine the order, content and sub-tasks that must occur in order to succesfully complete a goal. Start with the major goals and work the way down to sub-tasks that are associated with it. This can be done by sketching on a whiteboard or by placing sticky notes to form a diagram.
 
-- **Plan what needs to be done in the form of functionality requirements,
-  content strategy, or changes to the existing site or app structure.**
+- **Map all the tasks into a journey** 
 
-All the ideas should be written down, even if they won't be implemented in the
-current iteration. Some suggestions might fall outside the scope of the project,
-so they could be communicated to whoever is in charge.
-
-- **Create prototypes to present the improved user journey.**
-
-Mock-ups or quick prototypes should be created to visualize and communicate the
-new, improved journey.
+Compile all the goals, tasks and steps into a single map. If more than one persona exists, then create a journey map for each.
 
 ### KPIs Workshop
 
