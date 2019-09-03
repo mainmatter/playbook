@@ -1,7 +1,7 @@
-# Workflow
+# Execution Workflow
 
-Our engineering workflow is lean and based on established practices from the
-open source community. It supports distributed project teams and asynchronous
+Our execution workflow is lean and based on established practices from the open
+source community. It supports distributed project teams and asynchronous
 communication and does not rely on any particular tools.
 
 ## Issues
