@@ -13,7 +13,7 @@ know and understand its constituent parts. Therefore we ask clients to introduce
 our consultants to:
 
 - their in-house team structure and engineering process (for clients lacking an
-  effective process, we can introduce our [process](./../../process))
+  effective process, we can introduce [ours](./../../process))
 - their engineering infrastructure, covering tools like version control systems,
   issue trackers, Continuous Integration and Continuous Deployment setups, VPNs
   etc.
