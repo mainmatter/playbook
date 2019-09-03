@@ -143,7 +143,12 @@ needs of a specific audience through online presence).
 
 ### User Personas Workshop
 
-Understanding the users of the solution and what they can and will do is a critically important step of the design process. To appropriately implement the solution, we must understand the user's prior knowledge, skills, needs, and traits that are relevant to the solution. Based on this information, the persona or multiple personas can be produced to bring a user-centered approach during the process of designing the solution.
+Understanding the users of the solution and what they can and will do is a
+critically important step of the design process. To appropriately implement the
+solution, we must understand the user's prior knowledge, skills, needs, and
+traits that are relevant to the solution. Based on this information, the persona
+or multiple personas can be produced to bring a user-centered approach during
+the process of designing the solution.
 
 #### What is needed for this workshop
 
@@ -164,8 +169,11 @@ user feedback are required to validate the personas.
 
 Discussion and debate are critical activities in this process, and all opinions
 must be represented. The goal of this session is to collect everyone's
-assumptions, stories, and thoughts regarding the users.
-Write down everything that is known about the users. User questions such as: Why are they interested in the solution? What problem are they trying to solve? What previous experience do they have in relation to the solution? What motivates them towards the solution? What will make the solution appealing for them?
+assumptions, stories, and thoughts regarding the users. Write down everything
+that is known about the users. User questions such as: Why are they interested
+in the solution? What problem are they trying to solve? What previous experience
+do they have in relation to the solution? What motivates them towards the
+solution? What will make the solution appealing for them?
 
 - **Affinity Mapping to identify clusters**
 
@@ -330,15 +338,28 @@ Based on the result of the evaluation the following are possible:
 
 ### Design of Visual Language
 
-The visual language  should provide standards for the solution's visual look and feel based on the visual exploration conducted on the previous step. Fonts, color schemes, layout specifications should all be part of the visual language design. 
+The visual language should provide standards for the solution's visual look and
+feel based on the visual exploration conducted on the previous step. Fonts,
+color schemes, layout specifications should all be part of the visual language
+design.
 
 ## Planning
 
-Having agreed on an ideal solution, it is time to decide how to organize the set of features that make it up. The main goal of planning is to understand what it takes to deliver a solution of the highest possible quality, on time, and budget.
+Having agreed on an ideal solution, it is time to decide how to organize the set
+of features that make it up. The main goal of planning is to understand what it
+takes to deliver a solution of the highest possible quality, on time, and
+budget.
 
-During planning, we think about whether time or scope is fixed for building this feature set (the only one can be fixed); if time is fixed, we try and identify aspects of the feature that could be scoped down if we have to later. We then try and give the customer an outlook for steps and overall duration (this is an estimate, not a deadline).
+During planning, we think about whether time or scope is fixed for building this
+feature set (the only one can be fixed); if time is fixed, we try and identify
+aspects of the feature that could be scoped down if we have to later. We then
+try and give the customer an outlook for steps and overall duration (this is an
+estimate, not a deadline).
 
-The design and the list of documents that came out of the user journeys step are the foundation for the implementation phase. Of course, they can change any time, but it's what we start with. <We could give this a name, e.g., the "bundle" or whatever>.
+The design and the list of documents that came out of the user journeys step are
+the foundation for the implementation phase. Of course, they can change any
+time, but it's what we start with. <We could give this a name, e.g., the
+"bundle" or whatever>.
 
 ## Implementation
 
