@@ -103,20 +103,9 @@ and make teams more effective:
 Besides augmenting the client's in-house engineering team, our consultants can
 take on full projects (either an initiative in a pre-existing application or an
 entirely new one), complete that independently of the client's team and hand it
-back to the them once complete. In this case, we will still work closely with
-the client's business experts as well as product managers and designers to
-understand and define the exact scope and requirements of the project.
-
-### Milestones
-
-Before starting implementation in such a project, we will try to break it down
-into milestones along with a possible timeline. We will try to minimize the
-initial milestone as much as possible, removing everything that is not essential
-for a minimal version of the project. That way we are able to minimize the risk
-associated with the project and deliver something that has value of its own and
-can be used to get feedback from shareholders as early as possible. Subsequent
-milestones will then incrementally improve that minimal version until the
-project is complete.
+back to the them once complete. In this case, our consultants will form an
+engineering team of their own within the client's organisation, working closely
+with the client's product managers and designers.
 
 ### Handover
 
