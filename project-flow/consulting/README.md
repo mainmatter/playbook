@@ -120,4 +120,5 @@ the motivation behind each of these changes and how the code will be maintained
 as the project moves forward. Once the project completes, we recommend we
 conduct a workshop with the client's team to familiarize them with the outcome.
 Our consultants can accompany the team for some time after handing over a
-project in a Team Augmentation setup to ensure a smooth transition.
+project in a [Team Augmentation](#team-augmentation) setup to ensure a smooth
+transition.
