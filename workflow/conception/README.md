@@ -93,55 +93,6 @@ make it up. The result of the User Journey Workshop is a scope and sequence of
 the content and tasks that will make up the solution. Typically, this will take
 the form of an outline or a visual representation, such as a flowchart.
 
-### KPIs Workshop
-
-**Defining metrics of success**
-
-Establishing outcome metrics should be done before the project starts. If
-metrics aren't set early in the process, we end up looking for data that fits
-the result in a later stage, when modifications are no longer possible or
-expensive. Instead, we could have used them during the project to generate
-optimal results and adjust accordingly.
-
-This step could be its own workshop as we'd need them to describe what their
-success factors are so that the solution will be aligned with them. By doing
-this, it will be easier to prioritize work on future iterations based on metric
-performance.
-
-(This also helps simplabs to better communicate the impact of our work for
-future case studies)
-
-**Example of KPIs**
-
-- Task success rate
-- Time-on-task
-- User error rate
-- System usability scale
-- Customer Satisfaction scale
-- Churn Rate
-
-**What will happen during this workshop?**
-
-- **Goals and objectives are defined**
-
-What do we aim to change? E.g., turn existing users into customers.
-
-- **Critical success factors are identified**
-
-What are the expected effects of that change? How much should they change so
-that we observe an effect?
-
-E.g., 15% more users subscribe to a premium plan during their first 3 months
-
-- **Rationale, historical data, analytics**
-
-Why do we think those changes will happen? What evidence do we have for that?
-
-- **How will the measures be collected**
-
-How can we measure the effect? What are the leading indicators that we need to
-track?
-
 ### Ideation Activities
 
 ### Define scope or starting point
