@@ -18,6 +18,11 @@ pressing problem(s). Subsequent passes each extend that system incrementally,
 potentially addressing new learnings gathered during the validation phase of the
 previous pass.
 
+For clients that have gone through any of the stages themselves already or maybe
+together with a third party, we can jump to the subsequent stage directly,
+building on the material they have already (we recommend we evaluate that
+material first though).
+
 ## Definition
 
 In order to find an effective solution for a business problem we need to
