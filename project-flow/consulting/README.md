@@ -115,7 +115,7 @@ in-house engineering team, it is important to hand them over back to the team in
 a way that enables them to extend and maintain these projects in the future.
 
 As the implementation of the project advances, we will share our progress with
-the client’s in-house team. If we are to integrate new patterns or dependencies
+the client’s in-house team. If we are to integrate new patterns, dependencies
 or refactor parts of an existing codebase, we will explain what is being done,
 the motivation behind each of these changes and how the code will be maintained
 as the project moves forward. Once the project completes, we recommend we
