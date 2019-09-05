@@ -240,16 +240,25 @@ and costs associated with changes.
 
 ### Assessing the effectiveness of the Visual Design System
 
-If the visual design of the existing solution is not built on a solid foundation, we might find that technical and design debt is generated as we implement the new solution, causing the project to slow down. We want to avoid shipping one-off visual design solutions, but instead agree on a path forward with the client before executing any design.
+If the visual design of the existing solution is not built on a solid
+foundation, we might find that technical and design debt is generated as we
+implement the new solution, causing the project to slow down. We want to avoid
+shipping one-off visual design solutions, but instead agree on a path forward
+with the client before executing any design.
 
 #### Visual Design System dependencies
 
-Based on the complexity and extent of a project, we might encounter that the existing visual design system is dependent on complementary systems such as branding or identity. In this case, the client needs to provide the guidelines and rules in the form of documentation that can be applied clearly.
-
+Based on the complexity and extent of a project, we might encounter that the
+existing visual design system is dependent on complementary systems such as
+branding or identity. In this case, the client needs to provide the guidelines
+and rules in the form of documentation that can be applied clearly.
 
 #### Visual Identity Evaluation
 
-We can uncover conflicts that exist between the visual identity and user or business needs. If for example, we have revealed that a lack of trust is blocking users from signing up, we might consider the brand elements effect on the user experience.
+We can uncover conflicts that exist between the visual identity and user or
+business needs. If for example, we have revealed that a lack of trust is
+blocking users from signing up, we might consider the brand elements effect on
+the user experience.
 
 #### Visual Design System Evaluation (usability, accessibility)
 
@@ -270,7 +279,7 @@ Based on the result of the evaluation the following are possible:
 
 ### Designing the Visual Design System
 
-The Visual Design System should provide standards for the solution's visual look and
-feel based on the visual exploration conducted on the previous step. Fonts,
-color schemes, layout specifications should all be part of the visual
-design system.
+The Visual Design System should provide standards for the solution's visual look
+and feel based on the visual exploration conducted on the previous step. Fonts,
+color schemes, layout specifications should all be part of the visual design
+system.
