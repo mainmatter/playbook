@@ -1,8 +1,19 @@
 # Conception Workflow
 
-TODO
+When drafting concepts for effective software solutions, we work closely with
+our clients in a series of workshops to ensure we are building an application
+that solves the right problem in the right way. Our clients have unique
+expertise around their business, market and users and we help them translate
+those into a concrete application concept.
 
-### User Personas Workshop
+While applying a systematic approach to develop a good understanding of what
+will be built, we intentionally keep the conception phase limited and don't do
+excessively detailed up-front design. Instead, we aim for a quick transition to
+the execution stage in which we turn the concept into a usable application which
+serves as a much better foundation for all subsequent discussions among the
+project stakeholders than any concept could do.
+
+## User Personas Workshop
 
 Understanding the users of the solution and what they can and will do is a
 critically important step of the design process. To appropriately implement the
