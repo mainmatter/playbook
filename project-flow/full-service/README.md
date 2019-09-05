@@ -56,12 +56,12 @@ questionnaire to the client with a number of questions to narrow down the scope
 of what will be discussed in the workshops and thus make them more efficient. It
 is often advisable to conclude additional research to have more data available
 during the workshops. That can be done by analyzing data that the client already
-has like analytics data for their existing website etc. but also interviews with
+has like analytics data of an existing solution but also through interviews with
 existing or prospective users or customers.
 
 The result of the discovery stage will be a one page mission statement with a
-concise description of the problem including the relevant KPIs that all project
-stakeholders sign off on.
+concise description of the desired outcome of the project including the relevant
+KPIs that all project stakeholders sign off on.
 
 ## Conception
 
