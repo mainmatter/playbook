@@ -77,34 +77,29 @@ those consisting of:
 In addition to the task list we will prepare a designed high-fidelity mockup or
 prototype for one of the tasks to set the visual direction for the project.
 
-### Scoping
+## Scoping
 
-For each pass, we will define a scope, explicitly defining the features and
-flows that will be included in the respective pass, as well as the ones that
-will not be included. Software projects are highly dynamic in nature and the
-reality is that only one of scope or time and budget can be fixed. By limiting
-the scope per iteration we minimize that dynamic and the associated risk.
+Once we defined what will be built in the conception stage, we will define the
+scope for the current pass, explicitly listing the features and flows that will
+be included in the pass, as well as the ones that will not be included. Software
+projects are highly dynamic and the bigger the scope of a project, the easier it
+can go out of hand, leading to delays and budget overruns. By limiting the scope
+we minimize complexity and thus risk.
 
-Having agreed on an ideal solution, it is time to decide how to organize the set
-of features that make it up. The main goal of planning is to understand what it
-takes to deliver a solution of the highest possible quality, on time, and
-budget.
+For each of the flows we are scoping, we will look for potential to break those
+down into smaller increments so that a simple version can be built first which
+is then extended incrementally. That helps to further minimize complexity and
+risk and allows to decide between simple version of more features or complete
+versions of less features later in the process. We will write each of these down
+along with the description of the feature from the previous step.
 
-During planning, we think about whether time or scope is fixed for building this
-feature set (the only one can be fixed); if time is fixed, we try and identify
-aspects of the feature that could be scoped down if we have to later. We then
-try and give the customer an outlook for steps and overall duration (this is an
-estimate, not a deadline).
-
-The design and the list of documents that came out of the user journeys step are
-the foundation for the implementation phase. Of course, they can change any
-time, but it's what we start with. <We could give this a name, e.g., the
-"bundle" or whatever>.
-
-- define what is included and what is not
-- identify potential for incremental version of each feature/flow, write these
-  down
-- agree on bundle, estimate
+Once all stakeholders agree on a set of features and possibly increments for
+each of them, we bundle those up and estimate a rough timeline so that everyone
+has an idea for the general timing of the project. None of what's planned is set
+in stone and neither is the estimate. New things will be uncovered during
+execution and clients are free to change their minds about particular aspects of
+the project any time - in fact we encourage our clients to constantly validate
+we are still on the right track and reconsider things if they feel we are not.
 
 ## Execution
 
