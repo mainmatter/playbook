@@ -25,7 +25,7 @@ together with a third party, we can jump to the subsequent stage directly,
 building on the material they have already (we recommend we evaluate that
 material first though).
 
-## Definition
+## Discovery
 
 In order to find an effective solution for a business problem we need to
 identify its nature and root cause(s) first. Often a problem will only be the
@@ -43,15 +43,15 @@ website"_, _"number of support requests from users"_) to capture the situation
 before and after the solution is in place for easier
 [evaluation in later stages](#evaluation).
 
-In the definition stage of a project, we work closely with the client in a
-number of workshops that can be done on-site or remotely. It is critical to get
-all project stakeholders involved, which includes all business experts from the
+In the discovery stage of a project, we work closely with the client in a number
+of workshops that can be done on-site or remotely. It is critical to get all
+project stakeholders involved, which includes all business experts from the
 client's side who will all have relevant and potentially different viewpoints on
 the problem as well as engineers and designers from our team. Once the workshops
 concluded, all stakeholders will have a good shared understanding of the
 situation and the problem the project aims to solve.
 
-In order to make the definition stage most effective, we will send out a
+In order to make the discovery stage most effective, we will send out a
 questionnaire to the client with a number of questions to narrow down the scope
 of what will be discussed in the workshops and thus make them more efficient. It
 is often advisable to conclude additional research to have more data available
@@ -59,7 +59,7 @@ during the workshops. That can be done by analyzing data that the client already
 has like analytics data for their existing website etc. but also interviews with
 existing or prospective users or customers.
 
-The result of the definition stage will be a one page mission statement with a
+The result of the discovery stage will be a one page mission statement with a
 concise description of the problem including the relevant KPIs that all project
 stakeholders sign off on.
 
@@ -143,11 +143,11 @@ operate and maintain the application after the project completes.
 ## Evaluation
 
 Every increment of the project that is completed and released should be
-evaluated for whether the assumptions made in the definition and conception
+evaluated for whether the assumptions made in the discovery and conception
 stages prove true in reality. Ideally that evaluation can be conducted based on
 interaction of real users with the application, either based on data captured
 with an analytics system or getting feedback from users directly. We will also
-collect metrics for the KPIs defined in the [Definition stage](#definition) and
+collect metrics for the KPIs defined in the [Discovery stage](#discovery) and
 validate those improved as intended.
 
 ## Iteration
@@ -155,6 +155,6 @@ validate those improved as intended.
 Once we completed a pass through the stages, we will go on to the next pass if
 there is work left in the project. Depending on the learnings from the previous
 pass, it might or might not be necessary to go through the
-[Definition stage](#definition) again and reconsider some of the assumptions. If
+[Discovery stage](#discovery) again and reconsider some of the assumptions. If
 that is not necessary, we can go to the conception stage directly and
 conceptualize, scope and implement the next set of features.
