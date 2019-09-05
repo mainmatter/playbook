@@ -13,14 +13,13 @@ the execution stage in which we turn the concept into a usable application which
 serves as a much better foundation for all subsequent discussions among the
 project stakeholders than any concept could do.
 
-## User Personas Workshop
+## Personas Workshop
 
-Understanding the users of the solution and what they can and will do is a
-critically important step of the design process. To appropriately implement the
-solution, we must understand the user's prior knowledge, skills, needs, and
-traits that are relevant to the solution. Based on this information, the persona
-or multiple personas can be produced to bring a user-centered approach during
-the process of designing the solution.
+Understanding who the future users of the application will be is a critically
+important step for developing a good concept. Their prior knowledge, skills,
+needs, and motivations will affect all aspects of the application. By defining
+one or more key personas representing typical users of the application, we can
+base all subsequent conceptional work on those in a user-centered approach.
 
 #### What is needed for this workshop
 
