@@ -24,8 +24,8 @@ consultants to:
   linked to our consultants daily work, but is valuable as context
 - a more detailed explanation of the architecture and design of the
   application(s) our consultants will directly be working with; if there are any
-  known issues or impediments with the application, we ask our clients to
-  explain those to us as well
+  known issues with the application, we ask our clients to explain those to us
+  as well
 
 Our consultants will also require accounts and access to all relevant systems
 and tools our clients use.
@@ -77,13 +77,12 @@ of the project on-site with the client's team for a smoother start.
 
 ### Leveling up
 
-Team Augmentation projects deliver duplicate value for our clients and their
-teams. Our consultants will both actively support the client's team with new
-and ongoing product initiatives and therefore increase the team's velocity and
-at the same time they will share their unique expertise with the client's team,
-leveling team members up as they collaborate. That way they provide sustainable
-value that our clients continue to benefit from even after our consultants have
-left the project.
+Team Augmentation projects deliver double value for our clients and their teams.
+Our consultants will actively support the client's team with new and ongoing
+product initiatives, thereby increasing the team's velocity whilst sharing their
+unique expertise and leveling team members up as they collaborate. That way they
+provide sustainable value that our clients continue to benefit from even after
+our consultants leave.
 
 We apply a number of techniques in order to share our experience and know-how
 and make teams more effective:
@@ -115,11 +114,11 @@ in-house engineering team, it is important to hand them over back to the team in
 a way that enables them to extend and maintain these projects in the future.
 
 As the implementation of the project advances, we will share our progress with
-the client’s in-house team. If we are to integrate new patterns, dependencies
-or refactor parts of an existing codebase, we will explain what is being done,
-the motivation behind each of these changes and how the code will be maintained
-as the project moves forward. Once the project completes, we recommend we
-conduct a workshop with the client's team to familiarize them with the outcome.
-Our consultants can accompany the team for some time after handing over a
-project in a [Team Augmentation](#team-augmentation) setup to ensure a smooth
+the client’s in-house team. If we are to integrate new patterns, dependencies or
+refactor parts of an existing codebase, we will explain what is being done, the
+motivation behind each of these changes and how the code will be maintained as
+the project moves forward. Once the project is completed, we recommend
+conducting a workshop with the client's team to familiarize them with the
+outcome. Our consultants can accompany the team for some time after handing over
+a project in a [Team Augmentation](#team-augmentation) setup to ensure a smooth
 transition.
