@@ -21,58 +21,38 @@ needs, and motivations will affect all aspects of the application. By defining
 one or more key personas representing typical users of the application, we can
 base all subsequent conceptional work on those in a user-centered approach.
 
-#### What is needed for this workshop
+Identifying and describing the personas should not be done based on assumptions
+but instead leverage previous research, data gathered from analytics or other
+systems like CRM or customer service systems or feedback received from users
+directly. If no such data exists, we can help clients to conduct the necessary
+research or set up tracking in existing systems in order not to go ahead while
+lacking the necessary foundation and potentially going in the wrong direction.
 
-Previous user research, data sources like event logs, metrics and analytics,
-user feedback are required to validate the personas.
+### Activities
 
-- Existing user research
-- Audience segmentation report
-- Focus group studies
-- Sales and CRM data
-- Customer service data
-- Website analytics
-- Search Queries
+It is important for all project stakeholders to be involved in this meeting as
+everyone will have unique insights, experiences and expectations regarding
+existing as well as prospective customers and users. All of these thoughts must
+be represented so no crucial information is missed. The participants identify
+typical users in an open discussion, asking questions like:
 
-##### What will happen during the workshop
+- why are they interested in the in the solution?
+- what problem do they have that we are trying to solve?
+- what previous experience do they have in relation to the solution?
+- what motivates them?
+- what will make the solution appealing for them?
 
-- **Revealing the users through facilitated discussion**
+After having identified these typical users, they are grouped based on common
+characteristics. Using information gathered during previous research, the groups
+are validated against known facts, analytics data, interviews, etc. Once
+validated, the groups are named and ranked by importance to support a decision
+on which groups should be prioritized according to business goals. If a group
+fails to be validated, it needs to either be removed from the list of personas
+or be modified or potentially split up into several smaller groups.
 
-Discussion and debate are critical activities in this process, and all opinions
-must be represented. The goal of this session is to collect everyone's
-assumptions, stories, and thoughts regarding the users. Write down everything
-that is known about the users. User questions such as: Why are they interested
-in the solution? What problem are they trying to solve? What previous experience
-do they have in relation to the solution? What motivates them towards the
-solution? What will make the solution appealing for them?
-
-- **Affinity Mapping to identify clusters**
-
-An affinity map is a method used to organize large amounts of data into groups
-or themes based on identified connections and patterns. For this, we write down
-all findings, observations, or ideas on sticky notes and look for concepts that
-are related until clear groups emerge. These clusters are then named and ranked
-by importance to decide which ones should be prioritized according to business
-goals.
-
-- **Gathering Evidence**
-
-Personas are representations of the users, so the more detailed the level of
-data used to shape them, the better. Post-validate the accuracy of the clusters
-identified in the previous step against facts, analytics data, interviews, etc.
-
-For areas where no data or evidence exists, we can consider doing additional
-user research if necessary, employing methods such as surveys, focus groups,
-contextual inquiry, etc.
-
-- **Constructing and sharing the personas:**
-
-Identify each cluster with a representative name, and add any missing details to
-complete the persona, along with other attributes, such as their goals,
-behaviors, and motivations.
-
-It is important to present the personas to the entire team, along with
-scenarios, to illustrate how they are used.
+For each persona we prepare a one page overview with a description of their
+attributes, goals, behaviors, and motivations as well as some typical scenarios
+in which they would use the application to be built.
 
 ### User Journey Workshop
 
