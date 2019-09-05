@@ -93,25 +93,7 @@ make it up. The result of the User Journey Workshop is a scope and sequence of
 the content and tasks that will make up the solution. Typically, this will take
 the form of an outline or a visual representation, such as a flowchart.
 
-### Ideation Activities
-
-### Define scope or starting point
-
-Based on the previous activities, we decide on a starting point and scope for
-the ideation. It might be useful to check for existing solutions or similar
-problems. Not everything needs to be solved at once, so we'll probably want to
-split the ideation into multiple manageable parts.
-
-### Prototyping
-
-We create prototypes to represent each use case or sometimes several use cases
-to form a representation of the complete solution. This is where all is combined
-into a prototype of the solution. This will become the basis for planning and
-implementation. While not all the prototypes will be implemented, they will
-serve as a collection of all the learning and insights acquired during the
-conceptual design phase.
-
-### Brand and Visual Language Session
+## Brand and Visual Language Session
 
 The client gives us an introduction to their brand, existing brand material, and
 visual guidelines. Based on this, we might or might not need to develop a new
@@ -159,9 +141,11 @@ Based on the result of the evaluation the following are possible:
 - **The client needs a redesign that will solve the problems identified during
   the evaluation.**
 
-### Designing the Visual Design System
+## Prototyping
 
-The Visual Design System should provide standards for the solution's visual look
-and feel based on the visual exploration conducted on the previous step. Fonts,
-color schemes, layout specifications should all be part of the visual design
-system.
+We create prototypes to represent each use case or sometimes several use cases
+to form a representation of the complete solution. This is where all is combined
+into a prototype of the solution. This will become the basis for planning and
+implementation. While not all the prototypes will be implemented, they will
+serve as a collection of all the learning and insights acquired during the
+conceptual design phase.
