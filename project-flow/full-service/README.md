@@ -15,10 +15,11 @@ times:
   their needs as intended
 
 These stages will usually be passed through several times, incrementally
-building up the complete application. In the first pass, we build the minimal
-version of the application that solves the most pressing problem(s). Subsequent
-passes each extend the application incrementally, potentially addressing new
-learnings gathered during the validation phase of the previous pass.
+building up the complete application. As the first increment, we build the
+minimal version of the application that solves the most pressing problem(s).
+Subsequent increments each extend the application incrementally, potentially
+addressing new learnings gathered during the validation phase of the previous
+increment.
 
 For clients that have gone through any of the stages themselves already or maybe
 together with a third party, we can jump to the subsequent stage directly,
@@ -88,11 +89,11 @@ project.
 ### Scoping
 
 Once we defined what will be built in the conception stage, we will define the
-scope for the current pass through the stages, explicitly listing the features
-and flows that will be included in the pass, as well as the ones that will not
-be included. Software projects are highly dynamic and the bigger the scope of a
-project, the easier it can get off course, resulting in delays and budget
-overruns. By limiting the scope we minimize complexity and thus risk.
+scope for the current increment of the application, explicitly listing the
+features and flows that will be included in the increment, as well as the ones
+that will not be included. Software projects are highly dynamic and the bigger
+the scope of a project, the easier it can get off course, resulting in delays
+and budget overruns. By limiting the scope we minimize complexity and thus risk.
 
 For each of the features we are including in the scope, we will look for
 potential to break those down into smaller increments so that a simple version
@@ -133,7 +134,7 @@ ensuring a consistent look and feel of the application.
 
 ### Release & Operation
 
-In each pass through the stages, we release what we built - ideally into a
+For each increment of the appliction, we release what we built - ideally into a
 production environment so real users can access the system. For the initial
 release, that task will include choosing and setting up the server
 infrastructure and deployment process while subsequent increments will build on
@@ -152,9 +153,9 @@ validate those improved as intended.
 
 ## Iteration
 
-Once we completed a pass through the stages, we will go on to the next pass if
+Once we completed an increment, we will go on to build the next increment if
 there is work left in the project. Depending on the learnings from the previous
-pass, it might or might not be necessary to go through the
+increment, it might or might not be necessary to go through the
 [Discovery stage](#discovery) again and reconsider some of the assumptions. If
 that is not necessary, we can go to the conception stage directly and
 conceptualize, scope and implement the next set of features.
