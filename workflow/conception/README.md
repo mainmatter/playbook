@@ -52,40 +52,46 @@ or be modified or potentially split up into several smaller groups.
 
 For each persona we prepare a one page overview with a description of their
 attributes, goals, behaviors, and motivations as well as some typical scenarios
-in which they would use the application to be built.
+in which they would use the application.
 
-### User Journey Workshop
+## User Journeys Workshop
 
-For an effective solution to be developed, we need to be able to determine the
-content and the tasks that will make it up. The result of the User Journey
-Workshop is a scope and sequence of the content and tasks that will make up the
-solution. Typically, this will take the form of an outline or a visual
-representation, such as a flowchart.
+Each persona identified in the personas workshop is going to use the application
+for a particular reason and with a particular goal. In the User Journeys
+workshop we identify the journeys the users take through the application and the
+individual tasks that make those up.
 
-#### What is needed for this workshop
+The goal is not to draw high-fidelity mockups of fully designed screens but
+develop an understanding of what the individual tasks and actions are per
+journey, what the UI elements are that the users interact with and what the
+potential transitions between individual states of each journey are. This will
+lead to a number of individual features that constitute the functionality that
+the application provides and different personas will use on their user journeys.
 
-An overview of the existing screens or functionality should be provided for this
-workshop. These can be presented in as roadmaps, wireframes, flowcharts,
-funnels, or any other artifact that explicitly depicts the existing or potential
-user journeys.
+If the application is going to replace an existing system, screens and
+functionality in that system can be used as a reference for identifying the user
+journeys to be built.
 
-#### What will happen during the workshop
+### Activities
 
-- **Task Inventory**
+For each user journey, we will identify the atomic tasks that it is made up from
+and add the transitions that can occur between them. Once these are identified,
+we try to simplify the process by combining tasks or remove individual steps in
+an effort to simplify the feature. Lastly, for each task we identify the UI
+elements that are necessary for the user to trigger the actions and get the
+information they need to drive the flow.
 
-Identify the tasks relevant to the problem and describe them in detail.
+Once the user journeys have been identified and described, we break them down
+into feature descriptions. Features are the building blocks of one or more user
+journeys and are self-contained flows through the application. For each of these
+features, we draw a diagram including the involved UI elements, tasks, states
+and transitions along with a description of the feature.
 
-- **Sequencing Tasks and Task Components**
-
-Determine the order, content and sub-tasks that must occur in order to
-succesfully complete a goal. Start with the major goals and work the way down to
-sub-tasks that are associated with it. This can be done by sketching on a
-whiteboard or by placing sticky notes to form a diagram.
-
-- **Map all the tasks into a journey**
-
-Compile all the goals, tasks and steps into a single map. If more than one
-persona exists, then create a journey map for each.
+For each of the features, we will identify these For an effective solution to be
+developed, we need to be able to determine the content and the tasks that will
+make it up. The result of the User Journey Workshop is a scope and sequence of
+the content and tasks that will make up the solution. Typically, this will take
+the form of an outline or a visual representation, such as a flowchart.
 
 ### KPIs Workshop
 

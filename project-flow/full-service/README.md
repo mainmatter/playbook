@@ -75,7 +75,7 @@ engineers will conduct with the client's business experts.
 
 We will prepare a list of feature definitions, each of those consisting of:
 
-- a description of the user using the feature, their characteristics and
+- a description of the users using the feature, their characteristics and
   motivations
 - a textual description of the feature, the steps and the outcome
 - a low-fidelity flow diagram showing transitions between steps of the feature
