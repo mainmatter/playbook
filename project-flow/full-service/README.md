@@ -132,28 +132,21 @@ deployment process while subsequent increments will leverage that
 infrastructure. Depending on the client's requirements, we can operate and
 maintain the infrastructure after the project completes.
 
-## Validation
+## Evaluation
 
-
-Let's include something about user interview or similar mechanisms  **after
-release** - a validation step in which we ensure that what we built is actually
-what users want.
-
-**Testing with users**
-
-Data analysis and survey methods can be used to determine a potential subset of
-users that would be most representative for testing. In this way, we can gather
-more valuable insights and feedback.
-
-We would outline the right survey method to recruit potential test users,
-qualify them, and design the experiments.
-
-- evaluate:
-  - does the system work? is it fast etc.?
-  - does it solve the problem?
-    - user interviews
-    - data analysis, check with KPIs defined in the first step
+Every increment of the project that is completed and released should be
+evaluated for whether the assumptions made in the definition and conception
+phases prove true in reality. Ideally that evaluation can be conducted based on
+interaction by real users with the system, leveraging data extracted from the
+system or getting feedback from users directly. We will also collect metrics for
+the KPIs defined in the [Definition phase](#definition) and validate those
+improved as intended.
 
 ## Iteration
 
-- next pass
+Once we completed a pass through the stages, we will go on to the next pass if
+there is work left in the project. Depending on the learnings from the previous
+pass, it might or might not be necessary to go through the
+[Definition phase](#definition) again and reconsider some of the assumptions. If
+that is not necessary, we can go to the conception phase directly and
+conceptualize, scope and implement the next set of features.
