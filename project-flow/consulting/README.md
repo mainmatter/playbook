@@ -78,7 +78,7 @@ of the project on-site with the client's team for a smoother start.
 ### Leveling up
 
 Team Augmentation projects deliver duplicate value for our clients and their
-teams - our consultants will both actively support the client's team with new
+teams. Our consultants will both actively support the client's team with new
 and ongoing product initiatives and therefore increase the team's velocity and
 at the same time they will share their unique expertise with the client's team,
 leveling team members up as they collaborate. That way they provide sustainable
