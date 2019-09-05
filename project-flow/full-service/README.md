@@ -1,7 +1,7 @@
 # Full Service Project Flow
 
-In Full Service projects, we guide clients through an entire project, solving
-their business problems with bespoke digital products. This encompasses several
+In full service projects, we solve our clients' business problems with bespoke
+software. We guide them through the entire process which we break down into 4
 stages:
 
 - identifying and understanding the nature of the problem as well as its
@@ -9,32 +9,51 @@ stages:
 - conceptualising a software system that solves the previously identified
   problem(s)
 - implementing that system and launching it
-- validating that the product indeed solves the problems as expected
+- validating users understand and approve of the software and it addresses their
+  needs as intended
 
 These stages will usually be passed through several times. In the first pass, we
-try and build the minimal version of the system that solves the most pressing
-problem(s). Subsequent passes each extend the system incrementally, potentially
-addressing new learning gathered during the validation phase of the previous
-pass.
+try and build the minimal version of the software system that solves the most
+pressing problem(s). Subsequent passes each extend that system incrementally,
+potentially addressing new learnings gathered during the validation phase of the
+previous pass.
 
 ## Definition
 
-In the definition stage of a project, we work closely with the client in order
-to understand the business problem and the implications it has. The nature of
-the problem that needs to be addressed is often not obvious and we apply
+In order to find an effective solution for a business problem we need to
+identify the nature and root cause(s) of it first. Business problems are often
+caused by more fundamental issues that are not as easily visible and it is
+important to invest some time and effort to understand the situation properly
+before looking at a solution too early and potentially addressing a problem on
+the surface while leaving the fundamental cause unaddressed.
 
-- we need to understand the client's business first
-- what is the problem, what is its impact on the business?
-  - the root problem can be a different one than the surface problem
-- all stakeholders contribute their different views
-- results in shared understanding among the team
-- also we need to define what the situation will be when problem is solved
-  - what are the goals?
-- we might send out pre-workshop questionnaire
-- might be necessary to do research to better understand the problem, e.g. user
-  interviews
-- we can define or use some KPIs that we want to improve
-- 1 pager mission statement
+It is also important to understand the problem's impact on the business in order
+to understand the severity of the problem as well as developing an idea of what
+the situation would ideally look like once the solution is in place. We
+generally recommend identifying or creating one or more KPIs (e.g. _"number of
+checkout via the website"_, _"number of support requests from users"_) to
+capture the situation before and after the solution is in place for better
+visibility of the positive effect.
+
+In the definition stage of a project, we work closely with the client in a
+number of workshops that can be done on-site or remotely. It is critical to get
+all project stakeholders involved, which are all business experts from the
+client's side who will all have relevant and potentially different viewpoints on
+the problem as well as engineers and designers from our team. Once the workshops
+concluded, all stakeholders will have a good understanding of the situation and
+the problem the project aims to solve.
+
+In order to make the definition phase most effective, we will send out a
+questionnaire to the client with a number of questions to narrow down the scope
+of what will be discussed in the workshops and thus make them more efficient. It
+is often advisable to conclude additional research to have more data available
+during the workshops. That can be done by analyzing data that the client already
+has like analytics data of their existing website etc. but also interviews with
+existing or prospective users or customers.
+
+The result of the definition phase will be a one page mission statement with a
+concise description of the problem including the relevant KPIs that all project
+stakeholders sign off on then.
 
 ## Conception
 
