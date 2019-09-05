@@ -59,20 +59,23 @@ stakeholders sign off on then.
 
 Once the problem has been identified and is well understood by all project
 stakeholders we will look at defining a suitable solution that solves the
-problem in the most effective and efficient way. That includes identifying the
-target audience, their goals and motivations as well as the main features and
-flows of the system to be built.
+problem in the most effective and efficient way. We will define who the target
+audience of the system is going to be, what the tasks are and what the visual
+identify of the system will be. These aspects of the project are defined in a
+[number of workshops](../workflow/conception/) that our designers and engineers
+will conduct with the client's business experts.
 
-We will define each feature
+The result of the conception phase will be a list of task definitions, each of
+those consisting of:
 
-- find an appropriate solution for the problem defined in the defintion phase
-  - who are we building for (personas)
-  - what features are we building (user journeys)
-  - how will things look and work/visual language
-- potentially based on something that exists
-- outcome:
-  - flow diagrams for each feature along with description of what, how and why
-  - mockups or prototypes for 1 sample flow
+- a description of the user performing the task and their characteristics and
+  motivations
+- a textual description of the task, the steps and the outcome
+- a low-fidelity flow diagram showing transitions between steps of the tasks and
+  the respective UI elements
+
+In addition to the task list we will prepare a designed high-fidelity mockup or
+prototype for one of the tasks to set the visual direction for the project.
 
 ### Scoping
 
