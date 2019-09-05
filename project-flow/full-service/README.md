@@ -108,41 +108,30 @@ we are still on the right track and reconsider things if they feel we are not.
 
 ## Execution
 
-The implementation phase combines both executing the design and developing the
-features in code. All of the work should be tracked on the same board, following
-our iteration approach we're already using and that's described in other section
-of this playbook.
+The implementation phase combines both executing the design and turning the
+features into usable software. We will break down what's scoped into issues and
+assign them to iterations following our [process](../process/). We ask our
+clients to take an active role in the process, taking part in weekly meetings
+and following progress closely. For the latter, we keep a staging system updated
+for all stakeholders. We will build slices of the system at once, that is the
+design, backend, and frontend code of a feature so we can release features as
+usable units that can be interacted with.
 
-In the first pass of the project, this could mean that engineering can only
-start with a slight delay as the designers need to prepare enough wireframes, so
-the engineers are not blocked. We do our normal iterations-based process and
-planning, creating specific issues based on them that we bundled in the planning
-step.
+As the code of the application evolves, so does the design system that defines
+the fundamental visual framework of the application. As we build more features
+into the application, we will identify and define foundational elements of the
+UI that will later be reused in other, similar contexts. That eventually leads
+to a full framework of UI elements that the entire application is composed of,
+ensuring a consistent look and feel of the application.
 
-During implementation, we keep a staging system updated so all stakeholders can
-follow along the process. We ask our clients to join the iteration meetings ().
-We will build slices of the system at once, that is the design, backend, and
-frontend code of something so we can release these three things together. This
-way, we can be sure they work together and move on to the next slice (see 
-[basecamp.com/shapeup/3.2-chapter-10][integrating] for a good explanation).
+### Release & Operation
 
-[integrating]:
-  https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place
-
-- break down in iterations
-- design (design system will automatically result out of this incrementally),
-  implement
-  - updates every 1 or 2 weeks, client joins our calls, can change direction any
-    time
-  - keeping staging system up to date
-- launch
-- operate
-
-### Launch
-
-Post-launch we can operate the system for the client and potentially also
-validate what we built works for users. Ideally, we'd be able to do this after
-every pass of the full-service phase.
+In each pass through the stages, we release what we built - ideally into a
+production environment so real users can access the system. For the initial
+release, that will include choosing and setting up the server infrastructure and
+deployment process while subsequent increments will leverage that
+infrastructure. Depending on the client's requirements, we can operate and
+maintain the infrastructure after the project completes.
 
 ## Validation
 
