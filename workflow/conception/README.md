@@ -93,59 +93,30 @@ make it up. The result of the User Journey Workshop is a scope and sequence of
 the content and tasks that will make up the solution. Typically, this will take
 the form of an outline or a visual representation, such as a flowchart.
 
-## Brand and Visual Language Session
-
-The client gives us an introduction to their brand, existing brand material, and
-visual guidelines. Based on this, we might or might not need to develop a new
-visual language, but instead find opportunities to improve the existing one.
-
-We need to understand where the existing visual language exists and the risks
-and costs associated with changes.
-
-### Assessing the effectiveness of the Visual Design System
-
-If the visual design of the existing solution is not built on a solid
-foundation, we might find that technical and design debt is generated as we
-implement the new solution, causing the project to slow down. We want to avoid
-shipping one-off visual design solutions, but instead agree on a path forward
-with the client before executing any design.
-
-#### Visual Design System dependencies
-
-Based on the complexity and extent of a project, we might encounter that the
-existing visual design system is dependent on complementary systems such as
-branding or identity. In this case, the client needs to provide the guidelines
-and rules in the form of documentation that can be applied clearly.
-
-#### Visual Identity Evaluation
-
-We can uncover conflicts that exist between the visual identity and user or
-business needs. If for example, we have revealed that a lack of trust is
-blocking users from signing up, we might consider the brand elements effect on
-the user experience.
-
-#### Visual Design System Evaluation (usability, accessibility)
-
-In the case where the solution is an improvement to an existing app or website,
-we must ensure that the current visual design complies with our functional
-requirements and design specifications. A detailed evaluation of the existing
-visual style will be conducted to identify possible issues that might impact the
-quality of the solution. A quality solution should consist of a visual style
-that is intuitive, easy to understand by anyone, and consistent throughout the
-entire design.
-
-Based on the result of the evaluation the following are possible:
-
-- **The client doesn't need a complete visual redesign, but instead, we need to
-  adapt the design system components to fit his visual language.**
-- **The client needs a redesign that will solve the problems identified during
-  the evaluation.**
-
 ## Prototyping
 
-We create prototypes to represent each use case or sometimes several use cases
-to form a representation of the complete solution. This is where all is combined
-into a prototype of the solution. This will become the basis for planning and
-implementation. While not all the prototypes will be implemented, they will
-serve as a collection of all the learning and insights acquired during the
-conceptual design phase.
+Once we have defined what we are building and who we build for, we need to
+define how the application should eventually look and behave. In order to
+achieve that, we create a high-fidelity prototype for one of the defined
+features to develop a mutual understanding for the look and feel of the
+application. Depending on the characteristics of the application, the prototypes
+can be static mockups or interactive click-dummies. If we can, we will validate
+the prototypes with actual future users or representatives of the target
+audience.
+
+We deliberately limit ourselves to only prototyping one feature in an effort to
+not invest too much time and effort in up-front planning and specification as we
+aim to advance to the execution stage fast and run iterations based on the
+actual application instead.
+
+### Brand and Visual Language Session
+
+When building the first increment of an application, we need to develop and
+agree on a visual language with the client. That will be based on the client's
+branding and visual guidelines if such materials exist or be developed from
+scratch. In the latter case, we will apply techniques like moodboards and
+stylescapes to find a visual direction that all stakeholders agree on.
+
+The prototype(s) build the foundation for the
+[design system](../execution/design/#design-systems) that we incrementally
+develop during the execution stage of the project.

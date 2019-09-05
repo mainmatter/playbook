@@ -134,7 +134,7 @@ ensuring a consistent look and feel of the application.
 
 ### Release & Operation
 
-For each increment of the appliction, we release what we built - ideally into a
+For each increment of the application, we release what we built - ideally into a
 production environment so real users can access the system. For the initial
 release, that task will include choosing and setting up the server
 infrastructure and deployment process while subsequent increments will build on
