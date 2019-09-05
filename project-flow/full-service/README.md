@@ -70,8 +70,7 @@ identify of the system will be. These aspects of the project are defined in a
 [number of workshops](../workflow/conception/) that our designers and engineers
 will conduct with the client's business experts.
 
-The result of the conception phase will be a list of task definitions, each of
-those consisting of:
+We will prepare a list of task definitions, each of those consisting of:
 
 - a description of the user performing the task and their characteristics and
   motivations
@@ -82,7 +81,7 @@ those consisting of:
 In addition to the task list we will prepare a designed high-fidelity mockup or
 prototype for one of the tasks to set the visual direction for the project.
 
-## Scoping
+### Scoping
 
 Once we defined what will be built in the conception stage, we will define the
 scope for the current pass, explicitly listing the features and flows that will
@@ -134,6 +133,7 @@ infrastructure. Depending on the client's requirements, we can operate and
 maintain the infrastructure after the project completes.
 
 ## Validation
+
 
 Let's include something about user interview or similar mechanisms  **after
 release** - a validation step in which we ensure that what we built is actually
