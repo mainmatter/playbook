@@ -51,7 +51,7 @@ the problem as well as engineers and designers from our team. Once the workshops
 concluded, all stakeholders will have a good shared understanding of the
 situation and the problem the project aims to solve.
 
-In order to make the definition phase most effective, we will send out a
+In order to make the definition stage most effective, we will send out a
 questionnaire to the client with a number of questions to narrow down the scope
 of what will be discussed in the workshops and thus make them more efficient. It
 is often advisable to conclude additional research to have more data available
@@ -59,7 +59,7 @@ during the workshops. That can be done by analyzing data that the client already
 has like analytics data for their existing website etc. but also interviews with
 existing or prospective users or customers.
 
-The result of the definition phase will be a one page mission statement with a
+The result of the definition stage will be a one page mission statement with a
 concise description of the problem including the relevant KPIs that all project
 stakeholders sign off on.
 
@@ -114,7 +114,7 @@ immediately if they feel we are not.
 
 ## Execution
 
-The execution phase combines both building up the design as well as turning the
+The execution stage combines both building up the design as well as turning the
 feature definitions into a usable application. We will break down what's scoped
 into issues and assign them to iterations following our [process](../process/).
 We ask our clients to take an active role in the process, taking part in weekly
@@ -135,26 +135,26 @@ ensuring a consistent look and feel of the application.
 
 In each pass through the stages, we release what we built - ideally into a
 production environment so real users can access the system. For the initial
-release, that will include choosing and setting up the server infrastructure and
-deployment process while subsequent increments will leverage that
-infrastructure. Depending on the client's requirements, we can operate and
-maintain the infrastructure after the project completes.
+release, that task will include choosing and setting up the server
+infrastructure and deployment process while subsequent increments will build on
+top of that infrastructure. Depending on the client's requirements, we can
+operate and maintain the application after the project completes.
 
 ## Evaluation
 
 Every increment of the project that is completed and released should be
 evaluated for whether the assumptions made in the definition and conception
-phases prove true in reality. Ideally that evaluation can be conducted based on
-interaction by real users with the system, leveraging data extracted from the
-system or getting feedback from users directly. We will also collect metrics for
-the KPIs defined in the [Definition phase](#definition) and validate those
-improved as intended.
+stages prove true in reality. Ideally that evaluation can be conducted based on
+interaction of real users with the application, either based on data captured
+with an analytics system or getting feedback from users directly. We will also
+collect metrics for the KPIs defined in the [Definition stage](#definition) and
+validate those improved as intended.
 
 ## Iteration
 
 Once we completed a pass through the stages, we will go on to the next pass if
 there is work left in the project. Depending on the learnings from the previous
 pass, it might or might not be necessary to go through the
-[Definition phase](#definition) again and reconsider some of the assumptions. If
-that is not necessary, we can go to the conception phase directly and
+[Definition stage](#definition) again and reconsider some of the assumptions. If
+that is not necessary, we can go to the conception stage directly and
 conceptualize, scope and implement the next set of features.
