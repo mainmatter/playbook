@@ -80,7 +80,8 @@ time, but it's what we start with. <We could give this a name, e.g., the
 "bundle" or whatever>.
 
 - define what is included and what is not
-- identify potential for incremental version of each feature/flow, write these down
+- identify potential for incremental version of each feature/flow, write these
+  down
 - agree on bundle, estimate
 
 ## Execution
@@ -107,8 +108,10 @@ way, we can be sure they work together and move on to the next slice (see 
   https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place
 
 - break down in iterations
-- design (design system will automatically result out of this incrementally), implement
-  - updates every 1 or 2 weeks, client joins our calls, can change direction any time
+- design (design system will automatically result out of this incrementally),
+  implement
+  - updates every 1 or 2 weeks, client joins our calls, can change direction any
+    time
   - keeping staging system up to date
 - launch
 - operate
