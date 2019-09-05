@@ -23,6 +23,19 @@ In the definition stage of a project, we work closely with the client in order
 to understand the business problem and the implications it has. The nature of
 the problem that needs to be addressed is often not obvious and we apply
 
+- we need to understand the client's business first
+- what is the problem, what is its impact on the business?
+  - the root problem can be a different one than the surface problem
+- all stakeholders contribute their different views
+- results in shared understanding among the team
+- also we need to define what the situation will be when problem is solved
+  - what are the goals?
+- we might send out pre-workshop questionnaire
+- might be necessary to do research to better understand the problem, e.g. user
+  interviews
+- we can define or use some KPIs that we want to improve
+- 1 pager mission statement
+
 ## Conception
 
 Once the problem has been identified and is well understood by all project
@@ -33,9 +46,22 @@ flows of the system to be built.
 
 We will define each feature
 
+- find an appropriate solution for the problem defined in the defintion phase
+  - who are we building for (personas)
+  - what features are we building (user journeys)
+  - how will things look and work/visual language
+- potentially based on something that exists
+- outcome:
+  - flow diagrams for each feature along with description of what, how and why
+  - mockups or prototypes for 1 sample flow
+
 ### Scoping
 
-For each pass, we will define a scope, explicitly defining the features and flows that will be included in the respective pass, as well as the ones that will not be included. Software projects are highly dynamic in nature and the reality is that only one of scope or time and budget can be fixed. By limiting the scope per iteration we minimize that dynamic and the associated risk.
+For each pass, we will define a scope, explicitly defining the features and
+flows that will be included in the respective pass, as well as the ones that
+will not be included. Software projects are highly dynamic in nature and the
+reality is that only one of scope or time and budget can be fixed. By limiting
+the scope per iteration we minimize that dynamic and the associated risk.
 
 Having agreed on an ideal solution, it is time to decide how to organize the set
 of features that make it up. The main goal of planning is to understand what it
@@ -52,6 +78,10 @@ The design and the list of documents that came out of the user journeys step are
 the foundation for the implementation phase. Of course, they can change any
 time, but it's what we start with. <We could give this a name, e.g., the
 "bundle" or whatever>.
+
+- define what is included and what is not
+- identify potential for incremental version of each feature/flow, write these down
+- agree on bundle, estimate
 
 ## Execution
 
@@ -76,6 +106,13 @@ way, we can be sure they work together and move on to the next slice (see 
 [integrating]:
   https://basecamp.com/shapeup/3.2-chapter-10#integrating-in-one-place
 
+- break down in iterations
+- design (design system will automatically result out of this incrementally), implement
+  - updates every 1 or 2 weeks, client joins our calls, can change direction any time
+  - keeping staging system up to date
+- launch
+- operate
+
 ### Launch
 
 Post-launch we can operate the system for the client and potentially also
@@ -97,4 +134,12 @@ more valuable insights and feedback.
 We would outline the right survey method to recruit potential test users,
 qualify them, and design the experiments.
 
+- evaluate:
+  - does the system work? is it fast etc.?
+  - does it solve the problem?
+    - user interviews
+    - data analysis, check with KPIs defined in the first step
+
 ## Iteration
+
+- next pass
