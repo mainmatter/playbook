@@ -74,17 +74,21 @@ of the it will be. These aspects of the project are discussed and identified in
 a [number of workshops](../workflow/conception/) that our designers and
 engineers will conduct with the client's business experts.
 
-We will prepare a list of feature definitions, each of those consisting of:
+We will prepare a list of user stories, each of those consisting of:
 
-- a description of the users using the feature, their characteristics and
-  motivations
-- a textual description of the feature, the steps and the outcome
-- a low-fidelity flow diagram showing transitions between steps of the feature
-  and the respective UI elements
+- a description of the users involved in the user story, their characteristics
+  and motivations
+- a textual description of the user story, the steps and the outcome
+- a low-fidelity flow diagram showing transitions between steps of the user
+  story and the involved UI elements
 
-In addition to the feature list we will prepare a designed high-fidelity mockup
-or prototype for one of the features to set the visual direction for the
-project.
+For the first increment of the application, we will prepare a designed
+high-fidelity mockup or prototype for the user story that will be built first in
+the execution stage to set the visual direction for the project. For subsequent
+increments the prototyping stage won't be necessary and we'll go straight to the
+execution stage building on the
+[visual design system](../../workflow/execution/design/#design-systems)
+established in previous increments.
 
 ### Scoping
 
