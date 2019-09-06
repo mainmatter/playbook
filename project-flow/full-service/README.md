@@ -93,21 +93,21 @@ established in previous increments.
 ### Scoping
 
 Once we defined what will be built in the conception stage, we will define the
-scope for the current increment of the application, explicitly listing the
-features and flows that will be included in the increment, as well as the ones
-that will not be included. Software projects are highly dynamic and the bigger
-the scope of a project, the easier it can get off course, resulting in delays
-and budget overruns. By limiting the scope we minimize complexity and thus risk.
+scope for the current increment of the application, explicitly listing the user
+stories that will be included in the increment, as well as the ones that will
+not be included. Software projects are highly dynamic and the bigger the scope
+of a project, the easier it can get off course, resulting in delays and budget
+overruns. By limiting the scope we minimize complexity and thus risk.
 
-For each of the features we are including in the scope, we will look for
+For each of the user stories we are including in the scope, we will look for
 potential to break those down into smaller increments so that a simple version
-of a feature can be built first which is then extended incrementally. That helps
-to further minimize complexity and risk and allows to decide between having
-simple version of more features or complete versions of less features later in
-the process. We will write each of these down along with the description of the
-feature from the previous step.
+of a user story can be built first which is then extended incrementally. That
+helps to further minimize complexity and risk and allows to decide between
+having simple version of more user stories or complete versions of less user
+stories later in the process. We will write each of these down along with the
+description of the user story from the previous step.
 
-Once all stakeholders agree on a set of features and possibly increments for
+Once all stakeholders agree on a set of user stories and possibly increments for
 each of them, we bundle those up and estimate a rough timeline so that everyone
 has an idea for the general timing of the project. None of what's planned is
 irrevocable though and neither is the estimate more than an assessment based on
@@ -120,21 +120,21 @@ immediately if they feel we are not.
 ## Execution
 
 The execution stage combines both building up the design as well as turning the
-feature definitions into a usable application. We will break down what's scoped
-into issues and assign them to iterations following our [process](../process/).
-We ask our clients to take an active role in the process, taking part in weekly
-meetings and following progress closely. For the latter, we keep a staging
-system updated, available to all stakeholders. We will build slices of the
-system at once, including everything from the design, backend, and frontend code
-of a feature so we can release features as usable units that can be interacted
-with by the client.
+user story definitions into a usable application. We will break down what's
+scoped into issues and assign them to iterations following our
+[process](../process/). We ask our clients to take an active role in the
+process, taking part in weekly meetings and following progress closely. For the
+latter, we keep a staging system updated, available to all stakeholders. We will
+build slices of the system at once, including everything from the design,
+backend, and frontend code of a user story so we can release them as usable
+units that can be interacted with by the client.
 
 As the code of the application evolves, so does the design system that defines
-the fundamental visual framework of the application. As we build more features
-into the application, we will identify and define foundational elements of the
-UI that will later be reused in other, similar contexts. That eventually leads
-to a full framework of UI elements that the entire application is composed of,
-ensuring a consistent look and feel of the application.
+the fundamental visual framework of the application. As we complete more user
+stories and the application advances, we will identify and define foundational
+elements of the UI that will later be reused in other, similar contexts. That
+eventually leads to a full framework of UI elements that the entire application
+is composed of, ensuring a consistent look and feel of the application.
 
 ### Release & Operation
 
