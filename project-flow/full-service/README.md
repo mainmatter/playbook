@@ -83,12 +83,10 @@ We will prepare a list of user stories, each of those consisting of:
   story and the involved UI elements
 
 For the first increment of the application, we will prepare a designed
-high-fidelity mockup or prototype for the user story that will be built first in
-the execution stage to set the visual direction for the project. For subsequent
-increments the prototyping stage won't be necessary and we'll go straight to the
-execution stage building on the
-[visual design system](../../workflow/execution/design/#design-systems)
-established in previous increments.
+high-fidelity mockup or prototype for one user story in order to agree on the
+general visual direction with all stakeholders. For subsequent increments and
+user stories, we go straight to the execution stage building on the visual
+direction established earlier.
 
 ### Scoping
 

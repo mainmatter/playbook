@@ -94,19 +94,21 @@ Once we have defined what we are building and who we build for, we need to
 define how the application should eventually look and behave. In order to
 achieve that, we create a high-fidelity prototype for one of the defined user
 stories to develop a mutual understanding for the look and feel of the
-application. Depending on the characteristics of the application, the prototypes
-can be static mockups or interactive click-dummies. If we can, we will validate
-the prototypes with actual future users or representatives of the target
+application. Depending on the characteristics of the application, the prototype
+can be a static mockup or an interactive click-dummy. If we can, we will
+validate the prototype with future users or representatives of the target
 audience.
 
-We deliberately limit ourselves to only prototyping one user story in an effort
-to not invest too much time and effort in up-front planning and specification as
-we aim to advance to the execution stage fast and run iterations based on the
-actual application instead.
+We only prepare the prototype for the first increment of the application, for
+the user story that will be built first in the execution stage to set the visual
+direction for the project. For subsequent increments the prototyping stage is
+not necessary and we'll go straight to the execution stage building on the
+[visual design system](../execution/design/#design-systems) established in
+previous increments.
 
 ### Brand and Visual Language Session
 
-When building the first increment of an application, we need to develop and
+When building the first increment of an application, we also need to develop and
 agree on a visual language with the client. That will be based on the client's
 branding and visual guidelines if such materials exist or be developed from
 scratch. In the latter case, we will apply techniques like moodboards and
