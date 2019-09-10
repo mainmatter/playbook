@@ -137,33 +137,35 @@ following our [process](../process/). As we do that, our engineers and designers
 continue to work closely with clients. We will discuss individual facets of user
 stories as well as different alternatives for designing and implementing those
 along with the associated effort, involving the client in all decisions that are
-made.
+made along the way.
 
 We build slices of the system at once, including everything from the design,
 backend, and frontend code of a particular user story so we can release them as
 functional units that can be interacted with by the client. Once a slice is
 finished, it will be released to a staging system that is available for all
 project stakeholders. We will ask the stakeholders to make use of the staging
-system to follow along the progress and validate the application is built
+system to follow the project's progress and validate the application is built
 according to their expectations. Feedback given by stakeholders will be
-addressed by the designers and engineers so that the application iteratively
-evolves.
+collected by the project team and addressed in issues in subsequent iterations
+of the execution stage or moved into a later increment of the project depending
+on the finding's priority.
 
-As the code of the application evolves, so does the design system that defines
-the fundamental visual framework of the application. As we complete more user
-stories and the application advances, we will identify and define foundational
-elements that will later be reused in other, similar contexts. That way, each
-increment of the application results in its foundation becoming broader and
-stronger, resulting in increased effectiveness over time.
+As we complete more user stories and the application evolves, we identify and
+define foundational elements that will later be reused in other, similar
+contexts - both in the application's codebase as well as in the visual design
+system. That way, each increment of the application results in its foundation
+becoming broader and stronger, resulting in increased effectiveness over time,
+decreasing effort per user story and increasing planning reliability.
 
 ### Release & Operation
 
 Once an increment of the application is complete, we release what we built -
-ideally into a production environment so real users can access the system. For
-the initial release, that task will include choosing and setting up the server
-infrastructure and deployment process. Subsequent increments will build on top
-of that infrastructure. Depending on the client's own expertise, we can operate
-and maintain the application after the project completes.
+ideally into a production environment so real users can access the system and
+first hand feedback can be collected. For the initial release, that task will
+include choosing and setting up the server infrastructure and deployment
+process. Subsequent increments will build on top of that infrastructure.
+Depending on the client's own expertise and capabilities, we can operate and
+maintain the application for them.
 
 ## Evaluation
 
