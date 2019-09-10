@@ -42,17 +42,19 @@ insights and experiences that must all be heard in order to clearly understand
 the situation and define the project's objective. It is often advisable to
 conclude additional research to make more data available for the workshop. That
 can be done by analyzing data that the client already has like analytics data
-from an existing application but also through interviews with existing or
-prospective users or customers or analyzing publicly available datasets.
+from an existing application, data from a CRM or customer service system but
+also through interviews with existing or prospective users or customers or
+analyzing publicly available datasets.
 
 The outcome of the discovery workshop is a shared understanding among the
-project team about what the current situation and the project's objetives are.
-We will write these down in a concise mission statement document to clearly
-define the project's goal. We also recommend defining one or more KPIs (e.g.
-_"number of checkout via the website"_, _"number of support requests from
-users"_) to capture the situation before and after the project for easier
-[evaluation in later stages](#evaluation). If no data is available for these
-KPIs, it might be necessary to set up additional tracking or conduct research.
+project team about what the current situation, the project's objetives and the
+target audience are. We will write these down in a concise mission statement
+document to clearly define the project's goal. We also recommend defining one or
+more KPIs (e.g. _"number of checkout via the website"_, _"number of support
+requests from users"_) to capture the situation before and after the project for
+easier [evaluation in later stages](#evaluation). If no data is available for
+these KPIs, it might be necessary to set up additional tracking or conduct
+research.
 
 ## Conception
 

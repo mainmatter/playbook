@@ -14,48 +14,6 @@ we then extend in short iteration cycles. A real application that can be
 interacted with serves as a much better foundation for all subsequent
 discussions among the project stakeholders than any static concept could do.
 
-## Personas Workshop
-
-Understanding who the future users of the application will be is a critically
-important step for developing a good concept. Their prior knowledge, skills,
-needs, and motivations will affect all aspects of the application. By defining
-one or more key personas representing typical users of the application, we can
-base all subsequent conceptional work on those in a user-centered approach.
-
-Identifying and describing the personas should not be done based on assumptions
-but instead leverage previous research, data gathered from analytics or other
-systems like CRM or customer service systems or in the best case feedback
-received from users directly. If no such data exists, we can help clients to
-conduct the necessary research or set up tracking in existing systems in order
-to prevent basing the entire concept on invalid assumptions.
-
-### Activities
-
-It is important for all project stakeholders to be involved in this meeting as
-everyone will have unique insights, experiences and expectations regarding
-existing as well as prospective customers and users. All of these thoughts must
-be represented so no crucial information is missed. The participants identify
-typical users in an open discussion, asking questions like:
-
-- why is the user interested in the in the solution?
-- what problem does the user have that we are trying to solve?
-- what previous experience does the user have in relation to the solution?
-- what motivates the user?
-- what will make the solution appealing to the user?
-
-After having identified typical users of the system to be built, they are
-grouped based on common characteristics. Using information gathered during
-previous research, these groups are validated against known facts, analytics
-data, interviews, etc. Once validated, the groups are named and ranked by
-importance to support a decision on which groups should be prioritized according
-to business goals. If a group fails to be validated, it needs to either be
-removed from the list of personas or be modified or potentially split up into
-several smaller groups.
-
-For each persona we prepare a one page overview with a description of their
-attributes, goals, behaviours, and motivations as well as some typical scenarios
-in which they would use the application.
-
 ## User Stories Workshop
 
 Each persona identified in the personas workshop is going to use the application
