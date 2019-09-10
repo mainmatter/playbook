@@ -45,8 +45,9 @@ stories to be built.
 
 ### Activities
 
-Each self-contained piece of functionality that the application provides is converted into a user story. Some of those might also
-appear in more than one user journey.
+Each self-contained piece of functionality that the application provides is
+converted into a user story. Some of those might also appear in more than one
+user journey.
 
 For each of these user stories, we identify:
 
