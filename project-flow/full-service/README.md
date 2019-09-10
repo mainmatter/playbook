@@ -1,65 +1,58 @@
 # Full Service Project Flow
 
-In full service projects, we solve our clients' business problems with bespoke
+In full service projects, we solve our clients' business needs with bespoke
 software applications. In order to do that in the most efficient way, we break
 the process down into 4 stages that we guide our clients through:
 
-- identifying and understanding the nature of the problem as well as its
-  implications
-- conceptualising an application that solves the previously identified
-  problem(s)
+- identifying and understanding what objective the project is aiming at
+- conceptualising an application that pursues that objective
 - implementing that application and launching it
-- validating the application solves the problem(s) as intended
+- validating the application indeed achieves the objective
 
 These stages will usually be passed through several times, incrementally
-building up the complete application. As the first increment, we build the
-minimal version of the application that solves the most pressing problem(s).
-Subsequent increments each extend the application, potentially addressing new
-learnings gathered during the validation stage of the previous increment.
+building up the application. For the first increment of the project, we build
+the minimal set of features necessary move towards the client's objective.
+Subsequent increments each extend the application, adding new features and
+extending ones added in previous increment while potentially addressing new
+learnings gathered during the validation stages of previous increments.
 
-For clients that have gone through any of these stages themselves already or
-maybe together with a third party, we can jump to the subsequent stage directly,
-building on the material they have already (we recommend we evaluate that
-material first though).
+For clients that have gone through any of these stages themselves or together
+with a third party, we can jump to the subsequent stage directly, building on
+the material they have already (we recommend we evaluate that material first
+though).
 
 ## Discovery
 
-In order to find an effective solution for a business problem we need to
-identify its nature and root cause(s) first. Often a problem that is visible on
-the surface will only be the consequence of a deeper, more fundamental issue
-which might not be as easily identifiable. In order to spend our time most
-efficiently, we invest some time and effort to understand the situation properly
-before looking at a solution too early and potentially focussing on a problem on
-the surface only while leaving the fundamental cause unaddressed.
+In order to build an application that effectively achieves a particular
+objective for a client, we first of all need to understand what specifically
+that objective is. We will work closely with the client in a workshop to
+understand what exact value the application we are building is going to provide
+that is currently lacking. Together, we will answer questions likt:
 
-It is also important to understand the problem's impact on the business in order
-to understand its severity as well as develop an idea of what the situation
-would ideally look like once the solution is in place. We generally recommend
-defining one or more KPIs (e.g. _"number of checkout via the website"_, _"number
-of support requests from users"_) to capture the situation before and after the
-solution is in place for easier [evaluation in later stages](#evaluation). If no
-data is available for these KPIs, it might be necessary to set up additional
-tracking or conduct research.
+- what is it that is currently missing or that we are aiming to improve?
+- who is the target audience for the application we are building in the project
+  (e.g. the client themselves, their customers or their business partners)
+- what should be the effect on the business once the solution is in place (e.g.
+  more sales via the client's website)
 
-In the discovery stage of a project, we work closely with the client in a number
-of workshops that can be done on-site or remotely. It is critical to get all
-project stakeholders involved, which includes all business experts from the
-client's side who will all have relevant and potentially different viewpoints on
-the problem as well as engineers and designers from our team. Once the workshops
-concludes, all stakeholders will have a good mutual understanding of the
-situation and the problem the project aims to solve.
+It is critical to get all project stakeholders involved in this workshop, in
+particular all of the client's business experts from various backgrounds like
+marketing, sales, customer service etc. All of these groups will have unique
+insights and experiences that must all be heard in order to clearly understand
+the situation and define the project's objective. It is often advisable to
+conclude additional research to make more data available for the workshop. That
+can be done by analyzing data that the client already has like analytics data
+from an existing application but also through interviews with existing or
+prospective users or customers or analyzing publicly available datasets.
 
-In order to make the discovery stage most effective, we will send out a
-questionnaire to the client with a number of questions to narrow down the scope
-of what will be discussed in the workshops, making those more efficient. It is
-often advisable to conclude additional research to make more data available for
-the workshops. That can be done by analyzing data that the client already has
-like analytics data of an existing solution but also through interviews with
-existing or prospective users or customers.
-
-The result of the discovery stage will be a one page mission statement with a
-concise description of the desired outcome of the project including the relevant
-KPIs that all project stakeholders sign off on.
+The outcome of the discovery workshop is a shared understanding among the
+project team about what the current situation and the project's objetives are.
+We will write these down in a concise mission statement document to clearly
+define the project's goal. We also recommend defining one or more KPIs (e.g.
+_"number of checkout via the website"_, _"number of support requests from
+users"_) to capture the situation before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
 
 ## Conception
 
