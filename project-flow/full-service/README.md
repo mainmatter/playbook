@@ -121,9 +121,11 @@ We build slices of the system at once, including everything from the design,
 backend, and frontend code of a particular user story so we can release them as
 functional units that can be interacted with by the client. Once a slice is
 finished, it will be released to a staging system that is available for all
-project stakeholders. We will ask the stakeholders to make use the staging
-system to follow along the progress and validate the project is moving in the
-intended direction.
+project stakeholders. We will ask the stakeholders to make use of the staging
+system to follow along the progress and validate the application is built
+according to their expectations. Feedback given by stakeholders will be
+addressed by the designers and engineers so that the application iteratively
+evolves.
 
 As the code of the application evolves, so does the design system that defines
 the fundamental visual framework of the application. As we complete more user
