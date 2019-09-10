@@ -56,29 +56,30 @@ KPIs, it might be necessary to set up additional tracking or conduct research.
 
 ## Conception
 
-Once the problem has been identified and is well understood by all project
-stakeholders we will go on to define a suitable solution that solves the problem
-in the most effective and efficient way. We will define who the target audience
-of the application is and what its features will be and how those will function
-as well as what the visual identity of the application will be. These aspects of
-the project are discussed and identified in a
+Once the objective of the project has been identified and is well understood by
+all stakeholders, we will go on to define a solution that is suited to achieve
+that objective. We will define typical users of the application and what its
+features will be and how those will function as well as what its visual identity
+will be. These aspects of the project are defined in a
 [number of workshops](../workflow/conception/) that our designers and engineers
 will conduct with the client's business experts.
 
 In this stage, we will prepare a list of user stories, each of those consisting
 of:
 
-- a description of the users involved in the user story, their characteristics
-  and motivations
-- a textual description of the user story, the steps and the outcome
+- a description of the users involved in the user story
+- a textual description of the user story, the problem that it addresses and the
+  solution that it provides
 - a low-fidelity diagram showing steps in the user story, the involved UI
-  elements and transitions between states in the user story's flow
+  elements and transitions between steps
+- building blocks of each user story, explicitly marked as essential or
+  non-essential along with potential edge cases
 
-For the first increment of the application, we will prepare a fully designed,
-high-fidelity mockup or prototype for one user story in order to agree on the
-visual direction with all stakeholders. For subsequent increments and user
-stories, we go straight to the execution stage building on the visual direction
-established in previous increments.
+For the first increment of the application, we will prepare a high-fidelity
+prototype for one user story in order to define the application's visual
+identity. For subsequent increments, we skip the prototyping step and go
+straight to the execution stage building on the visual identity established in
+previous increments.
 
 ### Scoping
 
