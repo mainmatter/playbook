@@ -89,7 +89,7 @@ a customer's orders). Every user story consists of:
 - the persona(s) that the user story caters to
 - a low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
-- non-essential fragments of each user story along with identified edge cases
+- non-essential aspects of each user story along with identified edge cases
 
 For the first increment of the application, we will prepare a high-fidelity
 prototype for one user story in order to define the application's visual
@@ -97,40 +97,47 @@ identity. For subsequent increments, we can skip the prototyping step and go
 straight to the execution stage building on the visual identity established
 earlier.
 
-### Scoping
+### Planning
 
-Once we defined the user stories in the conception stage, we set the scope for
+Once we defined the user stories in the conception stage, we define a plan for
 the current increment of the application. For each user user story that we are
-aiming to implement, we will list which of the non-essential fragments and edge
-cases will be included in the increment, which ones will not and which ones will
-be moved to a later increment if we are running out of time. Excluded fragments
-and edge cases will be addressed in later increments of the project.
+aiming to implement, we will list which of the non-essential aspects and edge
+cases will be included in the increment (e.g. configuring products of the most
+successful category), which ones will not (e.g. configuring products with little
+sales volume) and which ones will be moved to a later increment if we are
+running out of time (e.g. allowing customers to see the status of past orders).
+Excluded aspects and edge cases will be addressed in later increments of the
+project.
 
 Software projects are highly dynamic and the bigger the scope of a project, the
 easier it can get off course, resulting in delays and budget overruns. By
-limiting the scope per increment we minimize complexity and thus risk while
-allowing a decision between implementing essential versions of more user stories
-or covering more non-essential fragments and edge cases for less user stories
-later on in the process.
+limiting the scope per increment and introducing escape hatches we minimize
+complexity and thus risk while allowing clients to make a decision between
+implementing essential versions of more user stories versus covering more
+non-essential aspects and edge cases for less user stories later on.
 
-Once all stakeholders agree on a set of user stories and included as well as
-excluded fragments and edge cases, we write those down in an increment plan and
-estimate a rough timeline. However, that plan is not irrevocable and neither is
-the estimate more than an assessment based on the information available at the
-time. Previously unknown challenges will be uncovered during execution and
-clients are free to change their minds about particular aspects of the project
-any time as well - in fact we encourage them to constantly validate we are still
-on the right track and raise concerns immediately if they feel we are not.
+Once all stakeholders agree on the plan for the current increment of the
+project, we write down the list of user stories and included as well as excluded
+aspects and edge cases in an increment plan and estimate a rough timeline. That
+plan is not irrevocable and neither is the estimate more than an assessment
+based on the information available at the time though. Previously unknown
+challenges will likely be uncovered during execution and new learning will be
+made. We encourage clients to constantly question assumptions and priorities and
+ask for a change of plan anytime they feel suitable. It is possible at any time
+to go back to the planning stage for an increment and plan different user
+stories, include or exclude different aspects of them or even start over with
+discovery or conception if new business objectives are identified.
 
 ## Execution
 
 In the execution phase of an increment, we turn user stories into usable
-features or the application. We will break down the user stories that were
-scoped for the increment into fine-grained issues and assign them to iterations
+features of the application, iteratively building it up over time. We will break
+down the user stories into fine-grained issues and assign those to iterations
 following our [process](../process/). As we do that, our engineers and designers
-continue to work closely with clients, discussing individual aspects of user
-stories as well as different alternatives for designing and implementing them
-along with the associated effort.
+continue to work closely with clients. We will discuss individual facets of user
+stories as well as different alternatives for designing and implementing those
+along with the associated effort, involving the client in all decisions that are
+made.
 
 We build slices of the system at once, including everything from the design,
 backend, and frontend code of a particular user story so we can release them as
