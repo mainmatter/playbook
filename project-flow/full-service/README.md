@@ -11,10 +11,10 @@ the process down into 4 stages that we guide our clients through:
 
 These stages will usually be passed through several times, incrementally
 building up the application. For the first increment of the project, we build
-the minimal set of features necessary move towards the client's objective.
-Subsequent increments each extend the application, adding new features and
-extending ones added in previous increment while potentially addressing new
-learnings gathered during the validation stages of previous increments.
+the minimal set of functionality necessary to pursue the client's objective.
+Subsequent increments each extend the application, adding new functionality and
+extending functionality added in previous increment while potentially addressing
+new learnings gathered during the validation stages of previous increments.
 
 For clients that have gone through any of these stages themselves or together
 with a third party, we can jump to the subsequent stage directly, building on
@@ -27,7 +27,7 @@ In order to build an application that effectively achieves a particular
 objective for a client, we first of all need to understand what specifically
 that objective is. We will work closely with the client in a workshop to
 understand what exact value the application we are building is going to provide
-that is currently lacking. Together, we will answer questions likt:
+that is currently lacking. Together, we will answer questions like:
 
 - what is it that is currently missing or that we are aiming to improve?
 - who is the target audience for the application we are building in the project
@@ -60,16 +60,11 @@ research.
 
 Once the objective of the project has been identified and is well understood by
 all stakeholders, we will go on to define a solution that is suited to achieve
-that objective. We will define typical users of the application and what its
-features will be and how those will function as well as what its visual identity
-will be. These aspects of the project are defined in a
-[number of workshops](../workflow/conception/) that our designers and engineers
-will conduct with the client's business experts.
+that objective. We work closely with the client in a
+[number of workshops](../workflow/conception/) and for the set of functionality
+that is to be built in the current increment of the project, will prepare a list
+of user stories, each of those consisting of:
 
-In this stage, we will prepare a list of user stories, each of those consisting
-of:
-
-- a description of the users involved in the user story
 - a textual description of the user story, the problem that it addresses and the
   solution that it provides
 - a low-fidelity diagram showing steps in the user story, the involved UI
