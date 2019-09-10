@@ -26,14 +26,35 @@ though).
 In order to build an application that effectively achieves a particular
 objective for a client, we first of all need to understand what specifically
 that objective is. We will work closely with the client in a workshop to
-understand what exact value the application we are building is going to provide
-that is currently lacking. Together, we will answer questions like:
+identify answers to these questions:
 
-- what is it that is currently missing or that we are aiming to improve?
-- who is the target audience for the application we are building in the project
-  (e.g. the client themselves, their customers or their business partners)
+- what specifically is it that is currently lacking or that we are aiming to
+  improve (e.g. customers having to call the client in order to configure the
+  client's product specifically to their needs)?
+- who is going to use the application we are building? (e.g. the client
+  themselves or their customers)
 - what should be the effect on the business once the solution is in place (e.g.
-  more sales via the client's website)
+  increased sales via the client's website; reduced workload for the client's
+  sales team)
+
+Together with the client we will identify the most suitable kind of solution to
+achieve the project's objective (e.g. a web-based product configurator that
+allows customers to configure the client's product according to their needs and
+order that configuration via the client's website). That information will be
+written down in a one-page mission statement document to clearly express the
+project's scope and goals. We also recommend defining one or more KPIs (e.g.
+_"number of sales via the website"_, _"number of support requests from users"_)
+to capture the situation before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
+
+In addition to the mission statement, we will also define the future users of
+the solution that is to be build along with their prior knowledge, skills,
+needs, and motivations with regard to the application. We will identify one or
+more typical users representative of the expected userbase, the personas, and
+describe them in a personas document. A good understanding of an application's
+personas is a key prerequisite for developing an application that effectively
+caters to the specific needs of its future users.
 
 It is critical to get all project stakeholders involved in this workshop, in
 particular all of the client's business experts from various backgrounds like
@@ -45,16 +66,6 @@ can be done by analyzing data that the client already has like analytics data
 from an existing application, data from a CRM or customer service system but
 also through interviews with existing or prospective users or customers or
 analyzing publicly available datasets.
-
-The outcome of the discovery workshop is a shared understanding among the
-project team about what the current situation, the project's objetives and the
-target audience are. We will write these down in a concise mission statement
-document to clearly define the project's goal. We also recommend defining one or
-more KPIs (e.g. _"number of checkout via the website"_, _"number of support
-requests from users"_) to capture the situation before and after the project for
-easier [evaluation in later stages](#evaluation). If no data is available for
-these KPIs, it might be necessary to set up additional tracking or conduct
-research.
 
 ## Conception
 
