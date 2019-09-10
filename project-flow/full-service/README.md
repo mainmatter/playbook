@@ -180,10 +180,11 @@ and verify those improved as planned.
 
 ## Iteration
 
-Once we completed an increment, we will go on to build the next increment as
-long as there is work left in the project. Depending on the learnings from the
-previous increment, it might or might not be necessary to go through the
-[Discovery stage](#discovery) again, reconsider some of the assumptions and
-adapt the project's objective. If that is not necessary, we can go to the
-conception stage directly and conceptualise, scope and implement the next set of
-user stories.
+Once we complete an increment of the project, we will go on to build the next
+increment as long as there is functionality to add and aspects of the
+application to improve. Depending on the learnings from the previous increment,
+it might be necessary to go through the [Discovery stage](#discovery) again,
+reconsider some of the assumptions and adapt the project's objective. If that is
+not necessary, we can go to the conception stage directly and conceptualise,
+scope and implement the next set of user stories, followed by executing that new
+plan, evaluating what was built etc.
