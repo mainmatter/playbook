@@ -72,8 +72,7 @@ of:
   solution that it provides
 - a low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
-- building blocks of each user story, explicitly marked as essential or
-  non-essential along with potential edge cases
+- non-essential fragments of each user story along with identified edge cases
 
 For the first increment of the application, we will prepare a high-fidelity
 prototype for one user story in order to define the application's visual
@@ -83,56 +82,59 @@ previous increments.
 
 ### Scoping
 
-Once we defined what will be built in the conception stage, we will define the
-scope for the current increment of the application, explicitly listing the user
-stories that will be included in the increment, but also the ones that will not
-be included. Software projects are highly dynamic and the bigger the scope of a
-project, the easier it can get off course, resulting in delays and budget
-overruns. By limiting the scope per increment we minimize complexity and thus
-risk.
+Once we defined the user stories in the conception stage, we set the scope for
+the current increment of the application. For each user user story that we are
+aiming to implement, we will list which of the non-essential fragments and edge
+cases will be included in the increment, which ones will not and which ones will
+be moved to a later increment if we are running out of time. Excluded fragments
+and edge cases will be addressed in later increments of the project.
 
-For each of the user stories we are including in the scope, we will look for
-potential to break the stories down into smaller steps so that a simple version
-of a user story could be built first which is then extended incrementally. That
-helps to further minimize complexity and risk and allows to decide between
-either focussing on simple version of more user stories or complete versions of
-less user stories later in the process. We will write each of these breakdowns
-down along with the description of the user story from the previous step.
+Software projects are highly dynamic and the bigger the scope of a project, the
+easier it can get off course, resulting in delays and budget overruns. By
+limiting the scope per increment we minimize complexity and thus risk while
+allowing a decision between implementing essential versions of more user stories
+or covering more non-essential fragments and edge cases for less user stories
+later on in the process.
 
-Once all stakeholders agree on a set of user stories and possibly breakdowns for
-each of them, we bundle those up and estimate a rough timeline so that everyone
-has an idea for the general timing of the project. None of what's planned is
-irrevocable though and neither is the estimate more than an assessment based on
-the information available at the time. Previously unknown challenges will be
-uncovered during execution and clients are free to change their minds about
-particular aspects of the project any time as well - in fact we encourage them
-to constantly validate we are still on the right track and raise concerns
-immediately if they feel we are not.
+Once all stakeholders agree on a set of user stories and included as well as
+excluded fragments and edge cases, we write those down in an increment plan and
+estimate a rough timeline. However, that plan is not irrevocable and neither is
+the estimate more than an assessment based on the information available at the
+time. Previously unknown challenges will be uncovered during execution and
+clients are free to change their minds about particular aspects of the project
+any time as well - in fact we encourage them to constantly validate we are still
+on the right track and raise concerns immediately if they feel we are not.
 
 ## Execution
 
-The execution stage combines both building up the design as well as turning the
-user story definitions into a usable application. We will break down what's
-scoped into issues and assign them to iterations following our
-[process](../process/). We ask our clients to stay closely connected with our
-team during the execution phase, taking part in weekly meetings and following
-progress closely. For the latter, we keep a staging system updated, available to
-all stakeholders. We will build slices of the system at once, including
-everything from the design, backend, and frontend code of a user story so we can
-release them as usable units that can be interacted with by the client.
+In the execution phase of an increment, we turn user stories into usable
+features or the application. We will break down the user stories that were
+scoped for the increment into fine-grained issues and assign them to iterations
+following our [process](../process/). As we do that, our engineers and designers
+continue to work closely with clients, discussing individual aspects of user
+stories as well as different alternatives for designing and implementing them
+along with the associated effort.
+
+We build slices of the system at once, including everything from the design,
+backend, and frontend code of a particular user story so we can release them as
+functional units that can be interacted with by the client. Once a slice is
+finished, it will be released to a staging system that is available for all
+project stakeholders. We will ask the stakeholders to make use the staging
+system to follow along the progress and validate the project is moving in the
+intended direction.
 
 As the code of the application evolves, so does the design system that defines
 the fundamental visual framework of the application. As we complete more user
 stories and the application advances, we will identify and define foundational
-elements of the UI that will later be reused in other, similar contexts. That
-eventually leads to a full framework of UI elements that the entire application
-is composed of, ensuring a consistent look and feel of the application.
+elements that will later be reused in other, similar contexts. That way, each
+increment of the application results in its foundation becoming broader and
+stronger, resulting in increased effectiveness over time.
 
 ### Release & Operation
 
-For each increment of the application, we release what we built - ideally into a
-production environment so real users can access the system. For the initial
-release, that task will include choosing and setting up the server
+Once an increment of the application is complete, we release what we built -
+ideally into a production environment so real users can access the system. For
+the initial release, that task will include choosing and setting up the server
 infrastructure and deployment process. Subsequent increments will build on top
 of that infrastructure. Depending on the client's own expertise, we can operate
 and maintain the application after the project completes.
@@ -141,11 +143,12 @@ and maintain the application after the project completes.
 
 Every increment of the project that is completed and released should be
 evaluated for whether the assumptions made in the discovery and conception
-stages prove true in reality. Ideally that evaluation can be conducted based on
+stages prove true in reality and the application achieves the project's
+objective as intended. Ideally that evaluation can be conducted based on
 interaction of real users with the application, either based on data captured
 with an analytics system or getting feedback from users directly. We will also
 collect metrics for the KPIs defined in the [Discovery stage](#discovery) and
-validate those improved as intended.
+validate those improved as planned.
 
 ## Iteration
 
@@ -154,4 +157,4 @@ long as there is work left in the project. Depending on the learnings from the
 previous increment, it might or might not be necessary to go through the
 [Discovery stage](#discovery) again and reconsider some of the assumptions. If
 that is not necessary, we can go to the conception stage directly and
-conceptualise, scope and implement the next set of features.
+conceptualise, scope and implement the next set of user stories.
