@@ -11,10 +11,8 @@ the process down into 4 stages that we guide our clients through:
 
 These stages will usually be passed through several times, incrementally
 building up the application. For the first increment of the project, we build
-the minimal set of functionality necessary to pursue the client's objective.
-Subsequent increments each extend the application, adding new functionality and
-extending functionality added in previous increment while potentially addressing
-new learnings gathered during the validation stages of previous increments.
+the minimal set of functionality only, extending and improving that in
+subsequent increments.
 
 For clients that have gone through any of these stages themselves or together
 with a third party, we can jump to the subsequent stage directly, building on
@@ -24,9 +22,9 @@ though).
 ## Discovery
 
 In order to build an application that effectively achieves a particular
-objective for a client, we first of all need to understand what specifically
-that objective is. We will work closely with the client in a workshop to
-identify answers to these questions:
+objective for a client, we first of all need to understand what exactly that
+objective is. We will work closely with the client in a workshop to identify
+answers to these questions:
 
 - what specifically is it that is currently lacking or that we are aiming to
   improve (e.g. customers having to call the client in order to configure the
@@ -70,23 +68,34 @@ analyzing publicly available datasets.
 ## Conception
 
 Once the objective of the project has been identified and is well understood by
-all stakeholders, we will go on to define a solution that is suited to achieve
-that objective. We work closely with the client in a
-[number of workshops](../workflow/conception/) and for the set of functionality
-that is to be built in the current increment of the project, will prepare a list
-of user stories, each of those consisting of:
+all stakeholders, we will identify the set of functionality to be added in the
+current increment of the project. In the first increment, we will start with the
+minimal possible version of the application, addressing the most basic needs of
+the project's personas (e.g. building the bare product configurator but no
+payment mechanism or order management system yet). Subsequent increments will
+extend and optimize what was built in previous increments (e.g. adding a
+checkout flow with payment, adding an order management system for the client's
+sales personnel etc.).
 
-- a textual description of the user story, the problem that it addresses and the
+We work closely with the client
+[during the conception phase](../workflow/conception/), translating each element
+of functionality planned for the current increment into one or more user
+stories, each of those representing a self-contained feature of the application
+(e.g. configuring a product, purchasing a configuration by credit card, listing
+a customer's orders). Every user story consists of:
+
+- a textual description of the user story, the need that it addresses and the
   solution that it provides
+- the persona(s) that the user story caters to
 - a low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
 - non-essential fragments of each user story along with identified edge cases
 
 For the first increment of the application, we will prepare a high-fidelity
 prototype for one user story in order to define the application's visual
-identity. For subsequent increments, we skip the prototyping step and go
-straight to the execution stage building on the visual identity established in
-previous increments.
+identity. For subsequent increments, we can skip the prototyping step and go
+straight to the execution stage building on the visual identity established
+earlier.
 
 ### Scoping
 
@@ -165,6 +174,7 @@ validate those improved as planned.
 Once we completed an increment, we will go on to build the next increment as
 long as there is work left in the project. Depending on the learnings from the
 previous increment, it might or might not be necessary to go through the
-[Discovery stage](#discovery) again and reconsider some of the assumptions. If
-that is not necessary, we can go to the conception stage directly and
-conceptualise, scope and implement the next set of user stories.
+[Discovery stage](#discovery) again, reconsider some of the assumptions and
+adapt the project's objective. If that is not necessary, we can go to the
+conception stage directly and conceptualise, scope and implement the next set of
+user stories.
