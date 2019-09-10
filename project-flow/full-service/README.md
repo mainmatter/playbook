@@ -173,10 +173,10 @@ Every increment of the project that is completed and released should be
 evaluated for whether the assumptions made in the discovery and conception
 stages prove true in reality and the application achieves the project's
 objective as intended. Ideally that evaluation can be conducted based on
-interaction of real users with the application, either based on data captured
-with an analytics system or getting feedback from users directly. We will also
-collect metrics for the KPIs defined in the [Discovery stage](#discovery) and
-validate those improved as planned.
+interaction of real users with the application, either based on data captured by
+an analytics system or ideally by getting feedback from users directly. We will
+also collect metrics for the KPIs defined in the [Discovery stage](#discovery)
+and verify those improved as planned.
 
 ## Iteration
 
