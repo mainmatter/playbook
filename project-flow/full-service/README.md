@@ -69,13 +69,14 @@ analyzing publicly available datasets.
 
 Once the objective of the project has been identified and is well understood by
 all stakeholders, we will identify the set of functionality to be added in the
-current increment of the project. In the first increment, we will start with the
-minimal possible version of the application, addressing the most basic needs of
-the project's personas (e.g. building the bare product configurator but no
-payment mechanism or order management system yet). Subsequent increments will
-extend and optimize what was built in previous increments (e.g. adding a
-checkout flow with payment, adding an order management system for the client's
-sales personnel etc.).
+current increment of the project. If the application is going to replace an
+existing system, the functionality provided by that system can be used as a
+reference. In the first increment, we will start with the minimal possible
+version of the application, addressing the most basic needs of the project's
+personas (e.g. building the bare product configurator but no payment mechanism
+or order management system yet). Subsequent increments will extend and optimize
+what was built in previous increments (e.g. adding a checkout flow with payment,
+adding an order management system for the client's sales personnel etc.).
 
 We work closely with the client
 [during the conception phase](../workflow/conception/), translating each element
