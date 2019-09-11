@@ -149,7 +149,7 @@ that, we create a high-fidelity prototype of one of the user stories to develop
 a mutual understanding among all project stakeholders for the visual identity of
 the application. For subsequent increments of a project the prototyping stage
 will not be necessary and we'll go straight to the execution stage building on
-the [visual design system](../execution/design/#design-systems) established
+the [visual design system](../../workflow/design/#design-systems) established
 during previous increments.
 
 The visual identity of a project will be based on the client's branding and
