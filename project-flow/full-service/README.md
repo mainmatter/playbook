@@ -175,9 +175,9 @@ effectiveness of the overall process.
 ### Planning
 
 Once we defined the user stories in the conception stage, we define a plan for
-the current increment of the application. For each user story that we are
-aiming to implement, we will list which of the non-essential aspects and edge
-cases will be included in the increment (e.g. configuring products of the most
+the current increment of the application. For each user story that we are aiming
+to implement, we will list which of the non-essential aspects and edge cases
+will be included in the increment (e.g. configuring products of the most
 successful category), which ones will not (e.g. configuring products with little
 sales volume) and which ones will be moved to a later increment if we are
 running out of time (e.g. allowing customers to see the status of past orders).
@@ -196,12 +196,14 @@ project, we write down the list of user stories and included as well as excluded
 aspects and edge cases in an increment plan and estimate a rough timeline. That
 plan is not irrevocable and neither is the estimate more than an assessment
 based on the information available at the time though. Previously unknown
-challenges will likely be uncovered during execution and new learning will be
-made. We encourage clients to constantly question assumptions and priorities and
-ask for a change of plan anytime they feel suitable. It is possible at any time
-to go back to the planning stage for an increment and plan different user
-stories, include or exclude different aspects of them or even start over with
-discovery or conception if new business objectives are identified.
+challenges will likely be uncovered during execution and some details and
+implications will only be understood once work on a particular user story has
+actually begun. We encourage clients to constantly question assumptions and
+priorities and ask for a change of plan anytime they feel suitable. It is
+possible at any time to go back to the planning stage for an increment and plan
+different user stories, include or exclude different aspects of them or even
+start over with discovery or conception if new business objectives are
+identified.
 
 ## Execution
 
