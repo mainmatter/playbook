@@ -174,7 +174,7 @@ effectiveness of the overall process.
 ### Planning
 
 Once we defined the user stories in the conception stage, we define a plan for
-the current increment of the application. For each user user story that we are
+the current increment of the application. For each user story that we are
 aiming to implement, we will list which of the non-essential aspects and edge
 cases will be included in the increment (e.g. configuring products of the most
 successful category), which ones will not (e.g. configuring products with little
