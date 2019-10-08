@@ -142,16 +142,16 @@ non-essential aspects that are not strictly necessary in order for the user
 story to provide value as well as edge cases that might not immediately be
 apparent. These will be noted in the user story document as well.
 
-### Prototyping
+### Visual Identity
 
 When working on the first increment of a project, there will be no visual
 foundation that can be built on in the execution stage yet. In order to develop
-that, we create a high-fidelity prototype of one of the user stories to develop
-a mutual understanding among all project stakeholders for the visual identity of
-the application. For subsequent increments of a project the prototyping stage
-will not be necessary and we'll go straight to the execution stage building on
-the [visual design system](../../workflow/design/#design-systems) established
-during previous increments.
+that, we create wireframes for one of the user stories to develop a mutual
+understanding among all project stakeholders for the visual identity of the
+application. For subsequent increments of a project this stage will not be
+necessary and we'll go straight to the execution stage building on the
+[visual design system](../../workflow/design/#design-systems) established during
+previous increments.
 
 The visual identity of a project will be based on the client's branding and
 visual guidelines. We will go through these materials with the client, validate
@@ -160,7 +160,7 @@ them working closely with the responsible stakeholders. If the client has no
 such materials, we will identify a visual identity for the project from scratch,
 applying techniques like moodboards and stylescapes.
 
-While the prototype will be a high-fidelity mockup of a particular user story,
+While the wireframes will be a high-fidelity mockup of a particular user story,
 we deliberately keep it non-interactive and relatively low effort as its main
 purpose is to define a visual identity for the project and not to specify
 individual details of the respective user story or general application. Instead
