@@ -19,6 +19,11 @@ with a third party, we can jump to the subsequent stage directly, building on
 the material they have already (we recommend we evaluate that material first
 though).
 
+Once a project is complete, we can maintain the resulting application for the
+long term or, depending on the client's expertise and capabilities, hand it over
+to an internal team in the client's organization. Either way, we can always come
+back later, define additional increments for the product and release those.
+
 ## Discovery
 
 In order to build an application that effectively achieves a particular
@@ -238,10 +243,8 @@ decreasing effort per user story and increasing planning reliability.
 Once an increment of the application is complete, we release what we built -
 ideally into a production environment so real users can access the system and
 first hand feedback can be collected. We will set up the server infrastructure
-and deployment process.
-
-Depending on the client's own expertise and capabilities, we can operate and
-maintain the application for them.
+and deployment process as well as take over any ongoing operations tasks (unless
+the client prefers to handle that themselves).
 
 ## Evaluation
 
