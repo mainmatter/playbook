@@ -1,8 +1,8 @@
 # Design Workflow
 
 Our design workflow orients itself on established practices from software
-engineering. It supports distributed project teams and asynchronous
-communication and does not rely on any particular tools.
+engineering. It facilitates smooth execution and a methodical approach to
+designing applications.
 
 ## Design Sources
 
