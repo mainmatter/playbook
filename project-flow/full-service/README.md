@@ -165,8 +165,7 @@ we deliberately keep it non-interactive and relatively low effort as its main
 purpose is to define a visual identity for the project and not to specify
 individual details of the respective user story or general application. Instead
 of trying to achieve these goals with a prototype that can not precisely
-resemble the eventual application anyway, we aim for transitioning to the
-execution phase as quick as possible with the goal of providing an initial
+resemble the eventual application anyway, we aim for providing an initial
 version of the actual application as soon as possible. Iterating based on the
 actual application as opposed to a prototype that would still have to be
 converted into a real application anyway results in hugely improved
