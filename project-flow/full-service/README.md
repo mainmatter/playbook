@@ -10,8 +10,9 @@ the process down into 4 stages that we guide our clients through:
 - validating the application indeed achieves the objective
 
 These stages will usually be passed through several times, incrementally
-building up the application. For the first increment of the project, we build
-the minimal set of functionality only, extending and improving that in
+building up the application. We refer to the deliverable of each pass through
+the stages as an _"increment"_ of the application. For the first increment, we
+build the minimal set of functionality only, extending and improving that in
 subsequent increments.
 
 For clients that have gone through any of these stages themselves or together
@@ -75,7 +76,7 @@ analyzing publicly available datasets.
 
 Once the objective of the project has been identified and is well understood by
 all stakeholders, we will identify the set of functionality to be added in the
-current increment of the project. If the application is going to replace an
+current increment of the application. If the application is going to replace an
 existing system, the functionality provided by that system can be used as a
 reference. In the first increment, we will start with the minimal possible
 version of the application, addressing the most basic needs of the project's
@@ -149,12 +150,12 @@ apparent. These will be noted in the user story document as well.
 
 ### Visual Identity
 
-When working on the first increment of a project, there will be no visual
+When working on the first increment of an application, there will be no visual
 foundation that can be built on in the execution stage yet. In order to develop
 that, we create wireframes for one of the user stories to develop a mutual
 understanding among all project stakeholders for the visual identity of the
-application. For subsequent increments of a project this stage will not be
-necessary and we'll go straight to the execution stage building on the
+application. For subsequent increments, this stage will not be necessary and
+we'll go straight to the execution stage building on the
 [visual design system](../../workflow/design/#design-systems) established during
 previous increments.
 
@@ -196,13 +197,13 @@ implementing essential versions of more user stories versus covering more
 non-essential aspects and edge cases for less user stories later on.
 
 Once all stakeholders agree on the plan for the current increment of the
-project, we write down the list of user stories and included as well as excluded
-aspects and edge cases in an increment plan and estimate a rough timeline. That
-plan is not irrevocable and neither is the estimate more than an assessment
-based on the information available at the time though. Previously unknown
-challenges will likely be uncovered during execution and some details and
-implications will only be understood once work on a particular user story has
-actually begun. We encourage clients to constantly question assumptions and
+application, we write down the list of user stories and included as well as
+excluded aspects and edge cases in an increment plan and estimate a rough
+timeline. That plan is not irrevocable and neither is the estimate more than an
+assessment based on the information available at the time though. Previously
+unknown challenges will likely be uncovered during execution and some details
+and implications will only be understood once work on a particular user story
+has actually begun. We encourage clients to constantly question assumptions and
 priorities and ask for a change of plan anytime they feel suitable. It is
 possible at any time to go back to the planning stage for an increment and plan
 different user stories, include or exclude different aspects of them or even
@@ -248,7 +249,7 @@ the client prefers to handle that themselves).
 
 ## Evaluation
 
-Every increment of the project that is completed and released should be
+Every increment of the application that is completed and released should be
 evaluated for whether the assumptions made in the discovery and conception
 stages prove true in reality and the application achieves the project's
 objective as intended. Ideally that evaluation can be conducted based on
@@ -259,8 +260,8 @@ and verify those improved as planned.
 
 ## Iteration
 
-Once we complete an increment of the project, we will go on to build the next
-increment as long as there is functionality to add and aspects of the
+Once we complete an increment of the application, we will go on to build the
+next increment as long as there is functionality to add and aspects of the
 application to improve. Depending on the learnings from the previous increment,
 it might be necessary to go through the [Discovery stage](#discovery) again,
 reconsider some of the assumptions and adapt the project's objective. If that is
