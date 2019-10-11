@@ -4,7 +4,7 @@ In full service projects, we solve our clients' business needs with bespoke
 software applications. In order to do that in the most efficient way, we break
 the process down into 4 stages that we guide our clients through:
 
-- identifying and understanding what objective the project is aiming at
+- identifying and understanding the goal of the project
 - conceptualising an application that pursues that objective
 - implementing that application and launching it
 - validating the application indeed achieves the objective
@@ -28,7 +28,7 @@ back later, define additional increments for the product and release those.
 ## Discovery
 
 In order to build an application that effectively achieves a particular
-objective for a client, we first of all need to understand what exactly that
+objective for a client, we need first of all to understand what exactly that
 objective is. We will work closely with the client in a workshop to identify
 answers to these questions:
 
@@ -54,7 +54,7 @@ these KPIs, it might be necessary to set up additional tracking or conduct
 research.
 
 In addition to the mission statement, we will also define the future users of
-the solution that is to be build along with their prior knowledge, skills,
+the solution that is to be built, along with their prior knowledge, skills,
 needs, and motivations with regard to the application. We will identify one or
 more typical users representative of the expected userbase, the personas, and
 describe them in a personas document. A good understanding of an application's
@@ -68,7 +68,7 @@ insights and experiences that must all be heard in order to clearly understand
 the situation and define the project's objective. It is often advisable to
 conclude additional research to make more data available for the workshop. That
 can be done by analyzing data that the client already has like analytics data
-from an existing application, data from a CRM or customer service system but
+from an existing application, data from a CRM or customer service system and
 also through interviews with existing or prospective users or customers or
 analyzing publicly available datasets.
 
