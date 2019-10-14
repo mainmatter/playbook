@@ -42,16 +42,15 @@ answers to these questions:
   sales team)
 
 Together with the client we will identify the most suitable kind of solution to
-achieve the project's objective (e.g. a web-based product configurator that
-allows customers to configure the client's product according to their needs and
-order that configuration via the client's website). That information will be
-written down in a short (aiming for ca. 1 page) mission statement document to
-clearly express the project's scope and goals. We also recommend defining one or
-more KPIs (e.g. _"number of sales via the website"_, _"number of support
-requests from users"_) to capture the situation before and after the project for
-easier [evaluation in later stages](#evaluation). If no data is available for
-these KPIs, it might be necessary to set up additional tracking or conduct
-research.
+achieve the project's objective (e.g. a web application that allows customers to
+configure the client's product according to their needs and order that
+configuration via the client's website). That information will be written down
+in a short (aiming for ca. 1 page) mission statement document to clearly express
+the project's scope and goals. We also recommend defining one or more KPIs (e.g.
+_"number of sales via the website"_, _"number of support requests from users"_)
+to capture the situation before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, we will also define the future users of
 the solution that is to be built, along with their prior knowledge, skills,
