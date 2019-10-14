@@ -203,7 +203,7 @@ assessment based on the information available at the time. Previously unknown
 challenges will likely be uncovered during execution and some details and
 implications will only be understood once work on a particular user story has
 actually begun. We encourage clients to constantly question assumptions and
-priorities and ask for a change of plan anytime they feel suitable. It is
+priorities and ask for a change of plan at any time they see necessary. It is
 possible at any time to go back to the planning stage for an increment and plan
 different user stories, include or exclude different aspects of them or even
 start over with discovery or conception if new business objectives are
