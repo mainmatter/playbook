@@ -243,8 +243,8 @@ decreasing effort per user story and increasing planning reliability.
 Once an increment of the application is complete, we release what we built -
 ideally into a production environment so real users can access the system and
 first hand feedback can be collected. We will set up the server infrastructure
-and deployment process as well as take over any ongoing operations tasks (unless
-the client prefers to handle that themselves).
+and deployment process as well as take over any ongoing operations tasks unless
+the client prefers to handle that themselves.
 
 ## Evaluation
 
