@@ -266,4 +266,4 @@ it might be necessary to go through the [Discovery stage](#discovery) again,
 reconsider some of the assumptions and adapt the project's objective. If that is
 not necessary, we can go to the conception stage directly and conceptualise,
 scope and implement the next set of user stories, followed by executing that new
-plan, evaluating what was built etc.
+plan, evaluating what was built, etc.
