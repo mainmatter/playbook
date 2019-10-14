@@ -25,7 +25,7 @@ static image of the change should be attached to the issue.
 
 #### Reviews
 
-When a design change is ready for review, its author should actively ask for
+When a design change is ready for review, its author should actively ask
 another team member to review - ideally via the tools used in the particular
 project if those support it or over online chat etc. if not. Everyone asked for
 review should reply in a timely manner - even if it's to ask for someone else to
