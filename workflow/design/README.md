@@ -31,13 +31,12 @@ project if those support it or over online chat etc. if not. Everyone asked for
 review should reply in a timely manner - even if it's to ask for someone else to
 be chosen if they do not have the time to do a proper review.
 
-Once the reviewer approved the changes, the change can be applied by any team
-member including the change's author. If the original reviewer would like a
-second review by another team member, potentially one more familiar with the
-aspects of the design that are changed, they will ask for it. In case anything
-comes up in the review that cannot be resolved between the reviewer and the
-author of the pull request, a third person should be brought in to resolve the
-deadlock.
+Once the reviewer approved the changes, they can be applied by any team member
+including the change's author. If the original reviewer would like a second
+review by another team member, potentially one more familiar with the aspects of
+the design that are changed, they will ask for it. In case anything comes up in
+the review that cannot be resolved between the reviewer and the author of the
+pull request, a third person should be brought in to resolve the deadlock.
 
 Changes to design sources need to be reviewed for:
 

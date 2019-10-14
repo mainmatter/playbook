@@ -32,9 +32,9 @@ objective for a client, we need first of all to understand what exactly that
 objective is. We will work closely with the client in a workshop to identify
 answers to these questions:
 
-- what specifically is it that is currently lacking or that we are aiming to
-  improve (e.g. customers having to call the client in order to configure the
-  client's product specifically to their needs)?
+- what exactly is it that is currently lacking or that we are aiming to improve
+  (e.g. customers having to call the client to configure the client's product
+  specifically to their needs)?
 - who is going to use the application we are building? (e.g. the client
   themselves or their customers)
 - what should be the effect on the business once the solution is in place (e.g.
