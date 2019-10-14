@@ -25,11 +25,11 @@ static image of the change should be attached to the issue.
 
 #### Reviews
 
-When a design change is ready for review, its author should actively ask
-another team member to review - ideally via the tools used in the particular
-project if those support it or over online chat etc. if not. Everyone asked for
-review should reply in a timely manner - even if it's to ask for someone else to
-be chosen if they do not have the time to do a proper review.
+When a design change is ready for review, its author should actively ask another
+team member to review - ideally via the tools used in the particular project if
+those support it or over online chat etc. if not. Everyone asked for review
+should reply in a timely manner - even if it's to ask for someone else to be
+chosen if they do not have the time to do a proper review.
 
 Once the reviewer approved the changes, they can be applied by any team member
 including the change's author. If the original reviewer would like a second
