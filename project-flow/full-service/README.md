@@ -102,12 +102,11 @@ assumptions as early as possible.
 
 In the User Stories workshop, we will define concrete concepts for individual,
 self-contained features of the application. The goal is to develop an
-understanding of what the structure of the features's content and functionality
-is, what the UI elements are that the users interact with and what the
-transitions between individual states in the feature's flow are. We are not
-aiming at specifying every detail of all features and keep them deliberately
-rough while concrete enough to functionally define the respective feature
-completely.
+understanding of the structure of the features's content and functionality, the
+UI elements the users interact with and the transitions between individual
+states in the feature's flow. Our aim is not to specify every detail of all
+features, but keep them deliberately rough while concrete enough to functionally
+define the respective feature completely.
 
 This workshop requires input from all project stakeholders:
 
