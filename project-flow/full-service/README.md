@@ -120,7 +120,7 @@ This workshop requires input from all project stakeholders:
 Each self-contained feature of the application is represented by a user story.
 User stories enable one or more personas (as identified during the project's
 [discovery stage](../../project-flow/full-service/#discovery)) to perform a
-particular taks in order to achieve a particular goal.
+particular task in order to achieve a particular goal.
 
 For each user story, we identify:
 
@@ -193,13 +193,13 @@ easier it can get off course, resulting in delays and budget overruns. By
 limiting the scope per increment and introducing escape hatches we minimize
 complexity and thus risk while allowing clients to make a decision between
 implementing essential versions of more user stories versus covering more
-non-essential aspects and edge cases for less user stories later on.
+non-essential aspects and edge cases for fewer user stories.
 
 Once all stakeholders agree on the plan for the current increment of the
 application, we write down the list of user stories and included as well as
 excluded aspects and edge cases in an increment plan and estimate a rough
 timeline. That plan is not irrevocable and neither is the estimate more than an
-assessment based on the information available at the time though. Previously
+assessment based on the information available at the time. Previously
 unknown challenges will likely be uncovered during execution and some details
 and implications will only be understood once work on a particular user story
 has actually begun. We encourage clients to constantly question assumptions and
