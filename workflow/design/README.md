@@ -82,12 +82,15 @@ higher-level elements necessary as well.
 
 ## Deliverables
 
-Designers and Engineers should generally both work with the design source files
-directly so that the necessity for producing any special deliverables beyond
-those is minimized. If any particular deliverables are required that the
-engineers can not extract from the design source files directly, those
-deliverables should be attached to the respective issue in the format best
-suited for the particular use case.
+Design files should be prepared in a way that makes extraction of assets and 
+necessary artwork easy for the engineers and designers who will use them. 
+This should include preparing and marking elements for export, including 
+proper offsets and intended appropriate file formats to reduce the necessity 
+for producing any special deliverables beyond the files themselves.
+
+If any particular deliverables are required that the engineers can not extract 
+from the design source files directly, those deliverables should be attached to 
+the respective issue in the format best suited for the particular use case.
 
 In order to demonstrate complex behavior or animation, narrow prototypes or
 videos should be favored over text descriptions when possible to eliminate
