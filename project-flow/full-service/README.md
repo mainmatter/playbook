@@ -129,11 +129,11 @@ For each user story, we identify:
 - flows: transitions between portions of the navigational structure that are
   triggered by interactive elements
 
-User Stories are visualized using coarse diagrams (e.g. hand-drawn on paper)
-including all of these identified pieces and the relationships between them.
-During the workshop, participants will discuss and redraw these diagrams several
-times until an ideal solution emerges. That final solution is then written down
-in a user story document consisting of:
+User Stories are visualized using coarse diagrams (e.g. hand-drawn marker
+sketches) including all of these identified pieces and the relationships between
+them. During the workshop, participants will discuss and redraw these diagrams
+several times until an ideal solution emerges. That final solution is then
+written down in a user story document consisting of:
 
 - a textual description of the user story, the need that it addresses and the
   solution that it provides
