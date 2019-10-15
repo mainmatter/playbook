@@ -6,7 +6,7 @@ designing applications.
 
 ## Design Sources
 
-We manage design source files like code, maintaining an authoritative main line
+We manage design source files like code, maintaining an authoritative mainline
 and making changes in change sets that are only applied back to the mainline
 once complete. Design sources can be maintained using a version control system
 just like for the project's code or in a separate system, depending on the
@@ -15,13 +15,13 @@ environment of a project.
 ### Change Sets/Branches
 
 No changes to design sources are ever applied directly to the mainline. Only
-after a set of changes has been reviewed and deemed good for application is it
-applied back as one discrete change. All individual changes that are applied
-back together should be related to the same UI element(s). Once changes have
-been applied back to the mainline, that fact should be noted in the issue
-describing the work that was done in the change. The change should also be
-referenced in the issue if the tools allow that or if that is not the case, a
-static image of the change should be attached to the issue.
+after a set of changes has been reviewed and approved is it merged back as one
+discrete change. All individual changes that are applied together should be
+related to the same UI element(s). Once changes have been merged back into the
+mainline, the issue describing the work should be updated with details of what
+was done. The change should also be referenced in the issue if the tools allow
+for it or, if that is not the case, a static image of the change should be
+attached to the issue.
 
 #### Reviews
 
