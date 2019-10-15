@@ -1,8 +1,8 @@
 # Workflow
 
-Our engineering workflow is lean and based on established practices from the
-open source community. It supports distributed project teams and asynchronous
-communication and does not rely on any particular tools.
+Our workflow is lean and aims to support project teams rather than stand in the
+way. It facilitates asynchronous communication and does not rely on any
+particular tools.
 
 ## Issues
 
