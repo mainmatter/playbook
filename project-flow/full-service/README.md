@@ -7,7 +7,7 @@ the process down into 4 stages that we guide our clients through:
 - identifying and understanding the goal of the project
 - conceptualising an application that pursues that objective
 - implementing that application and launching it
-- validating the application indeed achieves the objective
+- validating if the application achieves the objective
 
 These stages will usually be passed through several times, incrementally
 building up the application. We refer to the deliverable of each pass through
@@ -17,7 +17,7 @@ subsequent increments.
 
 For clients that have gone through any of these stages themselves or together
 with a third party, we can jump to the subsequent stage directly, building on
-the material they have already (we recommend we evaluate that material first
+the material they have already (we recommend that we evaluate the material first
 though).
 
 Once a project is complete, we can maintain the resulting application for the
@@ -28,16 +28,16 @@ back later, define additional increments for the product and release those.
 ## Discovery
 
 In order to build an application that effectively achieves a particular
-objective for a client, we need first of all to understand what exactly that
-objective is. We will work closely with the client in a workshop to identify
-answers to these questions:
+objective for a client, we firstly need to understand what exactly the objective
+is. We will work closely with the client in a workshop to identify answers to
+these questions:
 
 - what exactly is it that is currently lacking or that we are aiming to improve
   (e.g. customers having to call the client to configure the client's product
   specifically to their needs)?
 - who is going to use the application we are building? (e.g. the client
   themselves or their customers)
-- what should be the effect on the business once the solution is in place (e.g.
+- what should the effect be on the business once the solution is in place (e.g.
   increased sales via the client's website; reduced workload for the client's
   sales team)
 
@@ -55,18 +55,18 @@ KPIs, it might be necessary to set up additional tracking or conduct research.
 In addition to the mission statement, we will also define the future users of
 the solution that is to be built, along with their prior knowledge, skills,
 needs, and motivations with regard to the application. We will identify one or
-more typical users representative of the expected userbase, the personas, and
-describe them in a personas document. A good understanding of an application's
-personas is a key prerequisite for developing an application that effectively
-caters to the specific needs of its future users.
+more typical users that are representative of the expected userbase, the
+personas, and describe them in a personas document. A good understanding of an
+application's personas is a key prerequisite for developing an application that
+effectively caters to the specific needs of its future users.
 
 It is critical to get all project stakeholders involved in this workshop, in
 particular all of the client's business experts from various backgrounds like
 marketing, sales, customer service etc. All of these groups will have unique
 insights and experiences that must all be heard in order to clearly understand
 the situation and define the project's objective. It is often advisable to
-conclude additional research to make more data available for the workshop. That
-can be done by analyzing data that the client already has like analytics data
+conduct additional research to make more data available for the workshop. That
+can be done by analyzing data which the client already has, like analytics data
 from an existing application, data from a CRM or customer service system and
 also through interviews with existing or prospective users or customers or
 analyzing publicly available datasets.
@@ -190,23 +190,22 @@ project.
 Software projects are highly dynamic and the bigger the scope of a project, the
 easier it can get off course, resulting in delays and budget overruns. By
 limiting the scope per increment and introducing escape hatches we minimize
-complexity and thus risk while allowing clients to make a decision between
-implementing essential versions of more user stories versus covering more
-non-essential aspects and edge cases for fewer user stories.
+complexity, and thus minimize the risk. This also allows clients to make a
+decision between implementing essential versions of more user stories versus
+covering more non-essential aspects and edge cases for fewer user stories.
 
 Once all stakeholders agree on the plan for the current increment of the
-application, we write down the list of user stories and included as well as
-excluded aspects and edge cases in an increment plan and estimate a rough
-timeline. That plan is not irrevocable and neither is the estimate more than an
-assessment based on the information available at the time. Previously unknown
-challenges will likely be uncovered during execution and some details and
-implications will only be understood once work on a particular user story has
-actually begun. We encourage clients to constantly question assumptions and
-priorities and ask for a change of plan at any time they see necessary. It is
-possible at any time to go back to the planning stage for an increment and plan
-different user stories, include or exclude different aspects of them or even
-start over with discovery or conception if new business objectives are
-identified.
+application, we write down the list of user stories including and excluding
+aspects and edge cases in an increment plan and estimate a rough timeline. That
+plan is not irrevocable and neither is the estimate more than an assessment
+based on the information available at the time. Previously unknown challenges
+will likely be uncovered during execution and some details and implications will
+only be understood once work on a particular user story has actually begun. We
+encourage clients to constantly question assumptions and priorities and ask for
+a change of plan at any time they see necessary. It is possible at any time to
+go back to the planning stage for an increment and plan different user stories,
+include or exclude different aspects of them or even start over with discovery
+or conception if new business objectives are identified.
 
 ## Execution
 
