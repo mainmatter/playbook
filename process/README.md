@@ -1,30 +1,63 @@
 # Process
 
-We maintain a lean process that supports the team rather than stand in its way.
-It ensures the right tasks are being worked on at the right time and provides a
+An effective process supports the team rather than stand in its way. It does not
+introduce a set of formalities only for the sake of it and favors enablement and
+communication over top-down management. A good process also ensures the right
+tasks are being worked on at the right time (and in a proper way) and provides a
 reasonable level of short term predictability. At the same time it remains
-flexible enough to adapt to unexpected events. Our process does not depend on
-specific tools and works for projects and teams in all environments.
+flexible enough to adapt to unexpected events.
 
-The main goal of our process is to make sure all project stakeholders get heard
-and no single party dictates what will be worked on when. Only when all involved
-parties work together in a collaborative fashion, can a project be successful.
+The simplabs process has a few key characteristics and goals:
+
+- It ensures all project stakeholders get heard and no single party dictates a
+  project's priorities.
+- It is designed to deliver high-quality results in a structured, traceable
+  manner.
+- It fosters open and reproducible communication and sharing of know-how among
+  the project team which is particularly important for remote teams.
+- It puts a focus on planning and preparing all work before it is started to
+  make execution as smooth as possible.
+- It does not rely on any particular tools and works for projects and teams
+  regardless of the available infrastructure.
 
 ## Iterations
 
-We work in iterations that are either 1 or 2 weeks long (depending on the client
-and project at hand, either iteration length might be more suited; we choose one
-when beginning a project and will adapt later on if necessary). Iterations are a
-team effort and we plan and execute them collaboratively.
+Our process is based on _"iterations"_ in which a clearly defined set of tasks
+is being worked on and ideally completed during the iteration. Iterations are
+similar to what's often referred to as sprint but we refrain from that
+terminology for its negative connotations - after all, the goal is not to rush
+work out but to build a project incrementally and iteratively. The concrete
+tasks for an iteration are identified, defined and prepared before the iteration
+starts collaboratively with all project stakeholders. We do not recommend
+maintaining a backlog with tasks for all of the work that needs to happen for a
+particular project as that backlog is very likely to change constantly anyway
+and most teams end up with a large number of tasks that will never be tackled
+and will eventually be outdated and closed untouched. Instead, only the tasks
+that are relevant at the time the iteration starts should be defined, prepared
+and then planned.
+
+The main purpose of iterations is to set expectations on all sides and provide
+short-term predictability and plannability for the stakeholders that need it.
+Iterations should be short enough to still remain predictable and long enough to
+provide enough time to finish meaningful work. The concrete iteration length for
+a project must be defined when kicking off the project and can be adopted
+afterwards. Iterations are a team effort and should be planned and executed
+collaboratively with team members supporting each other to complete the work
+that was planned.
 
 ### Roles
 
-Our project teams are generally flat teams without hierarchies and without
-dedicated project managers. For any given iteration, one of the team members (a
-designer or engineer) will take on the role of _"Iteration Lead"_ who is
-responsible for planning the iteration and ensuring smooth execution. This is a
-rotating role so that every member of the team will assume it every once in a
-while (unless they opt out).
+Our process works with flat project teams without dedicated project managers.
+For any given iteration, one of the team members (a designer or engineer) will
+take on the role of _"Iteration Lead"_ who is responsible for planning the
+iteration and ensuring smooth execution. This is a rotating role so that every
+member of the team will assume it every once in a while (unless they opt out).
+
+Making the iteration lead a rotating role ensures that all team members hear the
+perspectives of all project stakeholders and do not get stuck in only seeing
+their own part of the big picture. It also gives everyone on the project team
+the notion of ownership, responsibility and empowerment and raises them above
+the feeling of being mere executors of someone else's commands.
 
 The main responsibility of the iteration lead is to consult with the product
 experts (and all other relevant project stakeholders like marketing etc.) and
@@ -37,11 +70,11 @@ other project stakeholders for priorization).
 The goal of the iteration preparation phase is to define the tasks that are most
 relevant to be worked on during the next iteration. The issues assigned to an
 iteration should reflect **all** of the work that is going to happen, not only
-the engineering work. In particular they should reflect design and UX work as
-well. The prepared issues will then be presented to the team in the planning
-meeting that kicks the iteration off. In order to prepare these issues, the
-iteration lead synchronizes with the product experts and other project
-stakeholders to:
+feature work. In particular they should reflect design and UX work and purely
+technical tasks like refactorings as well. The prepared issues will then be
+presented to the team in the planning meeting that kicks the iteration off. In
+order to prepare these issues, the iteration lead synchronizes with the product
+experts and other project stakeholders to:
 
 - identify the most relevant tasks from each project stakeholder's perspectives;
   the goal here is to find a good balance between work on features and other
@@ -50,7 +83,8 @@ stakeholders to:
   the marketing department or other stakeholders
 - help the respective stakeholders translate feature or other change requests
   into actionable tasks; this includes explaining different options for
-  implementing a change and their potential implications and related effort
+  implementing a change along with their potential implications and related
+  effort
 - uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to end and
   eliminate all inherent risk, we try to uncover as much of it as possible in
