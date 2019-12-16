@@ -6,20 +6,17 @@ particular tools.
 
 ## Issues
 
-We work in 1 or 2 week long [iterations](../../process) and break all change
-requests down into issues. A list of well-prepared and well-understood issues
-constitutes each iteration.
-
 As an issue is started to be worked on, the respective team member(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
 person at once so if multiple engineers collaborate on an issue, they might have
 to choose one to assign it to). Issues are only assigned once work on them is
-actually started - we do no pre-assign issues during planning or after that to
-avoid situations where already assigned but not yet started issues are blocked
-for everyone else to work on. If an issue is being worked on by multiple team
-members sequentially (e.g. first the designer for preparing the wireframes, then
-the engineer for implementing those), the latter team member will self-assign
-the issue once the former are done with their work.
+actually started - pre-assigning issues during planning or after that block
+these issues for everyone else to work on if the originally assigned team
+members are busy with other tasks and do not actually work on them. If an issue
+is being worked on by multiple team members sequentially (e.g. first the
+designer for preparing the wireframes, then the engineer for implementing
+those), the latter team member will self-assign the issue once the former is
+done with their work.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](../../process), for more complex issues it
@@ -48,7 +45,7 @@ everyone interested.
 Communication is key for a successful project team - be it distributed or not.
 In order for communication to be beneficial for both the team culture as well as
 productivity, rather than a liability or cause of constant stress, all team
-members needs to keep some basic rules in mind:
+members need to keep some basic rules in mind:
 
 - be responsive: don't leave anyone hanging with unanswered questions or
   requests. It goes a long way in keeping working relations positive, and
