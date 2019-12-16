@@ -1,7 +1,6 @@
 {
   "name": "playbook",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:simplabs/playbook.git",
   "author": "Marco Otte-Witte <marco.otte-witte@simplabs.com>",
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
