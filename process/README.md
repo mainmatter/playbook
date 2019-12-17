@@ -14,7 +14,7 @@ The simplabs process has a few key characteristics and goals:
 - It is designed to deliver high-quality results in a structured, traceable
   manner.
 - It fosters open and reproducible communication and sharing of know-how among
-  the project team which is particularly important for remote teams.
+  the team members which is particularly important for remote teams.
 - It puts a focus on planning and preparing all work before it is started to
   make execution as smooth as possible.
 - It does not rely on any particular tools and works for projects and teams
