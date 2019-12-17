@@ -78,7 +78,7 @@ business experts and other project stakeholders to:
 
 - identify the most relevant tasks from each project stakeholder's perspectives;
   the goal here is to find a good balance between work on features and other
-  aspects like bugfixes, refactoring, dependency updates, addressing tech debt
+  aspects like bug fixes, refactoring, dependency updates, addressing tech debt
   in general but also addressing other requirements coming in for example from
   the marketing department or other stakeholders
 - help the respective stakeholders translate feature or other change requests
