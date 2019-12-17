@@ -85,7 +85,7 @@ business experts and other project stakeholders to:
   into actionable tasks; this can include discussing different options for
   implementing a change along with their potential implications and related
   effort; the iteration lead will often not have the knowledge to do that
-  personally but will involve the respective experts in these conversations then
+  personally but will then involve the respective experts in these conversations
 - uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to end and
   eliminate all inherent risk, we try to uncover as much of it as possible in
