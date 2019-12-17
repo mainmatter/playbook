@@ -27,8 +27,8 @@ is being worked on and ideally completed during the iteration. Iterations are
 similar to what's often referred to as sprint but we refrain from that
 terminology for its negative connotations - after all, the goal is not to rush
 work out but to build a project incrementally and iteratively. The concrete
-tasks for an iteration are identified, defined and prepared before the iteration
-starts collaboratively with all project stakeholders. We do not recommend
+tasks for an iteration are identified, defined and prepared collaboratively with
+all project stakeholders before the iteration starts. We do not recommend
 maintaining a backlog with tasks for all of the work that needs to happen for a
 particular project as that backlog is very likely to change constantly anyway
 and most teams end up with a large number of tasks that will never be tackled
