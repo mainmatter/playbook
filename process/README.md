@@ -177,7 +177,7 @@ moved over from the previous iteration after having been reviewed). If the team
 considers the presented issues to be too much for the iteration, they
 collaboratively decide which ones are moved to a later iteration to be
 considered again in the future. If any of the issues are found not to be ready
-to be worked on (e.g. because dependencies of the issue not being ready), the
+to be worked on (e.g. because dependencies of the issue are not ready), the
 issue is moved to a later iteration as well.
 
 **The iteration, once planned, is not a binding agreement.** It is still
