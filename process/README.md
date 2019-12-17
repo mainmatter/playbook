@@ -61,9 +61,9 @@ the feeling of being mere executors of someone else's commands.
 
 The main responsibility of the iteration lead is to consult with the business
 experts (and all other relevant project stakeholders like marketing, designers
-and engineers etc.) and prepare the iteration. Once the iteration started, any
-changes to it that are requested go through the iteration lead for assessment
-(who might consult with other project stakeholders for priorization).
+or engineers) and prepare the iteration. Once the iteration started, any changes
+to it that are requested go through the iteration lead for assessment (who might
+consult with other project stakeholders for priorization).
 
 ### Iteration Preparation
 
