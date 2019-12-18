@@ -34,12 +34,22 @@ that make clear what the particular commit does.
 ### Pull Requests
 
 Branches are not merged back to the `master` branch directly but via pull
-requests (or whatever mechanism the tool used in the particular project
-provides). The pull request should have a meaningful description with a rough
-overview of the changes included in it and the issue it refers to. If the pull
-request closes an issue, the pull request's description should contain a comment
-like _"closes #<issue>"_ - most tools will then automatically close the
-referenced issue once the pull request is merged.
+requests (or whatever similar mechanism the tool used in a particular project
+provides). Similarly to issues, pull requests should have all the information
+necessary for everyone to understand what they do, how and why. In particular,
+good pull requests should have:
+
+- a high-level summary of the changes that the pull request contains that gives
+  the reader a good overview without having to look at the actual code changes
+- guidance for testing the added or changed functionality; this is helpful for
+  the reviewer, product or business experts looking at the pull request on a
+  preview system and any QA people
+- before and after screenshots or even screen recordings in case of a visual
+  change
+- a reference to the issue the changes in the pull request refers to; if the
+  pull request effectively closes an issue, most tools will automatically do
+  that when the pull request is merged if it contains a comment like
+  _"closes #<issue>"_ in the description
 
 As with issues, all discussions around a particular pull request should happen
 on the pull request's page. If discussions happen in person or over online chat,
