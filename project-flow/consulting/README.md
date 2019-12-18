@@ -4,6 +4,18 @@ In consulting projects, we work within our clients' organizational structures,
 supporting or leading product initiatives and making the client's in-house teams
 more efficient.
 
+## Introduction
+
+Following the kick-off meeting with all stakeholders, we ask our clients to give
+us an introduction to their business, explaining the problems they are solving
+and why that is valuable for their customers, what differentiates them from
+their competition etc. That will typically be done by one of the client's
+business experts sitting together with our team and walking them through the key
+aspects of the business. While this knowledge may not be directly relevant to
+the work we're doing, it's essential for us to understand the environment our
+clients are operating in as that helps us make better decisions and put
+appropriate weight on individual aspects during the project.
+
 ## Product Team Introduction
 
 Our consultants will become part of a pre-existing team, working within the
