@@ -1,4 +1,4 @@
-# Full Service Project Flow
+# Full Service Projects
 
 Developing Digital Products can be broken down into four main stages:
 
@@ -109,8 +109,8 @@ This workshop requires input from all project stakeholders:
 
 Each self-contained feature of the application is represented by a user story.
 User stories enable one or more personas (as identified during the project's
-[discovery stage](../../project-flow/full-service/#discovery)) to perform a
-particular task in order to achieve a particular goal.
+[discovery stage](#discovery)) to perform a particular task in order to achieve
+a particular goal.
 
 For each user story, identify:
 

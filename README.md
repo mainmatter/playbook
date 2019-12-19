@@ -5,11 +5,11 @@ that we discovered and defined over years of working with clients on all kinds
 of projects and that we have found to result in smooth execution and great
 output.
 
-## [Project Flow](./project-flow)
+## [Project Procedure](./project-procedure)
 
-The [Project Flow document](./project-flow) describes how we approach new
-projects and work with clients. We target a smooth start with minimal overhead
-and encourage our clients to take on an active role.
+The [Project Procedure document](./project-procedure) describes how we approach
+new projects and work with clients. We target a smooth start with minimal
+overhead and encourage our clients to take on an active role.
 
 ## [Development Process](./development-process)
 
