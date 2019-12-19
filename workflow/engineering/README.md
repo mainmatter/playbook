@@ -65,6 +65,32 @@ not offer that, a good technique is prefixing the pull request's title with
 something like `[WIP]`. Some tools will even block _"Work in progress"_ pull
 requests from being merged.
 
+### Preview Systems
+
+In addition to setting up
+[continuous deployment](../../process/#iteration-execution) for deploying all
+changes that get merged into a project's main branch to production
+automatically, we recommend creating a mechanism that allows booting
+per-branch/pull request staging systems on demand which we call preview systems.
+These systems would ideally be automatically created (and destroyed once the
+pull request was merged) for every new pull request and a link to the respective
+system added to the pull request automatically. Preview systems are particularly
+helpful for sharing changes with non-technical stakeholders that cannot run the
+entire application themselves or with external stakeholders that might not even
+have access to the application's sources.
+
+Setting up a preview systems mechanism can sometimes be challenging and might
+require a substantial amount of work. However, when taken into account early on
+in a project and in particular if the project's infrastructure is containerized
+anyway, it is often possible to set up preview systems with relatively little
+effort. Once the mechanism is set up, the benefits easily justify even a
+substantial effort anyway though. In case of projects that have been running for
+some time already, have lots of dependencies, are not containerized and would
+thus be very hard to implement a preview system mechanism for, we recommend at
+least setting up a shared sandbox environment that all stakeholders share. While
+that is not as valuable as a proper preview system mechanism, it is a good first
+step and often much easier to set up.
+
 ### Reviews
 
 Pull requests are reviewed before they get merged back into the project's main
