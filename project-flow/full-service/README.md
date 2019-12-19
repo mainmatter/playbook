@@ -1,7 +1,6 @@
 # Full Service Project Flow
 
-Developing Digital Products is a process that can be broken down into four main
-stages:
+Developing Digital Products can be broken down into four main stages:
 
 - identifying and understanding the goal of the project
 - conceptualising a product that pursues that objective
@@ -207,10 +206,11 @@ anyway.
 In the execution phase of an increment, user stories are turned into usable
 features of the product, iteratively building it up over time. Each user story
 should be broken down into fine-grained and more detailed issues and worked on
-following a smooth [process](../process/). As that is done, engineers and
-designers continue to work closely with the business experts, discussing
-individual facets of user stories as well as different alternatives for
-designing and implementing those along with the associated effort.
+following a smooth [development process](../development-process/). As that is
+done, engineers and designers continue to work closely with the business
+experts, discussing individual facets of user stories as well as different
+alternatives for designing and implementing those along with the associated
+effort.
 
 The project team will build slices of the system at once, including everything
 from the design, backend, and frontend code of a particular user story so those

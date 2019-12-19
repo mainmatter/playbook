@@ -1,13 +1,13 @@
-# Process
+# Development Process
 
-An effective process supports the team rather than stand in its way. It does not
-introduce a set of formalities only for the sake of it and favors enablement and
-communication over top-down management. A good process also ensures the right
-tasks are being worked on at the right time (and in a proper way) and provides a
-reasonable level of short term predictability. At the same time it remains
-flexible enough to adapt to unexpected events.
+An effective development process supports the team rather than stand in its way.
+It does not introduce a set of formalities only for the sake of it and favors
+enablement and communication over top-down management. A good process also
+ensures the right tasks are being worked on at the right time (and in a proper
+way) and provides a reasonable level of short term predictability. At the same
+time it remains flexible enough to adapt to unexpected events.
 
-The simplabs process has a few key characteristics and goals:
+The simplabs development process has a few key characteristics and goals:
 
 - It ensures all project stakeholders get heard and no single party dictates a
   project's priorities.
@@ -22,11 +22,11 @@ The simplabs process has a few key characteristics and goals:
 
 ## Iterations
 
-Our process is based on _"iterations"_ in which a clearly defined set of tasks
-is being worked on and ideally completed during the iteration. Iterations are
-similar to what's often referred to as sprint but we refrain from that
-terminology for its negative connotations - after all, the goal is not to rush
-work out but to build a project incrementally and iteratively. The concrete
+Our development process is based on _"iterations"_ in which a clearly defined
+set of tasks is being worked on and ideally completed during the iteration.
+Iterations are similar to what's often referred to as sprint but we refrain from
+that terminology for its negative connotations - after all, the goal is not to
+rush work out but to build a project incrementally and iteratively. The concrete
 tasks for an iteration are identified, defined and prepared collaboratively with
 all project stakeholders before the iteration starts. We do not recommend
 maintaining a backlog with tasks for all of the work that needs to happen for a
@@ -47,11 +47,12 @@ that was planned.
 
 ### Roles
 
-Our process works with flat project teams without dedicated project managers.
-For any given iteration, one of the team members (a designer or engineer) will
-take on the role of _"Iteration Lead"_ who is responsible for planning the
-iteration and ensuring smooth execution. This is a rotating role so that every
-member of the team will assume it every once in a while (unless they opt out).
+Our development process works with flat project teams without dedicated project
+managers. For any given iteration, one of the team members (a designer or
+engineer) will take on the role of _"Iteration Lead"_ who is responsible for
+planning the iteration and ensuring smooth execution. This is a rotating role so
+that every member of the team will assume it every once in a while (unless they
+opt out).
 
 Making the iteration lead a rotating role ensures that all team members hear the
 perspectives of all project stakeholders and do not get stuck in only
@@ -113,11 +114,11 @@ besides contributing to the current iteration.
 
 #### Issues
 
-Well-prepared issues are a key element of an effective process. They provide
-guidance for the project team's work, allow external parties not involved with
-the project directly to get an understanding of what is happening, and can serve
-as future reference to understand what was done in a project, and for which
-reasons.
+Well-prepared issues are a key element of an effective development process. They
+provide guidance for the project team's work, allow external parties not
+involved with the project directly to get an understanding of what is happening,
+and can serve as future reference to understand what was done in a project, and
+for which reasons.
 
 Good issues aim to:
 

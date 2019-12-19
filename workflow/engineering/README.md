@@ -68,8 +68,8 @@ requests from being merged.
 ### Preview Systems
 
 In addition to setting up
-[continuous deployment](../../process/#iteration-execution) for deploying all
-changes that get merged into a project's main branch to production
+[continuous deployment](../../development-process/#iteration-execution) for
+deploying all changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
 These systems would ideally be automatically created (and destroyed once the
@@ -173,7 +173,7 @@ otherwise often become necessary down the line.
 When working on the code base, all engineers should keep an eye open for parts
 that need to be refactored and either do so immediately in case of simple
 changes, or bring them up as individual issues for one of the next
-[iterations](../../process).
+[iterations](../../development-process).
 
 ## Pairing
 
