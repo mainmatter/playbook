@@ -109,28 +109,3 @@ and make teams more effective:
   productivity
 - identifying and fixing quality issues in the app that lead to suboptimal
   results
-
-## Project Delivery
-
-Besides augmenting the client's in-house engineering team, our consultants can
-take on full projects (either an initiative in a pre-existing application or an
-entirely new one), complete that independently of the client's team and hand it
-back to the them once complete. In this case, our consultants will form an
-engineering team of their own within the client's organisation, working closely
-with the client's product managers and designers.
-
-### Handover
-
-For projects that our consultants work on independently from our client's
-in-house engineering team, it is important to hand them over back to the team in
-a way that enables them to extend and maintain these projects in the future.
-
-As the implementation of the project advances, we will share our progress with
-the client’s in-house team. If we are to integrate new patterns, dependencies or
-refactor parts of an existing codebase, we will explain what is being done, the
-motivation behind each of these changes and how the code will be maintained as
-the project moves forward. Once the project is completed, we recommend
-conducting a workshop with the client's team to familiarize them with the
-outcome. Our consultants can accompany the team for some time after handing over
-a project in a [Team Augmentation](#team-augmentation) setup to ensure a smooth
-transition.
