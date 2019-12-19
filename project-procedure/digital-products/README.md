@@ -1,4 +1,4 @@
-# Full Service Projects
+# Digital Product Projects
 
 Developing Digital Products can be broken down into four main stages:
 

@@ -18,4 +18,4 @@ team should be aware of.
 
 ## [Consulting Project](./consulting)
 
-## [Full Service Projects](./full-service)
+## [Digital Product Projects](./digital-products)
