@@ -16,12 +16,12 @@ the work we're doing, it's essential for us to understand the environment our
 clients are operating in as that helps us make better decisions and put
 appropriate weight on individual aspects during the project.
 
-## Product Team Introduction
+### Engineering Context
 
-Our consultants will become part of a pre-existing team, working within the
-client's engineering infrastructure and often touch on existing applications and
-systems. In order to be most effective in that new environment, they must know
-and understand its constituent parts. Therefore we ask clients to introduce our
+Our consultants will work closely with the client's teams, within their
+engineering infrastructure and often touch on existing applications and systems.
+In order to be most effective in that new environment, they must know and
+understand its constituent parts. Therefore we ask clients to introduce our
 consultants to:
 
 - their in-house team structure and development process (for clients lacking an
