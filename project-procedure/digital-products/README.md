@@ -2,9 +2,10 @@
 
 Developing Digital Products can be broken down into four main stages:
 
-- identifying and understanding the goal of the project
-- conceptualising a product that pursues that objective
-- implementing that product and launching it
+- product strategy: identifying and understanding the goal of the project and
+  the environment it operates in
+- product design: conceptualising a product that pursues the project's objective
+- product development: implementing the product and launching it
 - validating the product indeed achieves the objective
 
 These stages will usually be passed through several times, incrementally
@@ -15,11 +16,12 @@ building only the minimal set of functionality necessary to deliver value (the
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
 
-## Discovery
+## Product Strategy
 
 In order to build an application that effectively achieves a particular
 objective, one first needs to understand and clearly define what exactly that
-objective is. All project stakeholders need to work closely together in a
+objective is in order to develop an effective strategy for all subsequently
+taken actions. All project stakeholders need to work closely together in a
 workshop to identify answers to these questions:
 
 - what exactly is it that is currently lacking or that is aimed at to improve
@@ -30,8 +32,8 @@ workshop to identify answers to these questions:
 - what should be the effect on the business once the solution is in place (e.g.
   increased sales, reduced workload for the sales team etc.)
 
-The goal of the discovery phase is for the project team to identify the most
-suitable kind of solution to achieve the project's objective (e.g. a web
+The goal of the product strategy stage is for the project team to identify the
+most suitable kind of solution to achieve the project's objective (e.g. a web
 application that allows customers to configure the client's product according to
 their needs and order that configuration via the client's website). That
 information should be written down in a short (aiming for ca. 1 page) mission
@@ -39,8 +41,8 @@ statement document to clearly express the project's scope and goals. We also
 recommend defining one or more KPIs (e.g. _"number of sales via the website"_,
 _"number of support requests from users"_) to capture the situation before and
 after the project for easier [evaluation in later stages](#evaluation). If no
-data is available for these KPIs, it might be necessary to set up additional
-tracking or conduct research.
+data is available for these KPIs, it is usually a worthwhile investment to set
+up additional tracking or conduct research.
 
 In addition to the mission statement, the team also needs to identify the future
 users of the product that is to be built, along with their prior knowledge,
@@ -108,9 +110,9 @@ This workshop requires input from all project stakeholders:
   their technical feasibility and associated effort
 
 Each self-contained feature of the application is represented by a user story.
-User stories enable one or more personas (as identified during the project's
-[discovery stage](#discovery)) to perform a particular task in order to achieve
-a particular goal.
+User stories enable one or more personas (as identified during the
+[product strategy stage](#product-strategy)) to perform a particular task in
+order to achieve a particular goal.
 
 For each user story, identify:
 
@@ -194,9 +196,9 @@ actually begun. Teams should in fact constantly question assumptions and
 priorities and change the plan at any time they see necessary. It is also
 possible at any time to go back to the planning stage for an increment and plan
 different user stories, include or exclude different aspects of them or even
-start over with discovery or conception if new business objectives are
-identified. The goal of the planning phase is to get a common understanding of
-what value will be delivered during the increment and how long that should
+start over with product strategy or product design if new business objectives
+are identified. The goal of the planning phase is to get a common understanding
+of what value will be delivered during the increment and how long that should
 roughly take (or what the maximum available time and budget is) but not lock the
 team in to a binding specification and schedule that might have a short validity
 anyway.
@@ -239,22 +241,23 @@ over time, decreasing effort per user story and increasing planning reliability.
 ## Evaluation
 
 Every increment of the application that is completed and released should be
-evaluated for whether the assumptions made in the discovery and conception
-stages prove true in reality and the application achieves the project's
+evaluated for whether the assumptions made in the product strategy and product
+design stages prove true in reality and the application achieves the project's
 objective as intended. Ideally that evaluation can be conducted based on
 interaction of real users with the application, either based on data captured by
 an analytics system or ideally by getting feedback from users directly. Metrics
-should be collected for the KPIs defined in the [Discovery stage](#discovery)
-and they should be leveraged to verify the estimated effects on the business
-occur as planned.
+should be collected for the KPIs defined in the
+[product strategy stage](#product-strategy) and they should be leveraged to
+verify the estimated effects on the business occur as planned.
 
 ## Iteration
 
 Once an increment of the product is completed, the project team will go on to
 build the next increment as long as there is functionality to add and aspects of
 the product to improve. Depending on the learnings from the previous increment,
-it might be necessary to go through the [Discovery stage](#discovery) again,
-reconsider some of the assumptions and adapt the project's objective. If that is
-found not to be necessary, the conception stage can be entered directly to
-conceptualise, scope and implement the next set of user stories, followed by
-executing that new plan, evaluating what was built, etc.
+it might be necessary to go through the
+[product strategy stage](#product-strategy) again, reconsider some of the
+assumptions and adapt the project's objective. If that is found not to be
+necessary, the conception stage can be entered directly to conceptualise, scope
+and implement the next set of user stories, followed by executing that new plan,
+evaluating what was built, etc.
