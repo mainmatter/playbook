@@ -109,3 +109,27 @@ and make teams more effective:
   productivity
 - identifying and fixing quality issues in the app that lead to suboptimal
   results
+
+## Training and Tutoring
+
+For clients that can not or do not want to make the commitment for a full team
+augmentation project for an extended period of time, we can also conduct
+narrower and more temporary training and tutoring engagements. In that case, our
+consultants will not actively work with the client's team on any product
+initiatives but only enable them to successfully deliver those themselves,
+focussing on:
+
+- performing workshops on topics that the team is struggling with or that have
+  been identified as problematic in the initial review
+- developing prototypical implementations addressing problems that the client's
+  team is unsure how to address themselves; these will often be followed by a
+  workshop in which the prototypes serve as a concrete example for the
+  respective general topic
+- scheduled availability of our technology experts (e.g. 1 day per week) for
+  pairing with the client's engineers, Q&A sessions in which concrete questions
+  and problems can be discussed, etc.
+
+We generally tailor all training and tutoring engagements specifically to our
+client's needs, ideally addressing concrete problems they might already have and
+introducing possible strategies for solving those and the foundational theory
+behind them.
