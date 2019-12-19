@@ -146,9 +146,9 @@ foundation that can be built on in the product development stage yet. In order
 to develop that, we recommend creating wireframes for one of the user stories to
 develop a mutual understanding among all project stakeholders for the visual
 identity of the application. For subsequent increments, this stage will not be
-necessary and the team can go straight to the execution stage building on the
-[visual design system](../../development-process/#design-systems) established
-during previous increments.
+necessary and the team can go straight to the product development stage building
+on the [visual design system](../../development-process/#design-systems)
+established during previous increments.
 
 The visual identity of a project will be based on existing branding material and
 visual guidelines. If no such materials exist, the visual identity for the
@@ -190,9 +190,9 @@ application, the list of user stories and included as well as excluded aspects
 and edge cases are written down in an increment plan and a rough timeline is
 estimated. That plan is not irrevocable and neither is the estimate more than an
 assessment based on the information available at the time. Previously unknown
-challenges will likely be uncovered during execution and some details and
-implications will only be understood once work on a particular user story has
-actually begun. Teams should in fact constantly question assumptions and
+challenges will likely be uncovered during product development and some details
+and implications will only be understood once work on a particular user story
+has actually begun. Teams should in fact constantly question assumptions and
 priorities and change the plan at any time they see necessary. It is also
 possible at any time to go back and re-plan an increment, adding a different set
 of user stories, include or exclude different aspects of them or even start over
@@ -203,13 +203,13 @@ roughly take (or what the maximum available time and budget is) but not lock the
 team in to a binding specification and schedule that might have a short validity
 anyway.
 
-## Execution
+## Product Development
 
-In the execution phase of an increment, user stories are turned into usable
-features of the product, iteratively building it up over time. Each user story
-should be broken down into fine-grained and more detailed issues and worked on
-following a smooth [development process](../development-process/). As that is
-done, engineers and designers continue to work closely with the business
+In the product development stage of an increment, user stories are turned into
+usable features of the product, iteratively building it up over time. Each user
+story should be broken down into fine-grained and more detailed issues and
+worked on following a smooth [development process](../development-process/). As
+that is done, engineers and designers continue to work closely with the business
 experts, discussing individual facets of user stories as well as different
 alternatives for designing and implementing those along with the associated
 effort.
@@ -217,13 +217,14 @@ effort.
 The project team will build slices of the system at once, including everything
 from the design, backend, and frontend code of a particular user story so those
 slice can be released as functional units that can be interacted with by all
-project stakeholders. Once a slice is finished, it will be released to a preview
+project stakeholders. Once a slice is finished, it will be released to a staging
 system that is available for all project stakeholders. All stakeholders should
 be encourage to make active use of the staging system to follow the project's
 progress and validate the product is being built according to their
 expectations. Feedback given by stakeholders will be collected by the project
-team and addressed in issues in subsequent iterations of the execution stage or
-moved into a later increment of the project depending on the finding's priority.
+team and addressed in issues in subsequent iterations of the product development
+stage or moved into a later increment of the project depending on the respective
+finding's priority.
 
 Once a complete increment of the application is finished, the respective state
 of the product will be released - ideally into a production environment so real
