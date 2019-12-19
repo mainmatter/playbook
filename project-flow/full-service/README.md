@@ -145,8 +145,8 @@ that, we recommend creating wireframes for one of the user stories to develop a
 mutual understanding among all project stakeholders for the visual identity of
 the application. For subsequent increments, this stage will not be necessary and
 the team can go straight to the execution stage building on the
-[visual design system](../../workflow/design/#design-systems) established during
-previous increments.
+[visual design system](../../development-process/#design-systems) established
+during previous increments.
 
 The visual identity of a project will be based on existing branding material and
 visual guidelines. If no such materials exist, the visual identity for the
