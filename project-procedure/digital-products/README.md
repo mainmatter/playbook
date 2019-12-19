@@ -19,10 +19,10 @@ that extends it in a way that is meaningful to its users.
 ## Product Strategy
 
 In order to build an application that effectively achieves a particular
-objective, one first needs to understand and clearly define what exactly that
-objective is in order to develop an effective strategy for all subsequently
-taken actions. All project stakeholders need to work closely together in a
-workshop to identify answers to these questions:
+objective, one first needs to understand and clearly define what the current
+situation and what exactly the objective is in order to develop an effective
+strategy for all subsequently taken actions. All project stakeholders need to
+work closely together during this stage to identify answers to these questions:
 
 - what exactly is it that is currently lacking or that is aimed at to improve
   (e.g. customers having to call the client to configure the client's product
@@ -32,17 +32,36 @@ workshop to identify answers to these questions:
 - what should be the effect on the business once the solution is in place (e.g.
   increased sales, reduced workload for the sales team etc.)
 
-The goal of the product strategy stage is for the project team to identify the
-most suitable kind of solution to achieve the project's objective (e.g. a web
-application that allows customers to configure the client's product according to
-their needs and order that configuration via the client's website). That
-information should be written down in a short (aiming for ca. 1 page) mission
-statement document to clearly express the project's scope and goals. We also
-recommend defining one or more KPIs (e.g. _"number of sales via the website"_,
-_"number of support requests from users"_) to capture the situation before and
-after the project for easier [evaluation in later stages](#evaluation). If no
-data is available for these KPIs, it is usually a worthwhile investment to set
-up additional tracking or conduct research.
+The goal of the product strategy stage is for the project team to find answers
+to these questions that are based on facts and knowledge rather than
+assumptions. While the techniques to leverage in order to gather these facts and
+build up that knowledge will vary from project to project and depend on the
+particular problem, the industry and the available time and budget, we recommend
+using one or several of these techniques:
+
+- data analysis of existing data e.g. from CRM systems, event logs or analytics
+  data from existing web applications; these data sources often help to get a
+  better understanding of the current situation and sometimes reveal that the
+  actual problem is a different one than what is visible on the surface; if none
+  of this data is available, think about whether it is possible to collect it
+- user research: getting direct feedback from users of an existing product that
+  is to be replaced or potential users of an entirely new product is the best
+  way to understand their situations, goals and struggles
+- market analysis: besides understanding the future users of a digital product
+  it is key to understand the market the product will operate in, its rules and
+  limitations, what competitors are offering with similar products potentially
+  and what the relevant trends are
+
+Based on the gathered facts, the project team will be able to define a
+high-level objective for the project (e.g. a web application that allows
+customers to configure the client's product according to their needs and order
+that configuration via the client's website). That information should be written
+down in a short (aiming for ca. 1 page) mission statement document to clearly
+express the project's scope and goals. We also recommend defining one or more
+KPIs (e.g. _"number of sales via the website"_, _"number of support requests
+from users"_) to capture the situation before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, the team also needs to identify the future
 users of the product that is to be built, along with their prior knowledge,
@@ -52,16 +71,14 @@ personas, and describe them in personas documents. A good understanding of a
 product's personas is a key prerequisite for developing an application that
 effectively caters to the specific needs of its future users.
 
-It is critical to get all project stakeholders involved in this workshop, in
-particular all of the business experts from various backgrounds like marketing,
-sales, customer service etc. All of these groups will have unique insights and
-experiences that must all be heard in order to clearly understand the situation
-and define the project's objective. It is often advisable to conclude additional
-research to make more data available for the workshop. That can be done by
-analyzing data that is already available like analytics data from an existing
-application, data from a CRM or customer service system and also through
-interviews with existing or prospective users or customers or analyzing publicly
-available datasets.
+The product strategy stage will typically be conducted as one or several
+workshops in which the project team has a facilitated discussion based on
+patterns and insights uncovered during research. It is critical to get all
+project stakeholders involved in this workshop, in particular all of the
+business experts from various backgrounds like marketing, sales, customer
+service etc. All of these groups will have unique insights and experiences that
+must all be heard in order to clearly understand the situation and define the
+project's objective.
 
 ## Product Design
 
