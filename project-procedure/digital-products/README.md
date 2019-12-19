@@ -1,10 +1,11 @@
-# Full Service Project Flow
+# Digital Product Projects
 
 Developing Digital Products can be broken down into four main stages:
 
-- identifying and understanding the goal of the project
-- conceptualising a product that pursues that objective
-- implementing that product and launching it
+- product strategy: identifying and understanding the goal of the project and
+  the environment it operates in
+- product design: conceptualising a product that pursues the project's objective
+- product development: implementing the product and launching it
 - validating the product indeed achieves the objective
 
 These stages will usually be passed through several times, incrementally
@@ -15,11 +16,12 @@ building only the minimal set of functionality necessary to deliver value (the
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
 
-## Discovery
+## Product Strategy
 
 In order to build an application that effectively achieves a particular
 objective, one first needs to understand and clearly define what exactly that
-objective is. All project stakeholders need to work closely together in a
+objective is in order to develop an effective strategy for all subsequently
+taken actions. All project stakeholders need to work closely together in a
 workshop to identify answers to these questions:
 
 - what exactly is it that is currently lacking or that is aimed at to improve
@@ -30,8 +32,8 @@ workshop to identify answers to these questions:
 - what should be the effect on the business once the solution is in place (e.g.
   increased sales, reduced workload for the sales team etc.)
 
-The goal of the discovery phase is for the project team to identify the most
-suitable kind of solution to achieve the project's objective (e.g. a web
+The goal of the product strategy stage is for the project team to identify the
+most suitable kind of solution to achieve the project's objective (e.g. a web
 application that allows customers to configure the client's product according to
 their needs and order that configuration via the client's website). That
 information should be written down in a short (aiming for ca. 1 page) mission
@@ -39,8 +41,8 @@ statement document to clearly express the project's scope and goals. We also
 recommend defining one or more KPIs (e.g. _"number of sales via the website"_,
 _"number of support requests from users"_) to capture the situation before and
 after the project for easier [evaluation in later stages](#evaluation). If no
-data is available for these KPIs, it might be necessary to set up additional
-tracking or conduct research.
+data is available for these KPIs, it is usually a worthwhile investment to set
+up additional tracking or conduct research.
 
 In addition to the mission statement, the team also needs to identify the future
 users of the product that is to be built, along with their prior knowledge,
@@ -61,22 +63,22 @@ application, data from a CRM or customer service system and also through
 interviews with existing or prospective users or customers or analyzing publicly
 available datasets.
 
-## Conception
+## Product Design
 
-Once the objective of the project has been identified and is well understood by
-all stakeholders, the next step is to identify the set of functionality to be
-added in the current increment of the product. If the product is going to
-replace an existing system, the functionality provided by that system can be
-used as a reference. In the first increment, we recommend starting with the
-minimal possible version of the product, addressing the most basic needs of the
-project's personas (e.g. building the bare product configurator but no payment
-mechanism or order management system yet). Subsequent increments will extend and
-optimize what was built in previous increments (e.g. adding a checkout flow with
-payment, adding an order management system for the client's sales personnel
-etc.).
+Once the strategy for the product has been established and is well understood
+and agreed upon by all stakeholders, the next step is to identify the set of
+functionality to be added in the current increment of the product. If the
+product is going to replace an existing system, the functionality provided by
+that system can be used as a reference. In the first increment, we recommend
+starting with the minimal possible version of the product, addressing the most
+basic needs of the project's personas (e.g. building the bare product
+configurator but no payment mechanism or order management system yet).
+Subsequent increments will extend and optimize what was built in previous
+increments (e.g. adding a checkout flow with payment, adding an order management
+system for the client's sales personnel etc.).
 
 While applying a systematic approach for developing a good understanding of what
-will be built, we recommend keeping the conception phase limited and not do
+will be built, we recommend keeping the product design stage limited and not do
 excessively detailed up-front design and specification. Detailed wireframes tend
 to give a false impression of completeness while it is essentially impossible to
 cover every possible aspect and prevent new challenges and edge cases for
@@ -108,9 +110,9 @@ This workshop requires input from all project stakeholders:
   their technical feasibility and associated effort
 
 Each self-contained feature of the application is represented by a user story.
-User stories enable one or more personas (as identified during the project's
-[discovery stage](../../project-flow/full-service/#discovery)) to perform a
-particular task in order to achieve a particular goal.
+User stories enable one or more personas (as identified during the
+[product strategy stage](#product-strategy)) to perform a particular task in
+order to achieve a particular goal.
 
 For each user story, identify:
 
@@ -132,7 +134,7 @@ written down in a user story document consisting of:
 - a low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
 
-Once the user story has been clearly defined, revisit it and look for
+Once a user story has been clearly defined, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the user
 story to provide value as well as edge cases that might not immediately be
 apparent. These will be noted in the user story document as well.
@@ -140,13 +142,13 @@ apparent. These will be noted in the user story document as well.
 ### Visual Identity
 
 When working on the first increment of an application, there will be no visual
-foundation that can be built on in the execution stage yet. In order to develop
-that, we recommend creating wireframes for one of the user stories to develop a
-mutual understanding among all project stakeholders for the visual identity of
-the application. For subsequent increments, this stage will not be necessary and
-the team can go straight to the execution stage building on the
-[visual design system](../../development-process/#design-systems) established
-during previous increments.
+foundation that can be built on in the product development stage yet. In order
+to develop that, we recommend creating wireframes for one of the user stories to
+develop a mutual understanding among all project stakeholders for the visual
+identity of the application. For subsequent increments, this stage will not be
+necessary and the team can go straight to the product development stage building
+on the [visual design system](../../development-process/#design-systems)
+established during previous increments.
 
 The visual identity of a project will be based on existing branding material and
 visual guidelines. If no such materials exist, the visual identity for the
@@ -164,10 +166,10 @@ subsequent discussions. Iterating based on the actual application as opposed to
 a prototype that would still have to be converted into a real application anyway
 results in hugely improves effectiveness of the overall process.
 
-### Planning
+### Increment Planning
 
-Once the user stories are defined in the conception stage, define a plan for the
-current increment of the application. For each user story that is part of an
+Once the user stories are defined in the product design stage, define a plan for
+the current increment of the application. For each user story that is part of an
 increment, list which of the non-essential aspects and edge cases will be
 included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
@@ -188,26 +190,26 @@ application, the list of user stories and included as well as excluded aspects
 and edge cases are written down in an increment plan and a rough timeline is
 estimated. That plan is not irrevocable and neither is the estimate more than an
 assessment based on the information available at the time. Previously unknown
-challenges will likely be uncovered during execution and some details and
-implications will only be understood once work on a particular user story has
-actually begun. Teams should in fact constantly question assumptions and
+challenges will likely be uncovered during product development and some details
+and implications will only be understood once work on a particular user story
+has actually begun. Teams should in fact constantly question assumptions and
 priorities and change the plan at any time they see necessary. It is also
-possible at any time to go back to the planning stage for an increment and plan
-different user stories, include or exclude different aspects of them or even
-start over with discovery or conception if new business objectives are
-identified. The goal of the planning phase is to get a common understanding of
-what value will be delivered during the increment and how long that should
+possible at any time to go back and re-plan an increment, adding a different set
+of user stories, include or exclude different aspects of them or even start over
+with product strategy or product design if new business objectives are
+identified. The goal of the increment planning is to get a common understanding
+of what value will be delivered during the increment and how long that should
 roughly take (or what the maximum available time and budget is) but not lock the
 team in to a binding specification and schedule that might have a short validity
 anyway.
 
-## Execution
+## Product Development
 
-In the execution phase of an increment, user stories are turned into usable
-features of the product, iteratively building it up over time. Each user story
-should be broken down into fine-grained and more detailed issues and worked on
-following a smooth [development process](../development-process/). As that is
-done, engineers and designers continue to work closely with the business
+In the product development stage of an increment, user stories are turned into
+usable features of the product, iteratively building it up over time. Each user
+story should be broken down into fine-grained and more detailed issues and
+worked on following a smooth [development process](../development-process/). As
+that is done, engineers and designers continue to work closely with the business
 experts, discussing individual facets of user stories as well as different
 alternatives for designing and implementing those along with the associated
 effort.
@@ -215,13 +217,14 @@ effort.
 The project team will build slices of the system at once, including everything
 from the design, backend, and frontend code of a particular user story so those
 slice can be released as functional units that can be interacted with by all
-project stakeholders. Once a slice is finished, it will be released to a preview
+project stakeholders. Once a slice is finished, it will be released to a staging
 system that is available for all project stakeholders. All stakeholders should
 be encourage to make active use of the staging system to follow the project's
 progress and validate the product is being built according to their
 expectations. Feedback given by stakeholders will be collected by the project
-team and addressed in issues in subsequent iterations of the execution stage or
-moved into a later increment of the project depending on the finding's priority.
+team and addressed in issues in subsequent iterations of the product development
+stage or moved into a later increment of the project depending on the respective
+finding's priority.
 
 Once a complete increment of the application is finished, the respective state
 of the product will be released - ideally into a production environment so real
@@ -239,22 +242,23 @@ over time, decreasing effort per user story and increasing planning reliability.
 ## Evaluation
 
 Every increment of the application that is completed and released should be
-evaluated for whether the assumptions made in the discovery and conception
-stages prove true in reality and the application achieves the project's
+evaluated for whether the assumptions made in the product strategy and product
+design stages prove true in reality and the application achieves the project's
 objective as intended. Ideally that evaluation can be conducted based on
 interaction of real users with the application, either based on data captured by
 an analytics system or ideally by getting feedback from users directly. Metrics
-should be collected for the KPIs defined in the [Discovery stage](#discovery)
-and they should be leveraged to verify the estimated effects on the business
-occur as planned.
+should be collected for the KPIs defined in the
+[product strategy stage](#product-strategy) and they should be leveraged to
+verify the estimated effects on the business occur as planned.
 
 ## Iteration
 
 Once an increment of the product is completed, the project team will go on to
 build the next increment as long as there is functionality to add and aspects of
 the product to improve. Depending on the learnings from the previous increment,
-it might be necessary to go through the [Discovery stage](#discovery) again,
-reconsider some of the assumptions and adapt the project's objective. If that is
-found not to be necessary, the conception stage can be entered directly to
-conceptualise, scope and implement the next set of user stories, followed by
-executing that new plan, evaluating what was built, etc.
+it might be necessary to go through the
+[product strategy stage](#product-strategy) again, reconsider some of the
+assumptions and adapt the project's objective. If that is found not to be
+necessary, the product design stage can be entered directly to conceptualise,
+scope and implement the next set of user stories, followed by executing that new
+plan, evaluating what was built, etc.

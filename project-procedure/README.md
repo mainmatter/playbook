@@ -16,6 +16,6 @@ possible and also include people that won't necessarily be involved in the
 project on a daily basis but still have relevant perspectives that the project
 team should be aware of.
 
-## [Consulting Project flow](./consulting)
+## [Consulting Project](./consulting)
 
-## [Full Service Project flow](./full-service)
+## [Digital Product Projects](./digital-products)

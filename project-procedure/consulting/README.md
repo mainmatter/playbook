@@ -1,4 +1,4 @@
-# Consulting Project Flow
+# Consulting Projects
 
 In consulting projects, we work within our clients' organizational structures,
 supporting or leading product initiatives and making the client's in-house teams
