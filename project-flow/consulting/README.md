@@ -24,8 +24,8 @@ systems. In order to be most effective in that new environment, they must know
 and understand its constituent parts. Therefore we ask clients to introduce our
 consultants to:
 
-- their in-house team structure and engineering process (for clients lacking an
-  effective process, we can introduce [ours](./../../process))
+- their in-house team structure and development process (for clients lacking an
+  effective process, we can introduce [ours](./../../development-process))
 - their engineering infrastructure, covering tools like version control systems,
   issue trackers, Continuous Integration and Continuous Deployment setups, VPNs
   etc.

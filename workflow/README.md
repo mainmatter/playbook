@@ -19,17 +19,17 @@ those), the latter team member will self-assign the issue once the former is
 done with their work.
 
 Although issues should be well-understood and well-prepared before they are even
-planned for a particular [iteration](../../process), for more complex issues it
-is often beneficial to prepare them further before starting implementation. For
-these kinds of issues, the first step is to break them down into smaller,
-concrete steps (which is often a great thing to do in a
+planned for a particular [iteration](../../development-process), for more
+complex issues it is often beneficial to prepare them further before starting
+implementation. For these kinds of issues, the first step is to break them down
+into smaller, concrete steps (which is often a great thing to do in a
 [pairing session](./engineering/#pairing)).
 
 Once an issue is resolved via a [pull request](./engineering/#feature-branches)
 or if it is blocked, the engineer(s) will self-assign another issue from the
 iteration backlog. If an issue is blocked and cannot progress, the engineers
-working on it contact the [iteration lead](../../process) who - in collaboration
-with whomever necessary - tries to resolve the impediment.
+working on it contact the [iteration lead](../../development-process) who - in
+collaboration with whomever necessary - tries to resolve the impediment.
 
 All discussions around an issue should happen on the particular issue's page. Of
 course at times it is convenient to have discussions in person or over online
