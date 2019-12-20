@@ -16,6 +16,26 @@ building only the minimal set of functionality necessary to deliver value (the
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
 
+## Setup
+
+Before any of the actual work can be started though, the project infrastructure
+needs to be set up as effective tooling is vital for effective collaboration
+among the stakeholders. The main tasks are:
+
+- deciding and setting up a source control system for maintaining the project's
+  source code; this would usually be a git-based system
+- deciding and setting up a system for maintaining and collaborating on design
+  assets; we recommend using a system that allows maintaining assets like source
+  code with branching, pull request and review mechanisms
+- deciding and setting up a system for maintaining and collaborating on
+  documents (e.g. user stories etc.); this system should support versioning and
+  commenting for effective collaboration
+- setting up a shared communication channel that fosters traceable group
+  communication; while the particular tool of choice is not relevant, we advice
+  against relying on email
+- ensuring all project stakeholders have access to all of these tools and will
+  receive notifications when assigned tasks or mentioned by others
+
 ## Product Strategy
 
 In order to build an application that effectively achieves a particular
