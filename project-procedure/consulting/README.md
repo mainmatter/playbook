@@ -16,12 +16,12 @@ the work we're doing, it's essential for us to understand the environment our
 clients are operating in as that helps us make better decisions and put
 appropriate weight on individual aspects during the project.
 
-## Product Team Introduction
+### Engineering Context
 
-Our consultants will become part of a pre-existing team, working within the
-client's engineering infrastructure and often touch on existing applications and
-systems. In order to be most effective in that new environment, they must know
-and understand its constituent parts. Therefore we ask clients to introduce our
+Our consultants will work closely with the client's teams, within their
+engineering infrastructure and often touch on existing applications and systems.
+In order to be most effective in that new environment, they must know and
+understand its constituent parts. Therefore we ask clients to introduce our
 consultants to:
 
 - their in-house team structure and development process (for clients lacking an
@@ -110,27 +110,26 @@ and make teams more effective:
 - identifying and fixing quality issues in the app that lead to suboptimal
   results
 
-## Project Delivery
+## Training and Tutoring
 
-Besides augmenting the client's in-house engineering team, our consultants can
-take on full projects (either an initiative in a pre-existing application or an
-entirely new one), complete that independently of the client's team and hand it
-back to the them once complete. In this case, our consultants will form an
-engineering team of their own within the client's organisation, working closely
-with the client's product managers and designers.
+For clients that can not or do not want to make the commitment for a full team
+augmentation project for an extended period of time, we can also conduct
+narrower and more temporary training and tutoring engagements. In that case, our
+consultants will not actively work with the client's team on any product
+initiatives but only enable them to successfully deliver those themselves,
+focussing on:
 
-### Handover
+- performing workshops on topics that the team is struggling with or that have
+  been identified as problematic in the initial review
+- developing prototypical implementations addressing problems that the client's
+  team is unsure how to address themselves; these will often be followed by a
+  workshop in which the prototypes serve as a concrete example for the
+  respective general topic
+- scheduled availability of our technology experts (e.g. 1 day per week) for
+  pairing with the client's engineers, Q&A sessions in which concrete questions
+  and problems can be discussed, etc.
 
-For projects that our consultants work on independently from our client's
-in-house engineering team, it is important to hand them over back to the team in
-a way that enables them to extend and maintain these projects in the future.
-
-As the implementation of the project advances, we will share our progress with
-the client’s in-house team. If we are to integrate new patterns, dependencies or
-refactor parts of an existing codebase, we will explain what is being done, the
-motivation behind each of these changes and how the code will be maintained as
-the project moves forward. Once the project is completed, we recommend
-conducting a workshop with the client's team to familiarize them with the
-outcome. Our consultants can accompany the team for some time after handing over
-a project in a [Team Augmentation](#team-augmentation) setup to ensure a smooth
-transition.
+We generally tailor all training and tutoring engagements specifically to our
+client's needs, ideally addressing concrete problems they might already have and
+introducing possible strategies for solving those and the foundational theory
+behind them.
