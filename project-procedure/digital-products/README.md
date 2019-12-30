@@ -28,7 +28,7 @@ among the stakeholders. The main tasks are:
   assets; we recommend using a system that allows maintaining assets like source
   code with branching, pull request and review mechanisms
 - deciding and setting up a system for maintaining and collaborating on
-  documents (e.g. user stories etc.); this system should support versioning and
+  documents (e.g. user stories, etc.); this system should support versioning and
   commenting for effective collaboration
 - setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
