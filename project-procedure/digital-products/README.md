@@ -19,7 +19,7 @@ that extends it in a way that is meaningful to its users.
 ## Setup
 
 Before any of the actual work can be started though, the project infrastructure
-needs to be set up as effective tooling is vital for effective collaboration
+needs to be set up, as effective tooling is vital for effective collaboration
 among the stakeholders. The main tasks are:
 
 - deciding and setting up a source control system for maintaining the project's
