@@ -1,24 +1,24 @@
 # simplabs Playbook
 
-This document describes how we work. All of it is based on patterns and values
-that we discovered and defined over years of working with clients on all kinds
-of projects and that we have found to result in smooth execution and great
+If you're interested to learn how we work at simplabs you've come to the right place.
+Our process is based on patterns and values
+that we aquired and defined throughout years of working with clients on a variety
+of projects. We have found our method to result in smooth execution and great
 output.
 
 ## [Project Procedure](./project-procedure)
 
-The [Project Procedure document](./project-procedure) describes how we approach
-new projects and work with clients. We target a smooth start with minimal
-overhead and encourage our clients to take on an active role.
+The document [Project Procedure](./project-procedure) describes how we approach
+new projects and work with clients. We aim for a smooth start encouraging our clients to take on an active role.
 
 ## [Development Process](./development-process)
 
-The [Development Process document](./development-process) describes how we
-prepare and run iterations (referred to as _"sprints"_ elsewhere but we think
-that term implies practices we want to avoid and therefore don't use it). We
-make sure all project stakeholders get heard and contribute to an iteration and
+The document [Development Process](./development-process) specifies on how we
+prepare and run iterations (commonly known as _"sprints"_ , we made a
+conscious decision to avoid this term because it implies undesirable practices). We
+ensure all project stakeholders are being listened to and are involved in every iteration. Like this
 every task is well understood, clearly scoped and assessed for hidden risk
-before it gets planned.
+before we get into planning.
 
 Copyright © 2015-2019 simplabs GmbH (http://simplabs.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.
