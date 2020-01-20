@@ -53,7 +53,7 @@ environment as well as potentially required accounts and data. Including this as
 dedicated step in advance instead of being part of the consultants' first contributions to the
 codebase, allows for a smoother start.
 
-Additionally, as our consultants are getting themselves set up and have aquired a more in depth
+Additionally, as our consultants are getting themselves set up and have acquired a more in depth
 understanding of the codebase, we recommend them to review the application's code for
 noticeable or problematic patterns simultaneously. Like that they will often
 be able to identify the causes of existing issues and impediments as well as
