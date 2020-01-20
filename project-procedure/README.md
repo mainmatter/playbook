@@ -1,18 +1,18 @@
 # Project Flow
 
-Successful projects follow a well-defined procedure that clearly prescribes
-which steps need to happen in which order and involves all stakeholders. The
-relevant information for each step and the respective outcomes need to be
-available for everyone at all times.
+Successful projects require a well-defined procedure that clearly prescribes
+which step to take in what order and involves all stakeholders. All the
+relevant information to each step and the respective outcomes need to be
+accessible to every contributor at all times.
 
 ## Kick-Off Meeting
 
-Every project should start with a kick-off meeting that brings all of the
-project stakeholders together - ideally in one room or if that is not possible,
-in a video call. The main goal for this meeting is everyone involved getting to
-know each other and understanding everyone else's roles, responsibilities and
+Every project starts with a kick-off meeting assembling all
+project stakeholders - ideally in person otherwise
+in a video call. The main goal of this meeting is for all contributors to get to
+know each other and to aquire an understanding of everyone else's roles, responsibilities and
 goals. The group of project stakeholders should be kept as wide and open as
-possible and also include people that won't necessarily be involved in the
+possible and also include people that might not necessarily be involved in the
 project on a daily basis but still have relevant perspectives that the project
 team should be aware of.
 
