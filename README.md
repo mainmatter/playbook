@@ -2,7 +2,7 @@
 
 If you're interested to learn how we work at simplabs you've come to the right place.
 Our process is based on patterns and values
-that we aquired and defined throughout years of working with clients on a variety
+that we acquired and defined throughout years of working with clients on a variety
 of projects. We have found our method to result in smooth execution and great
 output.
 
