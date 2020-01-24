@@ -182,7 +182,7 @@ to be worked on (e.g. because dependencies of the issue are not ready), the
 issue is moved to a later iteration as well.
 
 **The iteration, once planned, is not a binding agreement.** It is still
-possible for all project stakeholders to react to changes, features or
+possible for all project stakeholders to react to changes regarding features or
 priorities and the project team cannot guarantee all planned issues to be
 completed by the end of the iteration as new challenges might come up once work
 on an issue has started. The iteration plan is merely a snapshot of feature requests
@@ -224,7 +224,7 @@ collaboration with whomever necessary - will try to resolve the impediment.
 
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
-production), all of these potential changes are evaluated by the iteration lead.
+production), all of these potential changes are triaged by the iteration lead.
 They might consult with the business experts or other project stakeholders to
 determine validity and priority of the incoming requests. If an issue is
 considered necessary to be added to the iteration after the planning meeting, it
@@ -390,10 +390,10 @@ When a pull request is ready for review, its author should actively ask for
 another team member to review it - ideally via the tools used in the particular
 project if those support it or over online chat etc. If not we generally
 recommend applying rotating reviewer assignments so that not all of the reviews
-depend on one or only a few people. Like this, more team members participate in the review process and thus
+depend on one or only a few people. This way, more team members participate in the review process and thus
 understand different parts of the code base better. Reviews are a great tool for
-distributing knowledge about the code base among the project team. Like this, essential knowledge
-being isolated to individual developers can easily be avoided through enhanced collaboration.
+distributing knowledge about the code base among the project team which prevents essential knowledge
+from being isolated to individual developers.
 Everyone asked for review should reply in a timely manner -
 even if it's to ask for someone else to be chosen if they do not have the time
 to do a proper review.
