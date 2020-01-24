@@ -9,7 +9,7 @@ accessible to everyone involved at all times.
 
 Every project starts with a kick-off meeting assembling all
 project stakeholders - ideally in person otherwise
-in a video call. The main goal of this meeting is for all contributors to get to
+in a video call. The main goal of this meeting is for everybody involved to get to
 know each other and to acquire an understanding of everyone else's roles, responsibilities and
 goals. The group of project stakeholders should be kept as wide and open as
 possible and also include people that might not necessarily be involved in the
