@@ -243,7 +243,7 @@ iteration into the current one.
 All discussions around an issue should happen on the particular issue's respective page. Of
 course at times it is convenient to have discussions in person or through online
 chat but even in those cases, a brief summary of the discussed points and the
-outcome should be posted on the issue. This is a necessity for spread out teams
+outcome should be posted on the issue. This is a necessity for distributed teams
 and allows everyone access to all of the context of a particular issue at any
 time. Even teams that are not distributed benefit from this practice as all
 information that is relevant to a particular issue is and remains available for
