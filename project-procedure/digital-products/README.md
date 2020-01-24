@@ -39,8 +39,8 @@ among the stakeholders. The main tasks are:
 ## Product Strategy
 
 In order to build an application that effectively achieves a particular
-objective, one must first understand the subject matter and then clearly define what the current
-situation requires. Next the desired objective must be established in order to develop an effective
+objective, one must first understand the subject matter and then clearly define the current
+state of the situation. Next the desired objective must be established in order to develop an effective
 strategy for all subsequently taken actions. All project stakeholders need to
 work closely together during this stage to identify answers to these questions:
 
@@ -78,16 +78,15 @@ that configuration via the client's website). That information should be written
 down in a short (aiming for about one page) mission statement document to clearly
 express the project's scope and goals. We also recommend defining one or more
 KPIs (e.g. _"number of sales via the website"_, _"number of support requests
-from users"_) to analyse the situation before and after the project for easier
+from users"_) to quantify the situation before and after the project for easier
 [evaluation in later stages](#evaluation). If no data is available for these
 KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, the team also needs to identify potential future
 users, along with their prior knowledge,
 skills, needs, and motivations with regard to the application. We recommend
-defining one or more typical users representative of the expected userbase. With the persona method
-a mock profile of a potential user can created based on all acquired facts in order to visualise the user base.
-A good understanding of a
+utilising the persona method to create mock profiles of potential users based on all
+acquired facts in order to visualise the user base. A good understanding of a
 product's personas is a key prerequisite for developing an application that
 effectively caters to the specific needs of its future users.
 
