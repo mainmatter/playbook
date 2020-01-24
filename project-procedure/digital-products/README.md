@@ -286,7 +286,7 @@ interaction of real users with the application, either based on data captured by
 an analytics system or ideally by receiving feedback from users directly. Metrics
 should be collected for the KPIs defined in the
 [product strategy stage](#product-strategy). By analyzing those metrics, the actual feedback
-an now be compared with the initial expectations.
+can now be compared with the initial expectations.
 
 ## Iteration
 
