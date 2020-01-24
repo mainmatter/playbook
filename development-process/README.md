@@ -16,7 +16,7 @@ The simplabs development process distinguishes itself through certain characteri
 - It fosters open and replicable communication and sharing of know-how among
   team members which is particularly important for remote teams.
 - It puts a focus on planning and preparing all work meticulously before getting started with the actual development process in order
-to ensure an execution as smooth as possible.
+  to ensure an execution as smooth as possible.
 - It does not rely on any particular tools and works for projects and teams
   regardless of the available infrastructure.
 
