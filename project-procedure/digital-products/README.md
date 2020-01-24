@@ -55,7 +55,7 @@ work closely together during this stage to identify answers to these questions:
 The goal of the product strategy stage is finding answers
 to these questions that are based on facts and knowledge rather than
 assumptions. The techniques for acquiring said facts will vary with each new project and depend on the
-particular problem, the current state of the industry and the available time/budget constraints. We recommend
+particular problem, the respective industry and the available time/budget constraints. We recommend
 using one or several of these techniques:
 
 - data analysis of existing data e.g. from CRM systems, event logs or analytics
@@ -213,8 +213,8 @@ running out of time or budget (e.g. allowing customers to see the status of past
 orders). Excluded aspects and edge cases will be addressed in later increments
 of the project.
 
-Software projects are highly dynamic and the bigger the scope of a project, the
-more complex it can get off track, resulting in delays and budget overruns. By
+Software projects are highly dynamic. The bigger the scope and the complexity of a project, the
+likelier it is to steer off track, resulting in delays and budget overruns. By
 limiting the scope per increment and introducing escape hatches, complexity and
 thus risk are minimized while allowing the team to make a decision between
 implementing essential versions of more user stories versus covering more
