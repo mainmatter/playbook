@@ -117,7 +117,7 @@ While applying a systematic approach for developing a coherent understanding of 
 will be built, we recommend keeping the product design stage limited and not do
 excessively detailed up-front design and specification. Detailed wireframes tend
 to give a false impression of a finished product even though it is basically impossible to
-cover every possible aspect and prevent new challenges and for
+cover every possible aspect and prevent new challenges for
 particular features from being uncovered in the development stage. Also, static
 wireframes or even interactive prototypes will never give as realistic an
 impression for the final solution as one will get from an actual application
