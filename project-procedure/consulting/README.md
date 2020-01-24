@@ -83,7 +83,7 @@ Team Augmentation is driven by close collaboration between our consultants and
 the client's team, we recommend for our consultants to spend some time
 on-site with the client's team on a regular basis (a good interval being a few
 days every 6 weeks). Maintaining the personal relationship between all team members
-like this also improves efficiency for collaborating. 
+additionally improves efficiency for collaboration. 
 We also encourage our consultants to spend the first week
 of the project on-site with the client's team to guarantee a smooth start.
 
