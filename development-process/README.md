@@ -391,9 +391,10 @@ another team member to review it - ideally via the tools used in the particular
 project if those support it or over online chat etc. If not we generally
 recommend applying rotating reviewer assignments so that not all of the reviews
 depend on one or only a few people. Like this, more team members participate in the review process and thus
-understand different parts of the code base. Reviews are a great tool for
-distributing knowledge about the code base among the project team and therefore avoiding essential knowledge
-not being communicated. Everyone asked for review should reply in a timely manner -
+understand different parts of the code base better. Reviews are a great tool for
+distributing knowledge about the code base among the project team. Like this, essential knowledge
+being isolated to few individuals can easily be avoided through enhanced collaboration.
+Everyone asked for review should reply in a timely manner -
 even if it's to ask for someone else to be chosen if they do not have the time
 to do a proper review.
 
