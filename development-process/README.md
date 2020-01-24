@@ -425,8 +425,8 @@ Testing is an integral part of all engineering work and a necessity for
 delivering high quality results that also do not deteriorate over time. Untested
 changes should generally not be merged and not even be reviewed as one cannot
 know whether the code under review actually works for all relevant scenarios. In
-fact, if there are no tests, it is likely the code will have to go through additional changes as features
-are added and bugs are uncovered while doing so.
+fact, if there are no early tests, it is very likely that the code will have to go through additional changes later on
+as soon as tests are being conducted and bugs are being discovered in the process.
 
 While different languages and frameworks provide different testing mechanisms, a
 good approach generally is
