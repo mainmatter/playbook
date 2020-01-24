@@ -83,10 +83,9 @@ from users"_) to quantify the situation before and after the project for easier
 KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, the team also needs to identify potential future
-users, along with their prior knowledge,
-skills, needs, and motivations with regard to the application. We recommend
-utilising the persona method to create mock profiles of potential users based on all
-acquired facts in order to visualise the user base. A good understanding of a
+users, along with their prior knowledge, skills, needs, and motivations with regard to the application.
+We recommend defining one or multiple personas (typical representatives of the future user base)
+based on all acquired facts in order to visualise the user base. A good understanding of a
 product's personas is a key prerequisite for developing an application that
 effectively caters to the specific needs of its future users.
 
