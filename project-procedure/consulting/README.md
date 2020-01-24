@@ -25,7 +25,7 @@ understand its constituent parts. Therefore we ask clients to introduce our
 consultants to:
 
 - their in-house team structure and development process (for clients lacking an
-  effective process, we offer [ours](./../../development-process))
+  effective process, we offer to introduce [ours](./../../development-process))
 - their engineering infrastructure, covering tools like version control systems,
   issue trackers, continuous integration and continuous deployment setups, VPNs
   etc.
@@ -33,7 +33,7 @@ consultants to:
   from the database to message bus systems, external APIs, the main backend
   system(s), frontend application(s) etc. - like the introduction to the
   basic concepts of the client's business, this information may not be directly
-  linked to our consultants daily work but still requires valuable context
+  linked to our consultant's daily work but still provides valuable context
 - a more detailed explanation of the architecture and design of the
   application(s) our consultants will directly be working with; if there are any
   known issues with the application, we ask our clients to explain those to us
@@ -74,11 +74,11 @@ For Team Augmentation projects, our consultants merge with the client's in-house
 product team. They will integrate with the client's internal organizational
 structure like any internal employees for four days a week (since we reserve 1 day
 per week for our open source contributions), providing their knowledge and
-experience to the team and thus increasing the team's swiftness and output quality.
+experience to the team and thus increasing the team's velocity and output quality.
 
 ### Regular on-site time
 
-Our consultants are spread across the world and we work with our clients remotely. Since
+Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
 the client's team, we recommend for our consultants to spend some time
 on-site with the client's team on a regular basis (a good interval being a few
@@ -91,7 +91,7 @@ of the project on-site with the client's to guarantee a smooth start.
 
 Team Augmentation projects deliver twice the value for our clients and their teams.
 Our consultants will actively support the client's team with new and ongoing
-product initiatives, thereby increasing the team's swiftness while simultaneously sharing their
+product initiatives, thereby increasing the team's velocity while simultaneously sharing their
 unique expertise and leveling team members up as they collaborate. That way they
 provide sustainable value that our clients continue to benefit from even after
 our consultants leave.
