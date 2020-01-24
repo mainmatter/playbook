@@ -85,7 +85,7 @@ on-site with the client's team on a regular basis (a good interval being a few
 days every 6 weeks). Maintaining the personal relationship between all team members
 like this also improves efficiency for collaborating. 
 We also encourage our consultants to spend the first week
-of the project on-site with the client's to guarantee a smooth start.
+of the project on-site with the client's team to guarantee a smooth start.
 
 ### Leveling up
 
