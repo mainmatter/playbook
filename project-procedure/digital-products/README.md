@@ -118,7 +118,7 @@ While applying a systematic approach for developing a coherent understanding of 
 will be built, we recommend keeping the product design stage limited and not do
 excessively detailed up-front design and specification. Detailed wireframes tend
 to give a false impression of a finished product even though it is basically impossible to
-cover every possible aspect and prevent new challenges and edge cases for
+cover every possible aspect and prevent new challenges and for
 particular features from being uncovered in the development stage. Also, static
 wireframes or even interactive prototypes will never give as realistic an
 impression for the final solution as one will get from an actual application
@@ -216,14 +216,14 @@ orders). Excluded aspects and edge cases will be addressed in later increments
 of the project.
 
 Software projects are highly dynamic and the bigger the scope of a project, the
-more complex it can get of course, resulting in delays and budget overruns. By
+more complex it can get off track, resulting in delays and budget overruns. By
 limiting the scope per increment and introducing escape hatches, complexity and
 thus risk are minimized while allowing the team to make a decision between
 implementing essential versions of more user stories versus covering more
 non-essential aspects and edge cases for fewer user stories.
 
 Once all stakeholders agree on the plan for the current increment of the
-application, the list of user stories, edge cases and included as well as excluded aspects
+application, the list of user stories together with included as well as excluded aspects and according edge cases
 are written down in an increment plan, which is used to calculate a rough estimate of the timeline.
 That plan is not irrevocable and neither is the estimate more than an
 assessment based on the information available at the time. Previously unknown
@@ -244,14 +244,14 @@ anyway.
 
 In the product development stage of an increment user stories are turned into
 usable features of the product, iteratively building it up over time. Each user
-story should be broken down into fine-grained and more detailed issues and then proceed to be refined
+story should be broken down into fine-grained and more detailed issues and then proceed to be implemented
 by following a smooth [development process](../development-process/). During this process,
 engineers and designers continue to work closely with the business
 experts, discussing individual facets of user stories as well as different
 alternatives for designing and implementing those along with the associated
 effort.
 
-The project team will build essential slices of the system at once, including everything
+The project team will build slices of the system at once, including everything
 from the design, the backend, and the frontend code of a particular user story so those
 slices can be released as functional units that can be interacted with by all
 project stakeholders. Once a slice is finished, it will be released to a staging
