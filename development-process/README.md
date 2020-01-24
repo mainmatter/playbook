@@ -54,11 +54,11 @@ planning the iteration and ensuring smooth execution. It is conceptualised as a 
 that every team member will assume it every once in a while (unless they
 opt out).
 
-Making the iteration lead a rotating role ensures that all team members hear the
-perspectives of all project stakeholders and do not get stuck in only
-recognizing their own perspective. It also gives everyone on the project team
-the notion of ownership, responsibility and empowerment by raising their mindset above
-the feeling of being mere executors of someone else's commands.
+Making the iteration lead a rotating role ensures that all team members realise the
+perspectives of all project stakeholders instead of getting stuck in their own. It also gives everyone on the project team
+the notion of ownership, responsibility and empowerment contrary to
+the feeling of being mere executors of someone else's commands. This leads to an overall amplified mindset for each individual
+on the team.
 
 The main responsibility of the iteration lead is to consult with the business
 experts (and all other relevant project stakeholders like marketing, designers
@@ -71,7 +71,7 @@ consult with other project stakeholders for priorization).
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
 an iteration should reflect **all** the upcoming work, not
-only feature work - in particular they should reflect design and UX work but
+only feature work - in particular they should reflect design and UX work but also
 purely technical tasks like refactorings as well. The prepared tasks will then
 be presented to the team as part of the planning meeting that kicks the iteration off.
 In order to prepare these tasks, the iteration lead synchronizes with the
@@ -155,7 +155,7 @@ in order to resolve these open questions. Spikes should have:
   an issues from being created by adding too much risk or uncertainty
 - guidance on potential solutions that should be evaluated or
   references to promising approaches
-- a well-defined time frame, e.g. _"max 2 days"_
+- a well-defined timebox, e.g. _"max 2 days"_
 
 The result of the iteration preparation phase is a prioritized list of
 well-prepared issues and spikes. This list of issues will then be presented to
