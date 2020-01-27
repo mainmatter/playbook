@@ -24,7 +24,7 @@ The simplabs development process distinguishes itself through certain characteri
 
 Our development process is based on _"iterations"_ in which a clearly defined
 set of tasks is being worked on and ideally completed within the same iteration.
-Iterations share similarity to what is often referred to as sprints but we made a conscious decision to refrain from
+Iterations share similarity to what is often referred to as _"sprints"_ but we made a conscious decision to refrain from
 that terminology due to its negative connotations - after all, the goal is not to
 rush work out but instead to build a project incrementally and iteratively at a sustainable pace in order to ensure a high level
 of quality while avoiding the accumulation of technical debt. The concrete
