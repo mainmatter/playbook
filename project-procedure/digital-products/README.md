@@ -55,7 +55,7 @@ work closely together during this stage to identify answers to these questions:
 The goal of the product strategy stage is finding answers
 to these questions that are based on facts and knowledge rather than
 assumptions. The techniques for acquiring said facts will vary with each new project and depend on the
-particular problem, the respective industry and the available time/budget constraints. We recommend
+particular problem, the respective industry and the time or budget constraints. We recommend
 using one or several of these techniques:
 
 - data analysis of existing data e.g. from CRM systems, event logs or analytics
