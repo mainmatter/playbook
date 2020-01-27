@@ -67,7 +67,7 @@ using one or several of these techniques:
   is to be replaced or potential users of an entirely new product is the best
   way to understand their situations, goals and struggles
 - market analysis: besides understanding the future users of a digital product,
-  it is key to understand the current market the product will operate in, its rules and
+  it is key to understand the market the product will operate in, its rules and
   limitations, what competitors with similar products are offering
   and what the relevant trends are
 
