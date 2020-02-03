@@ -2,13 +2,20 @@
 
 require 'pandoc-ruby'
 
-converter = PandocRuby.convert(
-  [
-    File.join(File.dirname(__FILE__), '../Intro.md'),
-    File.join(File.dirname(__FILE__), '../../project-procedure/README.md'),
-    File.join(File.dirname(__FILE__), '../../project-procedure/digital-products/README.md'),
-    File.join(File.dirname(__FILE__), '../../development-process/README.md')
-  ],
+def read_md_source(file)
+  source = File.read("#{File.dirname(__FILE__)}/#{file}")
+  source.gsub(/\[(.*?)\]\((.*?)#(.*?)\)/m, '[\1](#\3)')
+end
+
+input = <<-MD
+#{read_md_source('../Intro.md')}
+#{read_md_source('../../project-procedure/README.md')}
+#{read_md_source('../../project-procedure/digital-products/README.md')}
+#{read_md_source('../../development-process/README.md')}
+MD
+
+PandocRuby.convert(
+  input,
   :standalone,
   :toc,
   {
