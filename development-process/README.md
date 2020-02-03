@@ -217,18 +217,17 @@ those), the latter team member will self-assign the issue once the former is
 done with their work.
 
 Although issues should be well-understood and well-prepared before they are even
-planned for a particular [iteration](../../development-process), for more
-complex issues it is often beneficial to prepare them further before starting
-implementation. For these kinds of issues, the first step is to break them down
-into smaller, more concrete steps (which is often a great thing to do in a
-[pairing session](./engineering/#pairing)).
+planned for a particular [iteration](#iterations), for more complex issues it is
+often beneficial to prepare them further before starting implementation. For
+these kinds of issues, the first step is to break them down into smaller, more
+concrete steps (which is often a great thing to do in a
+[pairing session](#pairing)).
 
-Once an issue has been resolved via a
-[pull request](./engineering/#feature-branches) or if it is blocked, the
-engineer(s) will self-assign another issue from the iteration backlog. If an
-issue is blocked and cannot progress, the engineers working on it will have to
-contact the [iteration lead](../../development-process) who - in collaboration
-with whomever necessary - will try to resolve the impediment.
+Once an issue has been resolved via a [pull request](#feature-branches) or if it
+is blocked, the engineer(s) will self-assign another issue from the iteration
+backlog. If an issue is blocked and cannot progress, the engineers working on it
+will have to contact the [iteration lead](#roles) who - in collaboration with
+whomever necessary - will try to resolve the impediment.
 
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
@@ -360,8 +359,7 @@ requests from being merged.
 
 ##### Preview Systems
 
-In addition to setting up
-[continuous deployment](../../development-process/#iteration-execution) for
+In addition to setting up [continuous deployment](#iteration-execution) for
 deploying all changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
@@ -466,7 +464,7 @@ otherwise often become necessary down the line.
 When working on the code base, all engineers should keep an eye open for parts
 that need to be refactored and either do so immediately in case of simple
 changes, or bring them up as individual issues for one of the next
-[iterations](../../development-process).
+[iterations](#iterations).
 
 #### Pairing
 
@@ -529,7 +527,7 @@ Changes to design sources need to be reviewed for:
   choice with reasonable effort?
 
 When reviewing design changes the same rules apply as when
-[reviewing code changes](../engineering/#review-guidelines).
+[reviewing code changes](#review-guidelines).
 
 #### Design Systems
 

@@ -249,10 +249,11 @@ In the product development stage of an increment user stories are turned into
 usable features of the product, iteratively building it up over time. Each user
 story should be broken down into fine-grained and more detailed issues and then
 proceed to be implemented by following a smooth
-[development process](../development-process/). During this process, engineers
-and designers continue to work closely with the business experts, discussing
-individual facets of user stories as well as different alternatives for
-designing and implementing those along with the associated effort.
+[development process](../development-process/#development-process). During this
+process, engineers and designers continue to work closely with the business
+experts, discussing individual facets of user stories as well as different
+alternatives for designing and implementing those along with the associated
+effort.
 
 The project team will build slices of the system at once, including everything
 from the design, the backend, and the frontend code of a particular user story
