@@ -24,7 +24,7 @@ PandocRuby.convert(
   :toc,
   {
     :from => :markdown,
-    :to => :html,
-    :output => "#{File.dirname(__FILE__)}/../../dist/index.html"
+    :to => :pdf,
+    :output => "#{File.dirname(__FILE__)}/../../dist/index.pdf"
   }
 )
