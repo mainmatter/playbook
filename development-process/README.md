@@ -529,7 +529,7 @@ Changes to design sources need to be reviewed for:
   choice with reasonable effort?
 
 When reviewing design changes the same rules apply as when
-[reviewing code changes](#review-guidelines).
+[reviewing code changes](#reviews).
 
 #### Design Systems
 
