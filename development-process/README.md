@@ -538,6 +538,8 @@ independently of its nature or scope. The design system is a structured,
 multi-level framework where each layer builds on top of the elements defined in
 the previous one, going from simple to complex, e.g.:
 
+![some image](../assets/images/1510.png "This is a test image")
+
 - basic rules around font choices and color schemes build the foundation for the
   design system
 - atomic elements like buttons, labels and inputs serve as the foundation of the
