@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'pandoc-ruby'
+
+converter = PandocRuby.convert(
+  [
+    "#{File.dirname(__FILE__)}/../../README.md",
+    "#{File.dirname(__FILE__)}/../../project-procedure/README.md",
+    "#{File.dirname(__FILE__)}/../../project-procedure/digital-products/README.md",
+    "#{File.dirname(__FILE__)}/../../development-process/README.md"
+  ],
+  :standalone,
+  {
+    :from => :markdown,
+    :to => :html,
+    :output => "#{File.dirname(__FILE__)}/../../dist/index.html"
+  }
+)
