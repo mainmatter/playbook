@@ -1,4 +1,4 @@
-# Project Flow
+# Project Procedure
 
 Successful projects require a well-defined procedure that clearly prescribes
 which steps to take in what order and involves all stakeholders. All the
@@ -15,7 +15,3 @@ of project stakeholders should be kept as wide and open as possible and also
 include people that might not necessarily be involved in the project on a daily
 basis but still have relevant perspectives that the project team should be aware
 of.
-
-## [Consulting Project](./consulting)
-
-## [Digital Product Projects](./digital-products)

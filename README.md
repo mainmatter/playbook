@@ -11,6 +11,10 @@ The document [Project Procedure](./project-procedure) describes how we approach
 new projects and work with clients. We aim for a smooth start encouraging our
 clients to take on an active role.
 
+### [Consulting Project](./consulting)
+
+### [Digital Product Projects](./digital-products)
+
 ## [Development Process](./development-process)
 
 The document [Development Process](./development-process) specifies on how we
