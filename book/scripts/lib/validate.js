@@ -5,9 +5,13 @@ const { JSDOM } = jsdom;
 
 const DOCUMENT_HOST = 'playbook.simplabs';
 
+const virtualConsole = new jsdom.VirtualConsole();
+virtualConsole.sendTo(console, { omitJSDOMErrors: true });
+
 module.exports = function validate(book) {
   let errors = [];
-  let dom = new JSDOM(book, { url: `http://${DOCUMENT_HOST}` });
+
+  let dom = new JSDOM(book, { virtualConsole, url: `http://${DOCUMENT_HOST}` });
   let document = dom.window.document;
 
   let links = document.querySelectorAll('a');
