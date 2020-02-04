@@ -14,7 +14,8 @@
   },
   "scripts": {
     "format": "prettier --write '**/*.md'",
-    "lint": "prettier --check '**/*.md'"
+    "lint": "prettier --check '**/*.md'",
+    "prepare-book": "node book/scripts/prepare.js"
   },
   "prettier": {
     "proseWrap": "always"

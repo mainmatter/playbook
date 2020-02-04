@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    @page {
+      size: A4;
+      margin: 1cm;
+
+      @bottom-center {
+        content: counter(page);
+      }
+    }
+
+    h2 { 
+      page-break-before: always;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  {{{content}}}
+</body>
+</html>
