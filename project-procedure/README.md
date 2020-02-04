@@ -16,6 +16,6 @@ include people that might not necessarily be involved in the project on a daily
 basis but still have relevant perspectives that the project team should be aware
 of.
 
-## [Consulting Project](./consulting)
+## [Consulting Project](./consulting#consulting-projects)
 
-## [Digital Product Projects](./digital-products)
+## [Digital Product Projects](./digital-products#digital-product-projects)
