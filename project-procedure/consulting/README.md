@@ -25,7 +25,8 @@ must know and understand its constituent parts. Therefore we ask clients to
 introduce our consultants to:
 
 - their in-house team structure and development process (for clients lacking an
-  effective process, we offer to introduce [ours](./../../development-process))
+  effective process, we offer to introduce
+  [ours](./../../development-process#development-process))
 - their engineering infrastructure, covering tools like version control systems,
   issue trackers, continuous integration and continuous deployment setups, VPNs
   etc.
