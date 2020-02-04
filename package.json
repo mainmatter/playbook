@@ -8,6 +8,7 @@
   "devDependencies": {
     "handlebars": "^4.7.2",
     "highlight.js": "^9.18.1",
+    "jsdom": "^16.1.0",
     "marked": "^0.8.0",
     "prettier": "^1.18.2"
   },

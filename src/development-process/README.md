@@ -272,9 +272,9 @@ busy with other tasks and do not actually work on them. If an issue is being
 worked on by multiple team members sequentially (e.g. first the designer for
 preparing visual elements, then the engineer for implementing those), the latter
 team member will self-assign the issue once the former is done with their work.
-Once an issue has been resolved via a [pull request](#feature-branches) or if it
-is blocked, the engineer(s) will self-assign another issue from the iteration
-backlog.
+Once an issue has been resolved via a
+[pull request](#feature-branches-and-pull-requests) or if it is blocked, the
+engineer(s) will self-assign another issue from the iteration backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
@@ -595,7 +595,7 @@ Changes to design sources need to be reviewed for:
   choice with reasonable effort?
 
 When reviewing design changes we recommend following the same set of rules as
-when [reviewing code changes](#review-guidelines).
+when [reviewing code changes](#reviews).
 
 #### Design Systems
 

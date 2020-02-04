@@ -1,10 +1,12 @@
 const path = require('path');
 const fs = require('fs');
+const process = require('process');
 
 const marked = require('marked');
 const Handlebars = require('handlebars');
 
 const BookRenderer = require('./lib/book-renderer');
+const validate = require('./lib/validate');
 
 const SRC_PATH = path.join(__dirname, '..', '..', 'src');
 
@@ -46,4 +48,10 @@ let data = {
 };
 let output = layout(data);
 
-console.log(output);
+let errors = validate(output);
+if (errors.length > 0) {
+  errors.forEach((error) => console.error(error));
+  process.exit(1);
+} else {
+  console.log(output);
+}

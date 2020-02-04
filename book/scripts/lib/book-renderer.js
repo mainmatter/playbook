@@ -12,7 +12,11 @@ renderer.link = function(href, title, text) {
     process.exit(1);
   }
 
-  return `<a href="${linkUrl.hash}"${title ? ` title=${title}` : ''}>${text}</a>`;
+  if (!linkUrl.hostname && linkUrl.hash) {
+    href = linkUrl.hash;
+  }
+
+  return `<a href="${href}"${title ? ` title=${title}` : ''}>${text}</a>`;
 };
 
 module.exports = renderer;
