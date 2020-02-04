@@ -14,7 +14,8 @@
   "scripts": {
     "format": "prettier --write '**/*.md'",
     "lint": "prettier --check '**/*.md'",
-    "prepare-book": "node book/scripts/prepare.js"
+    "prepare-book": "node book/scripts/prepare.js",
+    "compile-book": "mkdir -p dist && prince -o dist/book.pdf"
   },
   "prettier": {
     "proseWrap": "always"
