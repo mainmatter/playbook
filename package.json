@@ -6,6 +6,8 @@
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
   "private": true,
   "devDependencies": {
+    "highlight.js": "^9.18.1",
+    "marked": "^0.8.0",
     "prettier": "^1.18.2",
     "prince": "^1.7.1"
   },
