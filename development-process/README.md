@@ -381,9 +381,12 @@ effort. Once the mechanism is set up, the benefits easily justify even a
 substantial effort anyway though. In case of projects that have been running for
 some time already, have lots of dependencies, are not containerized and would
 thus be very hard to implement a preview system mechanism for. We recommend at
-least setting up a shared sandbox environment that all stakeholders share. While
-that is not as valuable as a proper preview system mechanism, it is a good first
-step and often much easier to set up.
+least setting up a shared sandbox environment. That is not as valuable as a
+proper preview system mechanism as it is shared among all stakeholders and will
+hold changes from multiple pull requests at the same time as well as be used by
+multiple stakeholders at the same time that might all be influencing each other.
+However, it is a good first step and often much easier to set up than automated
+preview systems.
 
 ##### Reviews
 
