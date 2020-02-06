@@ -151,13 +151,14 @@ feedback and verify assumptions as early as possible.
 
 ### User Stories Workshop
 
-In the User Stories Workshop, the project team defines concrete concepts for
-individual, self-contained features of the application. The goal is to develop
-an understanding of the structure of the features's content and functionality,
-the UI elements the users interact with and the transitions between individual
-states in the feature's flow. The goal is not to specify every detail of all
-features, but instead keep them deliberately rough while concrete enough to
-functionally define the respective feature completely.
+In the [User Stories](https://en.wikipedia.org/wiki/User_story) Workshop, the
+project team defines concrete concepts for individual, self-contained features
+of the application. The goal is to develop an understanding of the structure of
+the features's content and functionality, the UI elements the users interact
+with and the transitions between individual states in the feature's flow. The
+goal is not to specify every detail of all features, but instead keep them
+deliberately rough while concrete enough to functionally define the respective
+feature completely.
 
 This workshop requires input from all project stakeholders:
 
