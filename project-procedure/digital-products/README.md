@@ -296,11 +296,11 @@ real users can access the system and deliver first hand feedback.
 
 As more user stories are being completed and the product evolves, foundational
 elements that will later be reused in other, similar contexts will be
-identified - both in the application's codebase as well as in the visual design
-system. That way, each increment of the application results in its foundation
-becoming broader, stronger and more refined, resulting in increased
-effectiveness over time, decreasing effort per user story and increasing
-planning reliability.
+identified - both in the application's codebase as well as in the
+[visual design system](../../development-process/#design-systems). That way,
+each increment of the application results in its foundation becoming broader,
+stronger and more refined, resulting in increased effectiveness over time,
+decreasing effort per user story and increasing planning reliability.
 
 ## Evaluation
 
