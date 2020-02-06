@@ -1,6 +1,13 @@
 # Digital Product Projects
 
-Developing Digital Products can be broken down into four main stages:
+Developing digital products is a complex process during which an idea or problem
+is transformed into a software based solution. In order to complete that process
+effectively and successfully, a well-defined procedure is required that clearly
+prescribes which steps to take in what order and that involves all stakeholders.
+All the relevant information to each step and the respective outcomes need to be
+accessible to everyone involved at all times.
+
+Digital product projects can be broken down into four main stages:
 
 - product strategy: identifying and understanding the goal of the project and
   the environment it operates in
@@ -16,6 +23,14 @@ value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
+
+Software projects are highly dynamic. The bigger the scope and the complexity of
+a project, the likelier it is to steer off track, resulting in delays and budget
+overruns. By limiting the scope per increment, complexity and thus risk are
+minimized and also usable versions of the product that provide value to users
+are available earlier in the process. These early versions of the product can
+already be shared with users and be used to acquire valuable feedback which
+might even result in a shift of focus or project direction.
 
 ## Kick-Off Meeting
 
@@ -247,15 +262,10 @@ included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
-orders). Excluded aspects and edge cases will be addressed in later increments
-of the project.
-
-Software projects are highly dynamic. The bigger the scope and the complexity of
-a project, the likelier it is to steer off track, resulting in delays and budget
-overruns. By limiting the scope per increment and introducing escape hatches,
-complexity and thus risk are minimized while allowing the team to make a
+orders). Introducing escape these hatches allows the project team to make a
 decision between implementing essential versions of more user stories versus
-covering more non-essential aspects and edge cases for fewer user stories.
+covering more non-essential aspects and edge cases for fewer user stories later
+in the process.
 
 Once all stakeholders agree on the plan for the current increment of the
 application, the list of user stories together with included as well as excluded
