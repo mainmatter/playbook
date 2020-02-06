@@ -165,11 +165,11 @@ first in order to resolve these open questions. Spikes should have:
   promising approaches
 - a well-defined timebox, e.g. _"max 2 days"_
 
+## Iteration Planning
+
 The result of the iteration preparation phase is a prioritized list of
 well-prepared issues and spikes. This list of issues will then be presented to
 the team during the planning meeting.
-
-## Iteration Planning
 
 The iteration planning meeting is a joint meeting with the entire project team,
 the business experts and all other stakeholders involved in the project. During
