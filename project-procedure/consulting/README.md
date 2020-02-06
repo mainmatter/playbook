@@ -4,6 +4,12 @@ For consulting projects we work within our clients' organizational structures,
 supporting or leading product initiatives and making the client's in-house teams
 more efficient.
 
+## Kick-Off Meeting
+
+Consulting projects start with a
+[kick-off meeting](../digital-products/#kick-off-meeting) in which the project
+team gets assembled involving all stakeholders.
+
 ## Introduction
 
 Following the kick-off meeting with all stakeholders we ask our clients to
