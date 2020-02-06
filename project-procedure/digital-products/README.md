@@ -50,8 +50,9 @@ stage to identify answers to these questions:
   customers having to call the client to configure the client's product
   specifically to their needs) and how does that manifest in the business? (e.g.
   lost sales)
-- who is going to use the product that is being built? (e.g. the project teams's
-  own organization or its customers)
+- who is affected by the present problem and who is going to use the product
+  that is being built? (e.g. the project teams's own organization or its
+  customers)
 - what should be the effect on the business once the solution is in place? (e.g.
   increased sales, reduced workload for the sales team etc.)
 
