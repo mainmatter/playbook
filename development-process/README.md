@@ -366,9 +366,12 @@ per-branch/pull request staging systems on demand which we call preview systems.
 These systems would ideally be automatically created for every new pull request
 (and destroyed once the pull request was merged). A link to the respective
 system would be added to the pull request automatically. Preview systems are
-particularly helpful for sharing changes with non-technical stakeholders that
-cannot run the entire application themselves or with external stakeholders that
-might not even have access to the application's sources.
+particularly helpful for letting non-technical stakeholders that cannot run the
+entire application themselves inspect features or changes. That way they can
+validate the respective features or changes and give feedback that engineers can
+then address before releasing to production. Preview systems also allow sharing
+status with external stakeholders that might not even have access to the
+application's sources at all.
 
 Setting up a preview systems mechanism can sometimes be challenging and might
 require a substantial amount of work. However, when taken into account early on
