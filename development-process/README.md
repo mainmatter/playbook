@@ -564,6 +564,19 @@ elements turn out to not be suited for previously uncovered cases, these
 elements might need to be changed, potentially making changes in other,
 higher-level elements necessary as well.
 
+##### Productivity Benefits
+
+Design systems do not only support a consistent user interface but also directly
+improve productivity. Since the application's UI is based on a common set of
+rules, elements and components, engineers can build new pages without needing
+additional guidance from designers, simply by following the rules of and using
+the elements and components of the design system. In most cases, elements and
+components defined in the design system will even have direct counterparts in
+the application's source code. That way, designers do not have to maintain
+designs for every individual page of the application. They only need to ensure
+the design system provides the rules and elements to build all of the
+application's pages.
+
 #### Deliverables
 
 Ideally no dedicated design deliverables should be necessary and engineers
