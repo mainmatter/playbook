@@ -45,11 +45,11 @@ be defined, prepared and then planned.
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
 Iterations should be short enough to remain predictable and long enough to
-supply enough time to finish meaningful work. The concrete iteration length for
-a project must be defined when kicking off the project but can still be adapted
-afterwards. Iterations are a team effort and should therefore be planned and
-executed collaboratively with team members supporting each other to complete the
-work as planned.
+supply enough time to finish meaningful work – a length of 2 weeks typically
+achieves that best. The concrete iteration length for a project must be defined
+when kicking off the project but can still be adapted afterwards. Iterations are
+a team effort and should therefore be planned and executed collaboratively with
+team members supporting each other to complete the work as planned.
 
 ### Roles
 
