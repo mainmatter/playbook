@@ -1,14 +1,5 @@
 # Closing Notes
 
-Different teams face different challenges and the techniques that work great for
-one team might not work at all for another one. That is why instead of focussing
-on any precise tasks and tools, we focused on the underlying values and
-techniques that are independent of any particular tools or organizational
-structure. Whether you are running a small team of only a few people or a large
-organization, whichever of the plethora of tools for organizing software teams
-you are using, you should be able to adopt the techniques presented in this
-book.
-
 We hope that reading this served as an inspiration for addressing some of the
 problems you and your team might be facing and rethinking the techniques you are
 practicing or might be missing.
