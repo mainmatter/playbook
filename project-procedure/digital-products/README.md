@@ -1,6 +1,13 @@
 # Digital Product Projects
 
-Developing Digital Products can be broken down into four main stages:
+Developing digital products is a complex process during which an idea or problem
+is transformed into a software based solution. In order to complete that process
+effectively and successfully, a well-defined procedure is required that clearly
+prescribes which steps to take in what order and that involves all stakeholders.
+All the relevant information to each step and the respective outcomes need to be
+accessible to everyone involved at all times.
+
+Digital product projects can be broken down into four main stages:
 
 - product strategy: identifying and understanding the goal of the project and
   the environment it operates in
@@ -16,6 +23,25 @@ value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
+
+Software projects are highly dynamic. The bigger the scope and the complexity of
+a project, the likelier it is to steer off track, resulting in delays and budget
+overruns. By limiting the scope per increment, complexity and thus risk are
+minimized and also usable versions of the product that provide value to users
+are available earlier in the process. These early versions of the product can
+already be shared with users and be used to acquire valuable feedback which
+might even result in a shift of focus or project direction.
+
+## Kick-Off Meeting
+
+Every project should start with a kick-off meeting assembling all project
+stakeholders - ideally in person, otherwise in a video call. The main goal of
+this meeting is for everybody involved to get to know each other and to acquire
+an understanding of everyone else's roles, responsibilities and goals. The group
+of project stakeholders should be kept as wide and open as possible and include
+everyone who has any interest or relation to the project, even people that might
+not necessarily be involved in the project on a daily basis but still have
+relevant perspectives that the project team should be aware of.
 
 ## Setup
 
@@ -46,11 +72,13 @@ established in order to develop an effective strategy for all subsequently taken
 actions. All project stakeholders need to work closely together during this
 stage to identify answers to these questions:
 
-- what exactly is it that is currently lacking or requires improvement? (e.g.
+- what exactly is it that is currently lacking or requires improvement (e.g.
   customers having to call the client to configure the client's product
-  specifically to their needs)
-- who is going to use the product that is being built? (e.g. the project teams's
-  own organization or its customers)
+  specifically to their needs) and how does that manifest in the business? (e.g.
+  lost sales)
+- who is affected by the present problem and who is going to use the product
+  that is being built? (e.g. the project teams's own organization or its
+  customers)
 - what should be the effect on the business once the solution is in place? (e.g.
   increased sales, reduced workload for the sales team etc.)
 
@@ -58,7 +86,7 @@ The goal of the product strategy stage is finding answers to these questions
 that are based on facts and knowledge rather than assumptions. The techniques
 for acquiring said facts will vary with each new project and depend on the
 particular problem, the respective industry and the time or budget constraints.
-We recommend using one or several of these techniques:
+We recommend using one or several of the following techniques:
 
 - data analysis of existing data e.g. from CRM systems, event logs or analytics
   data from existing web applications; utilising these data sources often helps
@@ -73,6 +101,17 @@ We recommend using one or several of these techniques:
   limitations, what competitors with similar products are offering and what the
   relevant trends are
 
+The product strategy stage will typically be conducted as one or several
+workshops in which the project team has a facilitated discussion based on
+patterns and insights uncovered during research. It is critical to get all
+project stakeholders involved in these workshops, in particular all of the
+business experts from various backgrounds like marketing, sales, customer
+service etc. All of these groups will have unique insights and experiences that
+must all be heard in order to clearly understand the situation and define the
+project's objective.
+
+### Mission Statement
+
 Based on the gathered facts, the project team will be able to define a
 high-level objective for the project (e.g. a web application that allows
 customers to configure the client's product according to their needs and order
@@ -85,22 +124,30 @@ for easier [evaluation in later stages](#evaluation). If no data is available
 for these KPIs, it might be necessary to set up additional tracking or conduct
 research.
 
+### Personas
+
 In addition to the mission statement, the team also needs to identify potential
 future users, along with their prior knowledge, skills, needs, and motivations
-with regard to the application. We recommend defining one or multiple personas
-(typical representatives of the future user base) based on all acquired facts in
-order to visualise the user base. A good understanding of a product's personas
-is a key prerequisite for developing an application that effectively caters to
-the specific needs of its future users.
+with regard to the application. We recommend defining one or multiple
+[personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>) (typical
+representatives of the future user base) based on all acquired facts in order to
+visualise the user base. A good understanding of a product's personas is a key
+prerequisite for developing an application that effectively caters to the
+specific needs of its future users.
 
-The product strategy stage will typically be conducted as one or several
-workshops in which the project team has a facilitated discussion based on
-patterns and insights uncovered during research. It is critical to get all
-project stakeholders involved in this workshop, in particular all of the
-business experts from various backgrounds like marketing, sales, customer
-service etc. All of these groups will have unique insights and experiences that
-must all be heard in order to clearly understand the situation and define the
-project's objective.
+In order to identify personas, all possible future users (as derived from the
+acquired data and/or based on the business experts' experience) of the product
+are listed. For each of those the following questions are answered.
+
+- why are they interested in the product and what problem are they trying to
+  solve with it?
+- what previous experience do they have in relation to the product?
+- what will make the solution appealing and valuable for them?
+
+These are then be grouped by related concepts and patterns that emerge from the
+answers to these questions. Each of these clusters constitutes a persona that is
+given a name so it can be easily referred to and described with its main
+characteristics in a persona document (aiming for about one page per persona).
 
 ## Product Design
 
@@ -131,13 +178,14 @@ feedback and verify assumptions as early as possible.
 
 ### User Stories Workshop
 
-In the User Stories Workshop, the project team defines concrete concepts for
-individual, self-contained features of the application. The goal is to develop
-an understanding of the structure of the features's content and functionality,
-the UI elements the users interact with and the transitions between individual
-states in the feature's flow. The goal is not to specify every detail of all
-features, but instead keep them deliberately rough while concrete enough to
-functionally define the respective feature completely.
+In the [User Stories](https://en.wikipedia.org/wiki/User_story) Workshop, the
+project team defines concrete concepts for individual, self-contained features
+of the application. The goal is to develop an understanding of the structure of
+the features's content and functionality, the UI elements the users interact
+with and the transitions between individual states in the feature's flow. The
+goal is not to specify every detail of all features, but instead keep them
+deliberately rough while concrete enough to functionally define the respective
+feature completely.
 
 This workshop requires input from all project stakeholders:
 
@@ -215,15 +263,10 @@ included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
-orders). Excluded aspects and edge cases will be addressed in later increments
-of the project.
-
-Software projects are highly dynamic. The bigger the scope and the complexity of
-a project, the likelier it is to steer off track, resulting in delays and budget
-overruns. By limiting the scope per increment and introducing escape hatches,
-complexity and thus risk are minimized while allowing the team to make a
+orders). Introducing escape these hatches allows the project team to make a
 decision between implementing essential versions of more user stories versus
-covering more non-essential aspects and edge cases for fewer user stories.
+covering more non-essential aspects and edge cases for fewer user stories later
+in the process.
 
 Once all stakeholders agree on the plan for the current increment of the
 application, the list of user stories together with included as well as excluded
@@ -275,11 +318,11 @@ real users can access the system and deliver first hand feedback.
 
 As more user stories are being completed and the product evolves, foundational
 elements that will later be reused in other, similar contexts will be
-identified - both in the application's codebase as well as in the visual design
-system. That way, each increment of the application results in its foundation
-becoming broader, stronger and more refined, resulting in increased
-effectiveness over time, decreasing effort per user story and increasing
-planning reliability.
+identified - both in the application's codebase as well as in the
+[visual design system](../../development-process/#design-systems). That way,
+each increment of the application results in its foundation becoming broader,
+stronger and more refined, resulting in increased effectiveness over time,
+decreasing effort per user story and increasing planning reliability.
 
 ## Evaluation
 
