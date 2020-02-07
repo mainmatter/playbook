@@ -45,11 +45,11 @@ be defined, prepared and then planned.
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
 Iterations should be short enough to remain predictable and long enough to
-supply enough time to finish meaningful work. The concrete iteration length for
-a project must be defined when kicking off the project but can still be adapted
-afterwards. Iterations are a team effort and should therefore be planned and
-executed collaboratively with team members supporting each other to complete the
-work as planned.
+supply enough time to finish meaningful work – a length of 2 weeks typically
+achieves that best. The concrete iteration length for a project must be defined
+when kicking off the project but can still be adapted afterwards. Iterations are
+a team effort and should therefore be planned and executed collaboratively with
+team members supporting each other to complete the work as planned.
 
 ### Roles
 
@@ -77,12 +77,12 @@ consult with other project stakeholders for priorization).
 
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
-an iteration should reflect **all** the upcoming work, not only feature work -
-in particular they should reflect design and UX work but also purely technical
-tasks like refactorings as well. The prepared tasks will then be presented to
-the team as part of the planning meeting that kicks the iteration off. In order
-to prepare these tasks, the iteration lead synchronizes with the business
-experts and other project stakeholders to:
+an iteration should reflect **all** the upcoming work, not only feature work and
+bugs - in particular they should reflect design and UX work but also purely
+technical tasks like refactorings as well. The prepared tasks will then be
+presented to the team as part of the planning meeting that kicks the iteration
+off. In order to prepare these tasks, the iteration lead synchronizes with the
+business experts and other project stakeholders to:
 
 - identify the most relevant tasks from each project stakeholder's perspectives;
   the goal here is to find a good balance between work on features and other
@@ -128,6 +128,11 @@ non-involved with the project to get an understanding of what is happening
 directly, and can serve as future reference to understand what was done in a
 project, and for which reasons.
 
+There is a plethora of tools available for maintaining and collaborating on
+issues and this process does not prescribe usage of any particular one – all of
+the rules we present here are independent of the concrete tooling used in a
+project.
+
 Good issues aim to:
 
 - describe what is to be done and why, potentially accompanied by screenshots,
@@ -165,11 +170,11 @@ first in order to resolve these open questions. Spikes should have:
   promising approaches
 - a well-defined timebox, e.g. _"max 2 days"_
 
+## Iteration Planning
+
 The result of the iteration preparation phase is a prioritized list of
 well-prepared issues and spikes. This list of issues will then be presented to
 the team during the planning meeting.
-
-## Iteration Planning
 
 The iteration planning meeting is a joint meeting with the entire project team,
 the business experts and all other stakeholders involved in the project. During
@@ -363,12 +368,18 @@ In addition to setting up [continuous deployment](#iteration-execution) for
 deploying all changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
-These systems would ideally be automatically created (and destroyed once the
-pull request was merged) for every new pull request. A link to the respective
-system would be added to the pull request automatically. Preview systems are
-particularly helpful for sharing changes with non-technical stakeholders that
-cannot run the entire application themselves or with external stakeholders that
-might not even have access to the application's sources.
+Preview systems are production-like environments that run the entire application
+with a particular revision of the application's source code (e.g. that of a
+branch/pull request) with real production or production-like data. These systems
+would ideally be automatically created for every new pull request (and destroyed
+once the pull request was merged). A link to the respective system would be
+added to the pull request automatically. Preview systems are particularly
+helpful for letting non-technical stakeholders that cannot run the entire
+application themselves inspect features or changes. That way they can validate
+the respective features or changes and give feedback that engineers can then
+address before releasing to production. Preview systems also allow sharing
+status with external stakeholders that might not even have access to the
+application's sources at all.
 
 Setting up a preview systems mechanism can sometimes be challenging and might
 require a substantial amount of work. However, when taken into account early on
@@ -378,9 +389,12 @@ effort. Once the mechanism is set up, the benefits easily justify even a
 substantial effort anyway though. In case of projects that have been running for
 some time already, have lots of dependencies, are not containerized and would
 thus be very hard to implement a preview system mechanism for. We recommend at
-least setting up a shared sandbox environment that all stakeholders share. While
-that is not as valuable as a proper preview system mechanism, it is a good first
-step and often much easier to set up.
+least setting up a shared sandbox environment. That is not as valuable as a
+proper preview system mechanism as it is shared among all stakeholders and will
+hold changes from multiple pull requests at the same time as well as be used by
+multiple stakeholders at the same time that might all be influencing each other.
+However, it is a good first step and often much easier to set up than automated
+preview systems.
 
 ##### Reviews
 
@@ -558,13 +572,29 @@ elements turn out to not be suited for previously uncovered cases, these
 elements might need to be changed, potentially making changes in other,
 higher-level elements necessary as well.
 
+##### Productivity Benefits
+
+Design systems do not only support a consistent user interface but also directly
+improve productivity. Since the application's UI is based on a common set of
+rules, elements and components, engineers can build new pages without needing
+additional guidance from designers, simply by following the rules of and using
+the elements and components of the design system. In most cases, elements and
+components defined in the design system will even have direct counterparts in
+the application's source code. That way, designers do not have to maintain
+designs for every individual page of the application. They only need to ensure
+the design system provides the rules and elements to build all of the
+application's pages.
+
 #### Deliverables
 
-Design files should be prepared in a way that makes extraction of assets and
-necessary artwork easy for the engineers and designers who will use them. This
-should include preparing and marking elements for export, including proper
-offsets and intended appropriate file formats to reduce the necessity for
-producing any special deliverables beyond the files themselves.
+Ideally no dedicated design deliverables should be necessary and engineers
+should work with the design source files directly and extract what they need.
+Therefore, the design sources files should be managed in a way that makes
+extraction of assets and necessary artwork easy for the engineers and designers
+who will use them. This should include preparing and marking elements for
+export, including proper offsets and intended appropriate file formats to reduce
+the necessity for producing any special deliverables beyond the files
+themselves.
 
 If any particular deliverables are required that the engineers can not extract
 from the design source files directly, those deliverables should be attached to
