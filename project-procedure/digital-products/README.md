@@ -145,8 +145,8 @@ are listed. For each of those the following questions are answered.
 
 These are then be grouped by related concepts and patterns that emerge from the
 answers to these questions. Each of these clusters constitutes a persona that is
-given a name and described in a persona document (aiming for about one page per
-persona).
+given a name so it can be easily referred to and described with its main
+characteristics in a persona document (aiming for about one page per persona).
 
 ## Product Design
 
