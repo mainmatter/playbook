@@ -22,3 +22,13 @@ particular tools or organizational structure. Whether you are running a small
 team of only a few people or a large organization, whichever of the plethora of
 tools for organizing software teams you are using, you should be able to adopt
 the techniques presented in this book.
+
+## Organization of this Book
+
+This book is currently organized into two main chapters:
+
+- [_"Digital Product Projects"_](../../project-procedure/digital-projects#digital-product-projects)
+  describes how digital products are build effectively and in a targeted manner
+- [_"Development Process"_](../../development-process/#development-process)
+  describes how product teams run an efficient process that enables the team
+  rather than stand in its way
