@@ -128,11 +128,12 @@ research.
 
 In addition to the mission statement, the team also needs to identify potential
 future users, along with their prior knowledge, skills, needs, and motivations
-with regard to the application. We recommend defining one or multiple personas
-(typical representatives of the future user base) based on all acquired facts in
-order to visualise the user base. A good understanding of a product's personas
-is a key prerequisite for developing an application that effectively caters to
-the specific needs of its future users.
+with regard to the application. We recommend defining one or multiple
+[personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>) (typical
+representatives of the future user base) based on all acquired facts in order to
+visualise the user base. A good understanding of a product's personas is a key
+prerequisite for developing an application that effectively caters to the
+specific needs of its future users.
 
 In order to identify personas, all possible future users (as derived from the
 acquired data and/or based on the business experts' experience) of the product
