@@ -128,6 +128,11 @@ non-involved with the project to get an understanding of what is happening
 directly, and can serve as future reference to understand what was done in a
 project, and for which reasons.
 
+There is a plethora of tools available for maintaining and collaborating on
+issues and this process does not prescribe usage of any particular one – all of
+the rules we present here are independent of the concrete tooling used in a
+project.
+
 Good issues aim to:
 
 - describe what is to be done and why, potentially accompanied by screenshots,
