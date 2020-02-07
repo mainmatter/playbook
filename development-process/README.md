@@ -368,13 +368,16 @@ In addition to setting up [continuous deployment](#iteration-execution) for
 deploying all changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
-These systems would ideally be automatically created for every new pull request
-(and destroyed once the pull request was merged). A link to the respective
-system would be added to the pull request automatically. Preview systems are
-particularly helpful for letting non-technical stakeholders that cannot run the
-entire application themselves inspect features or changes. That way they can
-validate the respective features or changes and give feedback that engineers can
-then address before releasing to production. Preview systems also allow sharing
+Preview systems are production-like environments that run the entire application
+with a particular revision of the application's source code (e.g. that of a
+branch/pull request) with real production or production-like data. These systems
+would ideally be automatically created for every new pull request (and destroyed
+once the pull request was merged). A link to the respective system would be
+added to the pull request automatically. Preview systems are particularly
+helpful for letting non-technical stakeholders that cannot run the entire
+application themselves inspect features or changes. That way they can validate
+the respective features or changes and give feedback that engineers can then
+address before releasing to production. Preview systems also allow sharing
 status with external stakeholders that might not even have access to the
 application's sources at all.
 
