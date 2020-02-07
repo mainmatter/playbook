@@ -38,10 +38,10 @@ Every project should start with a kick-off meeting assembling all project
 stakeholders - ideally in person, otherwise in a video call. The main goal of
 this meeting is for everybody involved to get to know each other and to acquire
 an understanding of everyone else's roles, responsibilities and goals. The group
-of project stakeholders should be kept as wide and open as possible and also
-include people that might not necessarily be involved in the project on a daily
-basis but still have relevant perspectives that the project team should be aware
-of.
+of project stakeholders should be kept as wide and open as possible and include
+everyone who has any interest or relation to the project, even people that might
+not necessarily be involved in the project on a daily basis but still have
+relevant perspectives that the project team should be aware of.
 
 ## Setup
 
