@@ -77,12 +77,12 @@ consult with other project stakeholders for priorization).
 
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
-an iteration should reflect **all** the upcoming work, not only feature work -
-in particular they should reflect design and UX work but also purely technical
-tasks like refactorings as well. The prepared tasks will then be presented to
-the team as part of the planning meeting that kicks the iteration off. In order
-to prepare these tasks, the iteration lead synchronizes with the business
-experts and other project stakeholders to:
+an iteration should reflect **all** the upcoming work, not only feature work and
+bugs - in particular they should reflect design and UX work but also purely
+technical tasks like refactorings as well. The prepared tasks will then be
+presented to the team as part of the planning meeting that kicks the iteration
+off. In order to prepare these tasks, the iteration lead synchronizes with the
+business experts and other project stakeholders to:
 
 - identify the most relevant tasks from each project stakeholder's perspectives;
   the goal here is to find a good balance between work on features and other
