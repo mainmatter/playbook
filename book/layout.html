@@ -65,20 +65,54 @@
 
     body {
       font-family: 'Nunito Sans', sans-serif;
+      color: #21294a;
     }
 
     @page {
-      size: A5;
-      margin: 1.5cm;
+      size: A4;
+      margin: 60pt;
 
-      @bottom-center {
+      @bottom-left {
         font-family: 'Nunito Sans', sans-serif;
+        font-size: 9pt;
+        content: 'simplabs playbook';
+        font-weight: 300;
+      }
+
+      @bottom-right {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 9pt;
         content: counter(page);
+        font-weight: 300;
       }
     }
 
     h1 {
       page-break-before: always;
+      font-size: 24pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 36pt;
+    }
+
+    h1:after {
+      content: '';
+      width: 80pt;
+      border-bottom: solid #007df6 4pt;
+      display: block;
+      margin-bottom: 36pt;
+    }
+
+    h2 {
+      font-size: 20pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    p {
+      font-size: 12pt;
+      margin: 0 0 24pt 0;
+      line-height: 20pt;
     }
   </style>
 </head>
