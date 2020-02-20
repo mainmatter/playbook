@@ -48,7 +48,7 @@ let input = [
   path.join(BOOK_SRC_PATH, 'closing-notes', 'README.md'),
   path.join(BOOK_SRC_PATH, 'about-the-authors', 'README.md'),
 ].reduce((acc, inputFile) => {
-  return acc + readInput(inputFile);
+  return `${acc}\n\n${readInput(inputFile)}`;
 }, '');
 
 let compiled = marked(input);
