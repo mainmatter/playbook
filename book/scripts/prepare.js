@@ -41,7 +41,6 @@ let readInput = (filePath) => {
 
 let input = [
   path.join(BOOK_SRC_PATH, 'introduction', 'README.md'),
-  path.join(MAIN_SRC_PATH, 'README.md'),
   path.join(MAIN_SRC_PATH, 'project-procedure/README.md'),
   path.join(MAIN_SRC_PATH, 'project-procedure/digital-products/README.md'),
   path.join(MAIN_SRC_PATH, 'development-process/README.md'),
