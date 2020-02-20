@@ -8,7 +8,8 @@ const Handlebars = require('handlebars');
 const BookRenderer = require('./lib/book-renderer');
 const validate = require('./lib/validate');
 
-const SRC_PATH = path.join(__dirname, '..', '..', 'src');
+const MAIN_SRC_PATH = path.join(__dirname, '..', '..', 'src');
+const BOOK_SRC_PATH = path.join(__dirname, '..', 'src');
 
 marked.setOptions({
   renderer: BookRenderer,
@@ -24,16 +25,18 @@ marked.setOptions({
   xhtml: false
 });
 
-let readInput = (file) => {
-  let filePath = path.join(SRC_PATH, file);
+let readInput = (filePath) => {
   return fs.readFileSync(filePath).toString();
 }
 
 let input = [
-  'README.md',
-  'project-procedure/README.md',
-  'project-procedure/digital-products/README.md',
-  'development-process/README.md',
+  path.join(BOOK_SRC_PATH, 'introduction', 'README.md'),
+  path.join(MAIN_SRC_PATH, 'README.md'),
+  path.join(MAIN_SRC_PATH, 'project-procedure/README.md'),
+  path.join(MAIN_SRC_PATH, 'project-procedure/digital-products/README.md'),
+  path.join(MAIN_SRC_PATH, 'development-process/README.md'),
+  path.join(BOOK_SRC_PATH, 'closing-notes', 'README.md'),
+  path.join(BOOK_SRC_PATH, 'about-the-authors', 'README.md'),
 ].reduce((acc, inputFile) => {
   return acc + readInput(inputFile);
 }, '');
