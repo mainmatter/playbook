@@ -44,6 +44,7 @@ let input = [
   path.join(BOOK_SRC_PATH, 'chapters/1-digital-product-projects/README.md'),
   path.join(MAIN_SRC_PATH, 'project-procedure/README.md'),
   path.join(MAIN_SRC_PATH, 'project-procedure/digital-products/README.md'),
+  path.join(BOOK_SRC_PATH, 'chapters/2-development-process/README.md'),
   path.join(MAIN_SRC_PATH, 'development-process/README.md'),
   path.join(BOOK_SRC_PATH, 'closing-notes', 'README.md'),
   path.join(BOOK_SRC_PATH, 'about-the-authors', 'README.md'),
