@@ -8,6 +8,8 @@ const Handlebars = require('handlebars');
 const BookRenderer = require('./lib/book-renderer');
 const validate = require('./lib/validate');
 
+const DIST_PATH = path.join(__dirname, '..', '..', 'dist');
+
 const MAIN_SRC_PATH = path.join(__dirname, '..', '..', 'src');
 const BOOK_SRC_PATH = path.join(__dirname, '..', 'src');
 
@@ -56,5 +58,6 @@ if (errors.length > 0) {
   errors.forEach((error) => console.error(error));
   process.exit(1);
 } else {
-  console.log(output);
+  let outputPath = path.join(DIST_PATH, 'book.html');
+  fs.writeFileSync(outputPath, output);
 }
