@@ -115,29 +115,57 @@
       line-height: 20pt;
     }
 
-    .chapter-title {
+    .chapter-intro {
+      page-break-after: always;
       page-break-before: always;
+      page-break-inside: avoid;
+      position: relative;
       height: 100%;
       width: 100%;
     }
 
-    .chapter-title img {
-      height: 60%;
+    @media print {
+      .chapter-intro {
+        position: fixed;
+      }
     }
 
-    .chapter-title h1 {
+    .chapter-intro .title {
+      position: absolute;
+      bottom: 0;
+      width: 75%;
+      margin: 0 12.5%;
+      background: url(./assets/images/chapter-title-background.png) no-repeat;
+      background-size: contain;
+      height: 50%;
+    }
+
+    .chapter-intro img {
+      width: 75%;
+    }
+
+    .chapter-intro .title h1 {
+      margin: 0;
       page-break-before: avoid;
-      height: 60%;
       font-size: 36pt;
       color: white;
-      font-weight: 400;
-      background-color: #007df6;
-      width: 80%;
-      margin: 0 10%;
+      font-weight: 300;
+      padding: 0 40pt 20pt 20pt;
+      text-transform: none;
     }
 
-    .chapter-title h1:after {
+    .chapter-intro .title h1:after {
       display: none;
+    }
+
+    .chapter-intro .title h2 {
+      font-size: 14pt;
+      color: white;
+      font-weight: 700;
+      border-bottom: 2pt solid white;
+      display: inline-block;
+      padding: 40pt 0 10pt 0;
+      margin: 0 0 10pt 20pt;
     }
   </style>
 </head>

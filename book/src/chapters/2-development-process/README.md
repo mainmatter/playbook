@@ -1,7 +1,9 @@
-<div class="chapter-title">
+<div class="chapter-intro">
   <img src="./assets/images/chapter-2.jpg" />
-  <h1>
-    <span>Part 2</span>
-    Development Process
-  </h1>
+  <div class="title">
+    <h2>Part 2</h2>
+    <h1>
+      Development Process
+    </h1>
+  </div>
 </div>
