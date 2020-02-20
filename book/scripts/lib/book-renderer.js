@@ -19,4 +19,9 @@ renderer.link = function(href, title, text) {
   return `<a href="${href}"${title ? ` title=${title}` : ''}>${text}</a>`;
 };
 
+renderer.image = function(href) {
+  let unifiedHref = href.replace(/[\.\/]+assets/, './assets');
+  return `<img src="${unifiedHref}" />`;
+}
+
 module.exports = renderer;
