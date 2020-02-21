@@ -115,6 +115,41 @@
       line-height: 20pt;
     }
 
+    ol {
+      list-style: none;
+      counter-reset: my-awesome-counter;
+      padding-left: 42pt;
+    }
+
+    ol li {
+      counter-increment: my-awesome-counter;
+      position: relative;
+      margin-bottom: 12pt;
+    }
+
+    ol li:before {
+      content: counter(my-awesome-counter);
+      border-radius: 50%;
+      background-color: #e2f1ff;
+      color: #007df6;
+      font-weight: bold;
+      width: 32pt;
+      display: inline-block;
+      height: 32pt;
+      text-align: center;
+      line-height: 32pt;
+      font-size: 20pt;
+      position: absolute;
+      left: -42pt;
+    }
+
+    ol li strong {
+      font-size: 20pt;
+      line-height: 32pt;
+      display: block;
+      margin-bottom: 6pt;
+    }
+
     .chapter-intro {
       page-break-after: always;
       page-break-before: always;

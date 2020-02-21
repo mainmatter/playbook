@@ -27,9 +27,9 @@ the techniques presented in this book.
 
 This book is currently organized into two main chapters:
 
-- [_"Digital Product Projects"_](../../project-procedure/digital-projects#digital-product-projects)
-  describes how digital products are built effectively and in a targeted manner
-  that involves all stakeholders
-- [_"Development Process"_](../../development-process/#development-process)
-  describes how product teams run an efficient process that enables the team
-  rather than stand in its way
+1. [**"Digital Product Projects"**](../../project-procedure/digital-projects#digital-product-projects)
+   describes how digital products are built effectively and in a targeted manner
+   that involves all stakeholders
+2. [**"Development Process"**](../../development-process/#development-process)
+   describes how product teams run an efficient process that enables the team
+   rather than stand in its way

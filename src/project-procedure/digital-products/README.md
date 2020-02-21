@@ -11,11 +11,16 @@ as possible while involving all stakeholders and their individual expertise.
 
 Digital product projects can be broken down into four main stages:
 
-- product strategy: identifying and understanding the goal of the project and
+<!-- prettier-ignore -->
+1. **Product Strategy**
+  identifying and understanding the goal of the project and
   the environment it operates in
-- product design: conceptualising a product that pursues the project's objective
-- product development: implementing the product and launching it
-- validating the product indeed achieves the objective
+2. **Product Design**
+  conceptualising a product that pursues the project's objective
+3. **Product Development**
+  implementing the product and launching it
+4. **Evaluation**
+  validating whether the product indeed achieves the objective
 
 Building the entire product as one pass through all of these stages maximizes
 scope and thus risk. Instead, we recommend splitting up the project into smaller
