@@ -167,6 +167,34 @@
       padding: 40pt 0 10pt 0;
       margin: 0 0 10pt 20pt;
     }
+
+    .chapter-number {
+      page-break-after: avoid;
+      page-break-before: always;
+      page-break-inside: avoid;
+      font-size: 48pt;
+      border-bottom: solid #007df6 4pt;
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+
+    .chapter-number:after {
+      display: none;
+    }
+
+    .chapter-number + h1 {
+      page-break-after: avoid;
+      page-break-before: avoid;
+      page-break-inside: avoid;
+      font-size: 32pt;
+      text-transform: none;
+      margin-top: 10pt;
+    }
+
+    .chapter-number + h1:after {
+      display: none;
+    }
   </style>
 </head>
 <body>
