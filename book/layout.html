@@ -87,6 +87,18 @@
       }
     }
 
+    @page:first {
+      margin: 0;
+
+      @bottom-left {
+        content: 'simplabs playbook';
+      }
+
+      @bottom-right {
+        content: counter(page);
+      }
+    }
+
     h1 {
       page-break-before: always;
       font-size: 24pt;
@@ -148,6 +160,61 @@
       line-height: 32pt;
       display: block;
       margin-bottom: 6pt;
+    }
+
+    #title-page {
+      page-break-after: always;
+      page-break-before: always;
+      page-break-inside: avoid;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    @media print {
+      #title-page {
+        position: fixed;
+      }
+    }
+
+    #title-page #photo {
+      width: 100%;
+      margin-top: 12.5%;
+    }
+
+    #title-page #logo {
+      margin: 100pt 0 0 50pt;
+    }
+
+    #title-page #content {
+      width: 75%;
+      height: 50%;
+      position: absolute;
+      margin: 0 12.5%;
+      bottom: 0;
+      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.png);
+      background-size: auto, contain;
+      background-repeat: no-repeat;
+      background-position: 50pt 125pt, top left;
+    }
+
+    #title-page h1 {
+      color: white;
+      font-size: 80pt;
+      font-weight: bold;
+      text-transform: none;
+      margin: 150pt 0 0 50pt;
+    }
+
+    #title-page h1:after {
+      display: none;
+    }
+
+    #title-page p {
+      color: white;
+      width: 65%;
+      margin-left: 25%;
+      font-weight: 300;
     }
 
     .chapter-intro {
@@ -233,6 +300,13 @@
   </style>
 </head>
 <body>
+  <div id="title-page">
+    <img id="photo" src="./assets/images/title-photo.png" />
+    <div id="content">
+      <h1>Playbook</h1>
+      <p>simplabs method for smooth execution and great output</p>
+    </div>
+  </div>
   {{{content}}}
 </body>
 </html>
