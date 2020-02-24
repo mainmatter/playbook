@@ -224,6 +224,20 @@
       font-weight: 300;
     }
 
+    #toc-page {
+      page-break-after: always;
+      page-break-before: always;
+      page-break-inside: avoid;
+    }
+
+    #toc-page a {
+      display: block;
+    }
+
+    #toc-page a:after {
+      content: target-counter(attr(href), page);
+    }
+
     .chapter-intro {
       page-break-after: always;
       page-break-before: always;
@@ -313,6 +327,12 @@
       <h1>Playbook</h1>
       <p>simplabs method for smooth execution and great output</p>
     </div>
+  </div>
+  <div id="toc-page">
+    <h1>Table of Contents</h1>
+    {{#each toc}}
+      <a href="#{{id}}">{{title}}</a>
+    {{/each}}
   </div>
   {{{content}}}
 </body>

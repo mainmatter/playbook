@@ -5,7 +5,7 @@ const process = require('process');
 const marked = require('marked');
 const Handlebars = require('handlebars');
 
-const BookRenderer = require('./lib/book-renderer');
+const bookRenderer = require('./lib/book-renderer');
 const validate = require('./lib/validate');
 
 const DIST_PATH = path.join(__dirname, '..', '..', 'dist');
@@ -22,7 +22,7 @@ fs.copySync(MAIN_ASSETS_PATH, DIST_ASSETS_PATH);
 fs.copySync(BOOK_ASSETS_PATH, DIST_ASSETS_PATH, { overwrite: true });
 
 marked.setOptions({
-  renderer: BookRenderer,
+  renderer: bookRenderer,
   highlight: function(code) {
     return require('highlight.js').highlightAuto(code).value;
   },
@@ -58,6 +58,7 @@ let layoutSrc = fs.readFileSync(path.join(__dirname, '..', 'layout.html')).toStr
 let layout = Handlebars.compile(layoutSrc);
 
 let data = {
+  toc: bookRenderer.toc,
   content: compiled
 };
 let output = layout(data);
