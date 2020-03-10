@@ -135,15 +135,16 @@
       }
     }
 
-    h1 {
+    h1.supporting-chapter-title {
       page-break-before: always;
       font-size: 24pt;
       font-weight: 900;
       text-transform: uppercase;
       margin-bottom: 36pt;
+      line-height: 40pt;
     }
 
-    h1:after {
+    h1.supporting-chapter-title:after {
       content: '';
       width: 80pt;
       border-bottom: solid #007df6 4pt;
@@ -151,14 +152,44 @@
       margin-bottom: 36pt;
     }
 
+    h1 {
+      font-size: 40pt;
+      line-height: 40pt;
+      font-weight: 600;
+      margin: 12pt 0 12pt 0;
+    }
+
     h2 {
-      font-size: 20pt;
+      font-size: 32pt;
+      line-height: 32pt;
       font-weight: 700;
       margin: 12pt 0 12pt 0;
     }
 
     h3 {
+      font-size: 24pt;
+      line-height: 32pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h4 {
       font-size: 16pt;
+      line-height: 24pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h5 {
+      font-size: 12pt;
+      line-height: 24pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h6 {
+      font-size: 12pt;
+      line-height: 24pt;
       font-weight: 600;
       margin: 12pt 0 12pt 0;
     }
@@ -317,7 +348,8 @@
     .chapter-intro .title h1 {
       margin: 0;
       page-break-before: avoid;
-      font-size: 48pt;
+      font-size: 40pt;
+      line-height: 40pt;
       color: white;
       font-weight: 300;
       padding: 0 40pt 20pt 40pt;
@@ -343,6 +375,7 @@
       page-break-before: always;
       page-break-inside: avoid;
       font-size: 48pt;
+      line-height: 48pt;
       border-bottom: solid #007df6 4pt;
       display: inline-block;
       margin-bottom: 0;
@@ -358,9 +391,10 @@
       page-break-before: avoid;
       page-break-inside: avoid;
       font-size: 32pt;
+      line-height: 32pt;
       text-transform: none;
       margin-top: 10pt;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .chapter-number + h1:after {
@@ -377,7 +411,7 @@
     </div>
   </div>
   <div id="toc-page">
-    <h1>Table of Contents</h1>
+    <h1 class="supporting-chapter-title">Table of Contents</h1>
     {{#each toc}}
       <a href="#{{id}}">{{title}}</a>
     {{/each}}

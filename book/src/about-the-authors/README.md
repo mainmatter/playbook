@@ -1,4 +1,4 @@
-# About the Authors
+<h1 class="supporting-chapter-title">About the Authors</h1>
 
 simplabs is a digital product agency that crafts products for clients around the
 globe. We have our roots in the open source community and create digital
