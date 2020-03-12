@@ -1,5 +1,5 @@
 <div class="chapter-intro">
-  <img src="./assets/images/chapter-2.jpg" />
+  <img src="./assets/images/chapter-2.png" />
   <div class="title">
     <h2>Part 2</h2>
     <h1>
