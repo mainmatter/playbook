@@ -315,12 +315,50 @@
       page-break-inside: avoid;
     }
 
-    #toc-page a {
-      display: block;
+    #toc {
+      padding-left: 0;
     }
 
-    #toc-page a:after {
-      content: target-counter(attr(href), page);
+    #toc li {
+      margin-bottom: 8pt;
+    }
+
+    #toc li:before {
+      display: none;
+    }
+
+    #toc a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    #toc a .title {
+      text-decoration: underline;
+    }
+
+    #toc a.level-2 {
+      margin-left: 38pt;
+    }
+
+    #toc a.level-3 {
+      margin-left: 76pt;
+    }
+
+    #toc a.level-4 {
+      margin-left: 114pt;
+    }
+
+    #toc a.level-5 {
+      margin-left: 152pt;
+    }
+
+    #toc a.level-6 {
+      margin-left: 190pt;
+    }
+
+    #toc a:after {
+      content: " " leader(" .") " " target-counter(attr(href), page);
+      text-decoration: none;
     }
 
     .chapter-intro {
@@ -419,9 +457,13 @@
   </div>
   <div id="toc-page">
     <h1 class="supporting-chapter-title">Table of Contents</h1>
-    {{#each toc}}
-      <a href="#{{id}}">{{title}}</a>
-    {{/each}}
+    <ol id="toc">
+      {{#each toc}}
+        <li>
+          <a href="#{{id}}" class="level-{{level}}"><span class="title">{{title}}</span></a>
+        </li>
+      {{/each}}
+    </ol>
   </div>
   {{{content}}}
 </body>

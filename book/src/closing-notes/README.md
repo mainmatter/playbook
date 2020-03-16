@@ -4,7 +4,7 @@ We hope that reading this served as an inspiration for addressing some of the
 problems you and your team might be facing and rethinking the techniques you are
 practicing or might be missing.
 
-## An evolving Document
+# An evolving Document
 
 This book is the result of experience we made over the course of many years
 working on many different projects. We did not know everything we present here
@@ -18,7 +18,7 @@ communication.
 Keep an eye on [https://simplabs.com/playbook](https://simplabs.com/playbook)
 for updates.
 
-## Feedback
+# Feedback
 
 If you have any feedback regarding the book and the techniques we presented, we
 would love to hear it. Are particular parts of the book not clear? Did we miss
