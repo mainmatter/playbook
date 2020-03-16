@@ -23,7 +23,7 @@ team of only a few people or a large organization, whichever of the plethora of
 tools for organizing software teams you are using, you should be able to adopt
 the techniques presented in this book.
 
-# Organization of this Book
+## Organization of this Book
 
 This book is currently organized into two main chapters:
 
