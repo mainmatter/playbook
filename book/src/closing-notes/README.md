@@ -26,3 +26,8 @@ anything that is critical to you and your team? Did you run into any problems
 while adopting our process or had great success that you would share with us?
 
 Send us an email at playbook@simplabs.com.
+
+## License
+
+Copyright © 2015-2019 simplabs GmbH (https://simplabs.com); released under the
+Attribution NonCommercial ShareAlike 3.0 Unported license.
