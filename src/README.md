@@ -5,10 +5,12 @@ that we acquired and defined over years of working with clients on a variety of
 projects. We have found our method to result in smooth execution and great
 output.
 
-## [Project Procedure](./project-procedure#project-flow)
+## Project Procedure
 
-The document [Project Procedure](./project-procedure#project-flow) describes how
-we approach new projects and work with clients. We aim for a smooth start
+The Project Procedures describe how we approach new projects and work with
+clients, both for
+[Digital Product Projects](./project-procedure/digital-products) as well as for
+[Consulting Projects](./project-procedure/consulting). We aim for a smooth start
 encouraging our clients to take on an active role.
 
 ## [Development Process](./development-process#development-process)
