@@ -28,9 +28,14 @@ class BookRenderer extends marked.Renderer {
     return `<a href="${href}"${title ? ` title=${title}` : ''}>${text}</a>`;
   }
 
-  image(href) {
+  image(href, caption) {
     let unifiedHref = href.replace(/[\.\/]+assets/, './assets');
-    return `<img src="${unifiedHref}" />`;
+    return `
+      <figure>
+        <img src="${unifiedHref}" />
+        <figcaption>${caption}</figcaption>
+      </figure>
+    `;
   }
 
   heading() {

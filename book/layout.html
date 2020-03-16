@@ -239,7 +239,7 @@
       padding-left: 38pt;
     }
 
-    p, ul, ol {
+    p, ul, ol, figure {
       margin: 0 0 24pt 0;
     }
 
@@ -248,6 +248,23 @@
       widows: 3;
       font-size: 12pt;
       line-height: 20pt;
+    }
+
+    figure {
+      width: 100%;
+      page-break-inside: avoid;
+    }
+
+    figure img {
+      margin: 0 0 8pt 0;
+      max-width: 100%;
+      border: 2pt solid #a7a7a7;
+    }
+
+    figure figcaption {
+      font-size: 10pt;
+      line-height: 20pt;
+      font-style: italic;
     }
 
     #title-page {
