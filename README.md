@@ -8,5 +8,5 @@ yarn prepare-book # compiles the playbook into one big HTML file at dist/book.ht
 yarn compile-book # converts dist/book.html into a PDF at dist/book.pdf
 ```
 
-Copyright © 2015-2020 simplabs GmbH (http://simplabs.com); released under the
+Copyright © 2015-2020 simplabs GmbH (https://simplabs.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.
