@@ -168,6 +168,8 @@ preparation. Preparing an iteration will of course typically not require the
 iteration lead's entire time though but can usually be done at the same time as
 also contributing to the current iteration.
 
+![Collecting input](../../../assets/image.png "The iteration lead is responsible for collecting input from all stakeholders and preparing it to be worked on")
+
 #### Issues
 
 Well-prepared issues are a key element of an effective development process. They
