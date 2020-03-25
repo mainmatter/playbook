@@ -88,14 +88,14 @@ established in order to develop an effective strategy for all subsequently taken
 actions. All project stakeholders need to work closely together during this
 stage to identify answers to these questions:
 
-- what exactly is it that is currently lacking or requires improvement (an
+- What exactly is it that is currently lacking or requires improvement (an
   example could be customers having to call a company's sales representative to
   configure a product specifically to their needs) and how does that manifest in
   the business? (e.g. lost sales)
-- who is affected by the present problem and who is going to use the product
+- Who is affected by the present problem and who is going to use the product
   that is being built? (e.g. the project teams's own organization or its
   customers)
-- what should be the effect on the business once the solution is in place? (e.g.
+- What should be the effect on the business once the solution is in place? (e.g.
   increased sales, reduced workload for the sales team etc.)
 
 The goal of the product strategy stage is finding answers to these questions
@@ -108,10 +108,11 @@ We recommend using one or several of the following techniques:
   data from existing web applications; utilising these data sources often helps
   to create a better understanding of the current situation and sometimes
   reveals that the actual problem is different to what it seems; if none of this
-  data is available, think about whether it is possible to collect it
+  data is available, think about whether it is possible to start collecting it
+  in potentially already existing systems
 - user research: getting direct feedback from users of an existing product that
   is to be replaced or potential users of an entirely new product is the best
-  way to understand their situations, goals and struggles
+  way to understand their backgrounds, motivations and challenges
 - market analysis: besides understanding the future users of a digital product,
   it is key to understand the market the product will operate in, its rules and
   limitations, what competitors with similar products are offering and what the
@@ -119,7 +120,7 @@ We recommend using one or several of the following techniques:
 
 The product strategy stage will typically be conducted as one or several
 workshops in which the project team has a facilitated discussion based on
-patterns and insights uncovered during research. It is critical to get all
+patterns and insights uncovered through the research. It is critical to get all
 project stakeholders involved in these workshops, in particular all of the
 business experts from various backgrounds like marketing, sales, customer
 service etc. All of these groups will have unique insights and experiences that
@@ -130,7 +131,7 @@ project's objective.
 
 Based on the gathered facts, the project team will be able to define a
 high-level objective for the project (e.g. a web application that allows
-customers to configure the company's product according to their needs and order
+customers to configure the company's products according to their needs and order
 that configuration via the company's website). That information should be
 written down in a short (aiming for about one page) mission statement document
 to clearly express the project's scope and goals. We also recommend defining one
@@ -142,28 +143,29 @@ research.
 
 ### Personas
 
-In addition to the mission statement, the team also needs to identify potential
-future users, along with their prior knowledge, skills, needs, and motivations
-with regard to the application. We recommend defining one or multiple
-[personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>) (typical
-representatives of the future user base) based on all acquired facts in order to
-visualise the user base. A good understanding of a product's personas is a key
-prerequisite for developing an application that effectively caters to the
-specific needs of its future users.
+In addition to the mission statement, the project team also needs to identify
+potential future users, along with their prior knowledge, skills, needs, and
+motivations with regard to the application. We recommend defining one or
+multiple [personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>)
+(typical representatives of the future user base) based on all acquired facts in
+order to visualise the user base. A good understanding of a product's personas
+is a key prerequisite for developing an application that effectively caters to
+the specific needs of its future users.
 
 In order to identify personas, all possible future users (as derived from the
 acquired data and/or based on the business experts' experience) of the product
-are listed. For each of those the following questions are answered.
+are listed. For each of those the following questions are answered:
 
-- why are they interested in the product and what problem are they trying to
+- Why are they interested in the product and what problem are they trying to
   solve with it?
-- what previous experience do they have in relation to the product?
-- what will make the solution appealing and valuable for them?
+- What previous experience do they have in relation to the product?
+- What will make the solution appealing and valuable for them?
 
-These are then be grouped by related concepts and patterns that emerge from the
-answers to these questions. Each of these clusters constitutes a persona that is
-given a name so it can be easily referred to and described with its main
-characteristics in a persona document (aiming for about one page per persona).
+These users are then grouped by related concepts and patterns that emerge from
+the answers to these questions. Each of the resulting clusters constitutes a
+persona that is given a name so it can be easily referred to and described with
+its main characteristics in a persona document (aiming for about one page per
+persona).
 
 ## Product Design
 
