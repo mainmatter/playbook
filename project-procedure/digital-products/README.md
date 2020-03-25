@@ -1,11 +1,13 @@
 # Digital Product Projects
 
-Developing digital products is a complex process during which an idea or problem
-is transformed into a software based solution. In order to complete that process
-effectively and successfully, a well-defined procedure is required that clearly
-prescribes which steps to take in what order and that involves all stakeholders.
-All the relevant information to each step and the respective outcomes need to be
-accessible to everyone involved at all times.
+Digital Product development is a complex procedure. Besides purely technical
+aspects, transforming a potentially vague idea into a product that users can and
+will use or solving a business problem through software also requires to take
+several other aspects into account. In order to achieve an ideal result that
+best pursues a project's goals, various groups with different backgrounds and
+motivations need to collaborate closely. A clearly prescribed sequence of steps
+and actions to take in a particular order helps making this process as effective
+as possible while involving all stakeholders and their individual expertise.
 
 Digital product projects can be broken down into four main stages:
 
