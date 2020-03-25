@@ -53,9 +53,9 @@ relevant perspectives that the project team should be aware of.
 
 ## Setup
 
-Before starting with the actual work though, the project infrastructure needs to
-be set up, as effective tooling is vital for effective collaboration among the
-stakeholders. The main tasks are:
+After kicking off the project, the infrastructure that is going to support the
+team needs to be set up, as effective tooling is vital for effective
+collaboration among the stakeholders. The main tasks are:
 
 - deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
@@ -67,9 +67,9 @@ stakeholders. The main tasks are:
   commenting for effective collaboration
 - setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
-  against relying on email
+  against relying on email and for using a realtime system instead
 - ensuring all project stakeholders have access to all of these tools and will
-  receive notifications when assigned tasks or mentioned by others
+  receive notifications when they are assigned tasks or are mentioned by others
 
 ## Product Strategy
 
