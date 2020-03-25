@@ -71,6 +71,11 @@ collaboration among the stakeholders. The main tasks are:
 - ensuring all project stakeholders have access to all of these tools and will
   receive notifications when they are assigned tasks or are mentioned by others
 
+Effective tooling and usage of it is critical for all teams, on-site or remote.
+All relevant information, decisions and decision making processes must at all
+times be accessible and transparent to all stakeholders for effective
+collaboration.
+
 Once the project has been kicked-off and infrastructure is set up, the team can
 commence passing through the main stages starting with product strategy.
 
