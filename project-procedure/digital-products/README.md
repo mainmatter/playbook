@@ -88,10 +88,10 @@ established in order to develop an effective strategy for all subsequently taken
 actions. All project stakeholders need to work closely together during this
 stage to identify answers to these questions:
 
-- what exactly is it that is currently lacking or requires improvement (e.g.
-  customers having to call the client to configure the client's product
-  specifically to their needs) and how does that manifest in the business? (e.g.
-  lost sales)
+- what exactly is it that is currently lacking or requires improvement (an
+  example could be customers having to call a company's sales representative to
+  configure a product specifically to their needs) and how does that manifest in
+  the business? (e.g. lost sales)
 - who is affected by the present problem and who is going to use the product
   that is being built? (e.g. the project teams's own organization or its
   customers)
@@ -130,11 +130,11 @@ project's objective.
 
 Based on the gathered facts, the project team will be able to define a
 high-level objective for the project (e.g. a web application that allows
-customers to configure the client's product according to their needs and order
-that configuration via the client's website). That information should be written
-down in a short (aiming for about one page) mission statement document to
-clearly express the project's scope and goals. We also recommend defining one or
-more KPIs (e.g. _"number of sales via the website"_, _"number of support
+customers to configure the company's product according to their needs and order
+that configuration via the company's website). That information should be
+written down in a short (aiming for about one page) mission statement document
+to clearly express the project's scope and goals. We also recommend defining one
+or more KPIs (e.g. _"number of sales via the website"_, _"number of support
 requests from users"_) to quantify the situation before and after the project
 for easier [evaluation in later stages](#evaluation). If no data is available
 for these KPIs, it might be necessary to set up additional tracking or conduct
@@ -177,7 +177,7 @@ basic needs of the project's personas (e.g. building the bare product
 configurator but no payment mechanism or order management system yet).
 Subsequent increments will extend and optimize what was built in previous
 increments (e.g. adding a checkout flow with payment, adding an order management
-system for the client's sales personnel etc.).
+system for the company's sales representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
 what will be built, we recommend keeping the product design stage limited and
