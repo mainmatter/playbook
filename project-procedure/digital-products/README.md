@@ -36,6 +36,10 @@ are available earlier in the process. These early versions of the product can
 already be shared with users and be used to acquire valuable feedback which
 might even result in a shift of focus or project direction.
 
+Before work on the first increment of a product can be started, the project must
+be kicked off and the infrastructure needs to be set up. These steps only happen
+once and are not part of later iterations through the four main stages.
+
 ## Kick-Off Meeting
 
 Every project should start with a kick-off meeting assembling all project
