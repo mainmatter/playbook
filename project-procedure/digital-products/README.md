@@ -71,6 +71,9 @@ collaboration among the stakeholders. The main tasks are:
 - ensuring all project stakeholders have access to all of these tools and will
   receive notifications when they are assigned tasks or are mentioned by others
 
+Once the project has been kicked-off and infrastructure is set up, the team can
+commence passing through the main stages starting with product strategy.
+
 ## Product Strategy
 
 In order to build an application that effectively achieves a particular
