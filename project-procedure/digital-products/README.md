@@ -171,15 +171,16 @@ persona).
 
 Once the strategy for the product has been established and is well understood
 and agreed upon by all stakeholders, the next step is identifying the set of
-functionality to be added in the current increment of the product. If the
+functionality to be added in the respective increment of the product. If the
 product is going to replace an existing system, the functionality provided by
 that system can be used as a reference. In the first increment, we recommend
 starting with the minimal possible version of the product, addressing the most
-basic needs of the project's personas (e.g. building the bare product
+basic needs of the project's personas (e.g. building only a bare product
 configurator but no payment mechanism or order management system yet).
 Subsequent increments will extend and optimize what was built in previous
-increments (e.g. adding a checkout flow with payment, adding an order management
-system for the company's sales representatives etc.).
+increments with coherent blocks of functionality (e.g. adding a checkout flow
+with payment, adding an order management system for the company's sales
+representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
 what will be built, we recommend keeping the product design stage limited and
@@ -188,7 +189,7 @@ wireframes tend to give a false impression of a finished product even though it
 is basically impossible to cover every possible aspect and prevent new
 challenges for particular features from being uncovered in the development
 stage. Also, static wireframes or even interactive prototypes will never give as
-realistic an impression for the final solution as one will get from an actual
+realistic an impression for the final product as one will get from an actual
 application even if it starts out with very limited functionality initially and
 is only built up incrementally over time. Therefore we recommend aiming for a
 quick transition to the development stage, using the real application to collect
@@ -197,13 +198,10 @@ feedback and verify assumptions as early as possible.
 ### User Stories Workshop
 
 In the [User Stories](https://en.wikipedia.org/wiki/User_story) Workshop, the
-project team defines concrete concepts for individual, self-contained features
-of the application. The goal is to develop an understanding of the structure of
-the features's content and functionality, the UI elements the users interact
-with and the transitions between individual states in the feature's flow. The
-goal is not to specify every detail of all features, but instead keep them
-deliberately rough while concrete enough to functionally define the respective
-feature completely.
+project team defines concrete concepts for individual, coherent features of the
+application. The goal is to develop an understanding of the structure of each
+feature's core functionality, the UI elements the users interact with and the
+transitions between individual states in the flow.
 
 This workshop requires input from all project stakeholders:
 
@@ -214,8 +212,8 @@ This workshop requires input from all project stakeholders:
 - engineers can assess different alternatives for implementing a user story for
   their technical feasibility and associated effort
 
-Each self-contained feature of the application is represented by a user story.
-User stories enable one or more personas (as identified during the
+Each coherent feature of the application is represented by a user story. User
+stories enable one or more personas (as identified during the
 [product strategy stage](#product-strategy)) to perform a particular task in
 order to achieve a particular goal.
 
@@ -223,53 +221,56 @@ For each user story, identify:
 
 - the navigational structure: screens or pages, dialogues, menus etc.
 - interactive elements: buttons, inputs etc. that the user needs to trigger
-  actions and events in the flow
+  actions in the flow or needs to acquire information that is relevant to them
 - flows: transitions between sections of the navigational structure that are
   triggered by interactive elements
 
 User Stories are visualized using coarse diagrams (e.g. hand-drawn marker
 sketches) including all of these identified pieces and the relationships between
 them. During the workshop participants will discuss and reconstruct these
-diagrams several times until an ideal solution emerges. That final solution is
-then written down in a user story document consisting of:
+diagrams several times until an ideal solution emerges that all stakeholders
+agree on. That final concept is then written down in a user story document
+consisting of:
 
 - a textual description of the user story, the need that it addresses and the
   solution that it provides
-- the persona(s) that the user story caters to
-- a low-fidelity diagram showing steps in the user story, the involved UI
+- the persona(s) that the user story (mainly) caters to
+- the low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
 
 Once a user story has been clearly defined, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the user
 story to provide value as well as edge cases that might not immediately be
-apparent. These will be noted in the user story document as well.
+apparent. These will be noted in the user story document as well and can be used
+as escape hatches later on to limit the scope and effort for the user story as
+they can potentially be left out in a first implementation of the particular
+story.
 
 ### Visual Identity
 
-When working on the first increment of an application, there exists no visual
+When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
 order to develop that, we recommend creating wireframes for one of the user
 stories to develop a mutual understanding among all project stakeholders for the
-visual identity of the application. For subsequent increments, this stage will
-not be necessary and the team can go straight to the product development stage
-building on the
-[visual design system](../../development-process/#design-systems) established
-during previous increments.
+visual identity of the product. For subsequent increments, this step will not be
+necessary and the team can go straight to the product development stage building
+on the [visual design system](../../development-process/#design-systems)
+established during previous increments.
 
-The visual identity of a project will be based on existing branding material and
-visual guidelines. If no such materials exist, the visual identity for the
-project needs to be defined from scratch, applying techniques like moodboards
-and stylescapes.
+The visual identity of a product will often be based on existing branding
+material and visual guidelines. If no such materials exist, the visual identity
+needs to be defined from scratch, applying techniques like moodboards and
+stylescapes.
 
 While the wireframe will be a high-fidelity mockup of a particular user story,
 we recommend keeping it non-interactive and relatively low effort as its main
-purpose is to define a visual identity for the project and not to specify
-individual details of the respective user story or the application in general.
+purpose is to define a visual style for the product and not to specify
+individual details of the respective user story or the product in general.
 Instead of trying to achieve these goals with a prototype that can not precisely
-resemble the eventual application anyway, aim for providing an initial version
-of the actual application as soon as possible and use that as the basis for all
-subsequent discussions. Iterating based on the actual application as opposed to
-a prototype that would still have to be converted into a real application anyway
+resemble the eventual product anyway, aim for providing an initial version of
+the actual product as soon as possible and use that as the basis for all
+subsequent discussions. Iterating based on the actual product as opposed to a
+prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
 ### Increment Planning
@@ -281,28 +282,28 @@ included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
-orders). Introducing escape these hatches allows the project team to make a
+orders). Introducing these escape hatches allows the project team to make a
 decision between implementing essential versions of more user stories versus
 covering more non-essential aspects and edge cases for fewer user stories later
-in the process.
+in the process if time should become scarce.
 
-Once all stakeholders agree on the plan for the current increment of the
-application, the list of user stories together with included as well as excluded
-aspects and according edge cases are written down in an increment plan, which is
-used to calculate a rough estimate of the timeline. That plan is not irrevocable
-and neither is the estimate more than an assessment based on the information
-available at the time. Previously unknown challenges will likely be uncovered
-during product development and some details and implications will only be
-understood once work on a particular user story has actually begun. Teams should
-in fact constantly question assumptions and priorities and change the plan at
-any time they see necessary. It is also possible at any time to go back and
-re-plan an increment, adding a different set of user stories, include or exclude
-different aspects of them or even start over with the product strategy or the
-product design if new business objectives are identified. The goal of the
-increment planning is to get a common understanding of what value will be
-delivered during the increment and how long that should roughly take (or what
-the maximum available time and budget is) but not lock the team into a binding
-specification and schedule that might have a short validity anyway.
+Once all stakeholders agree on the plan for the product increment, the list of
+user stories together with included as well as excluded aspects and according
+edge cases are written down in an increment plan document, which is used to
+estimate a rough timeline. That plan is not irrevocable and neither is the
+estimate more than an assessment based on the information available at the time.
+Previously unknown challenges will likely be uncovered during product
+development and some details and implications will only be understood once work
+on a particular user story has actually begun. Teams should in fact constantly
+question assumptions and priorities and change the plan at any time they see
+necessary. It is also possible at any time to go back and re-plan an increment,
+adding a different set of user stories, include or exclude different aspects of
+them or even start over with the product strategy or the product design if new
+business objectives are identified. The goal of the increment planning is to get
+a common understanding of what value will be delivered during the increment and
+how long that should roughly take (or what the maximum available time and budget
+is) but not lock the team into a binding specification and schedule that might
+have a short validity anyway.
 
 ## Product Development
 
