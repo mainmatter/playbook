@@ -17,11 +17,13 @@ Digital product projects can be broken down into four main stages:
 - product development: implementing the product and launching it
 - validating the product indeed achieves the objective
 
-These stages will usually be passed through several times, incrementally
-building up the product. We refer to the deliverable of each pass through of all
-the stages as an _"increment"_ of the product. For the first increment, we
-recommend building only the minimal set of functionality necessary to deliver
-value (the
+Building the entire product as one pass through all of these stages maximizes
+scope and thus risk. Instead, we recommend splitting up the project into smaller
+units and passing through the stages several times, once for each unit,
+incrementally building up the product. We refer to the deliverable of each pass
+through of all the stages as an _"increment"_ of the product. For the first
+increment, we recommend building only the minimal set of functionality necessary
+to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
