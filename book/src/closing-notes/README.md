@@ -1,4 +1,4 @@
-<h1 class="supporting-chapter-title">Closing Notes</h1>
+<h1 class="supporting-chapter-title" id="closing-notes">Closing Notes</h1>
 
 We hope that reading this served as an inspiration for addressing some of the
 problems you and your team might be facing and rethinking the techniques you are

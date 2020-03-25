@@ -38,15 +38,26 @@ class BookRenderer extends marked.Renderer {
     `;
   }
 
+  html(html) {
+    this._pushTocItem(html);
+    return html;
+  }
+
   heading() {
     let heading = super.heading(...arguments);
-    let match = heading.match(/<h(\d).*id="([^"]+)".*>(.+)<\/h\d>/);
-    this.toc.push({
-      level: match[1],
-      id: match[2],
-      title: match[3]
-    });
+    this._pushTocItem(heading, true);
     return heading;
+  }
+
+  _pushTocItem(heading, force = false) {
+    let match = heading.match(/<h(\d).*id="([^"]+)".*>(.+)<\/h\d>/);
+    if (force || match) {
+      this.toc.push({
+        level: match[1],
+        id: match[2],
+        title: match[3]
+      });
+    }
   }
 }
 
