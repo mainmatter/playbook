@@ -198,19 +198,26 @@ the team during the planning meeting.
 The iteration planning meeting is a joint meeting with the entire project team,
 the business experts and all other stakeholders involved in the project. During
 the meeting, the iteration lead presents each issue to the project team so that
-everyone aquires a coherent understanding of what each issue is about and gets a
-chance to ask questions and/or raise any points that might have been overlooked
-in the iteration preparation phase.
+everyone acquires a coherent understanding of what each issue is about and gets
+a chance to ask questions.
+
+One goal of the iteration preparation phase is to eradicate uncertainties and
+open questions around all issues. Instead, each issue should have been carefully
+examined for open questions and risks and a high level strategy for completing
+it should have been defined. That way, the iteration planning meeting can be
+spend most efficiently and does not end up being a loose team discussion in
+which tasks are examined collaboratively which is a scenario many product teams
+are struggling with.
 
 At the end of the planning meeting, the team collaboratively decides whether it
 can reasonably work on and complete all of the issues that have been presented
-to them in the planning meeting (plus past issues that are potentially moved
-over from the previous iteration after having been reviewed). If the team
-considers the presented issues to be too much work for the iteration, they
-collaboratively decide which ones are moved to a later iteration to be
-considered again in the future. If any of the issues are found not to be ready
-to be worked on (e.g. because dependencies of the issue are not ready), the
-issue is moved to a later iteration as well.
+in the planning meeting (plus past issues that are potentially moved over from
+the previous iteration after having been reviewed). If the team considers the
+presented issues to be too much work for the iteration, they collaboratively
+decide which ones are moved to a later iteration to be considered again in the
+future. If any of the issues are found not to be ready to be worked on (e.g.
+because dependencies of the issue are not ready), the issue is moved to a later
+iteration as well.
 
 **The iteration, once planned, is not a binding agreement.** It is still
 possible for all project stakeholders to react to changes regarding features or
@@ -219,9 +226,9 @@ completed by the end of the iteration as new challenges might come up once work
 on an issue has started. The iteration plan is merely a snapshot of feature
 requests and priorities at the time it is made as well as a best-effort estimate
 by the project team of which issues it thinks it can complete within the
-iteration. Ideally, an iteration remains unchanged once it has been planned to
-enable smooth execution which also leads to increasingly predictable estimates
-as a project progresses.
+iteration. Ideally though, an iteration remains unchanged once it has been
+planned to enable smooth execution which also leads to increasingly predictable
+estimates as a project progresses.
 
 ## Iteration Execution
 
