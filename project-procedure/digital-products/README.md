@@ -307,15 +307,15 @@ have a short validity anyway.
 
 ## Product Development
 
-In the product development stage of an increment user stories are turned into
-usable features of the product, iteratively building it up over time. Each user
-story should be broken down into fine-grained and more detailed issues and then
-proceed to be implemented by following a smooth
-[development process](../development-process/#development-process). During this
-process, engineers and designers continue to work closely with the business
-experts, discussing individual facets of user stories as well as different
-alternatives for designing and implementing those along with the associated
-effort.
+In the product development stage of a product increment, user stories are turned
+into usable application features, iteratively building up the product over time.
+During this process, each user story is decomposed into fine-grained and more
+detailed tasks which are then proceeded to be implemented by the project team
+(see [development process](../development-process/#development-process)).
+Decomposition of the user stories is done in close collaboration between
+engineers and designers with the business experts. They discuss individual
+facets of user stories as well as different alternatives for designing and
+implementing those along with the associated effort.
 
 The project team will build slices of the system at once, including everything
 from the design, the backend, and the frontend code of a particular user story
@@ -325,13 +325,14 @@ staging system that is available for all project stakeholders. All stakeholders
 should be encouraged to make active use of the staging system to follow the
 project's progress and validate that the product is being built according to
 their expectations. Feedback given by stakeholders will be collected by the
-project team and addressed in issues in subsequent iterations of the product
-development stage or moved into a later increment of the project depending on
-the respective finding's priority.
+project team and addressed in tasks in a subsequent
+[iteration](../../development-process/#iterations) of the product development
+stage or moved into a later product increment depending on the respective
+finding's priority.
 
-Once a complete increment of the application is finished, the respective state
-of the product will be released - ideally into a production environment - so
-real users can access the system and deliver first hand feedback.
+Once a product increment is completed, the respective state of the product will
+be released - ideally into a production environment - so real users can access
+the system and deliver first hand feedback.
 
 ### Growing a Foundation
 
