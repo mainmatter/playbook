@@ -431,7 +431,7 @@ In order for a pull request to be ready for review though, it has to meet some
 pre-requisites:
 
 - the branch has no conflicts with the target branch
-- the changes in the branch are covered by proper tests and CI is passing
+- the changes in the branch are covered by appropriate tests and CI is passing
 - the pull request is not marked as _"work in progress"_
 - the commit history of the pull request has been cleaned up, e.g. WIP commits
   have been squashed, debug commits have been removed etc.
@@ -446,18 +446,18 @@ Reviews are a great tool for distributing knowledge about the code base among
 the project team which prevents essential knowledge from being isolated to
 individual developers. Everyone asked for review should reply in a timely
 manner - even if it's to ask for someone else to be chosen if they do not have
-the time to do a proper review.
+the time to do a thorough review.
 
 Once the reviewer approved the changes and CI passes, the pull request can be
 merged by any team member including the pull request's author. If the original
-reviewer would like a second review by another team member, potentially one more
-familiar with the aspects of the application that are being changed by the
+reviewer would like a second review by another team member, potentially someone
+more familiar with the aspects of the application that are being changed by the
 particular pull request, they will ask for it. In case anything comes up in the
 review that cannot be resolved between the reviewer and the author of the pull
 request, a third person should be brought in to resolve the deadlock.
 
 Reviewing and potentially criticizing other people's work is a sensitive issue
-which is why a set of rules should be followed when doing so:
+which is why we recommend a set of rules to follow:
 
 - be polite: you are reviewing another person's work that they put time and
   energy in - don't be dismissive and keep a friendly tone
