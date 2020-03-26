@@ -388,37 +388,40 @@ requests from being merged.
 
 ##### Preview Systems
 
-In addition to setting up [continuous deployment](#iteration-execution) for
-deploying all changes that get merged into a project's main branch to production
+In addition to setting up
+[continuous deployment](#feature-branches-and-pull-requests) for deploying all
+changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
 Preview systems are production-like environments that run the entire application
-with a particular revision of the application's source code (e.g. that of a
-branch/pull request) with real production or production-like data. These systems
-would ideally be automatically created for every new pull request (and destroyed
-once the pull request was merged). A link to the respective system would be
-added to the pull request automatically. Preview systems are particularly
-helpful for letting non-technical stakeholders that cannot run the entire
-application themselves inspect features or changes. That way they can validate
-the respective features or changes and give feedback that engineers can then
-address before releasing to production. Preview systems also allow sharing
-status with external stakeholders that might not even have access to the
-application's sources at all.
+with a particular revision of the application's source code (that of a pull
+request's underlying branch) with real production or production-like data. These
+systems would ideally be automatically created for every new pull request (and
+destroyed once the pull request was merged). A link to the respective system
+would be added to the pull request automatically.
+
+Preview systems are particularly helpful for letting non-technical stakeholders
+that cannot run the entire application themselves inspect features or changes.
+That way they can validate the respective features or changes and give feedback
+that engineers can then address before releasing to production. Preview systems
+also allow sharing status with external stakeholders that might not even have
+access to the application's sources at all.
 
 Setting up a preview systems mechanism can sometimes be challenging and might
 require a substantial amount of work. However, when taken into account early on
 in a project and in particular if the project's infrastructure is containerized
 anyway, it is often possible to set up preview systems with relatively little
 effort. Once the mechanism is set up, the benefits easily justify even a
-substantial effort anyway though. In case of projects that have been running for
-some time already, have lots of dependencies, are not containerized and would
-thus be very hard to implement a preview system mechanism for. We recommend at
-least setting up a shared sandbox environment. That is not as valuable as a
-proper preview system mechanism as it is shared among all stakeholders and will
-hold changes from multiple pull requests at the same time as well as be used by
-multiple stakeholders at the same time that might all be influencing each other.
-However, it is a good first step and often much easier to set up than automated
-preview systems.
+substantial effort.
+
+In case of projects that have been running for some time already, have lots of
+dependencies, are not containerized and would thus be very hard to implement a
+preview system mechanism for, we recommend at least setting up a shared sandbox
+environment. That is not as valuable as a proper preview system mechanism as it
+will be shared among all stakeholders and will hold changes from multiple pull
+requests at the same time as well as be used by multiple stakeholders at the
+same time that might all be influencing each other. However, it is a good first
+step and often much easier to set up than automated preview systems.
 
 ##### Reviews
 
