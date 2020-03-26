@@ -560,27 +560,27 @@ deadlock.
 
 Changes to design sources need to be reviewed for:
 
-- completeness: does the change contain all of the necessary elements and
-  states?
+- completeness: does the change contain and/or cover all of the necessary and/or
+  affected elements and states?
 - consistency: does the change fit in with and leverage the project's design
   system and overall visual direction?
 - applicability: is the change possible to implement with the technology of
   choice with reasonable effort?
 
-When reviewing design changes the same rules apply as when
-[reviewing code changes](#review-guidelines).
+When reviewing design changes we recommend following the same set of rules as
+when [reviewing code changes](#review-guidelines).
 
 #### Design Systems
 
-All design work should result in a design system for the respective project,
-independently of its nature or scope. The design system is a structured,
-multi-level framework where each layer builds on top of the elements defined in
-the previous one, going from simple to complex, e.g.:
+All design work should eventually result in a design system evolving for the
+respective project, independently of its nature or scope. The design system is a
+structured, multi-level framework where each layer builds on top of the elements
+defined in the previous one, going from simple to complex, e.g.:
 
 - basic rules around font choices and color schemes build the foundation for the
   design system
-- atomic elements like buttons, labels and inputs serve as the foundation of the
-  design and are the building blocks for all higher levels
+- atomic elements like buttons, labels and inputs are the building blocks for
+  all higher level elements
 - components are built on top of atomic elements and/or other components and
   resemble groups of lower level elements that function as a unit like search
   forms, headers etc.
@@ -594,10 +594,11 @@ elements will build on top of existing ones.
 With every change that is applied, the design system is incrementally built up
 and extended over time. New UI elements that were not previously covered will
 reuse lower-level elements where applicable and only introduce new concepts and
-patterns where no such reusable element is available. In cases where existing UI
-elements turn out to not be suited for previously uncovered cases, these
+patterns where no such reusable elements are available. In cases where existing
+UI elements turn out to not be suited for previously uncovered cases, these
 elements might need to be changed, potentially making changes in other,
-higher-level elements necessary as well.
+higher-level elements necessary as well. These cascading changes ensure
+consistency across all of an application's UI.
 
 ##### Productivity Benefits
 
@@ -608,20 +609,20 @@ additional guidance from designers, simply by following the rules of and using
 the elements and components of the design system. In most cases, elements and
 components defined in the design system will even have direct counterparts in
 the application's source code. That way, designers do not have to maintain
-designs for every individual page of the application. They only need to ensure
-the design system provides the rules and elements to build all of the
-application's pages.
+designs for every individual page or screen of an application. They only need to
+ensure the design system provides the rules and elements to compose all of the
+application's UI.
 
 #### Deliverables
 
 Ideally no dedicated design deliverables should be necessary and engineers
-should work with the design source files directly and extract what they need.
-Therefore, the design sources files should be managed in a way that makes
-extraction of assets and necessary artwork easy for the engineers and designers
-who will use them. This should include preparing and marking elements for
-export, including proper offsets and intended appropriate file formats to reduce
-the necessity for producing any special deliverables beyond the files
-themselves.
+should work with the design source files directly and extract the information
+and assets they need from those. Therefore, the design sources files should be
+managed in a way that makes extraction of assets and necessary artwork easy for
+the engineers and designers who will use them. This should include preparing and
+marking elements for export, including proper offsets and intended appropriate
+file formats to reduce the necessity for producing any special deliverables
+beyond the files themselves.
 
 If any particular deliverables are required that the engineers can not extract
 from the design source files directly, those deliverables should be attached to
