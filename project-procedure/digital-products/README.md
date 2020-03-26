@@ -184,16 +184,16 @@ representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
 what will be built, we recommend keeping the product design stage limited and
-not do excessively detailed up-front design and specification. Detailed
-wireframes tend to give a false impression of a finished product even though it
-is basically impossible to cover every possible aspect and prevent new
-challenges for particular features from being uncovered in the development
-stage. Also, static wireframes or even interactive prototypes will never give as
-realistic an impression for the final product as one will get from an actual
-application even if it starts out with very limited functionality initially and
-is only built up incrementally over time. Therefore we recommend aiming for a
-quick transition to the development stage, using the real application to collect
-feedback and verify assumptions as early as possible.
+not do excessively detailed up-front design and specification. Detailed mockups
+tend to give a false impression of a finished product even though it is
+basically impossible to cover every possible aspect and prevent new challenges
+for particular features from being uncovered in the development stage. Also,
+static mockups or even interactive prototypes will never give as realistic an
+impression for the final product as one will get from an actual application even
+if it starts out with very limited functionality initially and is only built up
+incrementally over time. Therefore we recommend aiming for a quick transition to
+the development stage, using the real application to collect feedback and verify
+assumptions as early as possible.
 
 ### User Stories Workshop
 
@@ -250,9 +250,9 @@ story.
 
 When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
-order to develop that, we recommend creating wireframes for one of the user
-stories to develop a mutual understanding among all project stakeholders for the
-visual identity of the product. For subsequent increments, this step will not be
+order to develop that, we recommend creating mockups for one of the user stories
+to develop a mutual understanding among all project stakeholders for the visual
+identity of the product. For subsequent increments, this step will not be
 necessary and the team can go straight to the product development stage building
 on the [visual design system](../../development-process/#design-systems)
 established during previous increments.
@@ -262,9 +262,9 @@ material and visual guidelines. If no such materials exist, the visual identity
 needs to be defined from scratch, applying techniques like moodboards and
 stylescapes.
 
-While the wireframe will be a high-fidelity mockup of a particular user story,
-we recommend keeping it non-interactive and relatively low effort as its main
-purpose is to define a visual style for the product and not to specify
+While the mockup will be a high-fidelity visual representation of a particular
+user story, we recommend keeping it non-interactive and relatively low effort as
+its main purpose is to define a visual style for the product and not to specify
 individual details of the respective user story or the product in general.
 Instead of trying to achieve these goals with a prototype that can not precisely
 resemble the eventual product anyway, aim for providing an initial version of
