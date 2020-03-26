@@ -187,7 +187,7 @@ first in order to resolve these open questions. Spikes should have:
   an issues from being created by adding too much risk or uncertainty
 - guidance on potential solutions that should be evaluated or references to
   promising approaches
-- a well-defined timebox, e.g. _"max 2 days"_
+- a well-defined timebox, e.g. _"spend max 2 days"_
 
 ## Iteration Planning
 
