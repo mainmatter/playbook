@@ -354,17 +354,17 @@ clear what the particular commit does.
 ##### Pull Requests
 
 Branches are not merged back to the `master` branch directly but via pull
-requests (or whatever similar mechanism the tool used in a particular project
-provides). Similarly to issues, pull requests should have all the information
-necessary for everyone to understand what they do, how and why. In particular,
-good pull requests should have:
+requests (or whatever similar mechanism the tools used in a particular project
+provide). Similarly to issues, pull requests should have all the information
+necessary for everyone to understand what they do, how they do it and why. In
+particular, good pull requests should have:
 
 - a high-level summary of the changes that the pull request contains that
   provides the reader with a good overview without having to look at the actual
   code changes
 - guidance for testing the added or changed functionality; this is helpful for
   the reviewer, product or business experts looking at the pull request on a
-  preview system and any QA people
+  [preview system](#preview-systems) and any QA people
 - before and after screenshots or even screen recordings in case of a visual
   change
 - a reference to the issue the changes in the pull request are refering to; if
@@ -375,7 +375,7 @@ good pull requests should have:
 As with issues, all discussions around a particular pull request should happen
 on the pull request's page. If discussions happen in person or via online chat,
 a summary should be posted to the pull request so all information and context is
-accessible to everyone interested at any time.
+accessible to everyone interested at any time in one place.
 
 It is perfectly fine to create pull requests early on while implementation is
 still ongoing and they are not yet ready to be reviewed or merged. Doing so is a
