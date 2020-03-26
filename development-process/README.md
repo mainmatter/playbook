@@ -160,9 +160,10 @@ Good issues aim to:
   and also providing the reasons for those changes
 - include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-- detail concrete requirements that must be met in order to complete the issue;
-  in order to prepare this list, the iteration lead might need to partner with a
-  team member more familiar with a particular part of the code base or feature
+- detail concrete requirements that must be met and an overview of the changes
+  to be made in order to complete the issue; in order to prepare this list, the
+  iteration lead might need to partner with a team member more familiar with a
+  particular part of the code base or feature
 - include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or APIs
   or contact details for external parties involved in an issue etc.
@@ -170,8 +171,8 @@ Good issues aim to:
   identified and might prevent the issue from being completed
 - be a discrete unit of work; issues should only contain related requirements
   and ideally not represent more than a few days of work - larger issues can
-  often be broken down into multiple smaller ones, possibly even allowing to be
-  worked on simultaneously
+  often be broken down into multiple smaller ones, possibly even allowing for
+  work to happen simultaneously
 
 #### Spikes
 
