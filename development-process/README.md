@@ -55,11 +55,19 @@ team members supporting each other to complete the work as planned.
 ### Roles
 
 Our development process functions with flat project teams without dedicated
-project managers. For any given iteration one of the team members (a designer or
-engineer) will take on the role of _"Iteration Lead"_ . That person is
-responsible for planning the iteration and ensuring smooth execution. It is
-conceptualised as a rotating role so that every team member will assume it every
-once in a while (unless they opt out).
+project managers. We believe project managers are an organisational anti-pattern
+as they constitute an intermediary between all other project stakeholders. That
+way, they will make communication less direct and effective and more importantly
+they will cater to the impression of the project team being split into different
+groups with competing interests that must all ensure to realize as much of their
+particular interests as possible which is obviously bad for both morale and
+overall efficiency.
+
+Instead of bringing in project managers, we recommend that for any given
+iteration one of the team members will take on the role of _"Iteration Lead"_ .
+That person is responsible for planning the iteration and ensuring smooth
+execution. It is conceptualised as a rotating role so that every team member
+will assume it every once in a while (unless they opt out of the rotation).
 
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
