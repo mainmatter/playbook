@@ -239,35 +239,31 @@ Once an issue has started to be worked on, the respective team member(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
 person at a time so if multiple engineers collaborate on an issue, they might
 have to choose one to assign it to). Issues are only assigned once work on them
-has actually started - pre-assigning issues during planning or afterwards block
-these issues for everyone else to work on if the originally assigned team
-members are busy with other tasks and do not actually work on them. If an issue
-is being worked on by multiple team members sequentially (e.g. first the
-designer for preparing the wireframes, then the engineer for implementing
-those), the latter team member will self-assign the issue once the former is
-done with their work.
+actually starts – pre-assigning issues during planning or afterwards block these
+issues for everyone else to work on if the originally assigned team members are
+busy with other tasks and do not actually work on them. If an issue is being
+worked on by multiple team members sequentially (e.g. first the designer for
+preparing visual elements, then the engineer for implementing those), the latter
+team member will self-assign the issue once the former is done with their work.
+Once an issue has been resolved via a [pull request](#feature-branches) or if it
+is blocked, the engineer(s) will self-assign another issue from the iteration
+backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
 often beneficial to prepare them further before starting implementation. For
-these kinds of issues, the first step is to break them down into smaller, more
+these kinds of issues, the first step is to decompose them into smaller, more
 concrete steps (which is often a great thing to do in a
 [pairing session](#pairing)).
 
-Once an issue has been resolved via a [pull request](#feature-branches) or if it
-is blocked, the engineer(s) will self-assign another issue from the iteration
-backlog. If an issue is blocked and cannot progress, the engineers working on it
-will have to contact the [iteration lead](#roles) who - in collaboration with
-whomever necessary - will try to resolve the impediment.
-
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
-production), all of these potential changes are triaged by the iteration lead.
-They might consult with the business experts or other project stakeholders to
-determine validity and priority of the incoming requests. If an issue is
-considered necessary to be added to the iteration after the planning meeting, it
-will be added but another issue might have to be removed from the iteration in
-its stead.
+production), all of these potential changes to the iteration are triaged by the
+iteration lead. They might consult with the business experts or other project
+stakeholders to determine validity and priority of the incoming requests. If an
+issue is considered necessary to be added to the iteration after the planning
+meeting, it can be added but another issue might have to be removed from the
+iteration in its stead.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 for trying to solve the impediment, potentially synchronizing with the business
@@ -280,13 +276,14 @@ issues should be added. Oftentimes that will mean moving issues from the
 following iteration into the current one.
 
 All discussions around an issue should happen on the particular issue's
-respective page. Of course at times it is convenient to have discussions in
-person or through online chat but even in those cases, a brief summary of the
-discussed points and the outcome should be posted on the issue. This is a
-necessity for distributed teams and allows everyone access to all of the context
-of a particular issue at any time. Even teams that are not distributed benefit
-from this practice as all information that is relevant to a particular issue is
-and remains available for everyone interested.
+respective page in the project management tool of choice. Of course at times it
+is convenient to have discussions in person or through online chat but even in
+those cases, a brief summary of the discussed points and the outcome should be
+posted on the issue. This is a necessity for distributed teams and allows
+everyone access to all of the context of a particular issue at any time. Even
+teams that are not distributed benefit from this practice as all information
+that is relevant to a particular issue is and remains available for everyone
+interested.
 
 ### Communication
 
