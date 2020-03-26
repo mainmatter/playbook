@@ -358,10 +358,10 @@ actual feedback can now be compared with the initial expectations.
 
 ## Iteration
 
-Once an increment of the product is completed, the project team will go on to
-build the next increment as long as there is functionality to add and aspects of
-the product to improve. Depending on the learnings from the previous increment,
-it might be necessary to go through the
+Once an increment of the product is completed and released, the project team
+will go on to build the next increment as long as there is functionality to add
+and aspects of the product to improve. Depending on the learnings from the
+previous increment, it might be necessary to go through the
 [product strategy stage](#product-strategy) again, reconsider some of the
 assumptions and adapt the project's objective. If this is found not to be
 necessary, the product design stage can be entered directly to conceptualise,
