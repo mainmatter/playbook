@@ -350,9 +350,9 @@ Every increment of the application that is completed and released should be
 evaluated on whether the assumptions made in the product strategy and product
 design stages proved themselves to be true and whether the project's objective
 has been achieved as intended. Ideally that evaluation can be conducted based on
-interaction of real users with the application, either based on data captured by
-an analytics system or ideally by receiving feedback from users directly.
-Metrics should be collected for the KPIs defined in the
+interaction of real users with the product, either based on data captured by an
+analytics system or ideally by receiving feedback from users directly. Metrics
+should be collected for the KPIs defined in the
 [product strategy stage](#product-strategy). By analyzing those metrics, the
 actual feedback can now be compared with the initial expectations.
 
