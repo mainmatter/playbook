@@ -129,13 +129,14 @@ business experts and other project stakeholders to:
 > details of that or the particular term used to refer to these items are
 > relevant for a successful process though.
 
-The iteration preparation phase always overlaps with the previous iteration -
-during execution, the next iteration is already being prepared. Iteration leads
-should typically plan a full iteration period for preparation so that when one
-iteration starts, the iteration lead of the next iteration starts preparing the
-next one. Preparing an iteration will typically not require the iteration lead's
-entire time but can usually be done at the same time as contributing to the
-current iteration.
+The preparation phase of an iteration always overlaps with the execution of the
+previous iteration - while one iteration is being executed, the next one is
+already being prepared since it will start once the current one ends. Iteration
+leads should typically plan a full iteration period for preparation so that when
+one iteration starts, the iteration lead of the following iteration starts their
+preparation. Preparing an iteration will of course typically not require the
+iteration lead's entire time though but can usually be done at the same time as
+also contributing to the current iteration.
 
 #### Issues
 
