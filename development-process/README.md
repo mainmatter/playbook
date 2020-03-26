@@ -324,8 +324,8 @@ engineering workflow.
 
 #### Feature Branches and Pull Requests
 
-All changes to a project's code are done in branches. No changes should ever be
-committed to the `master` branch (or whatever the project's main branch is)
+All changes to a project's codebase are done in branches. No changes should ever
+be committed to the `master` branch (or whatever the project's main branch is)
 directly. There should generally be at least one branch per issue - for larger
 issues it often makes sense to split separate steps into separate branches and
 merge them one after another.
