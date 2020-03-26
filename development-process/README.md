@@ -9,7 +9,7 @@ short term predictability. At the same time it remains flexible enough to adapt
 to unexpected events.
 
 The simplabs development process distinguishes itself through certain
-characteristics and goals:
+characteristics and underlying values:
 
 - It ensures all project stakeholders are being heard and the project's
   priorities are not being dictated by a single party.
@@ -35,12 +35,13 @@ a high level of quality while avoiding the accumulation of technical debt.
 
 The concrete tasks for an iteration are identified, defined and prepared
 collaboratively with all project stakeholders before the iteration starts. We do
-not recommend maintaining a backlog filled with all tasks that need to be worked
-on for a particular project as that backlog is very likely to change constantly
-anyways. Doing it like this, most teams end up with a large number of tasks that
-will never be tackled and will eventually be outdated and closed untouched.
-Instead, only the tasks that are relevant at the start of the iteration should
-be defined, prepared and then planned.
+not recommend maintaining a backlog filled with all tasks that will need to be
+completed eventually for a particular project as that backlog is very likely to
+change constantly anyways. Doing it like this, most teams end up with a large
+number of tasks that will end up never being tackled and that will eventually be
+outdated and closed untouched. Instead, only the tasks that are relevant at the
+beginning of an iteration should be defined, prepared and then planned as those
+are known to be relevant.
 
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
