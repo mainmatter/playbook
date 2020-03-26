@@ -87,7 +87,7 @@ consult with other project stakeholders for priorization).
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
 an iteration should reflect **all** the upcoming work, not only feature work and
-bugs - in particular they should reflect design and UX work but also purely
+bug fixes - in particular they should reflect design and UX work but also purely
 technical tasks like refactorings as well. The prepared tasks will then be
 presented to the team as part of the planning meeting that kicks the iteration
 off. In order to prepare these tasks, the iteration lead synchronizes with the
@@ -106,20 +106,28 @@ business experts and other project stakeholders to:
   conversations
 - uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to finish and
-  eliminate all inherent risks, we try to uncover as much of it as possible in
-  the preparation phase to reduce the likelihood for the team to run into
-  unforeseen problems later on, potentially leading to delays and deadlocks
+  eliminate all inherent risks, we recommend trying to uncover as much of it as
+  possible in the preparation phase to reduce the likelihood for the team to run
+  into unforeseen problems later on, potentially leading to delays and deadlocks
   then; the iteration lead might delegate this work to the respective experts
   for a particular topic
-- prepare well-written issues for each of the identified tasks or spikes for
-  tasks that require more research in order to be ready to be adressed
+- prepare well-written [issues](#issues) for each of the identified tasks or
+  spikes for tasks that require more research in order to be ready to be
+  adressed
 - make sure all of the preconditions are met in order to be able to work on each
-  task, e.g. all necessary assets have been delivered, translations are ready or
-  legal implications have been checked
+  issue, e.g. all necessary assets have been delivered, translations are ready
+  or legal implications have been checked etc.
 - prioritize the issues so it is clear which ones need to be worked on first; in
-  reality priorities will obviously overlap occasionally and the expected
-  effort, potential deadlines for individual tasks etc. also need to be taken
-  into account when defining the order in which tasks should be worked on
+  reality priorities will often overlap and the expected effort, potential
+  deadlines for individual tasks etc. also need to be taken into account when
+  defining the order in which tasks should be worked on
+
+> We use the term "issue" to refer to descriptions of tasks as they are kept in
+> a project's work management system of choice (e.g. Jira, GitHub, etc.). Other
+> common terms are "stories", "tickets" etc. Some tools also allow for
+> structuring issues hierarchically (e.g. with "epics"). We don't think the
+> details of that or the particular term used to refer to these items are
+> relevant for a successful process though.
 
 The iteration preparation phase always overlaps with the previous iteration -
 during execution, the next iteration is already being prepared. Iteration leads
