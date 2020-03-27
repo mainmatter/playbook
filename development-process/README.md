@@ -36,12 +36,12 @@ a high level of quality while avoiding the accumulation of technical debt.
 The concrete tasks for an iteration are identified, defined and prepared
 collaboratively with all project stakeholders before the iteration starts. We do
 not recommend maintaining a backlog filled with all tasks that will need to be
-completed for a particular project as that backlog is likely to
-change constantly. Doing it like this, most teams end up with a large
-number of tasks that end up never being tackled and eventually become
-outdated and are closed untouched. Instead, only the tasks that are relevant at the
-beginning of an iteration should be defined, prepared and then planned as those
-are known to be relevant.
+completed for a particular project as that backlog is likely to change
+constantly. Doing it like this, most teams end up with a large number of tasks
+that end up never being tackled and eventually become outdated and are closed
+untouched. Instead, only the tasks that are relevant at the beginning of an
+iteration should be defined, prepared and then planned as those are known to be
+relevant.
 
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
@@ -211,8 +211,8 @@ are struggling with.
 
 At the end of the planning meeting, the team collaboratively decides whether it
 can reasonably work on and complete all of the issues that have been presented
-in the meeting, plus past issues that are potentially moved over from
-the previous iteration after having been reviewed. If the team considers the
+in the meeting, plus past issues that are potentially moved over from the
+previous iteration after having been reviewed. If the team considers the
 presented issues to be too much work for the iteration, they collaboratively
 decide which ones are moved to a later iteration to be considered again in the
 future. If any of the issues are found not to be ready to be worked on (e.g.
