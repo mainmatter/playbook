@@ -58,19 +58,41 @@ team members supporting each other to complete the work as planned.
 
 Our development process functions with flat project teams without dedicated
 project managers. We believe project managers are an organisational anti-pattern
-as they constitute an intermediary between all other project stakeholders. That
-way, they will make communication less direct and effective and more importantly
-they will cater to the impression of the project team being split into different
-groups with competing interests that must all ensure to realize as much of their
-particular interests as possible which is obviously bad for both morale and
-overall efficiency.
+and often do not provide the intended benefits but in fact have negative impact:
+
+- They can constitute an intermediary between project stakeholders, intercepting
+  direct communication and discussion between them. That results in
+  communication between stakeholders being less direct and effective and can
+  potentially even lead to details and nuance being lost in the process.
+  Sometimes blocking direct communication channels is even the intention behind
+  bringing in project managers in an effort to _"shield"_ team members from the
+  direct influence of others. In these cases though, project managers only cover
+  a more fundamental problem that is really a dysfunctional project team.
+- Intercepting or blocking direct communication between stakeholders with
+  project managers can also have another, potentially more substantial negative
+  impact. Since a project can only succeed when the different involved
+  stakeholders work together and each one's motivations and goals are respected
+  and addressed, it is vital for each stakeholders to understand and appreciate
+  each other's viewpoints. Many projects fail due to disproportionate weight
+  being assigned to one of the stakeholder's interests and them running the
+  entire project.
+- If project managers indeed assume a mangement role and have decisive authority
+  regarding priorities and deadlines etc., teams end up in a situation where a
+  party that is not actively contributing to the project is in a position to
+  make decisions and thus drive the project. That takes the decision making away
+  from the parties that have first-hand experience and insights and necessarily
+  leads to not decisions that are not as well-informed as they could be and
+  often time and budget overruns and frustration among the team.
+
+That said, we do support project managers that act as communication coaches that
+support the team by moderating meetings, introducing workshop techniques etc. We
+don't think _"project manager"_ is a fitting term for such a role though.
 
 Instead of bringing in project managers, we recommend that for any given
 iteration one of the team members will take on the role of _"Iteration Lead"_ .
 That person is responsible for planning the iteration and ensuring smooth
 execution. It is conceptualised as a rotating role so that every team member
 will assume it every once in a while (unless they opt out of the rotation).
-
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
 own. It also gives everyone on the project team the notion of ownership,
