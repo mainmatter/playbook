@@ -36,10 +36,10 @@ a high level of quality while avoiding the accumulation of technical debt.
 The concrete tasks for an iteration are identified, defined and prepared
 collaboratively with all project stakeholders before the iteration starts. We do
 not recommend maintaining a backlog filled with all tasks that will need to be
-completed eventually for a particular project as that backlog is very likely to
-change constantly anyways. Doing it like this, most teams end up with a large
-number of tasks that will end up never being tackled and that will eventually be
-outdated and closed untouched. Instead, only the tasks that are relevant at the
+completed for a particular project as that backlog is likely to
+change constantly. Doing it like this, most teams end up with a large
+number of tasks that end up never being tackled and eventually become
+outdated and are closed untouched. Instead, only the tasks that are relevant at the
 beginning of an iteration should be defined, prepared and then planned as those
 are known to be relevant.
 
