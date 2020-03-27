@@ -107,7 +107,7 @@ business experts and other project stakeholders to:
 - uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to finish and
   eliminate all inherent risks, we recommend trying to uncover as much of it as
-  possible in the preparation phase to reduce the likelihood for the team to run
+  possible in the preparation phase to reduce the likelihood of the team running
   into unforeseen problems later on, potentially leading to delays and deadlocks
   then; the iteration lead might delegate this work to the respective experts
   for a particular topic
@@ -116,7 +116,7 @@ business experts and other project stakeholders to:
   adressed
 - make sure all of the preconditions are met in order to be able to work on each
   issue, e.g. all necessary assets have been delivered, translations are ready
-  or legal implications have been checked etc.
+  or legal implications have been checked, etc.
 - prioritize the issues so it is clear which ones need to be worked on first; in
   reality priorities will often overlap and the expected effort, potential
   deadlines for individual tasks etc. also need to be taken into account when
@@ -211,8 +211,8 @@ are struggling with.
 
 At the end of the planning meeting, the team collaboratively decides whether it
 can reasonably work on and complete all of the issues that have been presented
-in the planning meeting (plus past issues that are potentially moved over from
-the previous iteration after having been reviewed). If the team considers the
+in the meeting, plus past issues that are potentially moved over from
+the previous iteration after having been reviewed. If the team considers the
 presented issues to be too much work for the iteration, they collaboratively
 decide which ones are moved to a later iteration to be considered again in the
 future. If any of the issues are found not to be ready to be worked on (e.g.
