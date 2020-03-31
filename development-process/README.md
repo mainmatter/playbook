@@ -41,9 +41,9 @@ relevant only further out as the project progresses and not be actionable at the
 time. Thus, these tasks are likely to change anyway and preparing them early
 leaves teams with a large number of tasks that end up never being tackled or
 only in substantially different form so that they become outdated or are even
-closed untouched. Instead, only the tasks that are relevant at the beginning of
-an iteration should be defined, prepared and then planned as those are known to
-be relevant.
+closed untouched. Instead, only the tasks that are relevant for the upcoming
+iteration should be defined, prepared and then planned as those are well
+understood and known to be needed at the time.
 
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
@@ -57,25 +57,27 @@ team members supporting each other to complete the work as planned.
 ### Roles
 
 Our development process functions with flat project teams without dedicated
-project managers. We believe project managers are an organisational anti-pattern
-and often do not provide the intended benefits but in fact have negative impact:
+project managers. We believe the traditional project manager role with
+responsibilities focussed around time and resource management is an
+organisational anti-pattern and often does not provide the intended benefits but
+in fact has a negative impact:
 
-- They can constitute an intermediary between project stakeholders, intercepting
-  direct communication and discussion between them. That results in
-  communication between stakeholders being less direct and effective and can
-  potentially even lead to details and nuance being lost in the process.
-  Sometimes blocking direct communication channels is even the intention behind
-  bringing in project managers in an effort to _"shield"_ team members from the
-  direct influence of others. In these cases though, project managers only cover
-  a more fundamental problem that is really a dysfunctional project team.
-- Intercepting or blocking direct communication between stakeholders with
-  project managers can also have another, potentially more substantial negative
-  impact. Since a project can only succeed when the different involved
-  stakeholders work together and each one's motivations and goals are respected
-  and addressed, it is vital for each stakeholders to understand and appreciate
-  each other's viewpoints. Many projects fail due to disproportionate weight
-  being assigned to one of the stakeholder's interests and them running the
-  entire project.
+- The project manager role can constitute an intermediary between project
+  stakeholders, intercepting direct communication and discussion between them.
+  That results in communication between stakeholders being less direct and
+  effective and can potentially even lead to details and nuance being lost in
+  the process. Sometimes blocking direct communication channels is even the
+  intention behind bringing in project managers in an effort to _"shield"_ team
+  members from the direct influence of others. In these cases though, the
+  project manager role only covers a more fundamental problem that is really a
+  dysfunctional project team.
+- Intercepting or blocking direct communication between stakeholders via project
+  managers can also have another, potentially more substantial negative impact.
+  Since a project can only succeed when the different involved stakeholders work
+  together and each one's motivations and goals are respected and addressed, it
+  is vital for each stakeholders to understand and appreciate each other's
+  viewpoints. Many projects fail due to disproportionate weight being assigned
+  to one of the stakeholder's interests and them running the entire project.
 - If project managers indeed assume a mangement role and have decisive authority
   regarding priorities and deadlines etc., teams end up in a situation where a
   party that is not actively contributing to the project is in a position to
@@ -84,9 +86,10 @@ and often do not provide the intended benefits but in fact have negative impact:
   leads to decisions that are not as well-informed as they could be and often,
   to time and budget overruns and frustration among the team.
 
-That said, we do support project managers that act as communication coaches that
-support the team by moderating meetings, introducing workshop techniques etc. We
-don't think _"project manager"_ is a fitting term for such a role though.
+That said, we do support a project manager role that is more oriented towards
+acting as a communication coach that supports the team by moderating meetings,
+introducing workshop techniques etc. We don't think _"project manager"_ is a
+fitting term for such a role though.
 
 Instead of bringing in project managers, we recommend that for any given
 iteration one of the team members will take on the role of _"Iteration Lead"_ .
@@ -443,9 +446,9 @@ dependencies, are not containerized and would thus be very hard to implement a
 preview system mechanism for, we recommend at least setting up a shared sandbox
 environment. That is not as valuable as a proper preview system mechanism as it
 will be shared among all stakeholders and will hold changes from multiple pull
-requests at the same time as well as be used by multiple stakeholders at the
-same time that might all be influencing each other. However, it is a good first
-step and often much easier to set up than automated preview systems.
+requests as well as be used by multiple stakeholders at the same time that might
+all be influencing each other. However, it is a good first step and often much
+easier to set up than automated preview systems.
 
 ##### Reviews
 
