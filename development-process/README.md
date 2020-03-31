@@ -9,7 +9,7 @@ short term predictability. At the same time it remains flexible enough to adapt
 to unexpected events.
 
 The simplabs development process distinguishes itself through certain
-characteristics and goals:
+characteristics and underlying values:
 
 - It ensures all project stakeholders are being heard and the project's
   priorities are not being dictated by a single party.
@@ -35,12 +35,15 @@ a high level of quality while avoiding the accumulation of technical debt.
 
 The concrete tasks for an iteration are identified, defined and prepared
 collaboratively with all project stakeholders before the iteration starts. We do
-not recommend maintaining a backlog filled with all tasks that need to be worked
-on for a particular project as that backlog is very likely to change constantly
-anyways. Doing it like this, most teams end up with a large number of tasks that
-will never be tackled and will eventually be outdated and closed untouched.
-Instead, only the tasks that are relevant at the start of the iteration should
-be defined, prepared and then planned.
+not recommend maintaining a backlog filled with all tasks that eventually will
+need to be completed for a particular project. Many of these tasks will become
+relevant only further out as the project progresses and not be actionable at the
+time. Thus, these tasks are likely to change anyway and preparing them early
+leaves teams with a large number of tasks that end up never being tackled or
+only in substantially different form so that they become outdated or are even
+closed untouched. Instead, only the tasks that are relevant at the beginning of
+an iteration should be defined, prepared and then planned as those are known to
+be relevant.
 
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
@@ -54,12 +57,42 @@ team members supporting each other to complete the work as planned.
 ### Roles
 
 Our development process functions with flat project teams without dedicated
-project managers. For any given iteration one of the team members (a designer or
-engineer) will take on the role of _"Iteration Lead"_ . That person is
-responsible for planning the iteration and ensuring smooth execution. It is
-conceptualised as a rotating role so that every team member will assume it every
-once in a while (unless they opt out).
+project managers. We believe project managers are an organisational anti-pattern
+and often do not provide the intended benefits but in fact have negative impact:
 
+- They can constitute an intermediary between project stakeholders, intercepting
+  direct communication and discussion between them. That results in
+  communication between stakeholders being less direct and effective and can
+  potentially even lead to details and nuance being lost in the process.
+  Sometimes blocking direct communication channels is even the intention behind
+  bringing in project managers in an effort to _"shield"_ team members from the
+  direct influence of others. In these cases though, project managers only cover
+  a more fundamental problem that is really a dysfunctional project team.
+- Intercepting or blocking direct communication between stakeholders with
+  project managers can also have another, potentially more substantial negative
+  impact. Since a project can only succeed when the different involved
+  stakeholders work together and each one's motivations and goals are respected
+  and addressed, it is vital for each stakeholders to understand and appreciate
+  each other's viewpoints. Many projects fail due to disproportionate weight
+  being assigned to one of the stakeholder's interests and them running the
+  entire project.
+- If project managers indeed assume a mangement role and have decisive authority
+  regarding priorities and deadlines etc., teams end up in a situation where a
+  party that is not actively contributing to the project is in a position to
+  make decisions and thus drive the project. That takes the decision making away
+  from the parties that have first-hand experience and insights and necessarily
+  leads to decisions that are not as well-informed as they could be and often,
+  to time and budget overruns and frustration among the team.
+
+That said, we do support project managers that act as communication coaches that
+support the team by moderating meetings, introducing workshop techniques etc. We
+don't think _"project manager"_ is a fitting term for such a role though.
+
+Instead of bringing in project managers, we recommend that for any given
+iteration one of the team members will take on the role of _"Iteration Lead"_ .
+That person is responsible for planning the iteration and ensuring smooth
+execution. It is conceptualised as a rotating role so that every team member
+will assume it every once in a while (unless they opt out of the rotation).
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
 own. It also gives everyone on the project team the notion of ownership,
@@ -78,7 +111,7 @@ consult with other project stakeholders for priorization).
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
 an iteration should reflect **all** the upcoming work, not only feature work and
-bugs - in particular they should reflect design and UX work but also purely
+bug fixes - in particular they should reflect design and UX work but also purely
 technical tasks like refactorings as well. The prepared tasks will then be
 presented to the team as part of the planning meeting that kicks the iteration
 off. In order to prepare these tasks, the iteration lead synchronizes with the
@@ -97,28 +130,37 @@ business experts and other project stakeholders to:
   conversations
 - uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to finish and
-  eliminate all inherent risks, we try to uncover as much of it as possible in
-  the preparation phase to reduce the likelihood for the team to run into
-  unforeseen problems later on, potentially leading to delays and deadlocks
+  eliminate all inherent risks, we recommend trying to uncover as much of it as
+  possible in the preparation phase to reduce the likelihood of the team running
+  into unforeseen problems later on, potentially leading to delays and deadlocks
   then; the iteration lead might delegate this work to the respective experts
   for a particular topic
-- prepare well-written issues for each of the identified tasks or spikes for
-  tasks that require more research in order to be ready to be adressed
+- prepare well-written [issues](#issues) for each of the identified tasks or
+  spikes for tasks that require more research in order to be ready to be
+  adressed
 - make sure all of the preconditions are met in order to be able to work on each
-  task, e.g. all necessary assets have been delivered, translations are ready or
-  legal implications have been checked
+  issue, e.g. all necessary assets have been delivered, translations are ready
+  or legal implications have been checked, etc.
 - prioritize the issues so it is clear which ones need to be worked on first; in
-  reality priorities will obviously overlap occasionally and the expected
-  effort, potential deadlines for individual tasks etc. also need to be taken
-  into account when defining the order in which tasks should be worked on
+  reality priorities will often overlap and the expected effort, potential
+  deadlines for individual tasks etc. also need to be taken into account when
+  defining the order in which tasks should be worked on
 
-The iteration preparation phase always overlaps with the previous iteration -
-during execution, the next iteration is already being prepared. Iteration leads
-should typically plan a full iteration period for preparation so that when one
-iteration starts, the iteration lead of the next iteration starts preparing the
-next one. Preparing an iteration will typically not require the iteration lead's
-entire time but can usually be done at the same time as contributing to the
-current iteration.
+> We use the term "issue" to refer to descriptions of tasks as they are kept in
+> a project's work management system of choice (e.g. Jira, GitHub, etc.). Other
+> common terms are "stories", "tickets" etc. Some tools also allow for
+> structuring issues hierarchically (e.g. with "epics"). We don't think the
+> details of that or the particular term used to refer to these items are
+> relevant for a successful process though.
+
+The preparation phase of an iteration always overlaps with the execution of the
+previous iteration - while one iteration is being executed, the next one is
+already being prepared since it will start once the current one ends. Iteration
+leads should typically plan a full iteration period for preparation so that when
+one iteration starts, the iteration lead of the following iteration starts their
+preparation. Preparing an iteration will of course typically not require the
+iteration lead's entire time though but can usually be done at the same time as
+also contributing to the current iteration.
 
 #### Issues
 
@@ -142,9 +184,10 @@ Good issues aim to:
   and also providing the reasons for those changes
 - include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-- detail concrete requirements that must be met in order to complete the issue;
-  in order to prepare this list, the iteration lead might need to partner with a
-  team member more familiar with a particular part of the code base or feature
+- detail concrete requirements that must be met and an overview of the changes
+  to be made in order to complete the issue; in order to prepare this list, the
+  iteration lead might need to partner with a team member more familiar with a
+  particular part of the code base or feature
 - include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or APIs
   or contact details for external parties involved in an issue etc.
@@ -152,8 +195,8 @@ Good issues aim to:
   identified and might prevent the issue from being completed
 - be a discrete unit of work; issues should only contain related requirements
   and ideally not represent more than a few days of work - larger issues can
-  often be broken down into multiple smaller ones, possibly even allowing to be
-  worked on simultaneously
+  often be broken down into multiple smaller ones, possibly even allowing for
+  work to happen simultaneously
 
 #### Spikes
 
@@ -168,7 +211,7 @@ first in order to resolve these open questions. Spikes should have:
   an issues from being created by adding too much risk or uncertainty
 - guidance on potential solutions that should be evaluated or references to
   promising approaches
-- a well-defined timebox, e.g. _"max 2 days"_
+- a well-defined timebox, e.g. _"spend max 2 days"_
 
 ## Iteration Planning
 
@@ -179,19 +222,26 @@ the team during the planning meeting.
 The iteration planning meeting is a joint meeting with the entire project team,
 the business experts and all other stakeholders involved in the project. During
 the meeting, the iteration lead presents each issue to the project team so that
-everyone aquires a coherent understanding of what each issue is about and gets a
-chance to ask questions and/or raise any points that might have been overlooked
-in the iteration preparation phase.
+everyone acquires a coherent understanding of what each issue is about and gets
+a chance to ask questions.
+
+One goal of the iteration preparation phase is to eradicate uncertainties and
+open questions around all issues. Instead, each issue should have been carefully
+examined for open questions and risks and a high level strategy for completing
+it should have been defined. That way, the iteration planning meeting can be
+spend most efficiently and does not end up being a loose team discussion in
+which tasks are examined collaboratively which is a scenario many product teams
+are struggling with.
 
 At the end of the planning meeting, the team collaboratively decides whether it
 can reasonably work on and complete all of the issues that have been presented
-to them in the planning meeting (plus past issues that are potentially moved
-over from the previous iteration after having been reviewed). If the team
-considers the presented issues to be too much work for the iteration, they
-collaboratively decide which ones are moved to a later iteration to be
-considered again in the future. If any of the issues are found not to be ready
-to be worked on (e.g. because dependencies of the issue are not ready), the
-issue is moved to a later iteration as well.
+in the meeting, plus past issues that are potentially moved over from the
+previous iteration after having been reviewed. If the team considers the
+presented issues to be too much work for the iteration, they collaboratively
+decide which ones are moved to a later iteration to be considered again in the
+future. If any of the issues are found not to be ready to be worked on (e.g.
+because dependencies of the issue are not ready), the issue is moved to a later
+iteration as well.
 
 **The iteration, once planned, is not a binding agreement.** It is still
 possible for all project stakeholders to react to changes regarding features or
@@ -200,9 +250,9 @@ completed by the end of the iteration as new challenges might come up once work
 on an issue has started. The iteration plan is merely a snapshot of feature
 requests and priorities at the time it is made as well as a best-effort estimate
 by the project team of which issues it thinks it can complete within the
-iteration. Ideally, an iteration remains unchanged once it has been planned to
-enable smooth execution which also leads to increasingly predictable estimates
-as a project progresses.
+iteration. Ideally though, an iteration remains unchanged once it has been
+planned to enable smooth execution which also leads to increasingly predictable
+estimates as a project progresses.
 
 ## Iteration Execution
 
@@ -213,35 +263,31 @@ Once an issue has started to be worked on, the respective team member(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
 person at a time so if multiple engineers collaborate on an issue, they might
 have to choose one to assign it to). Issues are only assigned once work on them
-has actually started - pre-assigning issues during planning or afterwards block
-these issues for everyone else to work on if the originally assigned team
-members are busy with other tasks and do not actually work on them. If an issue
-is being worked on by multiple team members sequentially (e.g. first the
-designer for preparing the wireframes, then the engineer for implementing
-those), the latter team member will self-assign the issue once the former is
-done with their work.
+actually starts – pre-assigning issues during planning or afterwards block these
+issues for everyone else to work on if the originally assigned team members are
+busy with other tasks and do not actually work on them. If an issue is being
+worked on by multiple team members sequentially (e.g. first the designer for
+preparing visual elements, then the engineer for implementing those), the latter
+team member will self-assign the issue once the former is done with their work.
+Once an issue has been resolved via a [pull request](#feature-branches) or if it
+is blocked, the engineer(s) will self-assign another issue from the iteration
+backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
 often beneficial to prepare them further before starting implementation. For
-these kinds of issues, the first step is to break them down into smaller, more
+these kinds of issues, the first step is to decompose them into smaller, more
 concrete steps (which is often a great thing to do in a
 [pairing session](#pairing)).
 
-Once an issue has been resolved via a [pull request](#feature-branches) or if it
-is blocked, the engineer(s) will self-assign another issue from the iteration
-backlog. If an issue is blocked and cannot progress, the engineers working on it
-will have to contact the [iteration lead](#roles) who - in collaboration with
-whomever necessary - will try to resolve the impediment.
-
 If there are any changes requested to the iteration after the planning meeting
 (e.g. due to unforeseeable changes to features or severe bugs popping up in
-production), all of these potential changes are triaged by the iteration lead.
-They might consult with the business experts or other project stakeholders to
-determine validity and priority of the incoming requests. If an issue is
-considered necessary to be added to the iteration after the planning meeting, it
-will be added but another issue might have to be removed from the iteration in
-its stead.
+production), all of these potential changes to the iteration are triaged by the
+iteration lead. They might consult with the business experts or other project
+stakeholders to determine validity and priority of the incoming requests. If an
+issue is considered necessary to be added to the iteration after the planning
+meeting, it can be added but another issue might have to be removed from the
+iteration in its stead.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 for trying to solve the impediment, potentially synchronizing with the business
@@ -254,27 +300,29 @@ issues should be added. Oftentimes that will mean moving issues from the
 following iteration into the current one.
 
 All discussions around an issue should happen on the particular issue's
-respective page. Of course at times it is convenient to have discussions in
-person or through online chat but even in those cases, a brief summary of the
-discussed points and the outcome should be posted on the issue. This is a
-necessity for distributed teams and allows everyone access to all of the context
-of a particular issue at any time. Even teams that are not distributed benefit
-from this practice as all information that is relevant to a particular issue is
-and remains available for everyone interested.
+respective page in the project management tool of choice. Of course at times it
+is convenient to have discussions in person or through online chat but even in
+those cases, a brief summary of the discussed points and the outcome should be
+posted on the issue. This is a necessity for distributed teams and allows
+everyone access to all of the context of a particular issue at any time. Even
+teams that are not distributed benefit from this practice as all information
+that is relevant to a particular issue is and remains available for everyone
+interested.
 
 ### Communication
 
-Communication is key for a successful project team - be it distributed or not.
+Communication is key for successful project teams - be they distributed or not.
 In order for communication to be beneficial for both the team culture as well as
 productivity, rather than becoming a liability or cause of constant stress, all
 team members need to keep some basic rules in mind:
 
-- be responsive: don't leave anyone hanging with unanswered questions or
+- Be responsive: don't leave anyone hanging with unanswered questions or
   requests. It goes a long way in keeping working relations positive, and
-  communication effective. Respond to online chat messages within reasonable
-  time, ensure you have notifications set up properly so you see when somebody
-  mentions you in a discussion or asks for your feedback
-- take your focus time: while some people can respond to any notification that
+  communication effective. Respond to online chat messages or mentions on issue
+  pages etc. within reasonable time, ensure you have notifications set up
+  properly so you will see when somebody mentions you in a discussion or asks
+  for your feedback
+- Take your focus time: while some people can respond to any notification that
   reaches them immediately and still stay focussed on the task they're working
   on, this is not everyone's most effective way of working. Feel free to take
   your focus time and switch off or ignore all notifications in order to focus
@@ -283,7 +331,7 @@ team members need to keep some basic rules in mind:
   asynchronous as much as possible. Give people time to finish what they're
   focused on, and to respond properly. Very rarely is anything so urgent to
   warrant full interruption.
-- take advantage of rich media: screenshots, screen recordings, screenshares or
+- Take advantage of rich media: screenshots, screen recordings, screenshares or
   even hand-drawn sketches can contribute to a better understanding of what
   you're trying to show or describe. A screen recording of a delivered feature
   is always a hit. During calls, switch on your camera so people can see you -
@@ -300,8 +348,8 @@ engineering workflow.
 
 #### Feature Branches and Pull Requests
 
-All changes to a project's code are done in branches. No changes should ever be
-committed to the `master` branch (or whatever the project's main branch is)
+All changes to a project's codebase are done in branches. No changes should ever
+be committed to the `master` branch (or whatever the project's main branch is)
 directly. There should generally be at least one branch per issue - for larger
 issues it often makes sense to split separate steps into separate branches and
 merge them one after another.
@@ -330,17 +378,17 @@ clear what the particular commit does.
 ##### Pull Requests
 
 Branches are not merged back to the `master` branch directly but via pull
-requests (or whatever similar mechanism the tool used in a particular project
-provides). Similarly to issues, pull requests should have all the information
-necessary for everyone to understand what they do, how and why. In particular,
-good pull requests should have:
+requests (or whatever similar mechanism the tools used in a particular project
+provide). Similarly to issues, pull requests should have all the information
+necessary for everyone to understand what they do, how they do it and why. In
+particular, good pull requests should have:
 
 - a high-level summary of the changes that the pull request contains that
   provides the reader with a good overview without having to look at the actual
   code changes
 - guidance for testing the added or changed functionality; this is helpful for
   the reviewer, product or business experts looking at the pull request on a
-  preview system and any QA people
+  [preview system](#preview-systems) and any QA people
 - before and after screenshots or even screen recordings in case of a visual
   change
 - a reference to the issue the changes in the pull request are refering to; if
@@ -351,7 +399,7 @@ good pull requests should have:
 As with issues, all discussions around a particular pull request should happen
 on the pull request's page. If discussions happen in person or via online chat,
 a summary should be posted to the pull request so all information and context is
-accessible to everyone interested at any time.
+accessible to everyone interested at any time in one place.
 
 It is perfectly fine to create pull requests early on while implementation is
 still ongoing and they are not yet ready to be reviewed or merged. Doing so is a
@@ -364,37 +412,40 @@ requests from being merged.
 
 ##### Preview Systems
 
-In addition to setting up [continuous deployment](#iteration-execution) for
-deploying all changes that get merged into a project's main branch to production
+In addition to setting up
+[continuous deployment](#feature-branches-and-pull-requests) for deploying all
+changes that get merged into a project's main branch to production
 automatically, we recommend creating a mechanism that allows booting
 per-branch/pull request staging systems on demand which we call preview systems.
 Preview systems are production-like environments that run the entire application
-with a particular revision of the application's source code (e.g. that of a
-branch/pull request) with real production or production-like data. These systems
-would ideally be automatically created for every new pull request (and destroyed
-once the pull request was merged). A link to the respective system would be
-added to the pull request automatically. Preview systems are particularly
-helpful for letting non-technical stakeholders that cannot run the entire
-application themselves inspect features or changes. That way they can validate
-the respective features or changes and give feedback that engineers can then
-address before releasing to production. Preview systems also allow sharing
-status with external stakeholders that might not even have access to the
-application's sources at all.
+with a particular revision of the application's source code (that of a pull
+request's underlying branch) with real production or production-like data. These
+systems would ideally be automatically created for every new pull request (and
+destroyed once the pull request was merged). A link to the respective system
+would be added to the pull request automatically.
+
+Preview systems are particularly helpful for letting non-technical stakeholders
+that cannot run the entire application themselves inspect features or changes.
+That way they can validate the respective features or changes and give feedback
+that engineers can then address before releasing to production. Preview systems
+also allow sharing status with external stakeholders that might not even have
+access to the application's sources at all.
 
 Setting up a preview systems mechanism can sometimes be challenging and might
 require a substantial amount of work. However, when taken into account early on
 in a project and in particular if the project's infrastructure is containerized
 anyway, it is often possible to set up preview systems with relatively little
 effort. Once the mechanism is set up, the benefits easily justify even a
-substantial effort anyway though. In case of projects that have been running for
-some time already, have lots of dependencies, are not containerized and would
-thus be very hard to implement a preview system mechanism for. We recommend at
-least setting up a shared sandbox environment. That is not as valuable as a
-proper preview system mechanism as it is shared among all stakeholders and will
-hold changes from multiple pull requests at the same time as well as be used by
-multiple stakeholders at the same time that might all be influencing each other.
-However, it is a good first step and often much easier to set up than automated
-preview systems.
+substantial effort.
+
+In case of projects that have been running for some time already, have lots of
+dependencies, are not containerized and would thus be very hard to implement a
+preview system mechanism for, we recommend at least setting up a shared sandbox
+environment. That is not as valuable as a proper preview system mechanism as it
+will be shared among all stakeholders and will hold changes from multiple pull
+requests at the same time as well as be used by multiple stakeholders at the
+same time that might all be influencing each other. However, it is a good first
+step and often much easier to set up than automated preview systems.
 
 ##### Reviews
 
@@ -404,7 +455,7 @@ In order for a pull request to be ready for review though, it has to meet some
 pre-requisites:
 
 - the branch has no conflicts with the target branch
-- the changes in the branch are covered by proper tests and CI is passing
+- the changes in the branch are covered by appropriate tests and CI is passing
 - the pull request is not marked as _"work in progress"_
 - the commit history of the pull request has been cleaned up, e.g. WIP commits
   have been squashed, debug commits have been removed etc.
@@ -419,18 +470,18 @@ Reviews are a great tool for distributing knowledge about the code base among
 the project team which prevents essential knowledge from being isolated to
 individual developers. Everyone asked for review should reply in a timely
 manner - even if it's to ask for someone else to be chosen if they do not have
-the time to do a proper review.
+the time to do a thorough review.
 
 Once the reviewer approved the changes and CI passes, the pull request can be
 merged by any team member including the pull request's author. If the original
-reviewer would like a second review by another team member, potentially one more
-familiar with the aspects of the application that are being changed by the
+reviewer would like a second review by another team member, potentially someone
+more familiar with the aspects of the application that are being changed by the
 particular pull request, they will ask for it. In case anything comes up in the
 review that cannot be resolved between the reviewer and the author of the pull
 request, a third person should be brought in to resolve the deadlock.
 
 Reviewing and potentially criticizing other people's work is a sensitive issue
-which is why a set of rules should be followed when doing so:
+which is why we recommend a set of rules to follow:
 
 - be polite: you are reviewing another person's work that they put time and
   energy in - don't be dismissive and keep a friendly tone
@@ -533,27 +584,27 @@ deadlock.
 
 Changes to design sources need to be reviewed for:
 
-- completeness: does the change contain all of the necessary elements and
-  states?
+- completeness: does the change contain and/or cover all of the necessary and/or
+  affected elements and states?
 - consistency: does the change fit in with and leverage the project's design
   system and overall visual direction?
 - applicability: is the change possible to implement with the technology of
   choice with reasonable effort?
 
-When reviewing design changes the same rules apply as when
-[reviewing code changes](#review-guidelines).
+When reviewing design changes we recommend following the same set of rules as
+when [reviewing code changes](#review-guidelines).
 
 #### Design Systems
 
-All design work should result in a design system for the respective project,
-independently of its nature or scope. The design system is a structured,
-multi-level framework where each layer builds on top of the elements defined in
-the previous one, going from simple to complex, e.g.:
+All design work should eventually result in a design system evolving for the
+respective project, independently of its nature or scope. The design system is a
+structured, multi-level framework where each layer builds on top of the elements
+defined in the previous one, going from simple to complex, e.g.:
 
 - basic rules around font choices and color schemes build the foundation for the
   design system
-- atomic elements like buttons, labels and inputs serve as the foundation of the
-  design and are the building blocks for all higher levels
+- atomic elements like buttons, labels and inputs are the building blocks for
+  all higher level elements
 - components are built on top of atomic elements and/or other components and
   resemble groups of lower level elements that function as a unit like search
   forms, headers etc.
@@ -567,10 +618,11 @@ elements will build on top of existing ones.
 With every change that is applied, the design system is incrementally built up
 and extended over time. New UI elements that were not previously covered will
 reuse lower-level elements where applicable and only introduce new concepts and
-patterns where no such reusable element is available. In cases where existing UI
-elements turn out to not be suited for previously uncovered cases, these
+patterns where no such reusable elements are available. In cases where existing
+UI elements turn out to not be suited for previously uncovered cases, these
 elements might need to be changed, potentially making changes in other,
-higher-level elements necessary as well.
+higher-level elements necessary as well. These cascading changes ensure
+consistency across all of an application's UI.
 
 ##### Productivity Benefits
 
@@ -581,20 +633,20 @@ additional guidance from designers, simply by following the rules of and using
 the elements and components of the design system. In most cases, elements and
 components defined in the design system will even have direct counterparts in
 the application's source code. That way, designers do not have to maintain
-designs for every individual page of the application. They only need to ensure
-the design system provides the rules and elements to build all of the
-application's pages.
+designs for every individual page or screen of an application. They only need to
+ensure the design system provides the rules and elements to compose all of the
+application's UI.
 
 #### Deliverables
 
 Ideally no dedicated design deliverables should be necessary and engineers
-should work with the design source files directly and extract what they need.
-Therefore, the design sources files should be managed in a way that makes
-extraction of assets and necessary artwork easy for the engineers and designers
-who will use them. This should include preparing and marking elements for
-export, including proper offsets and intended appropriate file formats to reduce
-the necessity for producing any special deliverables beyond the files
-themselves.
+should work with the design source files directly and extract the information
+and assets they need from those. Therefore, the design sources files should be
+managed in a way that makes extraction of assets and necessary artwork easy for
+the engineers and designers who will use them. This should include preparing and
+marking elements for export, including proper offsets and intended appropriate
+file formats to reduce the necessity for producing any special deliverables
+beyond the files themselves.
 
 If any particular deliverables are required that the engineers can not extract
 from the design source files directly, those deliverables should be attached to
