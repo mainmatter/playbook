@@ -152,9 +152,9 @@ business experts and other project stakeholders to:
   deadlines for individual tasks etc. also need to be taken into account when
   defining the order in which tasks should be worked on
 
-> We use the term "issue" to refer to descriptions of tasks as they are kept in
-> a project's work management system of choice (e.g. Jira, GitHub, etc.). Other
-> common terms are "stories", "tickets" etc. Some tools also allow for
+> We use the term _"issue"_ to refer to descriptions of tasks as they are kept
+> in a project's work management system of choice (e.g. Jira, GitHub, etc.).
+> Other common terms are "stories", "tickets" etc. Some tools also allow for
 > structuring issues hierarchically (e.g. with "epics"). We don't think the
 > details of that or the particular term used to refer to these items are
 > relevant for a successful process though.
