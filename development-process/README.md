@@ -443,9 +443,9 @@ dependencies, are not containerized and would thus be very hard to implement a
 preview system mechanism for, we recommend at least setting up a shared sandbox
 environment. That is not as valuable as a proper preview system mechanism as it
 will be shared among all stakeholders and will hold changes from multiple pull
-requests at the same time as well as be used by multiple stakeholders at the
-same time that might all be influencing each other. However, it is a good first
-step and often much easier to set up than automated preview systems.
+requests as well as be used by multiple stakeholders at the same time that might
+all be influencing each other. However, it is a good first step and often much
+easier to set up than automated preview systems.
 
 ##### Reviews
 
