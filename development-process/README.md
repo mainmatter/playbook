@@ -81,8 +81,8 @@ and often do not provide the intended benefits but in fact have negative impact:
   party that is not actively contributing to the project is in a position to
   make decisions and thus drive the project. That takes the decision making away
   from the parties that have first-hand experience and insights and necessarily
-  leads to decisions that are not as well-informed as they could be and often
-  time and budget overruns and frustration among the team.
+  leads to decisions that are not as well-informed as they could be and often,
+  to time and budget overruns and frustration among the team.
 
 That said, we do support project managers that act as communication coaches that
 support the team by moderating meetings, introducing workshop techniques etc. We
