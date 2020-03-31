@@ -41,9 +41,9 @@ relevant only further out as the project progresses and not be actionable at the
 time. Thus, these tasks are likely to change anyway and preparing them early
 leaves teams with a large number of tasks that end up never being tackled or
 only in substantially different form so that they become outdated or are even
-closed untouched. Instead, only the tasks that are relevant at the beginning of
-an iteration should be defined, prepared and then planned as those are known to
-be relevant.
+closed untouched. Instead, only the tasks that are relevant for the upcoming
+iteration should be defined, prepared and then planned as those are well
+understood and known to be needed at the time.
 
 The main purpose of iterations is to set expectations on all sides and provide
 short-term predictability and planability for the stakeholders requiring it.
