@@ -60,7 +60,7 @@ Our development process functions with flat project teams without dedicated
 project managers. We believe the traditional project manager role with
 responsibilities focussed around time and resource management is an
 organisational anti-pattern and often does not provide the intended benefits but
-in fact have negative impact:
+in fact has a negative impact:
 
 - The project manager role can constitute an intermediary between project
   stakeholders, intercepting direct communication and discussion between them.
