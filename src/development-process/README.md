@@ -97,7 +97,7 @@ That person is responsible for planning the iteration and ensuring smooth
 execution. It is conceptualised as a rotating role so that every team member
 will assume it every once in a while (unless they opt out of the rotation).
 
-![Rotating Iteration Lead](../../../assets/image.png "The rotating iteration lead role")
+![Rotating Iteration Lead role](../../../assets/rotating-itteration-lead-role.svg "The iteration lead role rotates to a different project team member with every increment")
 
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
@@ -168,7 +168,7 @@ preparation. Preparing an iteration will of course typically not require the
 iteration lead's entire time though but can usually be done at the same time as
 also contributing to the current iteration.
 
-![Collecting input](../../../assets/image.png "The iteration lead is responsible for collecting input from all stakeholders and preparing it to be worked on")
+![Collecting input from stakeholders](../../../assets/converting-input-to-issues.svg "The iteration lead is responsible for collecting input from all stakeholders, assessing it for consistency and availability of prerequisites and converting it to proper issues")
 
 #### Issues
 
@@ -178,7 +178,7 @@ non-involved with the project to get an understanding of what is happening
 directly, and can serve as future reference to understand what was done in a
 project, and for which reasons.
 
-![Issue](../../../assets/image.png "Good issues are key to a successful project")
+![Issue](../../../assets/issue.svg "Good issues with complete and detailed information are key to a successful project")
 
 There is a plethora of tools available for maintaining and collaborating on
 issues and this process does not prescribe usage of any particular one – all of
@@ -625,7 +625,7 @@ A design system will ensure consistency across all of the UI of an application
 as well as minimize the work necessary for extending the UI over time as new
 elements will build on top of existing ones.
 
-![Design System](../../../assets/image.png "A design system is the visual foundation for a digital product")
+![Design System](../../../assets/design-system.svg "A design system is the visual foundation for a digital product")
 
 With every change that is applied, the design system is incrementally built up
 and extended over time. New UI elements that were not previously covered will

@@ -33,7 +33,7 @@ to deliver value (the
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
 
-![Increments](../../../assets/image.png "Breaking down a project into an MVP and subsequent increments")
+![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
 
 Software projects are highly dynamic. The bigger the scope and the complexity of
 a project, the likelier it is to steer off track, resulting in delays and budget
@@ -159,7 +159,7 @@ order to visualise the user base. A good understanding of a product's personas
 is a key prerequisite for developing an application that effectively caters to
 the specific needs of its future users.
 
-![Personas](../../../assets/image.png "Defining Personas helps in developing a better understanding of who a product is built for")
+![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
 In order to identify personas, all possible future users (as derived from the
 acquired data and/or based on the business experts' experience) of the product
@@ -247,7 +247,7 @@ consisting of:
 - the low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
 
-![User Story](../../../assets/image.png "User Stories are defined focussing on the flow")
+![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
 Once a user story has been clearly defined, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the user
@@ -284,7 +284,7 @@ subsequent discussions. Iterating based on the actual product as opposed to a
 prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
-![Wireframe](../../../assets/image.png "The first increment of a product will require a mockup for one of the user stories in order to agree on a visual style for the product")
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require a wireframe and/or mockup for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
