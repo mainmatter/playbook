@@ -300,25 +300,23 @@
       }
     }
 
-    #title-page #photo {
+    #title-page #image {
       width: 100%;
-      margin-top: 12.5%;
-    }
-
-    #title-page #logo {
-      margin: 100pt 0 0 50pt;
+      height: auto;
+      position: absolute;
+      top: 12pt;
     }
 
     #title-page #content {
-      width: 75%;
-      height: 50%;
       position: absolute;
-      margin: 0 12.5% 12.5% 12.5%;
-      bottom: 0;
-      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.png);
+      bottom: 12pt;
+      left: 12pt;
+      right: 12pt;
+      padding: 48pt;
+      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.svg);
       background-size: 25%, contain;
       background-repeat: no-repeat;
-      background-position: 50pt 125pt, top left;
+      background-position: 104pt 60pt, top left;
     }
 
     #title-page h1 {
@@ -326,7 +324,7 @@
       font-size: 80pt;
       font-weight: 700;
       text-transform: none;
-      margin: 190pt 0 0 50pt;
+      margin: 65pt 0 0 50pt;
     }
 
     #title-page h1:after {
@@ -334,14 +332,13 @@
     }
 
     #title-page p {
-      margin-top: 40pt;
       color: white;
-      margin-left: 170pt;
+      margin: 32pt 0 24pt 50%;
       font-weight: 300;
-      font-size: 20pt;
+      font-size: 14pt;
       font-style: italic;
-      line-height: 24pt;
-      width: 250pt;
+      line-height: 16pt;
+      width: 40%;
     }
 
     #toc-page {
@@ -486,7 +483,7 @@
 </head>
 <body>
   <div id="title-page">
-    <img id="photo" src="./assets/images/title-photo.jpg" />
+    <img id="image" src="./assets/images/title.svg" />
     <div id="content">
       <h1>Playbook</h1>
       <p>Values and strategies for successful product teams</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="537px" height="262px" viewBox="0 0 537 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Combined Shape Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.446494465" width="537" height="307"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="page-00" transform="translate(-28.000000, -567.000000)">
+            <g id="Combined-Shape-Copy-4" transform="translate(28.000000, 534.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M262.003622,33 L712.414,153 L825.763373,153 L825.763373,214.361332 L355.101895,294.629407 L-186,217.183086 L-186,192.969 L-223,192.969906 L-223,123.244458 L262.003622,33 Z" fill="#007DF6" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
