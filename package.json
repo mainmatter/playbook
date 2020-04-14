@@ -6,11 +6,18 @@
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
   "private": true,
   "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.7.2",
+    "highlight.js": "^9.18.1",
+    "jsdom": "^16.1.0",
+    "marked": "^0.8.0",
     "prettier": "^1.18.2"
   },
   "scripts": {
     "format": "prettier --write '**/*.md'",
-    "lint": "prettier --check '**/*.md'"
+    "lint": "prettier --check '**/*.md'",
+    "prepare-book": "mkdir -p dist && node book/scripts/prepare.js",
+    "compile-book": "mkdir -p dist && prince --pdf-lang=en --pdf-title=\"The simplabs Playbook\" --pdf-author=\"simplabs GmbH\" --disallow-modify --fail-dropped-content --fail-missing-resources --fail-missing-glyphs -o dist/book.pdf dist/book.html"
   },
   "prettier": {
     "proseWrap": "always"

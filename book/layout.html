@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    /* latin-ext */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
+        url(./assets/nunito-sans-300-ext.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
+        url(./assets/nunito-sans-300.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+        url(./assets/nunito-sans-400-ext.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+        url(./assets/nunito-sans-400.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
+        url(./assets/nunito-sans-600-ext.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
+        url(./assets/nunito-sans-600.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
+        url(./assets/nunito-sans-700-ext.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
+        url(./assets/nunito-sans-700.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 900;
+      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
+        url(./assets/nunito-sans-900-ext.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 900;
+      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
+        url(./assets/nunito-sans-900.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      counter-reset: page 0;
+    }
+
+    @page {
+      size: A4;
+      margin: 60pt;
+
+      @bottom-left {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 9pt;
+        content: 'simplabs playbook';
+        font-weight: 300;
+      }
+
+      @bottom-right {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 9pt;
+        content: counter(page);
+        font-weight: 700;
+      }
+    }
+
+    @page:first {
+      margin: 0;
+
+      @bottom-left {
+        content: none;
+      }
+
+      @bottom-right {
+        content: none;
+      }
+    }
+
+    h1.supporting-chapter-title {
+      page-break-before: always;
+      font-size: 24pt;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 24pt;
+      line-height: 40pt;
+    }
+
+    h1.supporting-chapter-title:after {
+      content: '';
+      width: 80pt;
+      border-bottom: solid #007df6 4pt;
+      display: block;
+      margin-bottom: 36pt;
+    }
+
+    h1 {
+      font-size: 32pt;
+      line-height: 32pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h2 {
+      font-size: 24pt;
+      line-height: 32pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h3 {
+      font-size: 16pt;
+      line-height: 24pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h4 {
+      font-size: 12pt;
+      line-height: 24pt;
+      font-weight: 700;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h5 {
+      font-size: 12pt;
+      line-height: 24pt;
+      font-weight: 600;
+      margin: 12pt 0 12pt 0;
+    }
+
+    h6 {
+      font-size: 12pt;
+      line-height: 24pt;
+      font-weight: 400;
+      margin: 12pt 0 12pt 0;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    ol {
+      list-style: none;
+      counter-reset: my-awesome-counter;
+      padding-left: 38pt;
+    }
+
+    ol li {
+      counter-increment: my-awesome-counter;
+      position: relative;
+      margin-bottom: 12pt;
+    }
+
+    ol li:before {
+      content: counter(my-awesome-counter);
+      border-radius: 50%;
+      background-color: #e2f1ff;
+      color: #007df6;
+      font-weight: 400;
+      width: 28pt;
+      display: inline-block;
+      height: 28pt;
+      text-align: center;
+      line-height: 28pt;
+      font-size: 16pt;
+      position: absolute;
+      left: -38pt;
+    }
+
+    ol li strong {
+      font-size: 16pt;
+      font-weight: 600;
+      line-height: 28pt;
+      display: block;
+      margin-bottom: 6pt;
+    }
+
+    ul {
+      padding-left: 38pt;
+    }
+
+    blockquote {
+      page-break-inside: avoid;
+      padding: 0 0 0 8pt;
+      margin: 0 0 0 38pt;
+      border-left: 2pt solid #a7a7a7;
+    }
+
+    blockquote p {
+      font-style: italic;
+    }
+
+    ul, ol {
+      page-break-inside: avoid;
+    }
+
+    p, ul, ol, figure {
+      margin: 0 0 24pt 0;
+    }
+
+    p, li {
+      orphans: 3;
+      widows: 3;
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+
+    figure {
+      width: 100%;
+      page-break-inside: avoid;
+      text-align: center;
+    }
+
+    figure img {
+      max-width: 75%;
+      max-height: 400pt;
+      margin-bottom: 12pt;
+    }
+
+    figure figcaption {
+      font-size: 10pt;
+      line-height: 20pt;
+      font-style: italic;
+      text-align: left;
+      margin: 0 36pt;
+    }
+
+    #title-page {
+      page-break-after: always;
+      page-break-before: always;
+      page-break-inside: avoid;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    @media print {
+      #title-page {
+        position: fixed;
+      }
+    }
+
+    #title-page #image {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 12pt;
+    }
+
+    #title-page #content {
+      position: absolute;
+      bottom: 12pt;
+      left: 12pt;
+      right: 12pt;
+      padding: 48pt;
+      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.svg);
+      background-size: 25%, contain;
+      background-repeat: no-repeat;
+      background-position: 104pt 60pt, top left;
+    }
+
+    #title-page h1 {
+      color: white;
+      font-size: 80pt;
+      font-weight: 700;
+      text-transform: none;
+      margin: 65pt 0 0 50pt;
+    }
+
+    #title-page h1:after {
+      display: none;
+    }
+
+    #title-page p {
+      color: white;
+      margin: 32pt 0 24pt 50%;
+      font-weight: 300;
+      font-size: 14pt;
+      font-style: italic;
+      line-height: 16pt;
+      width: 40%;
+    }
+
+    #toc-page {
+      page-break-after: always;
+      page-break-before: always;
+      page-break-inside: avoid;
+    }
+
+    #toc {
+      padding-left: 0;
+      page-break-inside: auto;
+    }
+
+    #toc li {
+      margin-bottom: 8pt;
+    }
+
+    #toc li:before {
+      display: none;
+    }
+
+    #toc a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    #toc a .title {
+      text-decoration: underline;
+    }
+
+    #toc a.level-2 {
+      margin-left: 38pt;
+    }
+
+    #toc a.level-3 {
+      margin-left: 76pt;
+    }
+
+    #toc a.level-4 {
+      margin-left: 114pt;
+    }
+
+    #toc a.level-5 {
+      margin-left: 152pt;
+    }
+
+    #toc a.level-6 {
+      margin-left: 190pt;
+    }
+
+    #toc a:after {
+      content: " " leader(" .") " " target-counter(attr(href), page);
+      text-decoration: none;
+    }
+
+    .chapter-intro {
+      page-break-after: always;
+      page-break-before: always;
+      page-break-inside: avoid;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    @media print {
+      .chapter-intro {
+        position: fixed;
+      }
+    }
+
+    .chapter-intro .title {
+      position: absolute;
+      bottom: 0;
+      width: 87.5%;
+      margin: 0 0 0 12.5%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50%;
+    }
+
+    #chapter-1-chapter-intro .title {
+      background-image: url(./assets/images/chapter-1-title-background.svg);
+    }
+
+    #chapter-2-chapter-intro .title {
+      background-image: url(./assets/images/chapter-2-title-background.svg);
+    }
+
+    .chapter-intro img {
+      width: 87.5%;
+    }
+
+    .chapter-intro .title h1 {
+      margin: 0;
+      page-break-before: avoid;
+      font-size: 40pt;
+      line-height: 40pt;
+      color: white;
+      font-weight: 300;
+      padding: 0 40pt 20pt 40pt;
+      text-transform: none;
+    }
+
+    .chapter-intro .title h1:after {
+      display: none;
+    }
+
+    .chapter-intro .title h2 {
+      font-size: 24pt;
+      color: white;
+      font-weight: 900;
+      border-bottom: 2pt solid white;
+      display: inline-block;
+      padding: 60pt 0 10pt 0;
+      margin: 0 0 10pt 40pt;
+    }
+
+    .chapter-number {
+      page-break-after: avoid;
+      page-break-before: always;
+      page-break-inside: avoid;
+      font-size: 48pt;
+      line-height: 48pt;
+      border-bottom: solid #007df6 4pt;
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 900;
+    }
+
+    .chapter-number:after {
+      display: none;
+    }
+
+    .chapter-number + h1 {
+      page-break-after: avoid;
+      page-break-before: avoid;
+      page-break-inside: avoid;
+      font-size: 32pt;
+      line-height: 32pt;
+      text-transform: none;
+      margin-top: 10pt;
+      margin-bottom: 24pt;
+      font-weight: 700;
+    }
+
+    .chapter-number + h1:after {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="title-page">
+    <img id="image" src="./assets/images/title.svg" />
+    <div id="content">
+      <h1>Playbook</h1>
+      <p>Values and strategies for successful product teams</p>
+    </div>
+  </div>
+  <div id="toc-page">
+    <h1 class="supporting-chapter-title">Table of Contents</h1>
+    <ol id="toc">
+      {{#each toc}}
+        <li>
+          <a href="#{{id}}" class="level-{{level}}"><span class="title">{{title}}</span></a>
+        </li>
+      {{/each}}
+    </ol>
+  </div>
+  {{{content}}}
+</body>
+</html>

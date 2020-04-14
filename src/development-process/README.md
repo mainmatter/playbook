@@ -96,6 +96,9 @@ iteration one of the team members will take on the role of _"Iteration Lead"_ .
 That person is responsible for planning the iteration and ensuring smooth
 execution. It is conceptualised as a rotating role so that every team member
 will assume it every once in a while (unless they opt out of the rotation).
+
+![Rotating Iteration Lead role](../../../assets/rotating-itteration-lead-role.svg "The iteration lead role rotates to a different project team member with every increment")
+
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
 own. It also gives everyone on the project team the notion of ownership,
@@ -149,9 +152,9 @@ business experts and other project stakeholders to:
   deadlines for individual tasks etc. also need to be taken into account when
   defining the order in which tasks should be worked on
 
-> We use the term "issue" to refer to descriptions of tasks as they are kept in
-> a project's work management system of choice (e.g. Jira, GitHub, etc.). Other
-> common terms are "stories", "tickets" etc. Some tools also allow for
+> We use the term _"issue"_ to refer to descriptions of tasks as they are kept
+> in a project's work management system of choice (e.g. Jira, GitHub, etc.).
+> Other common terms are "stories", "tickets" etc. Some tools also allow for
 > structuring issues hierarchically (e.g. with "epics"). We don't think the
 > details of that or the particular term used to refer to these items are
 > relevant for a successful process though.
@@ -165,6 +168,8 @@ preparation. Preparing an iteration will of course typically not require the
 iteration lead's entire time though but can usually be done at the same time as
 also contributing to the current iteration.
 
+![Collecting input from stakeholders](../../../assets/converting-input-to-issues.svg "The iteration lead is responsible for collecting input from all stakeholders, assessing it for consistency and availability of prerequisites and converting it to proper issues")
+
 #### Issues
 
 Well-prepared issues are a key element of an effective development process. They
@@ -172,6 +177,8 @@ provide guidance for the project team's work, allow external parties
 non-involved with the project to get an understanding of what is happening
 directly, and can serve as future reference to understand what was done in a
 project, and for which reasons.
+
+![Issue](../../../assets/issue.svg "Good issues with complete and detailed information are key to a successful project")
 
 There is a plethora of tools available for maintaining and collaborating on
 issues and this process does not prescribe usage of any particular one – all of
@@ -272,9 +279,9 @@ busy with other tasks and do not actually work on them. If an issue is being
 worked on by multiple team members sequentially (e.g. first the designer for
 preparing visual elements, then the engineer for implementing those), the latter
 team member will self-assign the issue once the former is done with their work.
-Once an issue has been resolved via a [pull request](#feature-branches) or if it
-is blocked, the engineer(s) will self-assign another issue from the iteration
-backlog.
+Once an issue has been resolved via a
+[pull request](#feature-branches-and-pull-requests) or if it is blocked, the
+engineer(s) will self-assign another issue from the iteration backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
@@ -595,7 +602,7 @@ Changes to design sources need to be reviewed for:
   choice with reasonable effort?
 
 When reviewing design changes we recommend following the same set of rules as
-when [reviewing code changes](#review-guidelines).
+when [reviewing code changes](#reviews).
 
 #### Design Systems
 
@@ -617,6 +624,8 @@ defined in the previous one, going from simple to complex, e.g.:
 A design system will ensure consistency across all of the UI of an application
 as well as minimize the work necessary for extending the UI over time as new
 elements will build on top of existing ones.
+
+![Design System](../../../assets/design-system.svg "A design system is the visual foundation for a digital product")
 
 With every change that is applied, the design system is incrementally built up
 and extended over time. New UI elements that were not previously covered will

@@ -6,9 +6,12 @@ more efficient.
 
 ## Kick-Off Meeting
 
-Consulting projects start with a
-[kick-off meeting](../digital-products/#kick-off-meeting) in which the project
-team gets assembled involving all stakeholders.
+Consulting projects start with a kick-off meeting assembling all project
+stakeholders - ideally in person, otherwise in a video call. The main goal of
+this meeting is for everybody involved to get to know each other and to acquire
+an understanding of everyone else's roles, responsibilities and goals. In
+particular, our team needs to get to know all stakeholders involved in the
+project on the client's side.
 
 ## Introduction
 

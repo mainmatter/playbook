@@ -11,11 +11,16 @@ as possible while involving all stakeholders and their individual expertise.
 
 Digital product projects can be broken down into four main stages:
 
-- product strategy: identifying and understanding the goal of the project and
+<!-- prettier-ignore -->
+1. **Product Strategy**
+  identifying and understanding the goal of the project and
   the environment it operates in
-- product design: conceptualising a product that pursues the project's objective
-- product development: implementing the product and launching it
-- validating the product indeed achieves the objective
+2. **Product Design**
+  conceptualising a product that pursues the project's objective
+3. **Product Development**
+  implementing the product and launching it
+4. **Evaluation**
+  validating whether the product indeed achieves the objective
 
 Building the entire product as one pass through all of these stages maximizes
 scope and thus risk. Instead, we recommend splitting up the project into smaller
@@ -27,6 +32,8 @@ to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
+
+![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
 
 Software projects are highly dynamic. The bigger the scope and the complexity of
 a project, the likelier it is to steer off track, resulting in delays and budget
@@ -152,6 +159,8 @@ order to visualise the user base. A good understanding of a product's personas
 is a key prerequisite for developing an application that effectively caters to
 the specific needs of its future users.
 
+![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
+
 In order to identify personas, all possible future users (as derived from the
 acquired data and/or based on the business experts' experience) of the product
 are listed. For each of those the following questions are answered:
@@ -238,6 +247,8 @@ consisting of:
 - the low-fidelity diagram showing steps in the user story, the involved UI
   elements and transitions between steps
 
+![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
+
 Once a user story has been clearly defined, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the user
 story to provide value as well as edge cases that might not immediately be
@@ -272,6 +283,8 @@ the actual product as soon as possible and use that as the basis for all
 subsequent discussions. Iterating based on the actual product as opposed to a
 prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
+
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require a wireframe and/or mockup for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
