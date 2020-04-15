@@ -97,7 +97,7 @@ That person is responsible for planning the iteration and ensuring smooth
 execution. It is conceptualised as a rotating role so that every team member
 will assume it every once in a while (unless they opt out of the rotation).
 
-![Rotating Iteration Lead role](../../../assets/rotating-itteration-lead-role.svg "The iteration lead role rotates to a different project team member with every increment")
+![Rotating Iteration Lead role](../../../assets/rotating-itteration-lead-role.svg "The iteration lead role rotates to a different project team member with every iteration")
 
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
