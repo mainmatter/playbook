@@ -7,7 +7,7 @@
   "private": true,
   "devDependencies": {
     "fs-extra": "^8.1.0",
-    "handlebars": "^4.7.2",
+    "handlebars": "^4.7.6",
     "highlight.js": "^9.18.1",
     "jsdom": "^16.2.2",
     "marked": "^0.8.0",
