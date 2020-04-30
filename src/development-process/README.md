@@ -101,10 +101,11 @@ will assume it every once in a while (unless they opt out of the rotation).
 
 Making the iteration lead a rotating role ensures that all team members realise
 the perspectives of all project stakeholders instead of getting stuck in their
-own. It also gives everyone on the project team the notion of ownership,
-responsibility and empowerment contrary to the feeling of being mere executors
-of someone else's commands. This leads to an overall amplified mindset for each
-individual on the team.
+own which leads to mutual trust and alignment of all stakeholders. It also gives
+everyone on the project team the notion of ownership, responsibility and
+empowerment contrary to the feeling of being mere executors of someone else's
+commands. This leads to an overall amplified mindset for each individual on the
+team.
 
 The main responsibility of the iteration lead is to consult with the business
 experts (and all other relevant project stakeholders like marketing, designers
