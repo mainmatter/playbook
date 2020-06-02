@@ -78,13 +78,13 @@ in fact has a negative impact:
   is vital for each stakeholders to understand and appreciate each other's
   viewpoints. Many projects fail due to disproportionate weight being assigned
   to one of the stakeholder's interests and them running the entire project.
-- If project managers indeed assume a mangement role and have decisive authority
-  regarding priorities and deadlines etc., teams end up in a situation where a
-  party that is not actively contributing to the project is in a position to
-  make decisions and thus drive the project. That takes the decision making away
-  from the parties that have first-hand experience and insights and necessarily
-  leads to decisions that are not as well-informed as they could be and often,
-  to time and budget overruns and frustration among the team.
+- If project managers indeed assume a management role and have decisive
+  authority regarding priorities and deadlines etc., teams end up in a situation
+  where a party that is not actively contributing to the project is in a
+  position to make decisions and thus drive the project. That takes the decision
+  making away from the parties that have first-hand experience and insights and
+  necessarily leads to decisions that are not as well-informed as they could be
+  and often, to time and budget overruns and frustration among the team.
 
 That said, we do support a project manager role that is more oriented towards
 acting as a communication coach that supports the team by moderating meetings,
