@@ -16,7 +16,7 @@ Digital product projects can be broken down into four main stages:
   identifying and understanding the goal of the project and
   the environment it operates in
 2. **Product Design**
-  conceptualising a product that pursues the project's objective
+  conceptualizing a product that pursues the project's objective
 3. **Product Development**
   implementing the product and launching it
 4. **Evaluation**
@@ -29,7 +29,7 @@ incrementally building up the product. We refer to the deliverable of each pass
 through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
-[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
+[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product) of MVP).
 Each subsequent increment adds a coherent set of functionality to the product
 that extends it in a way that is meaningful to its users.
 
@@ -64,18 +64,18 @@ After kicking off the project, the infrastructure that is going to support the
 team needs to be set up, as effective tooling is vital for effective
 collaboration among the stakeholders. The main tasks are:
 
-- deciding and setting up a source control system for maintaining the project's
+- Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
-- deciding and setting up a system for maintaining and collaborating on design
-  assets; we recommend using a system that allows maintaining assets like source
+- Deciding and setting up a system for maintaining and collaborating on design
+  assets; we recommend using software that allows for component-based design, and a system that allows maintaining assets like source
   code with branching, pull request and review mechanisms
-- deciding and setting up a system for maintaining and collaborating on
-  documents (e.g. user stories, etc.); this system should support versioning and
+- Deciding and setting up a system for maintaining and collaborating on
+  documents (e.g. user stories, etc.); this system should be cloud-based, and support versioning and
   commenting for effective collaboration
-- setting up a shared communication channel that fosters traceable group
+- Setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
   against relying on email and for using a realtime system instead
-- ensuring all project stakeholders have access to all of these tools and will
+- Ensuring all project stakeholders have access to all of these tools and will
   receive notifications when they are assigned tasks or are mentioned by others
 
 Effective tooling and usage of it is critical for all teams, on-site or remote.
@@ -111,16 +111,16 @@ for acquiring said facts will vary with each new project and depend on the
 particular problem, the respective industry and the time or budget constraints.
 We recommend using one or several of the following techniques:
 
-- data analysis of existing data e.g. from CRM systems, event logs or analytics
-  data from existing web applications; utilising these data sources often helps
+- Data analysis of existing data e.g. from CRM systems, event logs or analytics
+  data from existing web applications; utilizing these data sources often helps
   to create a better understanding of the current situation and sometimes
   reveals that the actual problem is different to what it seems; if none of this
   data is available, think about whether it is possible to start collecting it
   in potentially already existing systems
-- user research: getting direct feedback from users of an existing product that
+- User research: getting direct feedback from users of an existing product that
   is to be replaced or potential users of an entirely new product is the best
   way to understand their backgrounds, motivations and challenges
-- market analysis: besides understanding the future users of a digital product,
+- Market analysis: besides understanding the future users of a digital product,
   it is key to understand the market the product will operate in, its rules and
   limitations, what competitors with similar products are offering and what the
   relevant trends are
@@ -134,7 +134,7 @@ service etc. All of these groups will have unique insights and experiences that
 must all be heard in order to clearly understand the situation and define the
 project's objective.
 
-### Mission Statement
+### Mission Statement and KPIs
 
 Based on the gathered facts, the project team will be able to define a
 high-level objective for the project (e.g. a web application that allows
@@ -142,7 +142,7 @@ customers to configure the company's products according to their needs and order
 that configuration via the company's website). That information should be
 written down in a short (aiming for about one page) mission statement document
 to clearly express the project's scope and goals. We also recommend defining one
-or more KPIs (e.g. _"number of sales via the website"_, _"number of support
+or more Key Performance Indicators (KPIs) (e.g. _"number of sales via the website"_, _"number of support
 requests from users"_) to quantify the situation before and after the project
 for easier [evaluation in later stages](#evaluation). If no data is available
 for these KPIs, it might be necessary to set up additional tracking or conduct
@@ -155,7 +155,7 @@ potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
 multiple [personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>)
 (typical representatives of the future user base) based on all acquired facts in
-order to visualise the user base. A good understanding of a product's personas
+order to visualize the user base. A good understanding of a product's personas
 is a key prerequisite for developing an application that effectively caters to
 the specific needs of its future users.
 
@@ -192,17 +192,12 @@ with payment, adding an order management system for the company's sales
 representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
-what will be built, we recommend keeping the product design stage limited and
-not do excessively detailed up-front design and specification. Detailed mockups
-tend to give a false impression of a finished product even though it is
-basically impossible to cover every possible aspect and prevent new challenges
-for particular features from being uncovered in the development stage. Also,
-static mockups or even interactive prototypes will never give as realistic an
-impression for the final product as one will get from an actual application even
-if it starts out with very limited functionality initially and is only built up
-incrementally over time. Therefore we recommend aiming for a quick transition to
+what will be built, we recommend keeping the initial product design stage limited and
+not do excessively detailed up-front design and specification. Although high-fidelity prototypes can be valuable tools for validating a value proposition through user testing, they tend to give a false impression of a finished product. It is
+basically impossible to cover every possible state and functionality and to uncover all challenges
+for features in the design stage. Therefore we recommend aiming for a quick transition to
 the development stage, using the real application to collect feedback and verify
-assumptions as early as possible.
+assumptions as early as possible. Start with limited functionality initially and build up incrementally over time.
 
 ### User Stories Workshop
 
@@ -214,11 +209,11 @@ transitions between individual states in the flow.
 
 This workshop requires input from all project stakeholders:
 
-- the business experts have unique expertise and understand best what goal a
+- The business experts have unique expertise and understand best what goal a
   particular user story enables the user to achieve
-- designers have the expertise to understand which interaction design lets the
+- Designers have the expertise to understand which interaction design lets the
   user achieve the above goal in the most efficient way
-- engineers can assess different alternatives for implementing a user story for
+- Engineers can assess different alternatives for implementing a user story for
   their technical feasibility and associated effort
 
 Each coherent feature of the application is represented by a user story. User
@@ -228,10 +223,10 @@ order to achieve a particular goal.
 
 For each user story, identify:
 
-- the navigational structure: screens or pages, dialogues, menus etc.
-- interactive elements: buttons, inputs etc. that the user needs to trigger
+- The navigational structure: screens or pages, dialogues, menus etc.
+- Interactive elements: buttons, inputs etc. that the user needs to trigger
   actions in the flow or needs to acquire information that is relevant to them
-- flows: transitions between sections of the navigational structure that are
+- Flows: transitions between sections of the navigational structure that are
   triggered by interactive elements
 
 User Stories are visualized using coarse diagrams (e.g. hand-drawn marker
