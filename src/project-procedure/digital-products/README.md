@@ -239,11 +239,12 @@ diagrams several times until an ideal solution emerges that all stakeholders
 agree on. That final concept is then written down in a user story document
 consisting of:
 
-- a textual description of the user story, the need that it addresses and the
+- A textual description of the user story, the need that it addresses and the
   solution that it provides
-- the persona(s) that the user story (mainly) caters to
-- the low-fidelity diagram showing steps in the user story, the involved UI
-  elements and transitions between steps
+- The persona(s) that the user story (mainly) caters to
+- The low-fidelity diagram showing steps in the user story and transitions between steps
+- Low-fidelity wireframes of the the involved user interface (UI)
+  elements
 
 ![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
@@ -255,23 +256,23 @@ as escape hatches later on to limit the scope and effort for the user story as
 they can potentially be left out in a first implementation of the particular
 story.
 
-### Visual Identity
+### User Interface Design
 
 When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
-order to develop that, we recommend creating mockups for one of the user stories
+order to develop that, we recommend designing mockups for one of the user stories
 to develop a mutual understanding among all project stakeholders for the visual
-identity of the product. For subsequent increments, this step will not be
-necessary and the team can go straight to the product development stage building
+identity of the product. For subsequent increments, this step will not always be
+necessary as the team can go straight to the product development stage building
 on the [visual design system](../../development-process/#design-systems)
 established during previous increments.
 
-The visual identity of a product will often be based on existing branding
+The UI of a product will be based on existing branding
 material and visual guidelines. If no such materials exist, the visual identity
-needs to be defined from scratch, applying techniques like moodboards and
+needs to first be defined, applying techniques like [The Three-Hour Brand Sprint](<https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a>), mood boards and
 stylescapes.
 
-While the mockup will be a high-fidelity visual representation of a particular
+While the mockup will be a high-fidelity visual representation of the UI of a particular
 user story, we recommend keeping it non-interactive and relatively low effort as
 its main purpose is to define a visual style for the product and not to specify
 individual details of the respective user story or the product in general.
@@ -282,7 +283,7 @@ subsequent discussions. Iterating based on the actual product as opposed to a
 prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require a wireframe and/or mockup for one of the user stories in order to agree on a layout and visual style for the product")
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require turning wireframes into mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
