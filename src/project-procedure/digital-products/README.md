@@ -153,11 +153,11 @@ research.
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
-multiple [personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>)
+multiple [personas](<https://www.nngroup.com/articles/persona/)>)
 (typical representatives of the future user base) based on all acquired facts in
-order to visualize the user base. A good understanding of a product's personas
+order to visualize the user base. Although personas have a controversial reputation, a good understanding of a product's users
 is a key prerequisite for developing an application that effectively caters to
-the specific needs of its future users.
+their specific needs. Personas can be a useful tool for aligning within in a team, and communicating who those people are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
@@ -169,12 +169,15 @@ are listed. For each of those the following questions are answered:
   solve with it?
 - What previous experience do they have in relation to the product?
 - What will make the solution appealing and valuable for them?
+- What makes them unique compared to the other personas?
 
 These users are then grouped by related concepts and patterns that emerge from
 the answers to these questions. Each of the resulting clusters constitutes a
 persona that is given a name so it can be easily referred to and described with
 its main characteristics in a persona document (aiming for about one page per
 persona).
+
+It is vital that personas are not defined once and then forgotten, but rather that they are brought to the table on a daily basis. Make each persona memorable, associating them with characteristics of a real person such an image, name, age, and a catchy description that summarizes their world view. Another way of integrating personas further into our daily work is by [segmenting analytics data using personas ](<https://www.nngroup.com/articles/analytics-persona-segment/>).
 
 ## Product Design
 
