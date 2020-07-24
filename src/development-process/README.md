@@ -143,8 +143,8 @@ business experts and other project stakeholders to:
   then; the iteration lead might delegate this work to the respective experts
   for a particular topic
 - Prepare well-written [issues](#issues) for each of the identified tasks or
-  [spikes](#spikes) for tasks that require more research in order to be ready to be
-  adressed
+  [spikes](#spikes) for tasks that require more research in order to be ready to
+  be adressed
 - Make sure all of the preconditions are met in order to be able to work on each
   issue, e.g. all necessary assets have been delivered, translations are ready
   or legal implications have been checked, etc.
@@ -291,14 +291,14 @@ these kinds of issues, the first step is to decompose them into smaller, more
 concrete steps (which is often a great thing to do in a
 [pairing session](#pairing)).
 
-If there are any alterations requested to the iteration after the planning meeting
-(e.g. due to unforeseeable changes to features or severe bugs popping up in
-production), all of these potential modifications to the iteration are triaged by the
-iteration lead. They might consult with the business experts or other project
-stakeholders to determine validity and priority of the incoming requests. If an
-issue is considered necessary to be added to the iteration after the planning
-meeting, it can be added but another issue might have to be removed from the
-iteration in its stead.
+If there are any alterations requested to the iteration after the planning
+meeting (e.g. due to unforeseeable changes to features or severe bugs popping up
+in production), all of these potential modifications to the iteration are
+triaged by the iteration lead. They might consult with the business experts or
+other project stakeholders to determine validity and priority of the incoming
+requests. If an issue is considered necessary to be added to the iteration after
+the planning meeting, it can be added but another issue might have to be removed
+from the iteration in its stead.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 for trying to solve the impediment, potentially synchronizing with the business
@@ -466,7 +466,8 @@ In order for a pull request to be ready for review though, it has to meet some
 pre-requisites:
 
 - The branch has no conflicts with the target branch
-- The changes in the branch are covered by appropriate tests and the Continuous Integration (CI) build is passing
+- The changes in the branch are covered by appropriate tests and the Continuous
+  Integration (CI) build is passing
 - The pull request is not marked as _"work in progress"_
 - The commit history of the pull request has been cleaned up, e.g. WIP commits
   have been squashed, debug commits have been removed etc.
@@ -560,22 +561,22 @@ designers and engineers.
 
 Design source files should generally be managed like code, maintaining an
 authoritative main line and making changes in change sets that are only applied
-back to the mainline once complete and reviewed. Source files can be
-maintained using a version control system just like for the project's source
-code or in a separate system, depending on the available tools and
-infrastructure.
+back to the mainline once complete and reviewed. Source files can be maintained
+using a version control system just like for the project's source code or in a
+separate system, depending on the available tools and infrastructure.
 
 ##### Change Sets/Branches
 
 Just like changes to a project's source code, no changes to design source files
 should ever be applied directly to the mainline. Only after a set of changes has
-been reviewed and deemed satisfactory, is it applied back as one discrete change. All
-individual changes that are applied back together should be related to the same
-UI element(s) or aspect of the UI (e.g. changing the color scheme once for all
-UI elements). Once changes have been applied back to the mainline, that fact
-should be noted in the issue describing the work that was done in the change.
-The change should also be referenced in the issue if the tools allow that,
-otherwise before/after images of the change should be attached to the issue.
+been reviewed and deemed satisfactory, is it applied back as one discrete
+change. All individual changes that are applied back together should be related
+to the same UI element(s) or aspect of the UI (e.g. changing the color scheme
+once for all UI elements). Once changes have been applied back to the mainline,
+that fact should be noted in the issue describing the work that was done in the
+change. The change should also be referenced in the issue if the tools allow
+that, otherwise before/after images of the change should be attached to the
+issue.
 
 ###### Reviews
 
@@ -599,8 +600,8 @@ Changes to design sources need to be reviewed for:
   affected elements and states?
 - Consistency: does the change fit in with and leverage the project's design
   system and overall visual direction?
-- Feasibility: is the change possible to implement with the technology of
-  choice with reasonable effort?
+- Feasibility: is the change possible to implement with the technology of choice
+  with reasonable effort?
 
 When reviewing design changes we recommend following the same set of rules as
 when [reviewing code changes](#reviews).
@@ -609,8 +610,8 @@ when [reviewing code changes](#reviews).
 
 All design work should eventually result in a design system evolving for the
 respective project, independently of its nature or scope. The design system is a
-structured, multi-level UI framework where each layer builds on top of the elements
-defined in the previous one, going from simple to complex, e.g.:
+structured, multi-level UI framework where each layer builds on top of the
+elements defined in the previous one, going from simple to complex, e.g.:
 
 - Basic rules around font choices and color schemes build the foundation for the
   design system

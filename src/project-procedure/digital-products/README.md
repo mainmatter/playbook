@@ -29,9 +29,9 @@ incrementally building up the product. We refer to the deliverable of each pass
 through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
-[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product) of MVP).
-Each subsequent increment adds a coherent set of functionality to the product
-that extends it in a way that is meaningful to its users.
+[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
+of MVP). Each subsequent increment adds a coherent set of functionality to the
+product that extends it in a way that is meaningful to its users.
 
 ![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
 
@@ -67,11 +67,12 @@ collaboration among the stakeholders. The main tasks are:
 - Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
 - Deciding and setting up a system for maintaining and collaborating on design
-  assets; we recommend using software that allows for component-based design, and a system that allows maintaining assets like source
-  code with branching, pull request and review mechanisms
+  assets; we recommend using software that allows for component-based design,
+  and a system that allows maintaining assets like source code with branching,
+  pull request and review mechanisms
 - Deciding and setting up a system for maintaining and collaborating on
-  documents (e.g. user stories, etc.); this system should be cloud-based, and support versioning and
-  commenting for effective collaboration
+  documents (e.g. user stories, etc.); this system should be cloud-based, and
+  support versioning and commenting for effective collaboration
 - Setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
   against relying on email and for using a realtime system instead
@@ -142,22 +143,24 @@ customers to configure the company's products according to their needs and order
 that configuration via the company's website). That information should be
 written down in a short (aiming for about one page) mission statement document
 to clearly express the project's scope and goals. We also recommend defining one
-or more Key Performance Indicators (KPIs) (e.g. _"number of sales via the website"_, _"number of support
-requests from users"_) to quantify the situation before and after the project
-for easier [evaluation in later stages](#evaluation). If no data is available
-for these KPIs, it might be necessary to set up additional tracking or conduct
-research.
+or more Key Performance Indicators (KPIs) (e.g. _"number of sales via the
+website"_, _"number of support requests from users"_) to quantify the situation
+before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
 
 ### Personas
 
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
-multiple [personas](<https://www.nngroup.com/articles/persona/)>)
-(typical representatives of the future user base) based on all acquired facts in
-order to visualize the user base. Although personas have a controversial reputation, a good understanding of a product's users
-is a key prerequisite for developing an application that effectively caters to
-their specific needs. Personas can be a useful tool for aligning within in a team, and communicating who those people are.
+multiple [personas](<https://www.nngroup.com/articles/persona/)>) (typical
+representatives of the future user base) based on all acquired facts in order to
+visualize the user base. Although personas have a controversial reputation, a
+good understanding of a product's users is a key prerequisite for developing an
+application that effectively caters to their specific needs. Personas can be a
+useful tool for aligning within in a team, and communicating who those people
+are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
@@ -177,7 +180,12 @@ persona that is given a name so it can be easily referred to and described with
 its main characteristics in a persona document (aiming for about one page per
 persona).
 
-It is vital that personas are not defined once and then forgotten, but rather that they are brought to the table on a daily basis. Make each persona memorable, associating them with characteristics of a real person such an image, name, age, and a catchy description that summarizes their world view. Another way of integrating personas further into our daily work is by [segmenting analytics data using personas ](<https://www.nngroup.com/articles/analytics-persona-segment/>).
+It is vital that personas are not defined once and then forgotten, but rather
+that they are brought to the table on a daily basis. Make each persona
+memorable, associating them with characteristics of a real person such an image,
+name, age, and a catchy description that summarizes their world view. Another
+way of integrating personas further into our daily work is by
+[segmenting analytics data using personas ](https://www.nngroup.com/articles/analytics-persona-segment/).
 
 ## Product Design
 
@@ -195,12 +203,16 @@ with payment, adding an order management system for the company's sales
 representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
-what will be built, we recommend keeping the initial product design stage limited and
-not do excessively detailed up-front design and specification. Although high-fidelity prototypes can be valuable tools for validating a value proposition through user testing, they tend to give a false impression of a finished product. It is
-basically impossible to cover every possible state and functionality and to uncover all challenges
-for features in the design stage. Therefore we recommend aiming for a quick transition to
-the development stage, using the real application to collect feedback and verify
-assumptions as early as possible. Start with limited functionality initially and build up incrementally over time.
+what will be built, we recommend keeping the initial product design stage
+limited and not do excessively detailed up-front design and specification.
+Although high-fidelity prototypes can be valuable tools for validating a value
+proposition through user testing, they tend to give a false impression of a
+finished product. It is basically impossible to cover every possible state and
+functionality and to uncover all challenges for features in the design stage.
+Therefore we recommend aiming for a quick transition to the development stage,
+using the real application to collect feedback and verify assumptions as early
+as possible. Start with limited functionality initially and build up
+incrementally over time.
 
 ### User Stories Workshop
 
@@ -242,9 +254,9 @@ consisting of:
 - A textual description of the user story, the need that it addresses and the
   solution that it provides
 - The persona(s) that the user story (mainly) caters to
-- The low-fidelity diagram showing steps in the user story and transitions between steps
-- Low-fidelity wireframes of the the involved user interface (UI)
-  elements
+- The low-fidelity diagram showing steps in the user story and transitions
+  between steps
+- Low-fidelity wireframes of the the involved user interface (UI) elements
 
 ![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
@@ -260,27 +272,29 @@ story.
 
 When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
-order to develop that, we recommend designing mockups for one of the user stories
-to develop a mutual understanding among all project stakeholders for the visual
-identity of the product. For subsequent increments, this step will not always be
-necessary as the team can go straight to the product development stage building
-on the [visual design system](../../development-process/#design-systems)
-established during previous increments.
+order to develop that, we recommend designing mockups for one of the user
+stories to develop a mutual understanding among all project stakeholders for the
+visual identity of the product. For subsequent increments, this step will not
+always be necessary as the team can go straight to the product development stage
+building on the
+[visual design system](../../development-process/#design-systems) established
+during previous increments.
 
-The UI of a product will be based on existing branding
-material and visual guidelines. If no such materials exist, the visual identity
-needs to first be defined, applying techniques like [The Three-Hour Brand Sprint](<https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a>), mood boards and
-stylescapes.
+The UI of a product will be based on existing branding material and visual
+guidelines. If no such materials exist, the visual identity needs to first be
+defined, applying techniques like
+[The Three-Hour Brand Sprint](https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a),
+mood boards and stylescapes.
 
-While the mockup will be a high-fidelity visual representation of the UI of a particular
-user story, we recommend keeping it non-interactive and relatively low effort as
-its main purpose is to define a visual style for the product and not to specify
-individual details of the respective user story or the product in general.
-Instead of trying to achieve these goals with a prototype that can not precisely
-resemble the eventual product anyway, aim for providing an initial version of
-the actual product as soon as possible and use that as the basis for all
-subsequent discussions. Iterating based on the actual product as opposed to a
-prototype that would still have to be converted into something real anyway
+While the mockup will be a high-fidelity visual representation of the UI of a
+particular user story, we recommend keeping it non-interactive and relatively
+low effort as its main purpose is to define a visual style for the product and
+not to specify individual details of the respective user story or the product in
+general. Instead of trying to achieve these goals with a prototype that can not
+precisely resemble the eventual product anyway, aim for providing an initial
+version of the actual product as soon as possible and use that as the basis for
+all subsequent discussions. Iterating based on the actual product as opposed to
+a prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require turning wireframes into mockups for one of the user stories in order to agree on a layout and visual style for the product")
