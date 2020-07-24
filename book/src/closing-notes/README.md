@@ -38,5 +38,5 @@ Send us an email at playbook@simplabs.com.
 
 ## License
 
-Copyright © 2015-2019 simplabs GmbH (https://simplabs.com); released under the
+Copyright © 2015-2020 simplabs GmbH (https://simplabs.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.
