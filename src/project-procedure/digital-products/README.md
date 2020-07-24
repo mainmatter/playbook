@@ -154,7 +154,7 @@ KPIs, it might be necessary to set up additional tracking or conduct research.
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
-multiple [personas](<https://www.nngroup.com/articles/persona/)>) (typical
+multiple [personas](https://www.nngroup.com/articles/persona/) (typical
 representatives of the future user base) based on all acquired facts in order to
 visualize the user base. Although personas have a controversial reputation, a
 good understanding of a product's users is a key prerequisite for developing an
