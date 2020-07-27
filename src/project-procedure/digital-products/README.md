@@ -390,6 +390,6 @@ and aspects of the product to improve. Depending on the learnings from the
 previous increment, it might be necessary to go through the
 [product strategy stage](#product-strategy) again, reconsider some of the
 assumptions and adapt the project's objective. If this is found not to be
-necessary, the product design stage can be entered directly to conceptualise,
+necessary, the product design stage can be entered directly to conceptualize,
 scope and implement the next set of user stories, followed by executing that new
 plan, evaluating what was built, etc.
