@@ -297,7 +297,7 @@ all subsequent discussions. Iterating based on the actual product as opposed to
 a prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require turning wireframes into mockups for one of the user stories in order to agree on a layout and visual style for the product")
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
