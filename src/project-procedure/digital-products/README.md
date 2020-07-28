@@ -30,7 +30,7 @@ through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
-of MVP). Each subsequent increment adds a coherent set of functionality to the
+or MVP). Each subsequent increment adds a coherent set of functionality to the
 product that extends it in a way that is meaningful to its users.
 
 ![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
