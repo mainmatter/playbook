@@ -267,19 +267,22 @@ story.
 
 ### User Interface Design
 
-The user interface (UI) of a product is based on existing branding material and visual
-guidelines. If no such materials exist, the visual identity needs to first be
-defined, applying techniques like
+The user interface (UI) of a product is based on existing branding material and
+visual guidelines. If no such materials exist, the visual identity needs to
+first be defined, applying techniques like
 [The Three-Hour Brand Sprint](https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a),
 mood boards and stylescapes.
 
 When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
 order to develop that, we design wireframes and mockups for one of the user
-stories (and work only one story at a time). These help develop a mutual understanding among all project stakeholders for the
-visual identity of the product. For subsequent increments, this step will not
-always be necessary as the team can design and develop the product in reusable UI components, allowing for a faster transition into the development stage. Over time, a
-[visual design system](../../development-process/#design-systems) is established.
+stories (and work only one story at a time). These help develop a mutual
+understanding among all project stakeholders for the visual identity of the
+product. For subsequent increments, this step will not always be necessary as
+the team can design and develop the product in reusable UI components, allowing
+for a faster transition into the development stage. Over time, a
+[visual design system](../../development-process/#design-systems) is
+established.
 
 While the mockup will be a high-fidelity visual representation of the UI of a
 particular user story, we recommend keeping it non-interactive and relatively
@@ -333,10 +336,10 @@ into usable application features, iteratively building up the product over time.
 During this process, each user story is broken down into fine-grained and more
 detailed tasks which are then proceeded to be implemented by the project team
 (see [development process](../development-process/#development-process)).
-Breaking down user stories is done in close collaboration between
-engineers and designers with the business experts. They discuss individual
-facets of user stories as well as different alternatives for designing and
-implementing those along with the associated effort.
+Breaking down user stories is done in close collaboration between engineers and
+designers with the business experts. They discuss individual facets of user
+stories as well as different alternatives for designing and implementing those
+along with the associated effort.
 
 The project team will build slices of the system at once, including everything
 from the design, the backend, and the frontend code of a particular user story

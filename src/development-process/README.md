@@ -286,9 +286,9 @@ engineer(s) will self-assign another issue from the iteration backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
-often beneficial to break them down into into smaller, more
-concrete steps (which is often a great thing to do in a
-[pairing session](#pairing)) before starting implementation.
+often beneficial to break them down into into smaller, more concrete steps
+(which is often a great thing to do in a [pairing session](#pairing)) before
+starting implementation.
 
 If there are any alterations requested to the iteration after the planning
 meeting (e.g. due to unforeseeable changes to features or severe bugs popping up
