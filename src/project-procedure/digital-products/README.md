@@ -330,10 +330,10 @@ have a short validity anyway.
 
 In the product development stage of a product increment, user stories are turned
 into usable application features, iteratively building up the product over time.
-During this process, each user story is decomposed into fine-grained and more
+During this process, each user story is broken down into fine-grained and more
 detailed tasks which are then proceeded to be implemented by the project team
 (see [development process](../development-process/#development-process)).
-Decomposition of the user stories is done in close collaboration between
+Breaking down user stories is done in close collaboration between
 engineers and designers with the business experts. They discuss individual
 facets of user stories as well as different alternatives for designing and
 implementing those along with the associated effort.
