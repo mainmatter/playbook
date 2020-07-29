@@ -183,9 +183,7 @@ persona).
 It is vital that personas are not defined once and then forgotten, but rather
 that they are brought to the table on a daily basis. Make each persona
 memorable, associating them with characteristics of a real person such an image,
-name, age, and a catchy description that summarizes their world view. Another
-way of integrating personas further into our daily work is by
-[segmenting analytics data using personas ](https://www.nngroup.com/articles/analytics-persona-segment/).
+name, age, and a catchy description that summarizes their world view.
 
 ## Product Design
 
