@@ -30,7 +30,7 @@ through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
-of MVP). Each subsequent increment adds a coherent set of functionality to the
+or MVP). Each subsequent increment adds a coherent set of functionality to the
 product that extends it in a way that is meaningful to its users.
 
 ![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
@@ -297,7 +297,7 @@ all subsequent discussions. Iterating based on the actual product as opposed to
 a prototype that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require turning wireframes into mockups for one of the user stories in order to agree on a layout and visual style for the product")
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
