@@ -252,9 +252,8 @@ consisting of:
 - A textual description of the user story, the need that it addresses and the
   solution that it provides
 - The persona(s) that the user story (mainly) caters to
-- The low-fidelity diagram showing steps in the user story and transitions
-  between steps
-- Low-fidelity wireframes of the the involved user interface (UI) elements
+- The low-fidelity diagram showing steps in the user story, focusing on
+  functional aspects and transitions between steps
 
 ![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
@@ -268,21 +267,19 @@ story.
 
 ### User Interface Design
 
-When working on the first increment of a product, there is typically no visual
-foundation that can be built on top of in the product development stage yet. In
-order to develop that, we recommend designing mockups for one of the user
-stories to develop a mutual understanding among all project stakeholders for the
-visual identity of the product. For subsequent increments, this step will not
-always be necessary as the team can go straight to the product development stage
-building on the
-[visual design system](../../development-process/#design-systems) established
-during previous increments.
-
-The UI of a product will be based on existing branding material and visual
+The user interface (UI) of a product is based on existing branding material and visual
 guidelines. If no such materials exist, the visual identity needs to first be
 defined, applying techniques like
 [The Three-Hour Brand Sprint](https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a),
 mood boards and stylescapes.
+
+When working on the first increment of a product, there is typically no visual
+foundation that can be built on top of in the product development stage yet. In
+order to develop that, we design wireframes and mockups for one of the user
+stories (and work only one story at a time). These help develop a mutual understanding among all project stakeholders for the
+visual identity of the product. For subsequent increments, this step will not
+always be necessary as the team can design and develop the product in reusable UI components, allowing for a faster transition into the development stage. Over time, a
+[visual design system](../../development-process/#design-systems) is established.
 
 While the mockup will be a high-fidelity visual representation of the UI of a
 particular user story, we recommend keeping it non-interactive and relatively
