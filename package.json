@@ -11,7 +11,7 @@
     "highlight.js": "^10.1.2",
     "jsdom": "^16.4.0",
     "marked": "^0.8.2",
-    "prettier": "^2.0.5"
+    "prettier": "^2.1.0"
   },
   "scripts": {
     "format": "prettier --write '**/*.md'",
