@@ -155,11 +155,11 @@ In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
 multiple [personas](https://www.nngroup.com/articles/persona/) (typical
-representatives of the future user base) based on all acquired facts in order gain a
-good understanding of a product's users, which is a key prerequisite for developing an
-application that effectively caters to their specific needs. Personas can be a
-useful tool for aligning within in a team, and communicating who those people
-are.
+representatives of the future user base) based on all acquired facts in order
+gain a good understanding of a product's users, which is a key prerequisite for
+developing an application that effectively caters to their specific needs.
+Personas can be a useful tool for aligning within in a team, and communicating
+who those people are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
