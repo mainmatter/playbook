@@ -667,4 +667,4 @@ the respective issue in the format best suited for the particular use case.
 
 In order to demonstrate complex behavior or animation, narrow prototypes or
 videos should be favored over text descriptions when possible to eliminate
-ambiguities and mis-understandings.
+ambiguities and misunderstandings.

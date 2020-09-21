@@ -202,15 +202,17 @@ representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
 what will be built, we recommend keeping the initial product design stage
-limited and not do excessively detailed up-front design and specification.
-Although high-fidelity prototypes can be valuable tools for validating a value
-proposition through user testing, they tend to give a false impression of a
-finished product. It is basically impossible to cover every possible state and
-functionality and to uncover all challenges for features in the design stage.
-Therefore we recommend aiming for a quick transition to the development stage,
-using the real application to collect feedback and verify assumptions as early
-as possible. Start with limited functionality initially and build up
-incrementally over time.
+limited and not do excessively detailed up-front design and specification. There
+may come a time in which you might opt to validate a value proposition or design
+solution by user testing a high-fidelity prototype. Steer away from creating the
+protoype with design tools only as they tend to give a false impression of a
+finished product, and can't cover every possible state and functionality as well
+as address all challenges for features. We recommend opting for a code-based
+prototype, as they provide an experience that is much closer to the actual
+product, and the creation effort can be integrated into the product once
+validated. Use the code-based prototype to collect user feedback and verify
+assumptions as early as possible. Start with limited functionality initially and
+build up incrementally over time.
 
 ### User Stories Workshop
 
@@ -288,11 +290,11 @@ While the mockup will be a high-fidelity visual representation of the UI of a
 particular user story, we recommend keeping it non-interactive and relatively
 low effort as its main purpose is to define a visual style for the product and
 not to specify individual details of the respective user story or the product in
-general. Instead of trying to achieve these goals with a prototype that can not
+general. Instead of trying to achieve these goals with an interactive mockup that can not
 precisely resemble the eventual product anyway, aim for providing an initial
 version of the actual product as soon as possible and use that as the basis for
 all subsequent discussions. Iterating based on the actual product as opposed to
-a prototype that would still have to be converted into something real anyway
+an interactive mockup that would still have to be converted into something real anyway
 results in widely improved effectiveness of the overall process.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
