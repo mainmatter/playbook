@@ -270,9 +270,7 @@ story.
 
 The user interface (UI) of a product is based on existing branding material and
 visual guidelines. If no such materials exist, the visual identity needs to
-first be defined, applying techniques like
-[The Three-Hour Brand Sprint](https://library.gv.com/the-three-hour-brand-sprint-3ccabf4b768a),
-mood boards and stylescapes.
+first be defined.
 
 When working on the first increment of a product, there is typically no visual
 foundation that can be built on top of in the product development stage yet. In
