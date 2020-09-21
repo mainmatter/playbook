@@ -205,18 +205,17 @@ with payment, adding an order management system for the company's sales
 representatives etc.).
 
 While applying a systematic approach for developing a coherent understanding of
-what will be built, we recommend keeping the initial product design stage
-limited and not do excessively detailed up-front design and specification. There
-may come a time in which you might opt to validate a value proposition or design
-solution by user testing a high-fidelity prototype. Steer away from creating the
-protoype with design tools only as they tend to give a false impression of a
-finished product, and can't cover every possible state and functionality as well
-as address all challenges for features. We recommend opting for a code-based
-prototype, as they provide an experience that is much closer to the actual
-product, and the creation effort can be integrated into the product once
-validated. Use the code-based prototype to collect user feedback and verify
-assumptions as early as possible. Start with limited functionality initially and
-build up incrementally over time.
+what will be built, we recommend keeping the product design stage limited and
+not do excessively detailed up-front design and specification. Detailed mockups
+tend to give a false impression of a finished product even though it is
+basically impossible to cover every possible aspect and prevent new challenges
+for particular features from being uncovered in the development stage. Also,
+static mockups will never give as realistic an impression for the final product
+as one will get from an actual application even if it starts out with very
+limited functionality initially and is only built up incrementally over time.
+Therefore we recommend aiming for a quick transition to the development stage,
+using the real application to collect feedback and verify assumptions as early
+as possible.
 
 ### User Stories Workshop
 
