@@ -290,12 +290,13 @@ While the mockup will be a high-fidelity visual representation of the UI of a
 particular user story, we recommend keeping it non-interactive and relatively
 low effort as its main purpose is to define a visual style for the product and
 not to specify individual details of the respective user story or the product in
-general. Instead of trying to achieve these goals with an interactive mockup that can not
-precisely resemble the eventual product anyway, aim for providing an initial
-version of the actual product as soon as possible and use that as the basis for
-all subsequent discussions. Iterating based on the actual product as opposed to
-an interactive mockup that would still have to be converted into something real anyway
-results in widely improved effectiveness of the overall process.
+general. Instead of trying to achieve these goals with an interactive mockup
+that can not precisely resemble the eventual product anyway, aim for providing
+an initial version of the actual product as soon as possible and use that as the
+basis for all subsequent discussions. Iterating based on the actual product as
+opposed to an interactive mockup that would still have to be converted into
+something real anyway results in widely improved effectiveness of the overall
+process.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
