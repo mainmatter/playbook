@@ -398,7 +398,7 @@ particular, good pull requests should have:
   code changes
 - Guidance for testing the added or changed functionality; this is helpful for
   the reviewer, product or business experts looking at the pull request on a
-  [preview system](#preview-systems) and the Quality Assurance (QA) team
+  [preview system](#preview-systems) and a Quality Assurance (QA) team if one exists
 - Before and after screenshots or even screen recordings in case of a visual
   change
 - A reference to the issue the changes in the pull request are referring to; if
