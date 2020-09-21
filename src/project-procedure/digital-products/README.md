@@ -179,10 +179,15 @@ persona that is given a name so it can be easily referred to and described with
 its main characteristics in a persona document (aiming for about one page per
 persona).
 
-It is vital that personas are not defined once and then forgotten, but rather
-that they are brought to the table on a daily basis. Make each persona
-memorable, associating them with characteristics of a real person such an image,
-name, age, and a catchy description that summarizes their world view.
+Make each persona memorable, associating them with characteristics of a real
+person such an image, name, age, attributes, desires, and behaviors. It is vital
+that personas are not defined once and then forgotten, but rather that they are
+brought to the table on a daily basis. Seeing a feature through the eyes of a
+persona creates empathy for the customer segment and helps ensure that we meet
+their needs as much as possible. Since they represent the project's users,
+finding ways to integrate them into the everyday decision-making process (e.g.
+when prioritizing features, planning user stories, and recruiting for usability
+testing) is what makes them a valuable tool.
 
 ## Product Design
 
