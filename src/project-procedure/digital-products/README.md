@@ -279,9 +279,9 @@ foundation that can be built on top of in the product development stage yet. In
 order to develop that, we design wireframes and mockups for one of the user
 stories (and work only one story at a time). These help develop a mutual
 understanding among all project stakeholders for the visual identity of the
-product. For subsequent increments, this step will not always be necessary as
-the team can design and develop the product in reusable UI components, allowing
-for a faster transition into the development stage. Over time, a
+product. Every subsequent increment will build on and expand the visual
+foundation, using reusable UI components as often as possible, allowing for a
+faster transition into the development stage. Over time, a
 [visual design system](../../development-process/#design-systems) is
 established.
 
