@@ -62,7 +62,9 @@ relevant perspectives that the project team should be aware of.
 
 After kicking off the project, the infrastructure that is going to support the
 team needs to be set up, as effective tooling is vital for effective
-collaboration among the stakeholders. The main tasks are:
+collaboration among the stakeholders. Ensure tooling is cloud-based to aid
+real-time contributions and so it can serve as a single source of truth. The
+main tasks are:
 
 - Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
@@ -71,8 +73,8 @@ collaboration among the stakeholders. The main tasks are:
   and a system that allows maintaining assets like source code with branching,
   pull request and review mechanisms
 - Deciding and setting up a system for maintaining and collaborating on
-  documents (e.g. user stories, etc.); this system should be cloud-based, and
-  support versioning and commenting for effective collaboration
+  documents (e.g. user stories, etc.); this system should support versioning and
+  commenting for effective collaboration
 - Setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
   against relying on email and for using a realtime system instead
