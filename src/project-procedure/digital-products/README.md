@@ -274,28 +274,13 @@ story.
 
 ### User Interface Design
 
-The user interface (UI) of a product is based on existing branding material and
-visual guidelines. If no such materials exist, the visual identity needs to
-first be defined.
+The initial stage of user interface (UI) design entails establishing a foundation that can be applied consistently to the product. Take some time up-front to create brand guidelines (if none exist) and establish variables such as typography, color, and spacing.
 
-When working on the first increment of a product, there is typically no visual
-foundation that can be built on top of in the product development stage yet. In
-order to develop that, design wireframes and mockups for one of the user stories
-(and work only one story at a time). These help develop a mutual understanding
-among all project stakeholders for the visual identity of the product. Every
-subsequent increment will build on and expand the visual foundation, using
-reusable UI components as often as possible, allowing for a faster transition
-into the development stage. Over time, a
-[visual design system](../../development-process/#design-systems) is
-established.
+Next, create mid-fidelity wireframes of the first user story to plan their detailed functionality without potentially distracting style elements of high-fidelity designs. Once functionality is agreed upon by all relevant stakeholders, mockups of the user story can be created. Use the foundation as a base to create UI designs, keeping in mind that it's more efficient to design with reusable components rather than creating them from scratch every time. We recommend reusing components as often as possible, and if new ones must be created, create them with future reusability in mind.
 
-While the mockup will be a high-fidelity visual representation of the UI of a
-particular user story, we recommend keeping it non-interactive and relatively
-low effort. A mockup's main purpose is to define a visual style for the product
-and to specify individual details of the respective user story (as much as
-possible given the existing information). The most effective way of validating
-ideas is to provide an initial version of the actual product as soon as possible
-and gain user insights, which are the basis for all subsequent discussions.
+Establishing principles and guidelines on how to use components as well as the creation of a UI component library create the basis of a [design system](../../development-process/#design-systems).
+
+It's helpful to time box design activities, and not get carried away with high-effort interactive prototypes. The goal is getting a simple version of the real product in the hands of our users as fast as possible to validate our ideas. Their insights informs the design, helping evolve it iteratively according to their actual needs.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
