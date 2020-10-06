@@ -182,14 +182,14 @@ its main characteristics in a persona document (aiming for about one page per
 persona).
 
 Make each persona memorable, associating them with characteristics of a real
-person such an image, name, age, attributes, desires, and behaviors. It is vital
-that personas are not defined once and then forgotten, but rather that they are
-brought to the table on a daily basis. Seeing a feature through the eyes of a
-persona creates empathy for the customer segment and helps ensure that we meet
-their needs as much as possible. Since they represent the project's users,
-finding ways to integrate them into the everyday decision-making process (e.g.
-when prioritizing features, planning user stories, and recruiting for usability
-testing) is what makes them a valuable tool.
+person such as an image, name, age, attributes, desires, and behaviors. It is
+vital that personas are not defined once and then forgotten, but rather that
+they are brought to the table on a daily basis. Seeing a feature through the
+eyes of a persona creates empathy for the customer segment that they represent,
+ensuring that we meet their needs as much as possible. They become a valuable
+tool when they are integrated into the everyday decision-making process (e.g.
+when prioritizing features, planning feature concepts, and recruiting for
+usability testing).
 
 ## Product Design
 
