@@ -283,10 +283,9 @@ Next, create mid-fidelity wireframes of the first user story to plan their
 detailed functionality without potentially distracting style elements of
 high-fidelity designs. Once functionality is agreed upon by all relevant
 stakeholders, mockups of the user story can be created. Use the foundation as a
-base to create UI designs, keeping in mind that it's more efficient to design
-with reusable components rather than creating them from scratch every time. We
-recommend reusing components as often as possible, and if new ones must be
-created, create them with future reusability in mind.
+base to style UI designs, creating components with future reusability in mind.
+As the design grows, reuse components as often as possible to ensure consistency
+and efficiency in the project.
 
 Establishing principles and guidelines on how to use components as well as the
 creation of a UI component library create the basis of a
