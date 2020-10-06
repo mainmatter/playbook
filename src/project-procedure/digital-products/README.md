@@ -69,7 +69,7 @@ main tasks are:
 - Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
 - Deciding and setting up a system for maintaining and collaborating on design
-  assets; we recommend using software that allows for component-based design,
+  source files; we recommend using software that allows for component-based design,
   and a system that allows maintaining assets like source code with branching,
   pull request and review mechanisms
 - Deciding and setting up a system for maintaining and collaborating on
