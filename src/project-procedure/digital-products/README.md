@@ -69,7 +69,7 @@ main tasks are:
 - Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
 - Deciding and setting up a system for maintaining and collaborating on design
-  assets; we recommend using software that allows for component-based design,
+  source files; we recommend using software that allows for component-based design,
   and a system that allows maintaining assets like source code with branching,
   pull request and review mechanisms
 - Deciding and setting up a system for maintaining and collaborating on
@@ -157,7 +157,7 @@ In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
 multiple [personas](https://www.nngroup.com/articles/persona/) (typical
-representatives of the future user base) based on all acquired facts in order
+representatives of the future user base) based on all acquired facts in order to
 gain a good understanding of a product's users, which is a key prerequisite for
 developing an application that effectively caters to their specific needs.
 Personas can be a useful tool for aligning within in a team, and communicating
