@@ -62,9 +62,8 @@ relevant perspectives that the project team should be aware of.
 
 After kicking off the project, the infrastructure that is going to support the
 team needs to be set up, as effective tooling is vital for effective
-collaboration among the stakeholders. Ensure tooling is cloud-based to aid
-real-time contributions and so it can serve as a single source of truth. The
-main tasks are:
+collaboration among the stakeholders. Ensure tooling is cloud-based and
+therefore persistent and traceable. The main tasks are:
 
 - Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
@@ -279,13 +278,14 @@ foundation that can be applied consistently to the product. Take some time
 up-front to create brand guidelines (if none exist) and establish variables such
 as typography, color, and spacing.
 
-Next, create mid-fidelity wireframes of the first user story to plan their
-detailed functionality without potentially distracting style elements of
-high-fidelity designs. Once functionality is agreed upon by all relevant
-stakeholders, mockups of the user story can be created. Use the foundation as a
-base to style UI designs, creating components with future reusability in mind.
-As the design grows, reuse components as often as possible to ensure consistency
-and efficiency in the project.
+Next, create mid-fidelity wireframes of the first user story to convert the
+functionality to detailed UI elements, but without potentially distracting
+stylistic details of high-fidelity designs. Once the wireframes are agreed upon
+by all relevant stakeholders, mockups of the user story can be created. Use the
+foundation as a base to style the mockups, creating UI components with future
+reusability in mind. As the design grows, reuse components as often as possible
+to ensure consistency and efficiency in the project. Later steps will likely be
+focused on smaller feature sets and build up on previous foundational decisions.
 
 Establishing principles and guidelines on how to use components as well as the
 creation of a UI component library create the basis of a
