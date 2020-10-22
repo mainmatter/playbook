@@ -273,8 +273,8 @@ story.
 
 ### User Interface Design Foundation
 
-The initial stage of user interface (UI) design entails establishing a
-visual foundation that can be applied consistently to the product. Take some time
+The initial stage of user interface (UI) design entails establishing a visual
+foundation that can be applied consistently to the product. Take some time
 up-front to create brand guidelines (if none exist) and establish variables such
 as typography, color, and spacing.
 
@@ -282,10 +282,11 @@ Next, create mid-fidelity wireframes of the first user story to convert the
 functionality to concrete UI elements, but without potentially distracting
 stylistic details of high-fidelity designs. Once the wireframes are agreed upon
 by all relevant stakeholders, mockups of the user story can be created. Use the
-visual foundation developed previously as a base to style the mockups, creating UI components with future
-reusability in mind. As the design grows, reuse components as often as possible
-to ensure consistency and efficiency in the project. Later steps will likely be
-focused on smaller feature sets and build up on previous foundational decisions.
+visual foundation developed previously as a base to style the mockups, creating
+UI components with future reusability in mind. As the design grows, reuse
+components as often as possible to ensure consistency and efficiency in the
+project. Later steps will likely be focused on smaller feature sets and build up
+on previous foundational decisions.
 
 Establishing principles and guidelines on how to use components as well as the
 creation of a UI component library create the basis of a
