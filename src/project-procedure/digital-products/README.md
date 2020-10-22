@@ -215,7 +215,7 @@ static mockups will never give as realistic an impression for the final product
 as one will get from an actual application even if it starts out with very
 limited functionality initially and is only built up incrementally over time.
 Therefore we recommend aiming for a quick transition to the development stage,
-using the real application to collect feedback and verify assumptions as early
+using the real application to collect feedback and validate assumptions as early
 as possible.
 
 ### User Stories Workshop
