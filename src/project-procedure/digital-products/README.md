@@ -282,7 +282,7 @@ Next, create mid-fidelity wireframes of the first user story to convert the
 functionality to concrete UI elements, but without potentially distracting
 stylistic details of high-fidelity designs. Once the wireframes are agreed upon
 by all relevant stakeholders, mockups of the user story can be created. Use the
-foundation as a base to style the mockups, creating UI components with future
+visual foundation developed previously as a base to style the mockups, creating UI components with future
 reusability in mind. As the design grows, reuse components as often as possible
 to ensure consistency and efficiency in the project. Later steps will likely be
 focused on smaller feature sets and build up on previous foundational decisions.
