@@ -118,37 +118,37 @@ consult with other project stakeholders for priorization).
 The purpose of the iteration preparation phase is to define the tasks that are
 most relevant to be worked on during the next iteration. The tasks assigned to
 an iteration should reflect **all** the upcoming work, not only feature work and
-bug fixes - in particular they should reflect design and UX work but also purely
+bug fixes - in particular they should reflect design, UX work, and purely
 technical tasks like refactorings as well. The prepared tasks will then be
 presented to the team as part of the planning meeting that kicks the iteration
 off. In order to prepare these tasks, the iteration lead synchronizes with the
 business experts and other project stakeholders to:
 
-- identify the most relevant tasks from each project stakeholder's perspectives;
+- Identify the most relevant tasks from each project stakeholder's perspectives;
   the goal here is to find a good balance between work on features and other
   aspects like bug fixes, refactoring, dependency updates, addressing tech debt
   in general but also addressing other requirements for instance coming in from
   the marketing department or other stakeholders
-- help the respective stakeholders translate features or other change requests
+- Help the respective stakeholders translate features or other change requests
   into actionable tasks; this might include discussing different options for
   implementing a change along with their potential implications and related
   effort; the iteration lead will often not possess the required knowledge to do
   that personally but will then involve the respective experts in these
   conversations
-- uncover implications and hidden complexities in any of the tasks; while it is
+- Uncover implications and hidden complexities in any of the tasks; while it is
   not possible to think every task through completely from start to finish and
   eliminate all inherent risks, we recommend trying to uncover as much of it as
   possible in the preparation phase to reduce the likelihood of the team running
   into unforeseen problems later on, potentially leading to delays and deadlocks
   then; the iteration lead might delegate this work to the respective experts
   for a particular topic
-- prepare well-written [issues](#issues) for each of the identified tasks or
-  spikes for tasks that require more research in order to be ready to be
-  adressed
-- make sure all of the preconditions are met in order to be able to work on each
+- Prepare well-written [issues](#issues) for each of the identified tasks or
+  [spikes](#spikes) for tasks that require more research in order to be ready to
+  be adressed
+- Make sure all of the preconditions are met in order to be able to work on each
   issue, e.g. all necessary assets have been delivered, translations are ready
   or legal implications have been checked, etc.
-- prioritize the issues so it is clear which ones need to be worked on first; in
+- Prioritize the issues so it is clear which ones need to be worked on first; in
   reality priorities will often overlap and the expected effort, potential
   deadlines for individual tasks etc. also need to be taken into account when
   defining the order in which tasks should be worked on
@@ -188,23 +188,23 @@ project.
 
 Good issues aim to:
 
-- describe what is to be done and why, potentially accompanied by screenshots,
+- Describe what is to be done and why, potentially accompanied by screenshots,
   mockups/sketches or other visuals that help understand the desired outcome; it
   might also be beneficial to add a summary of the issue's history, covering
   previous related changes or alternative approaches that have been ruled out
   and also providing the reasons for those changes
-- include reproduction steps if the issue describes a bug; ideally those are
+- Include reproduction steps if the issue describes a bug; ideally those are
   visualized with a screen recording or other media
-- detail concrete requirements that must be met and an overview of the changes
+- Detail concrete requirements that must be met and an overview of the changes
   to be made in order to complete the issue; in order to prepare this list, the
   iteration lead might need to partner with a team member more familiar with a
   particular part of the code base or feature
-- include all necessary materials that are needed for the issue; this could be
+- Include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or APIs
   or contact details for external parties involved in an issue etc.
-- bring up any open questions that need to be answered, or risks that have been
+- Bring up any open questions that need to be answered, or risks that have been
   identified and might prevent the issue from being completed
-- be a discrete unit of work; issues should only contain related requirements
+- Be a discrete unit of work; issues should only contain related requirements
   and ideally not represent more than a few days of work - larger issues can
   often be broken down into multiple smaller ones, possibly even allowing for
   work to happen simultaneously
@@ -215,14 +215,14 @@ If a particular task is associated with too many open questions or uncertainties
 to be converted into a well-prepared issue, it is preferable to plan a spike
 first in order to resolve these open questions. Spikes should have:
 
-- a description of the original requirement that will eventually be addressed in
+- A description of the original requirement that will eventually be addressed in
   an issue, potentially accompanied by screenshots, mockups/sketches or other
-  visuals that help understand the desired outcome;
-- a clear description of what the open questions are and how they are blocking
-  an issues from being created by adding too much risk or uncertainty
-- guidance on potential solutions that should be evaluated or references to
+  visuals that help understand the desired outcome
+- A clear description of what the open questions are and how they are blocking
+  an issue from being created by adding too much risk or uncertainty
+- Guidance on potential solutions that should be evaluated or references to
   promising approaches
-- a well-defined timebox, e.g. _"spend max 2 days"_
+- A well-defined timebox, e.g. _"spend max 2 days"_
 
 ## Iteration Planning
 
@@ -240,7 +240,7 @@ One goal of the iteration preparation phase is to eradicate uncertainties and
 open questions around all issues. Instead, each issue should have been carefully
 examined for open questions and risks and a high level strategy for completing
 it should have been defined. That way, the iteration planning meeting can be
-spend most efficiently and does not end up being a loose team discussion in
+spent most efficiently and does not end up being a loose team discussion in
 which tasks are examined collaboratively which is a scenario many product teams
 are struggling with.
 
@@ -268,7 +268,7 @@ estimates as a project progresses.
 ## Iteration Execution
 
 After the iteration has been planned, execution starts and the planned issues
-are being worked on based on their priorities.
+are worked on based on their priority.
 
 Once an issue has started to be worked on, the respective team member(s) will
 self-assign it (not all issue trackers allow assigning issues to more than one
@@ -286,19 +286,18 @@ engineer(s) will self-assign another issue from the iteration backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
-often beneficial to prepare them further before starting implementation. For
-these kinds of issues, the first step is to decompose them into smaller, more
-concrete steps (which is often a great thing to do in a
-[pairing session](#pairing)).
+often beneficial to break them down into into smaller, more concrete steps
+(which is often a great thing to do in a [pairing session](#pairing)) before
+starting implementation.
 
-If there are any changes requested to the iteration after the planning meeting
-(e.g. due to unforeseeable changes to features or severe bugs popping up in
-production), all of these potential changes to the iteration are triaged by the
-iteration lead. They might consult with the business experts or other project
-stakeholders to determine validity and priority of the incoming requests. If an
-issue is considered necessary to be added to the iteration after the planning
-meeting, it can be added but another issue might have to be removed from the
-iteration in its stead.
+If there are any alterations requested to the iteration after the planning
+meeting (e.g. due to unforeseeable changes to features or severe bugs popping up
+in production), all of these potential modifications to the iteration are
+triaged by the iteration lead. They might consult with the business experts or
+other project stakeholders to determine validity and priority of the incoming
+requests. If an issue is considered necessary to be added to the iteration after
+the planning meeting, it can be added but another issue might have to be removed
+from the iteration in its stead.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 for trying to solve the impediment, potentially synchronizing with the business
@@ -394,15 +393,16 @@ provide). Similarly to issues, pull requests should have all the information
 necessary for everyone to understand what they do, how they do it and why. In
 particular, good pull requests should have:
 
-- a high-level summary of the changes that the pull request contains that
+- A high-level summary of the changes that the pull request contains that
   provides the reader with a good overview without having to look at the actual
   code changes
-- guidance for testing the added or changed functionality; this is helpful for
+- Guidance for testing the added or changed functionality; this is helpful for
   the reviewer, product or business experts looking at the pull request on a
-  [preview system](#preview-systems) and any QA people
-- before and after screenshots or even screen recordings in case of a visual
+  [preview system](#preview-systems) and a Quality Assurance (QA) team if one
+  exists
+- Before and after screenshots or even screen recordings in case of a visual
   change
-- a reference to the issue the changes in the pull request are refering to; if
+- A reference to the issue the changes in the pull request are referring to; if
   the pull request effectively closes an issue, most tools will automatically do
   that when the pull request is merged if it contains a comment like
   _"closes #<issue>"_ in the description
@@ -442,7 +442,7 @@ that engineers can then address before releasing to production. Preview systems
 also allow sharing status with external stakeholders that might not even have
 access to the application's sources at all.
 
-Setting up a preview systems mechanism can sometimes be challenging and might
+Setting up a preview system mechanism can sometimes be challenging and might
 require a substantial amount of work. However, when taken into account early on
 in a project and in particular if the project's infrastructure is containerized
 anyway, it is often possible to set up preview systems with relatively little
@@ -465,10 +465,11 @@ branch; pull requests that have not been reviewed should usually not get merged.
 In order for a pull request to be ready for review though, it has to meet some
 pre-requisites:
 
-- the branch has no conflicts with the target branch
-- the changes in the branch are covered by appropriate tests and CI is passing
-- the pull request is not marked as _"work in progress"_
-- the commit history of the pull request has been cleaned up, e.g. WIP commits
+- The branch has no conflicts with the target branch
+- The changes in the branch are covered by appropriate tests and the Continuous
+  Integration (CI) build is passing
+- The pull request is not marked as _"work in progress"_
+- The commit history of the pull request has been cleaned up, e.g. WIP commits
   have been squashed, debug commits have been removed etc.
 
 When a pull request is ready for review, its author should actively ask for
@@ -494,14 +495,14 @@ request, a third person should be brought in to resolve the deadlock.
 Reviewing and potentially criticizing other people's work is a sensitive issue
 which is why we recommend a set of rules to follow:
 
-- be polite: you are reviewing another person's work that they put time and
+- Be polite: you are reviewing another person's work that they put time and
   energy in - don't be dismissive and keep a friendly tone
-- be clear: don't be ambiguous but clearly address issues or modifications that
+- Be clear: don't be ambiguous but clearly address issues or modifications that
   need to be revisited and changed again
-- be positive: while the review's main purpose is to identify mistakes or bad
+- Be positive: while the review's main purpose is to identify mistakes or bad
   patterns that are not caught by CI, reviews are also a good opportunity to
   give feedback on changes that are particularly good
-- be helpful: if a pull request contains a particular change you don't think
+- Be helpful: if a pull request contains a particular change you don't think
   should be merged, give the author some guidance by introducing an alternative
   to the change that does not come with the same drawbacks
 
@@ -516,11 +517,11 @@ go through additional changes later on as soon as tests are being added and bugs
 are being discovered in the process.
 
 While different languages and frameworks provide different testing mechanisms, a
-good approach generally is
+good approach generally is:
 
-- leveraging small and isolated tests (e.g. unit tests) for the majority of the
+- Leveraging small and isolated tests (e.g. unit tests) for the majority of the
   test cases including edge cases
-- leveraging higher level tests (e.g. integration or acceptance tests) for
+- Leveraging higher level tests (e.g. integration or acceptance tests) for
   ensuring the main features and flows of an application work as expected
 
 Continuous integration must mandatorily be set up in order for a project to be
@@ -556,26 +557,26 @@ software engineering. A structured and organized approach fosters communication
 and quality and is a necessary foundation for close collaboration between
 designers and engineers.
 
-#### Design Sources
+#### Design Source Files
 
 Design source files should generally be managed like code, maintaining an
 authoritative main line and making changes in change sets that are only applied
-back to the mainline once complete and reviewed. Design sources can be
-maintained using a version control system just like for the project's source
-code or in a separate system, depending on the available tools and
-infrastructure.
+back to the mainline once complete and reviewed. Source files can be maintained
+using a version control system just like for the project's source code or in a
+separate system, depending on the available tools and infrastructure.
 
 ##### Change Sets/Branches
 
-Just like changes to a project's source code, no changes to design sources
+Just like changes to a project's source code, no changes to design source files
 should ever be applied directly to the mainline. Only after a set of changes has
-been reviewed and deemed good is it applied back as one discrete change. All
-individual changes that are applied back together should be related to the same
-UI element(s) or aspect of the UI (e.g. changing the color scheme once for all
-UI elements). Once changes have been applied back to the mainline, that fact
-should be noted in the issue describing the work that was done in the change.
-The change should also be referenced in the issue if the tools allow that,
-otherwise before/after images of the change should be attached to the issue.
+been reviewed and deemed satisfactory, is it applied back as one discrete
+change. All individual changes that are applied back together should be related
+to the same UI element(s) or aspect of the UI (e.g. changing the color scheme
+once for all UI elements). Once changes have been applied back to the mainline,
+that fact should be noted in the issue describing the work that was done in the
+change. The change should also be referenced in the issue if the tools allow
+that, otherwise before/after images of the change should be attached to the
+issue.
 
 ###### Reviews
 
@@ -595,12 +596,12 @@ deadlock.
 
 Changes to design sources need to be reviewed for:
 
-- completeness: does the change contain and/or cover all of the necessary and/or
+- Completeness: does the change contain and/or cover all of the necessary and/or
   affected elements and states?
-- consistency: does the change fit in with and leverage the project's design
+- Consistency: does the change fit in with and leverage the project's design
   system and overall visual direction?
-- applicability: is the change possible to implement with the technology of
-  choice with reasonable effort?
+- Feasibility: is the change possible to implement with the technology of choice
+  with reasonable effort?
 
 When reviewing design changes we recommend following the same set of rules as
 when [reviewing code changes](#reviews).
@@ -609,17 +610,17 @@ when [reviewing code changes](#reviews).
 
 All design work should eventually result in a design system evolving for the
 respective project, independently of its nature or scope. The design system is a
-structured, multi-level framework where each layer builds on top of the elements
-defined in the previous one, going from simple to complex, e.g.:
+structured, multi-level UI framework where each layer builds on top of the
+elements defined in the previous one, going from simple to complex, e.g.:
 
-- basic rules around font choices and color schemes build the foundation for the
+- Basic rules around font choices and color schemes build the foundation for the
   design system
-- atomic elements like buttons, labels and inputs are the building blocks for
+- Atomic elements like buttons, labels and inputs are the building blocks for
   all higher level elements
-- components are built on top of atomic elements and/or other components and
+- Components are built on top of atomic elements and/or other components and
   resemble groups of lower level elements that function as a unit like search
   forms, headers etc.
-- components are arranged in particular ways to compose actual pages or screens
+- Components are arranged in particular ways to compose actual pages or screens
   for an application
 
 A design system will ensure consistency across all of the UI of an application
@@ -667,4 +668,4 @@ the respective issue in the format best suited for the particular use case.
 
 In order to demonstrate complex behavior or animation, narrow prototypes or
 videos should be favored over text descriptions when possible to eliminate
-ambiguities and mis-understandings.
+ambiguities and misunderstandings.

@@ -16,7 +16,7 @@ Digital product projects can be broken down into four main stages:
   identifying and understanding the goal of the project and
   the environment it operates in
 2. **Product Design**
-  conceptualising a product that pursues the project's objective
+  conceptualizing a product that pursues the project's objective
 3. **Product Development**
   implementing the product and launching it
 4. **Evaluation**
@@ -29,9 +29,9 @@ incrementally building up the product. We refer to the deliverable of each pass
 through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
-[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)).
-Each subsequent increment adds a coherent set of functionality to the product
-that extends it in a way that is meaningful to its users.
+[_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
+or MVP). Each subsequent increment adds a coherent set of functionality to the
+product that extends it in a way that is meaningful to its users.
 
 ![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
 
@@ -62,20 +62,22 @@ relevant perspectives that the project team should be aware of.
 
 After kicking off the project, the infrastructure that is going to support the
 team needs to be set up, as effective tooling is vital for effective
-collaboration among the stakeholders. The main tasks are:
+collaboration among the stakeholders. Ensure tooling is cloud-based and
+therefore persistent and traceable. The main tasks are:
 
-- deciding and setting up a source control system for maintaining the project's
+- Deciding and setting up a source control system for maintaining the project's
   source code; this would usually be a git-based system
-- deciding and setting up a system for maintaining and collaborating on design
-  assets; we recommend using a system that allows maintaining assets like source
-  code with branching, pull request and review mechanisms
-- deciding and setting up a system for maintaining and collaborating on
+- Deciding and setting up a system for maintaining and collaborating on design
+  source files; we recommend using software that allows for component-based
+  design, and a system that allows maintaining assets like source code with
+  branching, pull request and review mechanisms
+- Deciding and setting up a system for maintaining and collaborating on
   documents (e.g. user stories, etc.); this system should support versioning and
   commenting for effective collaboration
-- setting up a shared communication channel that fosters traceable group
+- Setting up a shared communication channel that fosters traceable group
   communication; while the particular tool of choice is not relevant, we advice
   against relying on email and for using a realtime system instead
-- ensuring all project stakeholders have access to all of these tools and will
+- Ensuring all project stakeholders have access to all of these tools and will
   receive notifications when they are assigned tasks or are mentioned by others
 
 Effective tooling and usage of it is critical for all teams, on-site or remote.
@@ -111,16 +113,16 @@ for acquiring said facts will vary with each new project and depend on the
 particular problem, the respective industry and the time or budget constraints.
 We recommend using one or several of the following techniques:
 
-- data analysis of existing data e.g. from CRM systems, event logs or analytics
-  data from existing web applications; utilising these data sources often helps
+- Data analysis of existing data e.g. from CRM systems, event logs or analytics
+  data from existing web applications; utilizing these data sources often helps
   to create a better understanding of the current situation and sometimes
   reveals that the actual problem is different to what it seems; if none of this
   data is available, think about whether it is possible to start collecting it
   in potentially already existing systems
-- user research: getting direct feedback from users of an existing product that
+- User research: getting direct feedback from users of an existing product that
   is to be replaced or potential users of an entirely new product is the best
   way to understand their backgrounds, motivations and challenges
-- market analysis: besides understanding the future users of a digital product,
+- Market analysis: besides understanding the future users of a digital product,
   it is key to understand the market the product will operate in, its rules and
   limitations, what competitors with similar products are offering and what the
   relevant trends are
@@ -134,7 +136,7 @@ service etc. All of these groups will have unique insights and experiences that
 must all be heard in order to clearly understand the situation and define the
 project's objective.
 
-### Mission Statement
+### Mission Statement and KPIs
 
 Based on the gathered facts, the project team will be able to define a
 high-level objective for the project (e.g. a web application that allows
@@ -142,22 +144,23 @@ customers to configure the company's products according to their needs and order
 that configuration via the company's website). That information should be
 written down in a short (aiming for about one page) mission statement document
 to clearly express the project's scope and goals. We also recommend defining one
-or more KPIs (e.g. _"number of sales via the website"_, _"number of support
-requests from users"_) to quantify the situation before and after the project
-for easier [evaluation in later stages](#evaluation). If no data is available
-for these KPIs, it might be necessary to set up additional tracking or conduct
-research.
+or more Key Performance Indicators (KPIs) (e.g. _"number of sales via the
+website"_, _"number of support requests from users"_) to quantify the situation
+before and after the project for easier
+[evaluation in later stages](#evaluation). If no data is available for these
+KPIs, it might be necessary to set up additional tracking or conduct research.
 
 ### Personas
 
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
 motivations with regard to the application. We recommend defining one or
-multiple [personas](<https://en.wikipedia.org/wiki/Persona_(user_experience)>)
-(typical representatives of the future user base) based on all acquired facts in
-order to visualise the user base. A good understanding of a product's personas
-is a key prerequisite for developing an application that effectively caters to
-the specific needs of its future users.
+multiple [personas](https://www.nngroup.com/articles/persona/) (typical
+representatives of the future user base) based on all acquired facts in order to
+gain a good understanding of a product's users, which is a key prerequisite for
+developing an application that effectively caters to their specific needs.
+Personas can be a useful tool for aligning within in a team, and communicating
+who those people are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
@@ -169,12 +172,23 @@ are listed. For each of those the following questions are answered:
   solve with it?
 - What previous experience do they have in relation to the product?
 - What will make the solution appealing and valuable for them?
+- What makes them unique compared to the other personas?
 
 These users are then grouped by related concepts and patterns that emerge from
 the answers to these questions. Each of the resulting clusters constitutes a
 persona that is given a name so it can be easily referred to and described with
 its main characteristics in a persona document (aiming for about one page per
 persona).
+
+Make each persona memorable, associating them with characteristics of a real
+person such as an image, name, age, attributes, desires, and behaviors. It is
+vital that personas are not defined once and then forgotten, but rather that
+they are brought to the table on a daily basis. Seeing a feature through the
+eyes of a persona creates empathy for the customer segment that they represent,
+ensuring that we meet their needs as much as possible. They become a valuable
+tool when they are integrated into the everyday decision-making process (e.g.
+when prioritizing features, planning feature concepts, and recruiting for
+usability testing).
 
 ## Product Design
 
@@ -197,12 +211,12 @@ not do excessively detailed up-front design and specification. Detailed mockups
 tend to give a false impression of a finished product even though it is
 basically impossible to cover every possible aspect and prevent new challenges
 for particular features from being uncovered in the development stage. Also,
-static mockups or even interactive prototypes will never give as realistic an
-impression for the final product as one will get from an actual application even
-if it starts out with very limited functionality initially and is only built up
-incrementally over time. Therefore we recommend aiming for a quick transition to
-the development stage, using the real application to collect feedback and verify
-assumptions as early as possible.
+static mockups will never give as realistic an impression for the final product
+as one will get from an actual application even if it starts out with very
+limited functionality initially and is only built up incrementally over time.
+Therefore we recommend aiming for a quick transition to the development stage,
+using the real application to collect feedback and validate assumptions as early
+as possible.
 
 ### User Stories Workshop
 
@@ -214,11 +228,11 @@ transitions between individual states in the flow.
 
 This workshop requires input from all project stakeholders:
 
-- the business experts have unique expertise and understand best what goal a
+- The business experts have unique expertise and understand best what goal a
   particular user story enables the user to achieve
-- designers have the expertise to understand which interaction design lets the
+- Designers have the expertise to understand which interaction design lets the
   user achieve the above goal in the most efficient way
-- engineers can assess different alternatives for implementing a user story for
+- Engineers can assess different alternatives for implementing a user story for
   their technical feasibility and associated effort
 
 Each coherent feature of the application is represented by a user story. User
@@ -228,10 +242,10 @@ order to achieve a particular goal.
 
 For each user story, identify:
 
-- the navigational structure: screens or pages, dialogues, menus etc.
-- interactive elements: buttons, inputs etc. that the user needs to trigger
+- The navigational structure: screens or pages, dialogues, menus etc.
+- Interactive elements: buttons, inputs etc. that the user needs to trigger
   actions in the flow or needs to acquire information that is relevant to them
-- flows: transitions between sections of the navigational structure that are
+- Flows: transitions between sections of the navigational structure that are
   triggered by interactive elements
 
 User Stories are visualized using coarse diagrams (e.g. hand-drawn marker
@@ -241,11 +255,11 @@ diagrams several times until an ideal solution emerges that all stakeholders
 agree on. That final concept is then written down in a user story document
 consisting of:
 
-- a textual description of the user story, the need that it addresses and the
+- A textual description of the user story, the need that it addresses and the
   solution that it provides
-- the persona(s) that the user story (mainly) caters to
-- the low-fidelity diagram showing steps in the user story, the involved UI
-  elements and transitions between steps
+- The persona(s) that the user story (mainly) caters to
+- The low-fidelity diagram showing steps in the user story, focusing on
+  functional aspects and transitions between steps
 
 ![User Story](../../../assets/user-story.svg "User Stories are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
@@ -257,34 +271,34 @@ as escape hatches later on to limit the scope and effort for the user story as
 they can potentially be left out in a first implementation of the particular
 story.
 
-### Visual Identity
+### User Interface Design Foundation
 
-When working on the first increment of a product, there is typically no visual
-foundation that can be built on top of in the product development stage yet. In
-order to develop that, we recommend creating mockups for one of the user stories
-to develop a mutual understanding among all project stakeholders for the visual
-identity of the product. For subsequent increments, this step will not be
-necessary and the team can go straight to the product development stage building
-on the [visual design system](../../development-process/#design-systems)
-established during previous increments.
+The initial stage of user interface (UI) design entails establishing a visual
+foundation that can be applied consistently to the product. Take some time
+up-front to create brand guidelines (if none exist) and establish variables such
+as typography, color, and spacing.
 
-The visual identity of a product will often be based on existing branding
-material and visual guidelines. If no such materials exist, the visual identity
-needs to be defined from scratch, applying techniques like moodboards and
-stylescapes.
+Next, create mid-fidelity wireframes of the first user story to convert the
+functionality to concrete UI elements, but without potentially distracting
+stylistic details of high-fidelity designs. Once the wireframes are agreed upon
+by all relevant stakeholders, mockups of the user story can be created. Use the
+visual foundation developed previously as a base to style the mockups, creating
+UI components with future reusability in mind. As the design grows, reuse
+components as often as possible to ensure consistency and efficiency in the
+project. Later design steps will likely be focused on smaller sets of UI and
+build upon decisions and visual elements that were introduced previously.
 
-While the mockup will be a high-fidelity visual representation of a particular
-user story, we recommend keeping it non-interactive and relatively low effort as
-its main purpose is to define a visual style for the product and not to specify
-individual details of the respective user story or the product in general.
-Instead of trying to achieve these goals with a prototype that can not precisely
-resemble the eventual product anyway, aim for providing an initial version of
-the actual product as soon as possible and use that as the basis for all
-subsequent discussions. Iterating based on the actual product as opposed to a
-prototype that would still have to be converted into something real anyway
-results in widely improved effectiveness of the overall process.
+Establishing principles and guidelines on how to use components as well as the
+creation of a UI component library create the basis of a
+[design system](../../development-process/#design-systems).
 
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require a wireframe and/or mockup for one of the user stories in order to agree on a layout and visual style for the product")
+It's helpful to accept a bit of uncertainty and iterate on the real product
+rather than focus too much on high-effort prototypes. The goal is getting
+something real in the hands of our users as fast as possible to validate our
+ideas. Their insights informs the design, helping evolve it iteratively
+according to their actual needs.
+
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the user stories in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
@@ -322,13 +336,13 @@ have a short validity anyway.
 
 In the product development stage of a product increment, user stories are turned
 into usable application features, iteratively building up the product over time.
-During this process, each user story is decomposed into fine-grained and more
+During this process, each user story is broken down into fine-grained and more
 detailed tasks which are then proceeded to be implemented by the project team
 (see [development process](../development-process/#development-process)).
-Decomposition of the user stories is done in close collaboration between
-engineers and designers with the business experts. They discuss individual
-facets of user stories as well as different alternatives for designing and
-implementing those along with the associated effort.
+Breaking down user stories is done in close collaboration between engineers and
+designers with the business experts. They discuss individual facets of user
+stories as well as different alternatives for designing and implementing those
+along with the associated effort.
 
 The project team will build slices of the system at once, including everything
 from the design, the backend, and the frontend code of a particular user story
@@ -377,6 +391,6 @@ and aspects of the product to improve. Depending on the learnings from the
 previous increment, it might be necessary to go through the
 [product strategy stage](#product-strategy) again, reconsider some of the
 assumptions and adapt the project's objective. If this is found not to be
-necessary, the product design stage can be entered directly to conceptualise,
+necessary, the product design stage can be entered directly to conceptualize,
 scope and implement the next set of user stories, followed by executing that new
 plan, evaluating what was built, etc.
