@@ -279,7 +279,7 @@ up-front to create brand guidelines (if none exist) and establish variables such
 as typography, color, and spacing.
 
 Next, create mid-fidelity wireframes of the first user story to convert the
-functionality to detailed UI elements, but without potentially distracting
+functionality to concrete UI elements, but without potentially distracting
 stylistic details of high-fidelity designs. Once the wireframes are agreed upon
 by all relevant stakeholders, mockups of the user story can be created. Use the
 foundation as a base to style the mockups, creating UI components with future
