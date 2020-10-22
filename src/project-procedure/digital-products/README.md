@@ -285,16 +285,16 @@ by all relevant stakeholders, mockups of the user story can be created. Use the
 visual foundation developed previously as a base to style the mockups, creating
 UI components with future reusability in mind. As the design grows, reuse
 components as often as possible to ensure consistency and efficiency in the
-project. Later steps will likely be focused on smaller feature sets and build up
-on previous foundational decisions.
+project. Later design steps will likely be focused on smaller sets of UI and
+build upon decisions and visual elements that were introduced previously.
 
 Establishing principles and guidelines on how to use components as well as the
 creation of a UI component library create the basis of a
 [design system](../../development-process/#design-systems).
 
-It's helpful to time box design activities, and not get carried away with
-high-effort interactive prototypes. The goal is getting a simple version of the
-real product in the hands of our users as fast as possible to validate our
+It's helpful to accept a bit of uncertainty and iterate on the real product
+rather than focus too much on high-effort prototypes. The goal is getting
+something real in the hands of our users as fast as possible to validate our
 ideas. Their insights informs the design, helping evolve it iteratively
 according to their actual needs.
 
