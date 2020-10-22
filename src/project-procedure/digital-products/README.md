@@ -274,7 +274,7 @@ story.
 ### User Interface Design
 
 The initial stage of user interface (UI) design entails establishing a
-foundation that can be applied consistently to the product. Take some time
+visual foundation that can be applied consistently to the product. Take some time
 up-front to create brand guidelines (if none exist) and establish variables such
 as typography, color, and spacing.
 
