@@ -271,7 +271,7 @@ as escape hatches later on to limit the scope and effort for the user story as
 they can potentially be left out in a first implementation of the particular
 story.
 
-### User Interface Design
+### User Interface Design Foundation
 
 The initial stage of user interface (UI) design entails establishing a
 visual foundation that can be applied consistently to the product. Take some time
