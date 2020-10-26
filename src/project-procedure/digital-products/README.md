@@ -220,7 +220,7 @@ as possible.
 
 ### Feature Concepts Workshop
 
-In the [Feature Concepts](https://en.wikipedia.org/wiki/User_story) Workshop, the
+In the Feature Concepts Workshop, the
 project team defines concrete concepts for individual, coherent features of the
 application. The goal is to develop an understanding of the structure of each
 feature's core functionality, the UI elements the users interact with and the
