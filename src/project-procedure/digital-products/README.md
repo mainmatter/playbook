@@ -229,13 +229,13 @@ transitions between individual states in the flow.
 This workshop requires input from all project stakeholders:
 
 - The business experts have unique expertise and understand best what goal a
-  particular feature concept enables the user to achieve
+  particular feature enables the user to achieve
 - Designers have the expertise to understand which interaction design lets the
   user achieve the above goal in the most efficient way
-- Engineers can assess different alternatives for implementing a feature concept for
+- Engineers can assess different alternatives for implementing a feature for
   their technical feasibility and associated effort
 
-Each coherent feature of the application is represented by a feature concept. Feature concepts enable one or more personas (as identified during the
+Each coherent feature of the application is represented by a feature concept. Features enable one or more personas (as identified during the
 [product strategy stage](#product-strategy)) to perform a particular task in
 order to achieve a particular goal.
 
@@ -254,19 +254,19 @@ diagrams several times until an ideal solution emerges that all stakeholders
 agree on. That final concept is then written down in a feature concept document
 consisting of:
 
-- A textual description of the feature concept, the need that it addresses and the
+- A textual description of the feature, the need that it addresses and the
   solution that it provides
-- The persona(s) that the feature concept (mainly) caters to
-- The low-fidelity diagram showing steps in the feature concept, focusing on
+- The persona(s) that the feature (mainly) caters to
+- The low-fidelity diagram showing steps in the feature, focusing on
   functional aspects and transitions between steps
 
 ![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
 
-Once a feature concept has been clearly defined, revisit it and look for
+Once a feature concept has been clearly described, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the feature
-concept to provide value as well as edge cases that might not immediately be
+to provide value as well as edge cases that might not immediately be
 apparent. These will be noted in the feature concept document as well and can be used
-as escape hatches later on to limit the scope and effort for the feature concept as
+as escape hatches later on to limit the scope and effort for the feature as
 they can potentially be left out in a first implementation of the particular
 feature.
 
@@ -277,10 +277,10 @@ foundation that can be applied consistently to the product. Take some time
 up-front to create brand guidelines (if none exist) and establish variables such
 as typography, color, and spacing.
 
-Next, create mid-fidelity wireframes of the first feature concept to convert the
+Next, create mid-fidelity wireframes of the first feature or coherent set of features to convert the
 functionality to concrete UI elements, but without potentially distracting
 stylistic details of high-fidelity designs. Once the wireframes are agreed upon
-by all relevant stakeholders, mockups of the feature concept can be created. Use the
+by all relevant stakeholders, mockups of the feature can be created. Use the
 visual foundation developed previously as a base to style the mockups, creating
 UI components with future reusability in mind. As the design grows, reuse
 components as often as possible to ensure consistency and efficiency in the
@@ -297,20 +297,20 @@ something real in the hands of our users as fast as possible to validate our
 ideas. Their insights informs the design, helping evolve it iteratively
 according to their actual needs.
 
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the feature concepts in order to agree on a layout and visual style for the product")
+![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the features in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 
-Once the feature concepts are defined in the product design stage, define a plan for
-the current increment of the application. For each feature concept that is part of an
+Once the feature concepts are described in the product design stage, define a plan for
+the current increment of the application. For each feature that is part of an
 increment, list which of the non-essential aspects and edge cases will be
 included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
 orders). Introducing these escape hatches allows the project team to make a
-decision between implementing essential versions of more feature concepts versus
-covering more non-essential aspects and edge cases for fewer feature concepts later
+decision between implementing essential versions of more features versus
+covering more non-essential aspects and edge cases for fewer features later
 in the process if time should become scarce.
 
 Once all stakeholders agree on the plan for the product increment, the list of
@@ -320,10 +320,10 @@ estimate a rough timeline. That plan is not irrevocable and neither is the
 estimate more than an assessment based on the information available at the time.
 Previously unknown challenges will likely be uncovered during product
 development and some details and implications will only be understood once work
-on a particular feature concept has actually begun. Teams should in fact constantly
+on a particular feature has actually begun. Teams should in fact constantly
 question assumptions and priorities and change the plan at any time they see
 necessary. It is also possible at any time to go back and re-plan an increment,
-adding a different set of feature concepts, include or exclude different aspects of
+adding a different set of features, include or exclude different aspects of
 them or even start over with the product strategy or the product design if new
 business objectives are identified. The goal of the increment planning is to get
 a common understanding of what value will be delivered during the increment and
@@ -339,12 +339,12 @@ During this process, each feature concept is broken down into fine-grained and m
 detailed tasks which are then proceeded to be implemented by the project team
 (see [development process](../development-process/#development-process)).
 Breaking down feature concepts is done in close collaboration between engineers and
-designers with the business experts. They discuss individual facets of feature concepts
+designers with the business experts. They discuss individual facets of features
 as well as different alternatives for designing and implementing those
 along with the associated effort.
 
 The project team will build slices of the system at once, including everything
-from the design, the backend, and the frontend code of a particular feature concept
+from the design, the backend, and the frontend code of a particular feature
 so those slices can be released as functional units that can be interacted with
 by all project stakeholders. Once a slice is finished, it will be released to a
 staging system that is available for all project stakeholders. All stakeholders
@@ -362,13 +362,13 @@ the system and deliver first hand feedback.
 
 ### Growing a Foundation
 
-As more feature concepts are being completed and the product evolves, foundational
+As more feature are being completed and the product evolves, foundational
 elements that will later be reused in other, similar contexts will be
 identified - both in the application's codebase as well as in the
 [visual design system](../../development-process/#design-systems). That way,
 each increment of the application results in its foundation becoming broader,
 stronger and more refined, resulting in increased effectiveness over time,
-decreasing effort per feature concept and increasing planning reliability.
+decreasing effort per feature and increasing planning reliability.
 
 ## Evaluation
 
