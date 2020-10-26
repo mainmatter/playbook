@@ -235,11 +235,9 @@ This workshop requires input from all project stakeholders:
 - Engineers can assess different alternatives for implementing a feature for
   their technical feasibility and associated effort
 
-Each coherent feature of the application is represented by a feature concept. Features enable one or more personas (as identified during the
-[product strategy stage](#product-strategy)) to perform a particular task in
-order to achieve a particular goal.
+Features concepts capture features on a relatively high level of abstraction. They focus on describing the functionality as such without going into details that would prescribe a particular implementation or any concrete user interface.
 
-For each feature concept, identify:
+For each feature, identify:
 
 - The navigational structure: screens or pages, dialogues, menus etc.
 - Interactive elements: buttons, inputs etc. that the user needs to trigger
@@ -247,7 +245,7 @@ For each feature concept, identify:
 - Flows: transitions between sections of the navigational structure that are
   triggered by interactive elements
 
-Feature concepts are visualized using coarse diagrams (e.g. hand-drawn marker
+These conceptual descriptions of features are visualized using coarse diagrams (e.g. hand-drawn marker
 sketches) including all of these identified pieces and the relationships between
 them. During the workshop participants will discuss and reconstruct these
 diagrams several times until an ideal solution emerges that all stakeholders
@@ -260,15 +258,14 @@ consisting of:
 - The low-fidelity diagram showing steps in the feature, focusing on
   functional aspects and transitions between steps
 
-![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are defined focussing on the flow and relevant interactive elements rather than concrete visuals")
+![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are described focussing on the flow and relevant interactive elements rather than concrete visuals")
 
 Once a feature concept has been clearly described, revisit it and look for
 non-essential aspects that are not strictly necessary in order for the feature
 to provide value as well as edge cases that might not immediately be
 apparent. These will be noted in the feature concept document as well and can be used
 as escape hatches later on to limit the scope and effort for the feature as
-they can potentially be left out in a first implementation of the particular
-feature.
+they can potentially be left out in a first implementation.
 
 ### User Interface Design Foundation
 
@@ -301,7 +298,7 @@ according to their actual needs.
 
 ### Increment Planning
 
-Once the feature concepts are described in the product design stage, define a plan for
+Once the features are described in the product design stage, define a plan for
 the current increment of the application. For each feature that is part of an
 increment, list which of the non-essential aspects and edge cases will be
 included in the increment (e.g. configuring products of the most successful
@@ -313,7 +310,7 @@ decision between implementing essential versions of more features versus
 covering more non-essential aspects and edge cases for fewer features later
 in the process if time should become scarce.
 
-Once all stakeholders agree on the plan for the product increment, the list of
+Once all stakeholders agree on the plan for the product increment, the
 feature concepts together with included as well as excluded aspects and according
 edge cases are written down in an increment plan document, which is used to
 estimate a rough timeline. That plan is not irrevocable and neither is the
@@ -334,7 +331,7 @@ have a short validity anyway.
 ## Product Development
 
 In the product development stage of a product increment, feature concepts are turned
-into usable application features, iteratively building up the product over time.
+into usable functionality in the application, iteratively building up the product over time.
 During this process, each feature concept is broken down into fine-grained and more
 detailed tasks which are then proceeded to be implemented by the project team
 (see [development process](../development-process/#development-process)).
@@ -362,7 +359,7 @@ the system and deliver first hand feedback.
 
 ### Growing a Foundation
 
-As more feature are being completed and the product evolves, foundational
+As more features are being completed and the product evolves, foundational
 elements that will later be reused in other, similar contexts will be
 identified - both in the application's codebase as well as in the
 [visual design system](../../development-process/#design-systems). That way,
@@ -391,5 +388,5 @@ previous increment, it might be necessary to go through the
 [product strategy stage](#product-strategy) again, reconsider some of the
 assumptions and adapt the project's objective. If this is found not to be
 necessary, the product design stage can be entered directly to conceptualize,
-scope and implement the next set of feature concepts, followed by executing that new
+scope and implement the next set of features, followed by executing that new
 plan, evaluating what was built, etc.
