@@ -1,6 +1,6 @@
 # Consulting Projects
 
-For consulting projects we work within our clients' organizational structures,
+For consulting projects, we work within our clients' organizational structures,
 supporting or leading product initiatives and making the client's in-house teams
 more efficient.
 
@@ -15,7 +15,7 @@ project on the client's side.
 
 ## Introduction
 
-Following the kick-off meeting with all stakeholders we ask our clients to
+Following the kick-off meeting with all stakeholders, we ask our clients to
 introduce their business by explaining the problems they are solving, what's the
 value for their customers, what differentiates them from their competition etc.
 That will typically be done by one of the client's business experts sitting
@@ -65,7 +65,7 @@ being part of the consultants' first contributions to the codebase, allows for a
 smoother start.
 
 Additionally, as our consultants are getting themselves set up and have acquired
-a more in depth understanding of the codebase, we recommend them to review the
+a more in-depth understanding of the codebase, we recommend them to review the
 application's code for noticeable or problematic patterns simultaneously. Like
 that they will often be able to identify the causes of existing issues and
 impediments as well as uncover new and previously unknown problems. For each of
@@ -94,7 +94,7 @@ quality.
 Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
 the client's team, we recommend for our consultants to spend some time on-site
-with the client's team on a regular basis (a good interval being a few days
+with the client's team regularly (a good interval being a few days
 every 6 weeks). Maintaining the personal relationship between all team members
 additionally improves efficiency for collaboration. We also encourage our
 consultants to spend the first week of the project on-site with the client's
@@ -109,7 +109,7 @@ simultaneously sharing their unique expertise and leveling team members up as
 they collaborate. That way they provide sustainable value that our clients
 continue to benefit from even after our consultants leave.
 
-We apply a number of techniques in order to share our experience and knowledge
+We apply several techniques in order to share our experience and knowledge
 but also make teams more effective:
 
 - pair programming with the client’s developers for face-to-face guidance; this
@@ -134,7 +134,7 @@ focussing on:
 
 - performing workshops on topics that the team is struggling with or that have
   been identified as problematic in the initial review
-- developing prototype implementations that adress problems that the client's
+- developing prototype implementations that address problems that the client's
   team is unsure how to deal with themselves; these will often be followed up by
   a workshop in which the prototypes serve as a concrete example for the
   respective general topic

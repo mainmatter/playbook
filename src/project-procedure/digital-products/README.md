@@ -6,7 +6,7 @@ will use or solving a business problem through software also requires to take
 several other aspects into account. In order to achieve an ideal result that
 best pursues a project's goals, various groups with different backgrounds and
 motivations need to collaborate closely. A clearly prescribed sequence of steps
-and actions to take in a particular order helps making this process as effective
+and actions to take in a particular order helps to make this process as effective
 as possible while involving all stakeholders and their individual expertise.
 
 Digital product projects can be broken down into four main stages:
@@ -25,8 +25,7 @@ Digital product projects can be broken down into four main stages:
 Building the entire product as one pass through all of these stages maximizes
 scope and thus risk. Instead, we recommend splitting up the project into smaller
 units and passing through the stages several times, once for each unit,
-incrementally building up the product. We refer to the deliverable of each pass
-through of all the stages as an _"increment"_ of the product. For the first
+incrementally building up the product. We refer to the deliverable of each pass-through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
@@ -37,7 +36,7 @@ product that extends it in a way that is meaningful to its users.
 
 Software projects are highly dynamic. The bigger the scope and the complexity of
 a project, the likelier it is to steer off track, resulting in delays and budget
-overruns. By limiting the scope per increment, complexity and thus risk are
+overruns. By limiting the scope per increment, complexity and thus risk is
 minimized and also usable versions of the product that provide value to users
 are available earlier in the process. These early versions of the product can
 already be shared with users and be used to acquire valuable feedback which
@@ -55,7 +54,7 @@ this meeting is for everybody involved to get to know each other and to acquire
 an understanding of everyone else's roles, responsibilities and goals. The group
 of project stakeholders should be kept as wide and open as possible and include
 everyone who has any interest or relation to the project, even people that might
-not necessarily be involved in the project on a daily basis but still have
+not necessarily be involved in the project daily but still have
 relevant perspectives that the project team should be aware of.
 
 ## Setup
@@ -80,8 +79,8 @@ therefore persistent and traceable. The main tasks are:
 - Ensuring all project stakeholders have access to all of these tools and will
   receive notifications when they are assigned tasks or are mentioned by others
 
-Effective tooling and usage of it is critical for all teams, on-site or remote.
-All relevant information, decisions and decision making processes must at all
+Effective tooling and usage of it are critical for all teams, on-site or remote.
+All relevant information, decisions and decision-making processes must at all
 times be accessible and transparent to all stakeholders for effective
 collaboration.
 
@@ -92,8 +91,8 @@ commence passing through the main stages starting with product strategy.
 
 In order to build an application that effectively achieves a particular
 objective, one must first understand the subject matter and then clearly define
-the current state of the situation. Next the desired objective must be
-established in order to develop an effective strategy for all subsequently taken
+the current state of the situation. Next, the desired objective must be
+established to develop an effective strategy for all subsequently taken
 actions. All project stakeholders need to work closely together during this
 stage to identify answers to these questions:
 
@@ -102,12 +101,12 @@ stage to identify answers to these questions:
   configure a product specifically to their needs) and how does that manifest in
   the business? (e.g. lost sales)
 - Who is affected by the present problem and who is going to use the product
-  that is being built? (e.g. the project teams's own organization or its
+  that is being built? (e.g. the project teams' own organization or its
   customers)
 - What should be the effect on the business once the solution is in place? (e.g.
-  increased sales, reduced workload for the sales team etc.)
+  increased sales, reduced workload for the sales team, etc.)
 
-The goal of the product strategy stage is finding answers to these questions
+The goal of the product strategy stage is to find answers to these questions
 that are based on facts and knowledge rather than assumptions. The techniques
 for acquiring said facts will vary with each new project and depend on the
 particular problem, the respective industry and the time or budget constraints.
@@ -116,7 +115,7 @@ We recommend using one or several of the following techniques:
 - Data analysis of existing data e.g. from CRM systems, event logs or analytics
   data from existing web applications; utilizing these data sources often helps
   to create a better understanding of the current situation and sometimes
-  reveals that the actual problem is different to what it seems; if none of this
+  reveals that the actual problem is different from what it seems; if none of this
   data is available, think about whether it is possible to start collecting it
   in potentially already existing systems
 - User research: getting direct feedback from users of an existing product that
@@ -132,7 +131,7 @@ workshops in which the project team has a facilitated discussion based on
 patterns and insights uncovered through the research. It is critical to get all
 project stakeholders involved in these workshops, in particular all of the
 business experts from various backgrounds like marketing, sales, customer
-service etc. All of these groups will have unique insights and experiences that
+service, etc. All of these groups will have unique insights and experiences that
 must all be heard in order to clearly understand the situation and define the
 project's objective.
 
@@ -154,12 +153,12 @@ KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
-motivations with regard to the application. We recommend defining one or
+motivations concerning the application. We recommend defining one or
 multiple [personas](https://www.nngroup.com/articles/persona/) (typical
 representatives of the future user base) based on all acquired facts in order to
 gain a good understanding of a product's users, which is a key prerequisite for
 developing an application that effectively caters to their specific needs.
-Personas can be a useful tool for aligning within in a team, and communicating
+Personas can be a useful tool for aligning within a team and communicating
 who those people are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
@@ -183,7 +182,7 @@ persona).
 Make each persona memorable, associating them with characteristics of a real
 person such as an image, name, age, attributes, desires, and behaviors. It is
 vital that personas are not defined once and then forgotten, but rather that
-they are brought to the table on a daily basis. Seeing a feature through the
+they are brought to the table daily. Seeing a feature through the
 eyes of a persona creates empathy for the customer segment that they represent,
 ensuring that we meet their needs as much as possible. They become a valuable
 tool when they are integrated into the everyday decision-making process (e.g.
@@ -203,7 +202,7 @@ configurator but no payment mechanism or order management system yet).
 Subsequent increments will extend and optimize what was built in previous
 increments with coherent blocks of functionality (e.g. adding a checkout flow
 with payment, adding an order management system for the company's sales
-representatives etc.).
+representatives, etc.).
 
 While applying a systematic approach for developing a coherent understanding of
 what will be built, we recommend keeping the product design stage limited and
@@ -241,8 +240,8 @@ that would prescribe a particular implementation or any concrete user interface.
 
 For each feature, identify:
 
-- The navigational structure: screens or pages, dialogues, menus etc.
-- Interactive elements: buttons, inputs etc. that the user needs to trigger
+- The navigational structure: screens or pages, dialogues, menus, etc.
+- Interactive elements: buttons, inputs, etc. that the user needs to trigger
   actions in the flow or needs to acquire information that is relevant to them
 - Flows: transitions between sections of the navigational structure that are
   triggered by interactive elements
@@ -263,7 +262,7 @@ feature concept document consisting of:
 ![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are described focussing on the flow and relevant interactive elements rather than concrete visuals")
 
 Once a feature concept has been clearly described, revisit it and look for
-non-essential aspects that are not strictly necessary in order for the feature
+non-essential aspects that are not strictly necessary for the feature
 to provide value as well as edge cases that might not immediately be apparent.
 These will be noted in the feature concept document as well and can be used as
 escape hatches later on to limit the scope and effort for the feature as they
@@ -292,9 +291,9 @@ creation of a UI component library create the basis of a
 [design system](../../development-process/#design-systems).
 
 It's helpful to accept a bit of uncertainty and iterate on the real product
-rather than focus too much on high-effort prototypes. The goal is getting
+rather than focus too much on high-effort prototypes. The goal is to get
 something real in the hands of our users as fast as possible to validate our
-ideas. Their insights informs the design, helping evolve it iteratively
+ideas. Their insights inform the design, helping evolve it iteratively
 according to their actual needs.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the features in order to agree on a layout and visual style for the product")
@@ -308,10 +307,9 @@ included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
-orders). Introducing these escape hatches allows the project team to make a
-decision between implementing essential versions of more features versus
+orders). Introducing these escape hatches allows the project team to decide between implementing essential versions of more features versus
 covering more non-essential aspects and edge cases for fewer features later in
-the process if time should become scarce.
+the process if the time should become scarce.
 
 Once all stakeholders agree on the plan for the product increment, the feature
 concepts together with included as well as excluded aspects and according edge
@@ -359,7 +357,7 @@ finding's priority.
 
 Once a product increment is completed, the respective state of the product will
 be released - ideally into a production environment - so real users can access
-the system and deliver first hand feedback.
+the system and deliver first-hand feedback.
 
 ### Growing a Foundation
 
@@ -376,7 +374,7 @@ decreasing effort per feature and increasing planning reliability.
 Every increment of the application that is completed and released should be
 evaluated on whether the assumptions made in the product strategy and product
 design stages proved themselves to be true and whether the project's objective
-has been achieved as intended. Ideally that evaluation can be conducted based on
+has been achieved as intended. Ideally, that evaluation can be conducted based on the
 interaction of real users with the product, either based on data captured by an
 analytics system or ideally by receiving feedback from users directly. Metrics
 should be collected for the KPIs defined in the
