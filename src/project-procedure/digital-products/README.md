@@ -309,7 +309,7 @@ volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
 orders). Introducing these escape hatches allows the project team to decide between implementing essential versions of more features versus
 covering more non-essential aspects and edge cases for fewer features later in
-the process if the time should become scarce.
+the process if time should become scarce.
 
 Once all stakeholders agree on the plan for the product increment, the feature
 concepts together with included as well as excluded aspects and according edge

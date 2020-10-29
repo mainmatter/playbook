@@ -408,7 +408,7 @@ particular, good pull requests should have:
   _"closes #<issue>"_ in the description
 
 As with issues, all discussions around a particular pull request should happen
-on the page of that pull request. If discussions happen in person or via online chat,
+on the pull request's page. If discussions happen in person or via online chat,
 a summary should be posted to the pull request so all information and context is
 accessible to everyone interested at any time in one place.
 
@@ -582,7 +582,7 @@ issue.
 When a design change is ready for review, its author should actively ask another
 team member to review it - ideally via the tools used in the particular project
 if those support it or over online chat etc. if not. Everyone asked for review
-should reply on time - even if it's to ask for someone else to be
+should reply in a timely manner - even if it's to ask for someone else to be
 chosen if they do not have the time to do a proper review.
 
 Once the reviewer has approved the changes, they can be applied by any team
