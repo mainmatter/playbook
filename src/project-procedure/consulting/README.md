@@ -94,8 +94,8 @@ quality.
 Our consultants are distributed and we work with our clients remotely. Since
 Team Augmentation is driven by close collaboration between our consultants and
 the client's team, we recommend for our consultants to spend some time on-site
-with the client's team regularly (a good interval being a few days
-every 6 weeks). Maintaining the personal relationship between all team members
+with the client's team regularly (a good interval being a few days every 6
+weeks). Maintaining the personal relationship between all team members
 additionally improves efficiency for collaboration. We also encourage our
 consultants to spend the first week of the project on-site with the client's
 team to guarantee a smooth start.
@@ -109,8 +109,8 @@ simultaneously sharing their unique expertise and leveling team members up as
 they collaborate. That way they provide sustainable value that our clients
 continue to benefit from even after our consultants leave.
 
-We apply several techniques in order to share our experience and knowledge
-but also make teams more effective:
+We apply several techniques in order to share our experience and knowledge but
+also make teams more effective:
 
 - pair programming with the client’s developers for face-to-face guidance; this
   can be done on-site but also remotely

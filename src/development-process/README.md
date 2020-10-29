@@ -18,8 +18,8 @@ characteristics and underlying values:
 - It fosters open and replicable communication and sharing of know-how among
   team members which is particularly important for remote teams.
 - It puts a focus on planning and preparing all work carefully before getting
-  started with the actual implementation in order to ensure execution as
-  smooth as possible.
+  started with the actual implementation in order to ensure execution as smooth
+  as possible.
 - It does not rely on any particular tools and works for projects and teams
   regardless of the available infrastructure.
 
@@ -76,8 +76,9 @@ in fact has a negative impact:
   Since a project can only succeed when the different involved stakeholders work
   together and each one's motivations and goals are respected and addressed, it
   is vital for each stakeholder to understand and appreciate each other's
-  viewpoints. Many projects fail due to the disproportionate weight being assigned
-  to one of the stakeholder's interests and them running the entire project.
+  viewpoints. Many projects fail due to the disproportionate weight being
+  assigned to one of the stakeholder's interests and them running the entire
+  project.
 - If project managers indeed assume a management role and have decisive
   authority regarding priorities and deadlines etc., teams end up in a situation
   where a party that is not actively contributing to the project is in a
@@ -182,8 +183,8 @@ project, and for which reasons.
 ![Issue](../../assets/issue.svg "Good issues with complete and detailed information are key to a successful project")
 
 There is a plethora of tools available for maintaining and collaborating on
-issues and this process does not prescribe the usage of any particular one – all of
-the rules we present here are independent of the concrete tooling used in a
+issues and this process does not prescribe the usage of any particular one – all
+of the rules we present here are independent of the concrete tooling used in a
 project.
 
 Good issues aim to:
@@ -196,9 +197,9 @@ Good issues aim to:
 - Include reproduction steps if the issue describes a bug; ideally, those are
   visualized with a screen recording or other media
 - Detail concrete requirements that must be met and an overview of the changes
-  to be made to complete the issue; in order to prepare this list, the
-  iteration lead might need to partner with a team member more familiar with a
-  particular part of the codebase or feature
+  to be made to complete the issue; in order to prepare this list, the iteration
+  lead might need to partner with a team member more familiar with a particular
+  part of the codebase or feature
 - Include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or APIs
   or contact details for external parties involved in an issue etc.
@@ -286,18 +287,18 @@ engineer(s) will self-assign another issue from the iteration backlog.
 
 Although issues should be well-understood and well-prepared before they are even
 planned for a particular [iteration](#iterations), for more complex issues it is
-often beneficial to break them down into smaller, more concrete steps
-(which is often a great thing to do in a [pairing session](#pairing)) before
-starting implementation.
+often beneficial to break them down into smaller, more concrete steps (which is
+often a great thing to do in a [pairing session](#pairing)) before starting
+implementation.
 
 If there are any alterations requested to the iteration after the planning
 meeting (e.g. due to unforeseeable changes to features or severe bugs popping up
 in production), all of these potential modifications to the iteration are
 triaged by the iteration lead. They might consult with the business experts or
-other project stakeholders to determine the validity and priority of the incoming
-requests. If an issue is considered necessary to be added to the iteration after
-the planning meeting, it can be added but another issue might have to be removed
-from the iteration in its stead.
+other project stakeholders to determine the validity and priority of the
+incoming requests. If an issue is considered necessary to be added to the
+iteration after the planning meeting, it can be added but another issue might
+have to be removed from the iteration in its stead.
 
 If an issue is blocked and cannot progress, the iteration lead is responsible
 for trying to solve the impediment, potentially synchronizing with the business
@@ -310,10 +311,10 @@ issues should be added. Oftentimes that will mean moving issues from the
 following iteration into the current one.
 
 All discussions around an issue should happen on the particular issue's
-respective page in the project management tool of choice. It is of course
-at times convenient to have discussions in person or through online chat but even in
-those cases, a brief summary of the discussed points and the outcome should be
-posted on the issue. This is a necessity for distributed teams and allows
+respective page in the project management tool of choice. It is of course at
+times convenient to have discussions in person or through online chat but even
+in those cases, a brief summary of the discussed points and the outcome should
+be posted on the issue. This is a necessity for distributed teams and allows
 everyone access to all of the context of a particular issue at any time. Even
 teams that are not distributed benefit from this practice as all information
 that is relevant to a particular issue is and remains available for everyone
@@ -352,8 +353,8 @@ team members need to keep some basic rules in mind:
 
 Although Engineering and Design work together closely at all times, some of the
 techniques and practices differ simply because both professions deal with
-different subjects. We recommend following several established practices
-that have been adopted from the open source community for a smooth and effective
+different subjects. We recommend following several established practices that
+have been adopted from the open source community for a smooth and effective
 engineering workflow.
 
 #### Feature Branches and Pull Requests
@@ -478,8 +479,8 @@ project if those support it or over online chat, etc. If not we generally
 recommend applying rotating reviewer assignments so that not all of the reviews
 depend on one or only a few people. This way, more team members participate in
 the review process and thus understand different parts of the codebase better.
-Reviews are a great tool for distributing knowledge about the codebase among
-the project team which prevents essential knowledge from being isolated to
+Reviews are a great tool for distributing knowledge about the codebase among the
+project team which prevents essential knowledge from being isolated to
 individual developers. Everyone asked for review should reply in a timely
 manner - even if it's to ask for someone else to be chosen if they do not have
 the time to do a thorough review.
@@ -500,7 +501,8 @@ which is why we recommend a set of rules to follow:
 - Be clear: don't be ambiguous but clearly address issues or modifications that
   need to be revisited and changed again
 - Be positive: while the review's main purpose is to identify mistakes or bad
-  patterns that are not caught by CI, reviews are also a great opportunity to give feedback on particularly good changes.
+  patterns that are not caught by CI, reviews are also a great opportunity to
+  give feedback on particularly good changes.
 - Be helpful: if a pull request contains a particular change you don't think
   should be merged, give the author some guidance by introducing an alternative
   to the change that does not come with the same drawbacks
@@ -511,9 +513,9 @@ Testing is an integral part of all engineering work and a necessity for
 delivering high-quality results that also do not deteriorate over time. Untested
 changes should generally not be merged and not even be reviewed as one cannot
 know whether the code under review actually works for all relevant scenarios. In
-fact, if there are no early tests, the code will likely have to
-go through additional changes later on as soon as tests are being added and bugs
-are being discovered in the process.
+fact, if there are no early tests, the code will likely have to go through
+additional changes later on as soon as tests are being added and bugs are being
+discovered in the process.
 
 While different languages and frameworks provide different testing mechanisms, a
 good approach generally is:

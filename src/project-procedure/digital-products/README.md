@@ -6,8 +6,9 @@ will use or solving a business problem through software also requires to take
 several other aspects into account. In order to achieve an ideal result that
 best pursues a project's goals, various groups with different backgrounds and
 motivations need to collaborate closely. A clearly prescribed sequence of steps
-and actions to take in a particular order helps to make this process as effective
-as possible while involving all stakeholders and their individual expertise.
+and actions to take in a particular order helps to make this process as
+effective as possible while involving all stakeholders and their individual
+expertise.
 
 Digital product projects can be broken down into four main stages:
 
@@ -25,7 +26,8 @@ Digital product projects can be broken down into four main stages:
 Building the entire product as one pass through all of these stages maximizes
 scope and thus risk. Instead, we recommend splitting up the project into smaller
 units and passing through the stages several times, once for each unit,
-incrementally building up the product. We refer to the deliverable of each pass-through of all the stages as an _"increment"_ of the product. For the first
+incrementally building up the product. We refer to the deliverable of each
+pass-through of all the stages as an _"increment"_ of the product. For the first
 increment, we recommend building only the minimal set of functionality necessary
 to deliver value (the
 [_"Minimum viable product"_](https://en.wikipedia.org/wiki/Minimum_viable_product)
@@ -54,8 +56,8 @@ this meeting is for everybody involved to get to know each other and to acquire
 an understanding of everyone else's roles, responsibilities and goals. The group
 of project stakeholders should be kept as wide and open as possible and include
 everyone who has any interest or relation to the project, even people that might
-not necessarily be involved in the project daily but still have
-relevant perspectives that the project team should be aware of.
+not necessarily be involved in the project daily but still have relevant
+perspectives that the project team should be aware of.
 
 ## Setup
 
@@ -92,9 +94,9 @@ commence passing through the main stages starting with product strategy.
 In order to build an application that effectively achieves a particular
 objective, one must first understand the subject matter and then clearly define
 the current state of the situation. Next, the desired objective must be
-established to develop an effective strategy for all subsequently taken
-actions. All project stakeholders need to work closely together during this
-stage to identify answers to these questions:
+established to develop an effective strategy for all subsequently taken actions.
+All project stakeholders need to work closely together during this stage to
+identify answers to these questions:
 
 - What exactly is it that is currently lacking or requires improvement (an
   example could be customers having to call a company's sales representative to
@@ -115,9 +117,9 @@ We recommend using one or several of the following techniques:
 - Data analysis of existing data e.g. from CRM systems, event logs or analytics
   data from existing web applications; utilizing these data sources often helps
   to create a better understanding of the current situation and sometimes
-  reveals that the actual problem is different from what it seems; if none of this
-  data is available, think about whether it is possible to start collecting it
-  in potentially already existing systems
+  reveals that the actual problem is different from what it seems; if none of
+  this data is available, think about whether it is possible to start collecting
+  it in potentially already existing systems
 - User research: getting direct feedback from users of an existing product that
   is to be replaced or potential users of an entirely new product is the best
   way to understand their backgrounds, motivations and challenges
@@ -153,13 +155,12 @@ KPIs, it might be necessary to set up additional tracking or conduct research.
 
 In addition to the mission statement, the project team also needs to identify
 potential future users, along with their prior knowledge, skills, needs, and
-motivations concerning the application. We recommend defining one or
-multiple [personas](https://www.nngroup.com/articles/persona/) (typical
-representatives of the future user base) based on all acquired facts in order to
-gain a good understanding of a product's users, which is a key prerequisite for
-developing an application that effectively caters to their specific needs.
-Personas can be a useful tool for aligning within a team and communicating
-who those people are.
+motivations concerning the application. We recommend defining one or multiple
+[personas](https://www.nngroup.com/articles/persona/) (typical representatives
+of the future user base) based on all acquired facts in order to gain a good
+understanding of a product's users, which is a key prerequisite for developing
+an application that effectively caters to their specific needs. Personas can be
+a useful tool for aligning within a team and communicating who those people are.
 
 ![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
 
@@ -182,12 +183,12 @@ persona).
 Make each persona memorable, associating them with characteristics of a real
 person such as an image, name, age, attributes, desires, and behaviors. It is
 vital that personas are not defined once and then forgotten, but rather that
-they are brought to the table daily. Seeing a feature through the
-eyes of a persona creates empathy for the customer segment that they represent,
-ensuring that we meet their needs as much as possible. They become a valuable
-tool when they are integrated into the everyday decision-making process (e.g.
-when prioritizing features, planning feature concepts, and recruiting for
-usability testing).
+they are brought to the table daily. Seeing a feature through the eyes of a
+persona creates empathy for the customer segment that they represent, ensuring
+that we meet their needs as much as possible. They become a valuable tool when
+they are integrated into the everyday decision-making process (e.g. when
+prioritizing features, planning feature concepts, and recruiting for usability
+testing).
 
 ## Product Design
 
@@ -262,11 +263,11 @@ feature concept document consisting of:
 ![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are described focussing on the flow and relevant interactive elements rather than concrete visuals")
 
 Once a feature concept has been clearly described, revisit it and look for
-non-essential aspects that are not strictly necessary for the feature
-to provide value as well as edge cases that might not immediately be apparent.
-These will be noted in the feature concept document as well and can be used as
-escape hatches later on to limit the scope and effort for the feature as they
-can potentially be left out in a first implementation.
+non-essential aspects that are not strictly necessary for the feature to provide
+value as well as edge cases that might not immediately be apparent. These will
+be noted in the feature concept document as well and can be used as escape
+hatches later on to limit the scope and effort for the feature as they can
+potentially be left out in a first implementation.
 
 ### User Interface Design Foundation
 
@@ -293,8 +294,8 @@ creation of a UI component library create the basis of a
 It's helpful to accept a bit of uncertainty and iterate on the real product
 rather than focus too much on high-effort prototypes. The goal is to get
 something real in the hands of our users as fast as possible to validate our
-ideas. Their insights inform the design, helping evolve it iteratively
-according to their actual needs.
+ideas. Their insights inform the design, helping evolve it iteratively according
+to their actual needs.
 
 ![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the features in order to agree on a layout and visual style for the product")
 
@@ -307,9 +308,10 @@ included in the increment (e.g. configuring products of the most successful
 category), which ones will not (e.g. configuring products with little sales
 volume) and which ones will be moved to a later increment in case the team is
 running out of time or budget (e.g. allowing customers to see the status of past
-orders). Introducing these escape hatches allows the project team to decide between implementing essential versions of more features versus
-covering more non-essential aspects and edge cases for fewer features later in
-the process if time should become scarce.
+orders). Introducing these escape hatches allows the project team to decide
+between implementing essential versions of more features versus covering more
+non-essential aspects and edge cases for fewer features later in the process if
+time should become scarce.
 
 Once all stakeholders agree on the plan for the product increment, the feature
 concepts together with included as well as excluded aspects and according edge
@@ -374,10 +376,10 @@ decreasing effort per feature and increasing planning reliability.
 Every increment of the application that is completed and released should be
 evaluated on whether the assumptions made in the product strategy and product
 design stages proved themselves to be true and whether the project's objective
-has been achieved as intended. Ideally, that evaluation can be conducted based on the
-interaction of real users with the product, either based on data captured by an
-analytics system or ideally by receiving feedback from users directly. Metrics
-should be collected for the KPIs defined in the
+has been achieved as intended. Ideally, that evaluation can be conducted based
+on the interaction of real users with the product, either based on data captured
+by an analytics system or ideally by receiving feedback from users directly.
+Metrics should be collected for the KPIs defined in the
 [product strategy stage](#product-strategy). By analyzing those metrics, the
 actual feedback can now be compared with the initial expectations.
 
