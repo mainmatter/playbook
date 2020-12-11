@@ -34,9 +34,10 @@ would love to hear it. Are particular parts of the book not clear? Did we miss
 anything that is critical to you and your team? Did you run into any problems
 while adopting our process or had great success that you would share with us?
 
-Send us an email at playbook@simplabs.com.
+Send us an email at [playbook@simplabs.com](mailto:playbook@simplabs.com).
 
 ## License
 
-Copyright © 2015-2020 simplabs GmbH (https://simplabs.com); released under the
-Attribution NonCommercial ShareAlike 3.0 Unported license.
+Copyright © 2015-2020 simplabs GmbH
+([https://simplabs.com](https://simplabs.com)); released under the Attribution
+NonCommercial ShareAlike 3.0 Unported license.

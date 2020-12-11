@@ -16,7 +16,9 @@ class BookRenderer extends marked.Renderer {
 
   link(href, title, text) {
     let linkUrl = URL.parse(href);
-    if (!linkUrl.hostname && !linkUrl.hash) {
+    let isMailTo = linkUrl.protocol === "mailto:";
+
+    if (!isMailTo && !linkUrl.hostname && !linkUrl.hash) {
       console.error(`Link must include hash but is ${href}!`);
       process.exit(1);
     }
