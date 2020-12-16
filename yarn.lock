@@ -419,10 +419,10 @@ lodash@^4.17.15:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
-marked@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.6.tgz#fa55cf38ab3585005c9fb3c1ebfb3d4590c29fdc"
-  integrity sha512-7vVuSEZ8g/HH3hK/BH/+7u/NJj7x9VY4EHzujLDcqAQLiOUeFJYAsfSAyoWtR17lKrx7b08qyIno4lffwrzTaA==
+marked@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.7.tgz#6e14b595581d2319cdcf033a24caaf41455a01fb"
+  integrity sha512-No11hFYcXr/zkBvL6qFmAp1z6BKY3zqLMHny/JN/ey+al7qwCM2+CMBL9BOgqMxZU36fz4cCWfn2poWIf7QRXA==
 
 mime-db@1.43.0:
   version "1.43.0"
