@@ -8,7 +8,7 @@
   "devDependencies": {
     "fs-extra": "^9.1.0",
     "handlebars": "^4.7.6",
-    "highlight.js": "^10.5.0",
+    "highlight.js": "^10.6.0",
     "jsdom": "^16.4.0",
     "marked": "^2.0.0",
     "prettier": "^2.2.1"
