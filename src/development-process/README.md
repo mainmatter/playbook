@@ -493,6 +493,22 @@ particular pull request, they will ask for it. In case anything comes up in the
 review that cannot be resolved between the reviewer and the author of the pull
 request, a third person should be brought in to resolve the deadlock.
 
+It is very normal if disagreements arise during code reviews, sometimes there
+are more than one ways to do a certain thing and opinion on which one is better
+can be subjective when evaluated in-depth or on the surface. Additionally, an
+important part of good decision making process to allow a team of knowledgable
+contributors to make and evaluate decisions together instead of relying on a
+single persons opinion or decision. Both the reviewer and the author of the
+change should try to listen and understand each others arguments and decisions
+fully before raising their opinions. When there is a disagreement, a
+knowledgable third person should be pulled in to resolve the deadlock. This
+person takes on the role of being the resolver of the deadlock, thus resolver
+should listen and evaluate both sides of the argument well and then has to be
+decisive and come up with a decision if both sides still disagrees. Building
+software is teamwork so we should make sure we respond, discuss and resolve
+issues in timely manner to remove lead times when disagreements arise in code
+reviews.
+
 Reviewing and potentially criticizing other people's work is a sensitive issue
 which is why we recommend a set of rules to follow:
 
