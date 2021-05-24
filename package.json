@@ -9,7 +9,7 @@
     "fs-extra": "^9.1.0",
     "handlebars": "^4.7.7",
     "highlight.js": "^10.7.2",
-    "jsdom": "^16.5.3",
+    "jsdom": "^16.6.0",
     "marked": "^2.0.4",
     "prettier": "^2.3.0"
   },
