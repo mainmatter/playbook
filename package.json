@@ -10,7 +10,7 @@
     "handlebars": "^4.7.7",
     "highlight.js": "^10.7.2",
     "jsdom": "^16.6.0",
-    "marked": "^2.0.5",
+    "marked": "^2.0.6",
     "prettier": "^2.3.0"
   },
   "scripts": {
