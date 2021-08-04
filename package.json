@@ -6,7 +6,7 @@
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
   "private": true,
   "devDependencies": {
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
     "highlight.js": "^11.2.0",
     "jsdom": "^16.7.0",
