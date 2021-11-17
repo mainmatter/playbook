@@ -209,6 +209,38 @@ Good issues aim to:
   prepare this sequence, the iteration lead might need to partner with a team
   member more familiar with a particular part of the codebase or feature
 
+That last criteria for a good issue is of particular importance. One of the main
+goals of preparing issues thoroughly is to capture the effort that an issue
+describes as realistically as possible. The best way to understand what that
+effort is, is to think through the steps needed to complete the issue, actually
+asking yourself _"if I was to work on this, what would the first step be and the
+one after that, etc."_. Thinking through and writing down that sequence of steps
+is the only way in our experience to reliably figure out the majority of hidden
+complexities and risks that any issue includes. Every step that is identified
+will lead to follow-up work, uncover yet unanswered questions and thus help
+reveal the full scope of the work.
+
+While it is hard to give precise guidance in terms of how granular or detailed
+the individual steps should be, a good guideline is to think of every step as
+mapping to one commit later on. Like a commit should only do one _"thing"_, a
+step in an issue should resemble a consistent unit of work that has a clear
+scope. Instead of doing all the work required for completing an issue at once,
+it's easier to think about it (and later do it) in small chunks at a time,
+reducing the complexity per chunk.
+
+> In a frontend project for example it would typically be better to first change
+> the API of an existing component as well as update existing usages and tests
+> before adding a new component that requires that updated existing component
+> instead of doing all of that in one step.
+
+Like an issue should not resemble more than a few days of work, a step in an
+issue should usually not resemble more than a few hours of work. Thinking about
+the sequence of steps in the issue as the sequence of commits one will end up
+with when actually working on the issue later on also helps separating
+[commits](#commits) and keeping clean histories in
+[pull request](#feature-branches-and-pull-requests) since the sequence of steps
+in the issue already provides the outline.
+
 #### Spikes
 
 If a particular task is associated with too many open questions or uncertainties
