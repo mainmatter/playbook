@@ -246,8 +246,20 @@
       border-left: 2pt solid #a7a7a7;
     }
 
-    blockquote p {
+    blockquote p, blockquote ul {
       font-style: italic;
+    }
+
+    blockquote p code, blockquote ul code {
+      font-style: normal;
+    }
+
+    blockquote ul {
+      padding-left: 16pt;
+    }
+
+    ul ul {
+      margin-bottom: 0;
     }
 
     ul, ol {
