@@ -525,6 +525,25 @@ good approach generally is:
 - Leveraging higher level tests (e.g. integration or acceptance tests) for
   ensuring the main features and flows of an application work as expected
 
+##### End-to-End testing
+
+Few applications exist in isolation. Usually several individual subsystems need
+to interact with each other – be it in a miroservices architecture or when
+building a web app with a client and server part. Only testing each of these
+subsystems cannot guarantee all subsystems will work together as intended in the
+end. End-to-End tests that, for each [pull request](#pull-requests) with changes
+to the code of one subsystem, test that subsystem together with the respective
+deployed revisions of all other subsystems, can provide that guarantee.
+
+Running such tests requires the ability to spin up a complete system including
+all of the subsystems on demand on the CI server. That works essentially the
+same way as setting up [preview systems](#preview-systems) for every pull
+request so that all effort invested into building a mechanism for such preview
+systems pays off twice by allowing to set up end-to-end testing at the same
+time.
+
+##### Continuous integration
+
 Continuous integration must mandatorily be set up for a project to be
 successful. While it should always be possible to run tests locally, they also
 need to be run automatically for every pull request and after each merge to the
