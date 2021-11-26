@@ -542,6 +542,18 @@ request so that all effort invested into building a mechanism for such preview
 systems pays off twice by allowing to set up end-to-end testing at the same
 time.
 
+##### Visual Regressions
+
+Besides functional bugs and regressions, there are also other error classes such
+as visual regressions. An application can work correctly but still be broken in
+the eyes of users. Visual correctness is hard to detect automatically so visual
+regression testing is usually focused on making all visual changes that a
+particular code change leads to visible and forcing them to be reviewed and
+manually approved. That makes all UI changes intentional and avoids accidental
+changes, resulting in fewer user facing bugs and less rework. We generally
+recommend setting up visual regression testing for all applications with a user
+interface, in particular when that targets end users or clients.
+
 ##### Continuous integration
 
 Continuous integration must mandatorily be set up for a project to be
