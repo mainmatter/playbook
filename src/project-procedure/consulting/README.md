@@ -37,8 +37,8 @@ introduce our consultants to:
   effective process, we offer to introduce
   [ours](./../../development-process#development-process))
 - their engineering infrastructure, covering tools like version control systems,
-  issue trackers, continuous integration and continuous deployment setups, VPNs
-  etc.
+  issue trackers, continuous integration and continuous deployment setups, VPNs,
+  metrics dashboards (for production errors, performance...), etc.
 - a comprehensive overview of the fundamental system architecture, covering
   everything from the database to message bus systems, external APIs, the main
   backend system(s), frontend application(s) etc. - like the introduction to the
