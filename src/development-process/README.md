@@ -196,10 +196,6 @@ Good issues aim to:
   and also providing the reasons for those changes
 - Include reproduction steps if the issue describes a bug; ideally, those are
   visualized with a screen recording or other media
-- Detail concrete requirements that must be met and an overview of the changes
-  to be made to complete the issue; in order to prepare this list, the iteration
-  lead might need to partner with a team member more familiar with a particular
-  part of the codebase or feature
 - Include all necessary materials that are needed for the issue; this could be
   visual assets, links to online documentation for third party libraries or APIs
   or contact details for external parties involved in an issue etc.
@@ -209,6 +205,67 @@ Good issues aim to:
   and ideally not represent more than a few days of work - larger issues can
   often be broken down into multiple smaller ones, possibly even allowing for
   work to happen simultaneously
+- Include a sequence of steps to be taken to complete the issue; in order to
+  prepare this sequence, the iteration lead might need to partner with one or
+  several team members more familiar with a particular part of the codebase or
+  feature
+
+That last criteria for a good issue is of particular importance. One of the main
+goals of preparing issues thoroughly is to capture the effort that an issue
+describes as realistically as possible. The best way to understand what that
+effort is, is to think through the steps needed to complete the issue, actually
+asking yourself _"if I was to work on this, what would the first step be and the
+one after that, etc."_. Thinking through and writing down that sequence of steps
+is the only way in our experience to reliably figure out the majority of hidden
+complexities and risks that an issue includes. Every step that is identified
+will lead to follow-up work, uncover yet unanswered questions and thus help
+reveal the full scope of the work.
+
+While it is hard to give precise guidance in terms of how granular or detailed
+the individual steps should be, a good guideline is to think of every step as
+mapping to one commit later on. Like a commit should only do one _"thing"_, a
+step in an issue should resemble a consistent unit of work that has a clear
+scope. Instead of doing all the work required for completing an issue at once,
+it's easier to think about it – and later do it – in small chunks at a time,
+reducing the complexity per chunk.
+
+A detailed sequence of steps might end up looking somewhat like this
+[example](https://github.com/simplabs/playbook/issues/70) from our project to
+rebuild our own website:
+
+> - add a new `loading` state for the `<Button>` component that prevents clicks
+>   on the button while active and changes the button's visual appearance (see
+>   designs below)
+> - add a new `<ContactForm`> component that implements the form with inputs for
+>   name (`input[type="text"]`), email (`input[type="email"]`), and message
+>   (`textarea`), as well as a submit button
+>   - while the form is submitting, enable the `<Button>` component's `loading`
+>     state and disable all fields
+>   - once the form has submitted successfully, show the success message instead
+>     of the input elements (see designs below)
+>     - when clicking the button for sending another message in the success
+>       message, switch the component back to its original state to show the
+>       input elements instead of the success message (reset all previously
+>       captured values so the fields are cleared)
+>   - if the form fails to submit, show the error state (see designs below)
+>   - disable submission of the form when the user's browser is offline (and
+>     re-enable when it comes back online):
+>     - in the component's constructor, register event handlers for the
+>       `window`'s `"online"` and `"offline"` events (see doc link below) and
+>       enable/disable submission of the form accordingly (leaving the input
+>       elements active)
+>     - remove the event handlers when the component is destroyed to avoid
+>       memory leaks (using the `willDestroy` method (see link to API docs
+>       below))
+> - add the component to the `/contact` page
+
+Like an issue should not resemble more than a few days of work, a step in an
+issue should usually not resemble more than a few hours of work. Thinking about
+the sequence of steps in the issue as the sequence of commits one will end up
+with when actually working on the issue later on also helps separating
+[commits](#commits) and keeping clean histories in
+[pull request](#feature-branches-and-pull-requests) since the sequence of steps
+in the issue already provides the outline.
 
 #### Spikes
 
