@@ -34,8 +34,6 @@ to deliver value (the
 or MVP). Each subsequent increment adds a coherent set of functionality to the
 product that extends it in a way that is meaningful to its users.
 
-![MVP and increments](../../../assets/mvp-and-increments.svg "Breaking down a project into an MVP and subsequent increments helps reduce scope and complexity and develop the product in small and coherent steps")
-
 Software projects are highly dynamic. The bigger the scope and the complexity of
 a project, the likelier it is to steer off track, resulting in delays and budget
 overruns. By limiting the scope per increment, complexity and thus risk is
@@ -162,8 +160,6 @@ understanding of a product's users, which is a key prerequisite for developing
 an application that effectively caters to their specific needs. Personas can be
 a useful tool for aligning within a team and communicating who those people are.
 
-![Personas](../../../assets/personas.svg "Defining Personas helps develop a better understanding of who a product is built for")
-
 In order to identify personas, all possible future users (as derived from the
 acquired data and/or based on the business experts' experience) of the product
 are listed. For each of those the following questions are answered:
@@ -260,8 +256,6 @@ feature concept document consisting of:
 - The low-fidelity diagram showing steps in the feature, focusing on functional
   aspects and transitions between steps
 
-![Feature concept](../../../assets/feature-concept.svg "Feature Concepts are described focussing on the flow and relevant interactive elements rather than concrete visuals")
-
 Once a feature concept has been clearly described, revisit it and look for
 non-essential aspects that are not strictly necessary for the feature to provide
 value as well as edge cases that might not immediately be apparent. These will
@@ -296,8 +290,6 @@ rather than focus too much on high-effort prototypes. The goal is to get
 something real in the hands of our users as fast as possible to validate our
 ideas. Their insights inform the design, helping evolve it iteratively according
 to their actual needs.
-
-![Wireframe and Mockup](../../../assets/wireframe-and-mockup.svg "The first increment of a product will require creating wireframes and mockups for one of the features in order to agree on a layout and visual style for the product")
 
 ### Increment Planning
 

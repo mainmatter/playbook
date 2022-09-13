@@ -13,12 +13,10 @@ const DIST_PATH = path.join(__dirname, '..', '..', 'dist');
 const MAIN_SRC_PATH = path.join(__dirname, '..', '..', 'src');
 const BOOK_SRC_PATH = path.join(__dirname, '..', 'src');
 
-const MAIN_ASSETS_PATH = path.join(__dirname, '..', '..', 'assets');
 const BOOK_ASSETS_PATH = path.join(__dirname, '..', 'assets');
 const DIST_ASSETS_PATH = path.join(DIST_PATH, 'assets');
 
 fs.removeSync(DIST_ASSETS_PATH);
-fs.copySync(MAIN_ASSETS_PATH, DIST_ASSETS_PATH);
 fs.copySync(BOOK_ASSETS_PATH, DIST_ASSETS_PATH, { overwrite: true });
 
 marked.setOptions({
