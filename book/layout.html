@@ -69,7 +69,7 @@
     }
 
     h1.supporting-chapter-title {
-      page-break-before: always;
+      break-before: page;
       font-size: 24pt;
       font-weight: 900;
       text-transform: uppercase;
@@ -100,7 +100,7 @@
     }
 
     #organization {
-      page-break-before: always;
+      break-before: page;
     }
 
     h3 {
@@ -177,7 +177,7 @@
     }
 
     blockquote {
-      page-break-inside: avoid;
+      break-inside: avoid;
       padding: 0 0 0 8pt;
       margin: 0 0 0 38pt;
       border-left: 2pt solid #a7a7a7;
@@ -200,7 +200,7 @@
     }
 
     ul, ol {
-      page-break-inside: avoid;
+      break-inside: avoid;
     }
 
     p, ul, ol, figure {
@@ -216,7 +216,7 @@
 
     figure {
       width: 100%;
-      page-break-inside: avoid;
+      break-inside: avoid;
       text-align: center;
     }
 
@@ -235,9 +235,8 @@
     }
 
     #title-page {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-after: page;
+      break-inside: avoid;
       position: relative;
       height: 100%;
       width: 100%;
@@ -289,14 +288,13 @@
     }
 
     #toc-page {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-after: page;
+      break-inside: avoid;
     }
 
     #toc {
       padding-left: 0;
-      page-break-inside: auto;
+      break-inside: auto;
     }
 
     #toc li {
@@ -341,78 +339,17 @@
       text-decoration: none;
     }
 
-    .chapter-intro {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
-      position: relative;
-      height: 100%;
-      width: 100%;
-    }
-
-    @media print {
-      .chapter-intro {
-        position: fixed;
-      }
-    }
-
-    .chapter-intro .title {
-      position: absolute;
-      bottom: 0;
-      width: 87.5%;
-      margin: 0 0 0 12.5%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 50%;
-    }
-
-    #chapter-1-chapter-intro .title {
-      background-image: url(./assets/images/chapter-1-title-background.svg);
-    }
-
-    #chapter-2-chapter-intro .title {
-      background-image: url(./assets/images/chapter-2-title-background.svg);
-    }
-
-    .chapter-intro img {
-      width: 87.5%;
-    }
-
-    .chapter-intro .title h1 {
-      margin: 0;
-      page-break-before: avoid;
-      font-size: 40pt;
-      line-height: 40pt;
-      color: white;
-      font-weight: 300;
-      padding: 0 40pt 20pt 40pt;
-      text-transform: none;
-    }
-
-    .chapter-intro .title h1:after {
-      display: none;
-    }
-
-    .chapter-intro .title h2 {
-      font-size: 24pt;
-      color: white;
-      font-weight: 900;
-      border-bottom: 2pt solid white;
-      display: inline-block;
-      padding: 60pt 0 10pt 0;
-      margin: 0 0 10pt 40pt;
-    }
-
     .chapter-number {
-      page-break-after: avoid;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-before: page;
       font-size: 48pt;
       line-height: 48pt;
-      border-bottom: solid #02CEBA 4pt;
-      display: inline-block;
       margin-bottom: 0;
       font-weight: 900;
+    }
+
+    .chapter-number span {
+      display: inline-block;
+      border-bottom: solid #02CEBA 4pt;
     }
 
     .chapter-number:after {
@@ -420,9 +357,9 @@
     }
 
     .chapter-number + h1 {
-      page-break-after: avoid;
-      page-break-before: avoid;
-      page-break-inside: avoid;
+      break-after: avoid;
+      break-before: avoid;
+      break-inside: avoid;
       font-size: 32pt;
       line-height: 32pt;
       text-transform: none;
