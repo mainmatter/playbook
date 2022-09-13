@@ -8,7 +8,7 @@ the right time (and in an appropriate manner) and provides a reasonable level of
 short term predictability. At the same time, it remains flexible enough to adapt
 to unexpected events.
 
-The simplabs development process distinguishes itself through certain
+The Mainmatter development process distinguishes itself through certain
 characteristics and underlying values:
 
 - It ensures all project stakeholders are being heard and the project's
@@ -230,7 +230,7 @@ it's easier to think about it – and later do it – in small chunks at a time,
 reducing the complexity per chunk.
 
 A detailed sequence of steps might end up looking somewhat like this
-[example](https://github.com/simplabs/playbook/issues/70) from our project to
+[example](https://github.com/mainmatter/playbook/issues/70) from our project to
 rebuild our own website:
 
 > - add a new `loading` state for the `<Button>` component that prevents clicks

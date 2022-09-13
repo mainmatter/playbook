@@ -1,8 +1,8 @@
 {
   "name": "playbook",
   "version": "1.0.0",
-  "repository": "git@github.com:simplabs/playbook.git",
-  "author": "Marco Otte-Witte <marco.otte-witte@simplabs.com>",
+  "repository": "git@github.com:mainmatter/playbook.git",
+  "author": "Marco Otte-Witte <marco.otte-witte@mainmatter.com>",
   "license": "Attribution NonCommercial ShareAlike 3.0 Unported",
   "private": true,
   "devDependencies": {
@@ -17,7 +17,7 @@
     "format": "prettier --write '**/*.md'",
     "lint": "prettier --check '**/*.md'",
     "prepare-book": "mkdir -p dist && node book/scripts/prepare.js",
-    "compile-book": "mkdir -p dist && prince --pdf-lang=en --pdf-title=\"The simplabs Playbook\" --pdf-author=\"simplabs GmbH\" --disallow-modify --fail-dropped-content --fail-missing-resources --fail-missing-glyphs -o dist/book.pdf dist/book.html"
+    "compile-book": "mkdir -p dist && prince --pdf-lang=en --pdf-title=\"The Mainmatter Playbook\" --pdf-author=\"Mainmatter GmbH\" --disallow-modify --fail-dropped-content --fail-missing-resources --fail-missing-glyphs -o dist/book.pdf dist/book.html"
   },
   "prettier": {
     "proseWrap": "always"

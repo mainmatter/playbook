@@ -3,7 +3,7 @@ const URL = require('url');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
-const DOCUMENT_HOST = 'playbook.simplabs';
+const DOCUMENT_HOST = 'playbook.mainmatter';
 
 const virtualConsole = new jsdom.VirtualConsole();
 virtualConsole.sendTo(console, { omitJSDOMErrors: true });

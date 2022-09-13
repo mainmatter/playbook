@@ -1,4 +1,4 @@
-# simplabs Playbook
+# Mainmatter Playbook
 
 Our playbook describes how we work. The contents are maintained in Markdown
 files in the [src](./src) folder. The playbook can also be compiled to a PDF:

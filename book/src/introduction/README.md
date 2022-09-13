@@ -2,7 +2,7 @@
 
 This book is a guide for developing digital products following a proven
 procedure as well as running an effective and low overhead product development
-process. It describes what we do at simplabs and is based on experience we
+process. It describes what we do at Mainmatter and is based on experience we
 gained while working on digital products for international clients in various
 industries.
 
