@@ -23,7 +23,7 @@ a few people or a large organization, whichever of the plethora of applications
 for managing teams you are using, you should be able to adopt the techniques
 presented in this book.
 
-## Organization of this Book
+<h2 id="organization">Organization of this Book</h2>
 
 This book is currently organized into two main chapters:
 
