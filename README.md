@@ -8,5 +8,5 @@ yarn prepare-book # compiles the playbook into one big HTML file at dist/book.ht
 yarn compile-book # converts dist/book.html into a PDF at dist/book.pdf
 ```
 
-Copyright © 2015-2022 [Mainmatter GmbH](http://mainmatter.com); released under the
-Attribution NonCommercial ShareAlike 3.0 Unported license.
+Copyright © 2015-2022 [Mainmatter GmbH](http://mainmatter.com); released under
+the Attribution NonCommercial ShareAlike 3.0 Unported license.
