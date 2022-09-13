@@ -5,98 +5,31 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <style>
-    /* latin-ext */
     @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 300;
-      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
-        url(./assets/nunito-sans-300-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 300;
-      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
-        url(./assets/nunito-sans-300.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA45Regular.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA45Regular.woff') format('woff');
       font-weight: 400;
-      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
-        url(./assets/nunito-sans-400-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
       font-style: normal;
-      font-weight: 400;
-      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
-        url(./assets/nunito-sans-400.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      font-display: swap;
     }
-    /* latin-ext */
+    
     @font-face {
-      font-family: 'Nunito Sans';
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA55Medium.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA55Medium.woff') format('woff');
+      font-weight: 500;
       font-style: normal;
-      font-weight: 600;
-      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
-        url(./assets/nunito-sans-600-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      font-display: swap;
     }
-    /* latin */
+    
     @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 600;
-      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
-        url(./assets/nunito-sans-600.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA65Bold.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA65Bold.woff') format('woff');
       font-weight: 700;
-      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
-        url(./assets/nunito-sans-700-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
       font-style: normal;
-      font-weight: 700;
-      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
-        url(./assets/nunito-sans-700.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 900;
-      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
-        url(./assets/nunito-sans-900-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 900;
-      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
-        url(./assets/nunito-sans-900.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      font-display: swap;
     }
 
     body {
@@ -315,28 +248,26 @@
     #title-page #image {
       width: 100%;
       height: auto;
-      position: absolute;
-      top: 12pt;
+    }
+
+    #title-page #logo {
+      width: 125pt;
+      height: auto;
     }
 
     #title-page #content {
       position: absolute;
-      bottom: 12pt;
-      left: 12pt;
-      right: 12pt;
-      padding: 48pt;
-      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.svg);
-      background-size: 25%, contain;
-      background-repeat: no-repeat;
-      background-position: 104pt 60pt, top left;
+      bottom: 44pt;
+      left: 44pt;
     }
 
     #title-page h1 {
-      color: white;
-      font-size: 80pt;
+      color: rgb(255, 255, 255);
+      font-family: "Core Sans A";
+      font-size: 56pt;
+      letter-spacing: 0;
+      line-height: 68pt;
       font-weight: 700;
-      text-transform: none;
-      margin: 65pt 0 0 50pt;
     }
 
     #title-page h1:after {
@@ -344,13 +275,13 @@
     }
 
     #title-page p {
-      color: white;
-      margin: 32pt 0 24pt 50%;
-      font-weight: 300;
-      font-size: 14pt;
-      font-style: italic;
-      line-height: 16pt;
-      width: 40%;
+      color: rgb(255, 255, 255);
+      font-family: "Core Sans A";
+      font-size: 18pt;
+      line-height: 30pt;
+      margin-top: 13pt;
+      width: 300pt;
+      font-weight: 400;
     }
 
     #toc-page {
@@ -503,8 +434,9 @@
 </head>
 <body>
   <div id="title-page">
-    <img id="image" src="./assets/images/title.svg" />
+    <img id="image" src="./assets/images/title.jpg" />
     <div id="content">
+      <img id="logo" src="./assets/images/logo-white.svg" />
       <h1>Playbook</h1>
       <p>Values and strategies for successful product teams</p>
     </div>
