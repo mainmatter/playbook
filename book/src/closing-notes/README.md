@@ -15,13 +15,13 @@ as that happens will we update this book. We might also add content on
 completely new topics that we are not covering at all in the moment like hiring
 or effective and enjoyable communication.
 
-Keep an eye on [https://simplabs.com/playbook](https://simplabs.com/playbook)
-for updates.
+Keep an eye on
+[https://mainmatter.com/playbook](https://mainmatter.com/playbook) for updates.
 
 ## About the Authors
 
-simplabs is a digital product agency that crafts products for clients around the
-globe. We have our roots in the open source community and create digital
+Mainmatter is a digital product agency that crafts products for clients around
+the globe. We have our roots in the open source community and create digital
 products for clients that value code quality, robustness, dependability and
 honesty. This book was written collaboratively by our team of experts in the
 fields of product strategy, product design as well as backend and frontend
@@ -34,10 +34,10 @@ would love to hear it. Are particular parts of the book not clear? Did we miss
 anything that is critical to you and your team? Did you run into any problems
 while adopting our process or had great success that you would share with us?
 
-Send us an email at [playbook@simplabs.com](mailto:playbook@simplabs.com).
+Send us an email at [playbook@mainmatter.com](mailto:playbook@mainmatter.com).
 
 ## License
 
-Copyright © 2015-2020 simplabs GmbH
-([https://simplabs.com](https://simplabs.com)); released under the Attribution
-NonCommercial ShareAlike 3.0 Unported license.
+Copyright © 2015-2020 Mainmatter GmbH
+([https://mainmatter.com](https://mainmatter.com)); released under the
+Attribution NonCommercial ShareAlike 3.0 Unported license.

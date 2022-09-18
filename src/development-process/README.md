@@ -8,7 +8,7 @@ the right time (and in an appropriate manner) and provides a reasonable level of
 short term predictability. At the same time, it remains flexible enough to adapt
 to unexpected events.
 
-The simplabs development process distinguishes itself through certain
+The Mainmatter development process distinguishes itself through certain
 characteristics and underlying values:
 
 - It ensures all project stakeholders are being heard and the project's
@@ -98,8 +98,6 @@ That person is responsible for planning the iteration and ensuring smooth
 execution. It is conceptualized as a rotating role so that every team member
 will assume it every once in a while (unless they opt out of the rotation).
 
-![Rotating Iteration Lead role](../../assets/rotating-itteration-lead-role.svg "The iteration lead role rotates to a different project team member with every iteration")
-
 Making the iteration lead a rotating role ensures that all team members realize
 the perspectives of all project stakeholders instead of getting stuck on their
 own which leads to mutual trust and alignment of all stakeholders. It also gives
@@ -170,8 +168,6 @@ preparation. Preparing an iteration will of course typically not require the
 iteration lead's entire time though but can usually be done at the same time as
 also contributing to the current iteration.
 
-![Collecting input from stakeholders](../../assets/converting-input-to-issues.svg "The iteration lead is responsible for collecting input from all stakeholders, assessing it for consistency and availability of prerequisites and converting it to proper issues")
-
 #### Issues
 
 Well-prepared issues are a key element of an effective development process. They
@@ -179,8 +175,6 @@ provide guidance for the project team's work, allow external parties
 non-involved with the project to get an understanding of what is happening
 directly, and can serve as a future reference to understand what was done in a
 project, and for which reasons.
-
-![Issue](../../assets/issue.svg "Good issues with complete and detailed information are key to a successful project")
 
 There is a plethora of tools available for maintaining and collaborating on
 issues and this process does not prescribe the usage of any particular one – all
@@ -230,7 +224,7 @@ it's easier to think about it – and later do it – in small chunks at a time,
 reducing the complexity per chunk.
 
 A detailed sequence of steps might end up looking somewhat like this
-[example](https://github.com/simplabs/playbook/issues/70) from our project to
+[example](https://github.com/mainmatter/playbook/issues/70) from our project to
 rebuild our own website:
 
 > - add a new `loading` state for the `<Button>` component that prevents clicks
@@ -715,8 +709,6 @@ elements defined in the previous one, going from simple to complex, e.g.:
 A design system will ensure consistency across all of the UI of an application
 as well as minimize the work necessary for extending the UI over time as new
 elements will build on top of existing ones.
-
-![Design System](../../assets/design-system.svg "A design system is the visual foundation for a digital product")
 
 With every change that is applied, the design system is incrementally built up
 and extended over time. New UI elements that were not previously covered will

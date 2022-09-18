@@ -1,4 +1,4 @@
-# simplabs Playbook
+# Mainmatter Playbook
 
 This document describes how we work. Our process is based on patterns and values
 that we acquired and defined over years of working with clients on a variety of

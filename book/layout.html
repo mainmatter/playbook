@@ -5,102 +5,35 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <style>
-    /* latin-ext */
     @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 300;
-      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
-        url(./assets/nunito-sans-300-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 300;
-      src: local('Nunito Sans Light'), local('NunitoSans-Light'),
-        url(./assets/nunito-sans-300.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA45Regular.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA45Regular.woff') format('woff');
       font-weight: 400;
-      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
-        url(./assets/nunito-sans-400-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
       font-style: normal;
-      font-weight: 400;
-      src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
-        url(./assets/nunito-sans-400.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      font-display: swap;
     }
-    /* latin-ext */
+    
     @font-face {
-      font-family: 'Nunito Sans';
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA55Medium.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA55Medium.woff') format('woff');
+      font-weight: 500;
       font-style: normal;
-      font-weight: 600;
-      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
-        url(./assets/nunito-sans-600-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      font-display: swap;
     }
-    /* latin */
+    
     @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 600;
-      src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
-        url(./assets/nunito-sans-600.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
+      font-family: 'Core Sans A';
+      src: url('./assets/fonts/CoreSansA65Bold.woff2') format('woff2'),
+          url('./assets/fonts/CoreSansA65Bold.woff') format('woff');
       font-weight: 700;
-      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
-        url(./assets/nunito-sans-700-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
       font-style: normal;
-      font-weight: 700;
-      src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
-        url(./assets/nunito-sans-700.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
-    /* latin-ext */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 900;
-      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
-        url(./assets/nunito-sans-900-ext.woff2) format('woff2');
-      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
-    /* latin */
-    @font-face {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 900;
-      src: local('Nunito Sans Black'), local('NunitoSans-Black'),
-        url(./assets/nunito-sans-900.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      font-display: swap;
     }
 
     body {
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Core Sans A';
       counter-reset: page 0;
     }
 
@@ -109,14 +42,14 @@
       margin: 60pt;
 
       @bottom-left {
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Core Sans A';
         font-size: 9pt;
-        content: 'simplabs playbook';
-        font-weight: 300;
+        content: 'Mainmatter playbook';
+        font-weight: 400;
       }
 
       @bottom-right {
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Core Sans A';
         font-size: 9pt;
         content: counter(page);
         font-weight: 700;
@@ -136,7 +69,7 @@
     }
 
     h1.supporting-chapter-title {
-      page-break-before: always;
+      break-before: page;
       font-size: 24pt;
       font-weight: 900;
       text-transform: uppercase;
@@ -147,7 +80,7 @@
     h1.supporting-chapter-title:after {
       content: '';
       width: 80pt;
-      border-bottom: solid #007df6 4pt;
+      border-bottom: solid #02CEBA 4pt;
       display: block;
       margin-bottom: 36pt;
     }
@@ -164,6 +97,10 @@
       line-height: 32pt;
       font-weight: 700;
       margin: 12pt 0 12pt 0;
+    }
+
+    #organization {
+      break-before: page;
     }
 
     h3 {
@@ -214,8 +151,8 @@
     ol li:before {
       content: counter(my-awesome-counter);
       border-radius: 50%;
-      background-color: #e2f1ff;
-      color: #007df6;
+      background-color: #02CEBA;
+      color: #ffffff;
       font-weight: 400;
       width: 28pt;
       display: inline-block;
@@ -240,7 +177,7 @@
     }
 
     blockquote {
-      page-break-inside: avoid;
+      break-inside: avoid;
       padding: 0 0 0 8pt;
       margin: 0 0 0 38pt;
       border-left: 2pt solid #a7a7a7;
@@ -263,7 +200,7 @@
     }
 
     ul, ol {
-      page-break-inside: avoid;
+      break-inside: avoid;
     }
 
     p, ul, ol, figure {
@@ -279,7 +216,7 @@
 
     figure {
       width: 100%;
-      page-break-inside: avoid;
+      break-inside: avoid;
       text-align: center;
     }
 
@@ -298,9 +235,8 @@
     }
 
     #title-page {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-after: page;
+      break-inside: avoid;
       position: relative;
       height: 100%;
       width: 100%;
@@ -315,28 +251,26 @@
     #title-page #image {
       width: 100%;
       height: auto;
-      position: absolute;
-      top: 12pt;
+    }
+
+    #title-page #logo {
+      width: 125pt;
+      height: auto;
     }
 
     #title-page #content {
       position: absolute;
-      bottom: 12pt;
-      left: 12pt;
-      right: 12pt;
-      padding: 48pt;
-      background-image: url(./assets/images/logo-white.png), url(./assets/images/title-background.svg);
-      background-size: 25%, contain;
-      background-repeat: no-repeat;
-      background-position: 104pt 60pt, top left;
+      bottom: 44pt;
+      left: 44pt;
     }
 
     #title-page h1 {
-      color: white;
-      font-size: 80pt;
+      color: rgb(255, 255, 255);
+      font-family: "Core Sans A";
+      font-size: 56pt;
+      letter-spacing: 0;
+      line-height: 68pt;
       font-weight: 700;
-      text-transform: none;
-      margin: 65pt 0 0 50pt;
     }
 
     #title-page h1:after {
@@ -344,24 +278,23 @@
     }
 
     #title-page p {
-      color: white;
-      margin: 32pt 0 24pt 50%;
-      font-weight: 300;
-      font-size: 14pt;
-      font-style: italic;
-      line-height: 16pt;
-      width: 40%;
+      color: rgb(255, 255, 255);
+      font-family: "Core Sans A";
+      font-size: 18pt;
+      line-height: 30pt;
+      margin-top: 13pt;
+      width: 300pt;
+      font-weight: 400;
     }
 
     #toc-page {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-after: page;
+      break-inside: avoid;
     }
 
     #toc {
       padding-left: 0;
-      page-break-inside: auto;
+      break-inside: auto;
     }
 
     #toc li {
@@ -406,78 +339,17 @@
       text-decoration: none;
     }
 
-    .chapter-intro {
-      page-break-after: always;
-      page-break-before: always;
-      page-break-inside: avoid;
-      position: relative;
-      height: 100%;
-      width: 100%;
-    }
-
-    @media print {
-      .chapter-intro {
-        position: fixed;
-      }
-    }
-
-    .chapter-intro .title {
-      position: absolute;
-      bottom: 0;
-      width: 87.5%;
-      margin: 0 0 0 12.5%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 50%;
-    }
-
-    #chapter-1-chapter-intro .title {
-      background-image: url(./assets/images/chapter-1-title-background.svg);
-    }
-
-    #chapter-2-chapter-intro .title {
-      background-image: url(./assets/images/chapter-2-title-background.svg);
-    }
-
-    .chapter-intro img {
-      width: 87.5%;
-    }
-
-    .chapter-intro .title h1 {
-      margin: 0;
-      page-break-before: avoid;
-      font-size: 40pt;
-      line-height: 40pt;
-      color: white;
-      font-weight: 300;
-      padding: 0 40pt 20pt 40pt;
-      text-transform: none;
-    }
-
-    .chapter-intro .title h1:after {
-      display: none;
-    }
-
-    .chapter-intro .title h2 {
-      font-size: 24pt;
-      color: white;
-      font-weight: 900;
-      border-bottom: 2pt solid white;
-      display: inline-block;
-      padding: 60pt 0 10pt 0;
-      margin: 0 0 10pt 40pt;
-    }
-
     .chapter-number {
-      page-break-after: avoid;
-      page-break-before: always;
-      page-break-inside: avoid;
+      break-before: page;
       font-size: 48pt;
       line-height: 48pt;
-      border-bottom: solid #007df6 4pt;
-      display: inline-block;
       margin-bottom: 0;
       font-weight: 900;
+    }
+
+    .chapter-number span {
+      display: inline-block;
+      border-bottom: solid #02CEBA 4pt;
     }
 
     .chapter-number:after {
@@ -485,9 +357,9 @@
     }
 
     .chapter-number + h1 {
-      page-break-after: avoid;
-      page-break-before: avoid;
-      page-break-inside: avoid;
+      break-after: avoid;
+      break-before: avoid;
+      break-inside: avoid;
       font-size: 32pt;
       line-height: 32pt;
       text-transform: none;
@@ -503,8 +375,9 @@
 </head>
 <body>
   <div id="title-page">
-    <img id="image" src="./assets/images/title.svg" />
+    <img id="image" src="./assets/images/title.jpg" />
     <div id="content">
+      <img id="logo" src="./assets/images/logo-white.svg" />
       <h1>Playbook</h1>
       <p>Values and strategies for successful product teams</p>
     </div>
