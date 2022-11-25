@@ -633,6 +633,23 @@ new team members or resolving blockers. We encourage project teams to make
 pairing an integral part of their daily workflow, even across focus areas with
 e.g. engineers and designers pairing when working on UI changes.
 
+In order to ensure a smooth experience when pairing with others, all members of
+the project team should keep some basic best practices in mind:
+
+- Just like for other audio/video calls, pairing requires a quite environment
+  and stable internet connection. Constant and/or loud background noises or
+  occasional connection drops will make it very hard or sometimes impossible to
+  concentrate and end up with a good result.
+- Everyone has their own preferred environment and that's totally fine but not
+  all setups are going to work when pairing with others. Screen-sharing huge
+  monitors will result in tiny UI when the pairing partner is on a notebook and
+  environment that depend on a multi-monitor setup will not work in a pairing
+  session at all since only one of the monitors can be shared at a time. So
+  while it's valuable and should be encouraged actually for everyone to run
+  their own pristine local environment that makes them most productive, they
+  should make sure that environment works in pairing sessions as well or they
+  have a working fallback setup they can use in pairing sessions.
+
 ### Design
 
 The design workflow greatly benefits from adopting established practices from
