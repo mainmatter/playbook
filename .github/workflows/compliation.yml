@@ -31,7 +31,7 @@ jobs:
       - name: compile
         run: yarn compile-book
 
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
           name: Book
           path: dist/book.pdf
