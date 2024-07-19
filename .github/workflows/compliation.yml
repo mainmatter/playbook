@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Prince
         run: |
-          wget https://www.princexml.com/download/prince_20200304-1_ubuntu18.04_amd64.deb -O /tmp/prince.deb
+          wget https://www.princexml.com/download/prince_15.3-1_ubuntu22.04_amd64.deb -O /tmp/prince.deb
           sudo apt install /tmp/prince.deb
 
       - name: install dependencies
