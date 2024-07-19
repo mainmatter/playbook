@@ -32,6 +32,14 @@
       font-display: swap;
     }
 
+    @font-face {
+      font-family: 'Ubuntu mono';
+      src: url('./assets/fonts/UbuntuMonoRegular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
     body {
       font-family: 'Core Sans A';
       counter-reset: page 0;
@@ -72,17 +80,8 @@
       break-before: page;
       font-size: 24pt;
       font-weight: 900;
-      text-transform: uppercase;
       margin-bottom: 24pt;
       line-height: 40pt;
-    }
-
-    h1.supporting-chapter-title:after {
-      content: '';
-      width: 80pt;
-      border-bottom: solid #02CEBA 4pt;
-      display: block;
-      margin-bottom: 36pt;
     }
 
     h1 {
@@ -150,10 +149,9 @@
 
     ol li:before {
       content: counter(my-awesome-counter);
-      border-radius: 50%;
-      background-color: #02CEBA;
-      color: #ffffff;
-      font-weight: 400;
+      color: #6200ee;
+      opacity: .25;
+      font-weight: 700;
       width: 28pt;
       display: inline-block;
       height: 28pt;
@@ -176,11 +174,36 @@
       padding-left: 38pt;
     }
 
+    code {
+      color: #c9d1d9;
+      text-shadow: none;
+      font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+      direction: ltr;
+      text-align: left;
+      white-space: pre;
+      word-spacing: normal;
+      word-break: normal;
+      -moz-tab-size: 4;
+      -o-tab-size: 4;
+      tab-size: 4;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+    }
+
+    :not(pre)>code {
+        padding: .1em .3em;
+        border-radius: .3em;
+        color: #c9d1d9;
+        background: #343942;
+    }
+
     blockquote {
       break-inside: avoid;
       padding: 0 0 0 8pt;
       margin: 0 0 0 38pt;
-      border-left: 2pt solid #a7a7a7;
+      border-left: 2pt solid #000;
     }
 
     blockquote p, blockquote ul {
@@ -249,8 +272,8 @@
     }
 
     #title-page #image {
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 100%;
     }
 
     #title-page #logo {
@@ -341,15 +364,11 @@
 
     .chapter-number {
       break-before: page;
+      page-break-before: always;
       font-size: 48pt;
       line-height: 48pt;
       margin-bottom: 0;
       font-weight: 900;
-    }
-
-    .chapter-number span {
-      display: inline-block;
-      border-bottom: solid #02CEBA 4pt;
     }
 
     .chapter-number:after {
@@ -360,8 +379,8 @@
       break-after: avoid;
       break-before: avoid;
       break-inside: avoid;
-      font-size: 32pt;
-      line-height: 32pt;
+      font-size: 48pt;
+      line-height: 48pt;
       text-transform: none;
       margin-top: 10pt;
       margin-bottom: 24pt;

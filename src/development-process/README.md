@@ -230,7 +230,7 @@ rebuild our own website:
 > - add a new `loading` state for the `<Button>` component that prevents clicks
 >   on the button while active and changes the button's visual appearance (see
 >   designs below)
-> - add a new `<ContactForm`> component that implements the form with inputs for
+> - add a new `<ContactForm>` component that implements the form with inputs for
 >   name (`input[type="text"]`), email (`input[type="email"]`), and message
 >   (`textarea`), as well as a submit button
 >   - while the form is submitting, enable the `<Button>` component's `loading`
