@@ -1,1 +1,1 @@
-<h1 class="chapter-number"><span>02</span></h1>
+<h1 class="chapter-number"><span>§2</span></h1>
